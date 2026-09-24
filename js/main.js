@@ -19,6 +19,7 @@
     '<symbol id="i-menu" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h10"/></symbol>' +
     '<symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-5-5 5 5-5 5"/></symbol>' +
     '<symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>' +
+    '<symbol id="i-logo" viewBox="0 0 48 48"><path fill="currentColor" d="M24 15.5c-1-4-4.4-6.6-8.3-6.3-4.6.3-8 4.2-7.6 8.8.5 6.4 8.8 12.9 15.9 17.6 7.1-4.7 15.4-11.2 15.9-17.6.4-4.6-3-8.5-7.6-8.8-3.9-.3-7.3 2.3-8.3 6.3z"/></symbol>' +
     "</svg>";
 
   var page = document.body.dataset.page || "";
@@ -30,7 +31,7 @@
   var HEADER =
     '<header class="site-header' + (page === "home" ? " is-over" : "") + '">' +
     '<div class="container header-in">' +
-    '<a href="index.html" class="logo" aria-label="Caramell"><span class="logo-word">Caramell</span><span class="logo-sub">UZBEKISTAN</span></a>' +
+    '<a href="index.html" class="logo" aria-label="Caramell"><svg class="logo-mark"><use href="#i-logo"/></svg><span class="logo-text"><span class="logo-word">Caramell</span><span class="logo-sub">UZBEKISTAN</span></span></a>' +
     '<nav class="main-nav">' +
     navLink("index.html", "nav.home", "home") + navLink("catalog.html", "nav.catalog", "catalog") + navLink("moms.html", "nav.moms", "moms") +
     '<a href="index.html#wholesale" data-i18n="nav.wholesale"></a><a href="#contacts" data-i18n="nav.contacts"></a></nav>' +
@@ -44,7 +45,7 @@
   var FOOTER =
     '<footer class="site-footer" id="contacts"><div class="container">' +
     '<div class="footer-grid">' +
-    '<div><div class="logo logo-light"><span class="logo-word">Caramell</span><span class="logo-sub">UZBEKISTAN</span></div>' +
+    '<div><div class="logo logo-light"><svg class="logo-mark"><use href="#i-logo"/></svg><span class="logo-text"><span class="logo-word">Caramell</span><span class="logo-sub">UZBEKISTAN</span></span></div>' +
     '<p class="footer-tag" data-i18n="footer.tag"></p></div>' +
     '<div class="footer-col"><h4 data-i18n="contact.phone"></h4><a href="tel:' + CONTACT.phone + '">' + CONTACT.phoneText + "</a>" +
     '<h4 data-i18n="contact.tg"></h4><a href="' + CONTACT.tg + '" target="_blank" rel="noopener">' + CONTACT.tgUser + "</a></div>" +

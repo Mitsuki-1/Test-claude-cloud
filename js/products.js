@@ -1,6 +1,9 @@
 /*
  * Каталог Caramell Uzbekistan.
- * ЦЕНЫ И ФОТО — ПРИМЕРНЫЕ. Замените на реальные:
+ * Товары c101–c104 — реальные позиции и цены из Telegram-канала t.me/Caramelluz
+ * (посты за сентябрь 2026). Остальные позиции — иллюстративные, по образу тех же
+ * категорий, что продаёт магазин (вязаные комплекты, боди, костюмы, платья, пижамы) —
+ * замените на свои фото и цены по мере появления новых постов в канале.
  *   price — цена в сумах, old — старая цена (для скидки, необязательно)
  *   img   — путь к фото, например "assets/img/body-01.jpg" (или ссылка)
  *   sizes — ключи размеров из SIZES ниже
@@ -34,15 +37,18 @@
   var KIDS = ["2-3y", "3-4y", "4-5y", "5-6y", "6-7y", "7-8y"];
 
   window.PRODUCTS = [
-    { id: "c101", cat: "discharge", g: "girl", price: 590000, old: 690000, badge: "hit", sizes: ["0-3m"], color: "#F2D5CF", img: U("1519689680058-324335c77eba"),
-      name: { ru: "Набор на выписку «Кружевное облачко», 5 предметов", uz: "Tug‘ruqxonadan chiqish to‘plami «Dantelli bulut», 5 dona" },
-      desc: { ru: "Конверт-плед, боди, штанишки, шапочка и рукавички. 100% хлопок, мягкое кружево.", uz: "Ko‘rpacha-konvert, bodi, shimcha, shapkacha va qo‘lqop. 100% paxta, yumshoq dantel." } },
-    { id: "c102", cat: "discharge", g: "boy", price: 590000, badge: "hit", sizes: ["0-3m"], color: "#CFDCE6", img: U("1515488042361-ee00e0ddd4e4"),
-      name: { ru: "Набор на выписку «Маленький принц», 5 предметов", uz: "Tug‘ruqxonadan chiqish to‘plami «Kichkina shahzoda», 5 dona" },
-      desc: { ru: "Нежно-голубой комплект с вышивкой. Хлопок интерлок, не раздражает кожу.", uz: "Kashtali och-havorang to‘plam. Interlok paxta, terini qichitmaydi." } },
-    { id: "c103", cat: "discharge", g: "unisex", price: 520000, badge: "new", sizes: ["0-3m"], color: "#EFE3CF", img: U("1522771930-78848d9293e8"),
-      name: { ru: "Набор на выписку «Карамель», 4 предмета", uz: "Chiqish to‘plami «Karamel», 4 dona" },
-      desc: { ru: "Универсальный молочно-карамельный цвет — подойдёт и мальчику, и девочке.", uz: "Sutli-karamel rang — o‘g‘il va qiz bolaga birdek mos." } },
+    { id: "c101", cat: "discharge", g: "boy", price: 460000, sizes: ["0-3m"], color: "#E4ECF8", img: U("1519689680058-324335c77eba"),
+      name: { ru: "Нежный и тёплый комплект для выписки, 3 предмета", uz: "Chiqish uchun mayin va issiq to‘plam, 3 dona" },
+      desc: { ru: "Вязаный комбинезон, базовый комбинезон и шапочка. Размер 0–1 мес. Вязаный плед в тон — 395 000 сум отдельно.", uz: "To‘qilgan kombinezon, asosiy kombinezon va shapkacha. O‘lcham 0–1 oy. Bir xil rangdagi to‘qilgan ko‘rpacha — alohida 395 000 so‘m." } },
+    { id: "c102", cat: "discharge", g: "girl", price: 460000, badge: "hit", sizes: ["0-3m"], color: "#F5DCE2", img: U("1515488042361-ee00e0ddd4e4"),
+      name: { ru: "Комплект для выписки «Маленькая принцесса», 3 предмета", uz: "«Kichkina malika» chiqish to‘plami, 3 dona" },
+      desc: { ru: "Вязаный комбинезон, базовое боди и шапочка. Размер 0–1 мес. Вязаный плед в тон — 395 000 сум отдельно.", uz: "To‘qilgan kombinezon, asosiy bodi va shapkacha. O‘lcham 0–1 oy. Bir xil rangdagi to‘qilgan ko‘rpacha — alohida 395 000 so‘m." } },
+    { id: "c103", cat: "discharge", g: "unisex", price: 395000, sizes: ["0-3m"], color: "#EAF0F8", img: U("1522771930-78848d9293e8"),
+      name: { ru: "Вязаный плед для новорождённого", uz: "Chaqaloq uchun to‘qilgan ko‘rpacha" },
+      desc: { ru: "Мягкий вязаный плед-конверт — дополняет любой комплект на выписку. Доставка по всему Узбекистану.", uz: "Yumshoq to‘qilgan konvert-ko‘rpacha — chiqish to‘plamiga mos keladi. O‘zbekiston bo‘ylab yetkazib berish." } },
+    { id: "c104", cat: "bodysuits", g: "unisex", price: 235000, badge: "new", sizes: BABY, color: "#EAF0F8", img: U("1544126592-807ade215a0b"),
+      name: { ru: "Комбинезон Caramell", uz: "Caramell kombinezoni" },
+      desc: { ru: "Мягкий и удобный комбинезон на каждый день. Размеры 56–80 (56-62, 62-68, 68-74, 74-80).", uz: "Har kungi mayin va qulay kombinezon. O‘lchamlar 56–80 (56-62, 62-68, 68-74, 74-80)." } },
 
     { id: "c201", cat: "newborn", g: "unisex", price: 189000, badge: "hit", sizes: ["0-3m", "3-6m"], color: "#F4ECE1", img: U("1555252333-9f8e92e65df9"),
       name: { ru: "Комплект новорождённого, 3 предмета", uz: "Chaqaloq to‘plami, 3 dona" },
