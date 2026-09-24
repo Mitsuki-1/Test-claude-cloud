@@ -25,6 +25,7 @@
           window.toast(window.t("p.pickSize"));
           return;
         }
+        window.flyToCart && window.flyToCart(m.querySelector(".modal-img img"));
         window.Cart.add(cur.id, size, qty);
         window.toast(window.t("p.added") + " ✓");
         close();

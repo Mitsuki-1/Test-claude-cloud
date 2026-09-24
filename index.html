@@ -30,17 +30,27 @@
         <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1476703993599-0035a21b17a9?auto=format&fit=crop&w=1800&q=70'), linear-gradient(135deg,#22345E,#141F3B)"></div>
       </div>
     </div>
+    <div class="hero-grain" aria-hidden="true"></div>
     <div class="container hero-in">
-      <span class="kicker" data-i18n="hero.kicker"></span>
-      <h1 data-i18n="hero.title"></h1>
-      <p class="hero-sub" data-i18n="hero.sub"></p>
-      <div class="hero-cta">
-        <a class="btn btn-primary" href="catalog.html"><span data-i18n="cta.catalog"></span><svg class="i"><use href="#i-arrow"/></svg></a>
-        <a class="btn btn-glass" href="https://t.me/Caramell_Uzbekistan" target="_blank" rel="noopener"><svg class="i"><use href="#i-tg"/></svg><span data-i18n="cta.telegram"></span></a>
+      <div class="hero-copy">
+        <span class="kicker" data-i18n="hero.kicker"></span>
+        <h1 data-i18n="hero.title"></h1>
+        <p class="hero-sub" data-i18n="hero.sub"></p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-xl" href="catalog.html"><span data-i18n="cta.catalog"></span><svg class="i"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-glass btn-xl" href="https://t.me/Caramell_Uzbekistan" target="_blank" rel="noopener"><svg class="i"><use href="#i-tg"/></svg><span data-i18n="cta.telegram"></span></a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><b data-count="30" data-plus="+">0</b><span data-i18n="stat.year"></span></div>
+          <div class="stat"><b data-count="4">0</b><span data-i18n="stat.shops"></span></div>
+          <div class="stat"><b data-count="4300" data-plus="+">0</b><span data-i18n="stat.subs"></span></div>
+          <div class="stat"><b>🇹🇷</b><span data-i18n="stat.tr"></span></div>
+        </div>
       </div>
+      <div class="hot" id="hot"></div>
     </div>
-    <div class="hero-badge"><div><b>🇹🇷</b>Made in<br>Türkiye</div></div>
     <div class="hero-scroll" data-i18n="hero.scroll"></div>
+    <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 50c120 30 240 40 360 30s240-45 360-45 240 35 360 45 240-5 360-25V90H0z"/></svg>
   </section>
 
   <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
@@ -66,6 +76,20 @@
     </div>
   </section>
 
+  <!-- Reels: реальные видео из t.me/Caramelluz (assets/reels) -->
+  <section class="reels-sec" id="reels">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div><span class="kicker" data-i18n="reels.kicker"></span><h2 data-i18n="reels.title"></h2></div>
+        <p data-i18n="reels.sub"></p>
+      </div>
+    </div>
+    <div class="reels" id="reels-list"></div>
+    <div class="container reels-foot">
+      <a class="link-arrow" href="https://t.me/Caramelluz" target="_blank" rel="noopener" data-i18n="reels.more"></a>
+    </div>
+  </section>
+
   <!-- Хиты -->
   <section class="section-sm">
     <div class="container">
@@ -74,6 +98,37 @@
         <div class="slider-nav"><button data-slide="-1" aria-label="prev"><svg class="i"><use href="#i-arrow"/></svg></button><button data-slide="1" aria-label="next"><svg class="i"><use href="#i-arrow"/></svg></button></div>
       </div>
       <div class="slider" id="hits"></div>
+    </div>
+  </section>
+
+  <!-- Конструктор набора на выписку (реальные товары c101–c103) -->
+  <section class="section-sm" id="builder">
+    <div class="container">
+      <div class="builder reveal">
+        <div class="builder-copy">
+          <span class="kicker" data-i18n="b.kicker"></span>
+          <h2 data-i18n="b.title"></h2>
+          <p data-i18n="b.sub"></p>
+          <div class="b-step">
+            <div class="lbl" data-i18n="b.step1"></div>
+            <div class="b-seg" role="radiogroup">
+              <button role="radio" data-bg="c101" aria-checked="true" class="is-on"><span>💙</span><b data-i18n="b.boy"></b></button>
+              <button role="radio" data-bg="c102" aria-checked="false"><span>🎀</span><b data-i18n="b.girl"></b></button>
+            </div>
+          </div>
+          <div class="b-step">
+            <div class="lbl" data-i18n="b.step2"></div>
+            <label class="b-opt"><input type="checkbox" id="b-plaid" checked><span class="b-check"><svg class="i"><use href="#i-check"/></svg></span><span><b data-i18n="b.plaid"></b><small id="b-plaid-price"></small></span></label>
+          </div>
+          <p class="b-inc"><svg class="i"><use href="#i-check"/></svg><span><span data-i18n="b.inc"></span> · <b data-i18n="b.size"></b></span></p>
+        </div>
+        <div class="builder-card">
+          <div class="b-visual" id="b-visual"></div>
+          <div class="b-lines" id="b-lines"></div>
+          <div class="b-total"><span data-i18n="b.total"></span><b id="b-total"></b></div>
+          <button class="btn btn-primary btn-block btn-xl" id="b-add"><svg class="i"><use href="#i-bag"/></svg><span data-i18n="b.add"></span></button>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -93,6 +148,21 @@
             <div><span class="why-num">02</span><span><b data-i18n="why.2"></b><p data-i18n="why.2.s"></p></span></div>
             <div><span class="why-num">03</span><span><b data-i18n="why.3"></b><p data-i18n="why.3.s"></p></span></div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Тизер: анонс Sweet Me из канала -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="soon reveal">
+        <video class="soon-vid" muted loop playsinline preload="none" data-src="assets/reels/r7.mp4"></video>
+        <div class="soon-in">
+          <span class="kicker" data-i18n="soon.kicker"></span>
+          <h2 data-i18n="soon.title"></h2>
+          <p data-i18n="soon.sub"></p>
+          <a class="btn btn-light btn-xl" href="https://t.me/Caramelluz" target="_blank" rel="noopener"><svg class="i"><use href="#i-tg"/></svg><span data-i18n="soon.cta"></span></a>
         </div>
       </div>
     </div>
@@ -144,6 +214,16 @@
     </div>
   </section>
 
+  <!-- Магазины (адреса и часы из t.me/Caramelluz) -->
+  <section class="section-sm" id="shops">
+    <div class="container">
+      <div class="sec-head reveal">
+        <div><span class="kicker" data-i18n="shops.kicker"></span><h2 data-i18n="shops.title"></h2></div>
+      </div>
+      <div class="shops" id="shops-list"></div>
+    </div>
+  </section>
+
   <!-- Мамам -->
   <section class="section">
     <div class="container">
@@ -181,6 +261,7 @@
 
   <script src="js/i18n.js"></script>
   <script src="js/products.js"></script>
+  <script src="js/wishlist.js"></script>
   <script src="js/cart.js"></script>
   <script src="js/modal.js"></script>
   <script src="js/home.js"></script>

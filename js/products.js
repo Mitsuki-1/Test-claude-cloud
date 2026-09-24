@@ -126,8 +126,10 @@
     var badge = p.badge ? '<span class="badge badge-' + p.badge + '">' + window.t("badge." + p.badge) + "</span>" : "";
     var old = p.old ? '<s>' + window.formatSum(p.old) + "</s>" : "";
     var sizes = window.sizeRange(p.sizes);
+    var fav = window.Fav && window.Fav.has(p.id);
     return '<article class="card reveal" data-open="' + p.id + '">' +
       '<div class="card-img"><img loading="lazy" src="' + p.img + '" alt="' + window.L(p.name).replace(/"/g, "&quot;") + '" data-art="' + p.cat + '" data-color="' + p.color + '">' + badge +
+      '<button class="card-fav' + (fav ? " is-fav" : "") + '" data-fav="' + p.id + '" aria-pressed="' + (fav ? "true" : "false") + '" aria-label="' + window.t("fav.title") + '"><svg class="i"><use href="#i-heart"/></svg></button>' +
       '<button class="card-quick" data-open="' + p.id + '" aria-label="' + window.t("p.add") + '"><svg class="i"><use href="#i-bag"/></svg></button></div>' +
       '<div class="card-body"><div class="card-sizes">' + sizes + '</div><h3 class="card-title">' + window.L(p.name) + '</h3>' +
       '<div class="card-price">' + window.formatSum(p.price) + old + "</div></div></article>";

@@ -17,8 +17,9 @@
   }
 
   function controls() {
-    document.getElementById("f-cat").innerHTML = ["all"].concat(window.CATEGORIES).map(function (c) {
-      return '<button class="chip' + (st.cat === c ? " is-on" : "") + '" data-cat="' + c + '">' + window.t("cat." + c) + "</button>";
+    document.getElementById("f-cat").innerHTML = ["all"].concat(window.CATEGORIES, ["fav"]).map(function (c) {
+      var n = c === "fav" ? ' <span class="fav-count" hidden></span>' : "";
+      return '<button class="chip' + (c === "fav" ? " chip-fav" : "") + (st.cat === c ? " is-on" : "") + '" data-cat="' + c + '">' + window.t("cat." + c) + n + "</button>";
     }).join("");
     opts(document.getElementById("f-g"), [["all", window.t("f.gender") + ": " + window.t("g.all")], ["girl", window.t("g.girl")], ["boy", window.t("g.boy")], ["unisex", window.t("g.unisex")]], st.g);
     opts(document.getElementById("f-size"), [["all", window.t("f.size") + ": " + window.t("f.sizeAll")]].concat(window.SIZES.map(function (s) { return [s.key, window.sizeLabel(s.key)]; })), st.size);
@@ -28,7 +29,8 @@
   function list() {
     var q = st.q.trim().toLowerCase();
     var res = window.PRODUCTS.filter(function (p) {
-      if (st.cat !== "all" && p.cat !== st.cat) return false;
+      if (st.cat === "fav") { if (!window.Fav.has(p.id)) return false; }
+      else if (st.cat !== "all" && p.cat !== st.cat) return false;
       if (st.g !== "all" && p.g !== st.g && !(p.g === "unisex" && st.g !== "unisex")) return false;
       if (st.size !== "all" && p.sizes.indexOf(st.size) < 0) return false;
       if (q && (p.name.ru + " " + p.name.uz + " " + p.desc.ru + " " + p.desc.uz + " " + p.id).toLowerCase().indexOf(q) < 0) return false;
@@ -48,8 +50,9 @@
     var res = list();
     document.getElementById("found").textContent = window.t("f.found") + ": " + res.length;
     document.getElementById("grid").innerHTML = res.length ? res.map(window.productCard).join("") :
-      '<div class="empty" style="grid-column:1/-1"><div style="font-size:48px">🧸</div><p>' + window.t("f.none") + '</p><button class="btn btn-ghost" id="f-reset">' + window.t("f.reset") + "</button></div>";
+      '<div class="empty" style="grid-column:1/-1"><div style="font-size:48px">' + (st.cat === "fav" ? "♡" : "🧸") + '</div><p>' + window.t(st.cat === "fav" ? "fav.empty" : "f.none") + '</p><button class="btn btn-ghost" id="f-reset">' + window.t("f.reset") + "</button></div>";
     window.observeReveal && window.observeReveal();
+    window.Fav.sync();
   }
 
   function sync() {
@@ -79,4 +82,5 @@
     if (e.target.id === "f-q") { st.q = e.target.value; grid(); }
   });
   document.addEventListener("langchange", update);
+  document.addEventListener("favchange", function () { if (st.cat === "fav") grid(); });
 })();
