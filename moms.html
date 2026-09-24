@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Мамам — Caramell Uzbekistan</title>
+  <meta name="description" content="Полезное для мам от Caramell: калькулятор размера детской одежды, чек-лист сумки в роддом, подбор подарка, советы по уходу.">
+  <meta name="theme-color" content="#3B2A20">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23C8874B'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia' font-style='italic' font-size='42' fill='white'%3EC%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/art.js"></script>
+</head>
+<body data-page="moms">
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="kicker">Caramell · Mama</span>
+      <h1 data-i18n="moms.title"></h1>
+      <p data-i18n="moms.sub"></p>
+      <nav class="moms-nav">
+        <a href="#size"><span>📏</span><b data-i18n="momsT.1"></b></a>
+        <a href="#checklist"><span>👜</span><b data-i18n="momsT.2"></b></a>
+        <a href="#gift"><span>🎁</span><b data-i18n="momsT.3"></b></a>
+        <a href="#tips"><span>🧺</span><b data-i18n="momsT.4"></b></a>
+      </nav>
+    </div>
+  </section>
+
+  <main class="container" style="padding-bottom:64px">
+
+    <!-- Калькулятор размера -->
+    <section class="panel reveal" id="size">
+      <div class="panel-head"><div class="panel-ico">📏</div><div><h2 data-i18n="size.title"></h2><p data-i18n="size.sub"></p></div></div>
+      <div class="calc">
+        <form id="size-form" novalidate>
+          <div class="fields">
+            <div class="field"><label for="s-age" data-i18n="size.age"></label><input id="s-age" type="number" inputmode="decimal" min="0" max="120" placeholder="9"></div>
+            <div class="field"><label for="s-h" data-i18n="size.h"></label><input id="s-h" type="number" inputmode="decimal" min="40" max="150" placeholder="72"></div>
+            <div class="field"><label for="s-w" data-i18n="size.w"></label><input id="s-w" type="number" inputmode="decimal" min="2" max="40" step="0.1" placeholder="9"></div>
+          </div>
+          <button class="btn btn-primary" type="submit" data-i18n="size.go"></button>
+          <details class="sizes-d"><summary data-i18n="size.table"></summary><div class="table-wrap"><table class="size-table" id="size-table"></table></div></details>
+        </form>
+        <div class="calc-res" id="size-res"><div class="ph">👶</div></div>
+      </div>
+    </section>
+
+    <!-- Чек-лист в роддом -->
+    <section class="panel reveal" id="checklist">
+      <div class="panel-head"><div class="panel-ico">👜</div><div><h2 data-i18n="check.title"></h2><p data-i18n="check.sub"></p></div></div>
+      <div class="progress"><div class="bar"><i id="check-bar" style="width:0"></i></div><b id="check-count"></b><button class="btn btn-ghost" id="check-reset" style="padding:10px 16px" data-i18n="check.reset"></button></div>
+      <div class="check-groups" id="check-groups"></div>
+    </section>
+
+    <!-- Подбор подарка -->
+    <section class="panel reveal" id="gift">
+      <div class="panel-head"><div class="panel-ico">🎁</div><div><h2 data-i18n="gift.title"></h2><p data-i18n="gift.sub"></p></div></div>
+      <div id="gift-quiz"></div>
+      <div id="gift-res"></div>
+    </section>
+
+    <!-- Советы -->
+    <section class="panel reveal" id="tips">
+      <div class="panel-head"><div class="panel-ico">🧺</div><div><h2 data-i18n="tips.title"></h2></div></div>
+      <div class="acc" id="tips-acc"></div>
+    </section>
+  </main>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/moms.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

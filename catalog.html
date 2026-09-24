@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Каталог — Caramell Uzbekistan</title>
+  <meta name="description" content="Каталог детской одежды Caramell из Турции: наборы на выписку, боди, комбинезоны, костюмы, платья, пижамы. Заказ в Telegram.">
+  <meta name="theme-color" content="#3B2A20">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23C8874B'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia' font-style='italic' font-size='42' fill='white'%3EC%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/art.js"></script>
+</head>
+<body data-page="catalog">
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="kicker">Caramell · Türkiye</span>
+      <h1 data-i18n="cat.page.title"></h1>
+      <p data-i18n="cat.page.sub"></p>
+    </div>
+  </section>
+
+  <div class="filters">
+    <div class="container">
+      <div class="chips" id="f-cat"></div>
+      <div class="filter-row">
+        <label class="search"><input type="search" id="f-q" data-i18n-ph="f.search" aria-label="search"></label>
+        <select class="select" id="f-g" aria-label="gender"></select>
+        <select class="select" id="f-size" aria-label="size"></select>
+        <select class="select" id="f-sort" aria-label="sort"></select>
+      </div>
+    </div>
+  </div>
+
+  <main class="container" style="padding-bottom:64px">
+    <div class="found" id="found"></div>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/catalog.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
