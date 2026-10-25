@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+# ролики генерирует scripts/sync_telegram.py в GitHub Actions
+assets/reels/

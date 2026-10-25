@@ -106,6 +106,15 @@ class TransformTest(unittest.TestCase):
         k = by_id(sb.transform(load(), set()))["bTKE2052EKRU"]
         self.assertEqual((k["cat"], k["name"]["ru"], k["sizes"]), ("sets", "Комплект · молочный", ["2-3y"]))
 
+    def test_hits_from_config(self):
+        hits = [["kozmonot", "monna rossa"], ["3li takim", "v1", "polo"]]
+        p = by_id(sb.transform(load(), set(), hits=hits))
+        self.assertEqual(p["bUSB3236"].get("badge"), "hit")  # «3 lü takim» = «3li takim»
+        self.assertEqual(p["b25931"].get("badge"), "hit")
+        self.assertIsNone(p["bUSB3257"].get("badge"))  # 2li — не хит
+        self.assertEqual(p["bCRBODY3"]["badge"], "sale")  # скидка не перебивается
+        self.assertEqual(sb.load_hits()[0], ["kozmonot", "monna rossa"])
+
     def test_hide_without_photo(self):
         p = by_id(sb.transform(load(), set(), show_no_photo=False))
         self.assertNotIn("bTRSAPKA", p)

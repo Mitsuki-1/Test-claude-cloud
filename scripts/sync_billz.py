@@ -304,7 +304,22 @@ def variant_size(v):
     return found
 
 
-def transform(raw, shops, show_oos=False, show_no_photo=True):
+def hit_key(text):
+    """'3 lü Takım / V1 / u.s.polo' -> '3litakim/v1/uspolo' — для сравнения со списком хитов."""
+    s = re.sub(r"[\s'’`.]", "", tr_fold(text))
+    return re.sub(r"(\d)l[iu]", r"\1li", s)
+
+
+def load_hits():
+    try:
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "site_config.json"), encoding="utf-8") as f:
+            return json.load(f).get("hits") or []
+    except (OSError, ValueError):
+        return []
+
+
+def transform(raw, shops, show_oos=False, show_no_photo=True, hits=()):
+    hit_rules = [[hit_key(w) for w in rule] for rule in hits]
     groups = collections.OrderedDict()
     parents = {str(p["parent_id"]) for p in raw if p.get("parent_id")}
     for p in raw:
@@ -365,6 +380,10 @@ def transform(raw, shops, show_oos=False, show_no_photo=True):
         if olds:
             item["old"] = int(min(olds))
             item["badge"] = "sale"
+        else:
+            key = hit_key(full + " " + (brand_of(base, variants) or ""))
+            if any(all(w in key for w in rule) for rule in hit_rules):
+                item["badge"] = "hit"
         model = re.match(r"[A-Z]+", sku_parts[0]).group(0) if sku_parts else ""
         products.append(item)
         pending.append((item, known, model, brand_of(base, variants), color_name(color)))
@@ -402,7 +421,8 @@ def report(products):
     print("  по категориям:", dict(c(p["cat"] for p in products).most_common()))
     print("  по полу:", dict(c(p["g"] for p in products).most_common()))
     print("  с размерами из сетки:", sum(1 for p in products if p["sizes"] != ["One size"]),
-          "| со скидкой:", sum(1 for p in products if p.get("badge") == "sale"))
+          "| со скидкой:", sum(1 for p in products if p.get("badge") == "sale"),
+          "| хитов:", sum(1 for p in products if p.get("badge") == "hit"))
     print("  нераспознанные названия (первое слово, топ):", UNKNOWN.most_common(25))
 
 
@@ -443,7 +463,7 @@ def main():
             print("BILLZ_SECRET_TOKEN не задан — синхронизация пропущена, сайт использует js/products.js")
             return 0
         raw = fetch_products(login(secret))
-    products = transform(raw, shops, show_oos, show_no_photo)
+    products = transform(raw, shops, show_oos, show_no_photo, load_hits())
     print("BILLZ: получено %d позиций, на сайте %d товаров" % (len(raw), len(products)))
     report(products)
     if not products and not fixture:

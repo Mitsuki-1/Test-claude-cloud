@@ -609,7 +609,7 @@ details.sizes-d summary { cursor: pointer; font-weight: 700; margin-top: 24px; c
 @media (max-width: 900px) { .builder { grid-template-columns: 1fr; padding: 36px 18px; border-radius: 28px; gap: 28px; } }
 
 /* Sweet Me teaser */
-.soon { position: relative; border-radius: 40px; overflow: hidden; min-height: 460px; display: flex; align-items: center; color: #fff; background: linear-gradient(135deg, #22345E, #101A31); isolation: isolate; }
+.soon { position: relative; border-radius: 40px; overflow: hidden; min-height: 460px; display: flex; align-items: center; color: #fff; background: linear-gradient(135deg, #22345E, #101A31) center / cover no-repeat; isolation: isolate; }
 .soon-vid { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
 .soon::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(10, 16, 34, .88) 0%, rgba(10, 16, 34, .55) 55%, rgba(10, 16, 34, .15)); }
 .soon-in { padding: 64px 56px; max-width: 620px; }

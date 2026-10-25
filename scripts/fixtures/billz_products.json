@@ -120,6 +120,18 @@
       "shop_prices": [{"shop_id": "s1", "retail_price": 300000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
     },
     {
+      "id": "h1", "parent_id": null, "sku": "USB3236", "name": "3 lü takim / V1 / 6_9 / v1 / u.s.polo", "main_image_url": "https://cdn.billz.ai/h1.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 450000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 2}]
+    },
+    {
+      "id": "h2", "parent_id": null, "sku": "25931", "name": "kozmonot / 6_9 / Lacivert / monna rossa", "main_image_url": "https://cdn.billz.ai/h2.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 550000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 2}]
+    },
+    {
+      "id": "h3", "parent_id": null, "sku": "USB3257", "name": "2li takim / V1 / 18-24 / v1 / u.s.polo", "main_image_url": "https://cdn.billz.ai/h3.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 340000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 2}]
+    },
+    {
       "id": "p5", "parent_id": null, "sku": "CR-HAT", "name": "Шапочка для новорождённого",
       "photos": [{"photo_url": "https://cdn.billz.ai/p5.jpg", "is_main": true}],
       "shop_prices": [{"shop_id": "s1", "retail_price": 89000}],

@@ -19,35 +19,39 @@
     ["1515488042361-ee00e0ddd4e4", "#E4ECF8"], ["1502781252888-9143ba7f074e", "#EAF0F8"]
   ];
 
-  // Фото из Telegram (js/data/telegram.js) вместо стоковых — подбираются один раз, Unsplash остаётся запасным
-  var CAT_TG = [
-    ["discharge", /выписк|роддом|chiqish|tug.?ruqxona/i, false],
-    ["pajamas", /пижам|uyqu|спальн|shirin/i, true],
-    ["dresses", /плать|принцесс|девоч|qiz/i, false],
-    ["bodysuits", /комбинезон|kombinezon|боди|bodi/i, false],
-    ["sets", /тройк|двойк|костюм|leoking|комплект|to.?plam/i, false],
-    ["newborn", /новорожд|chaqaloq|малыш|kichkintoy|collection|коллекц/i, true]
-  ];
+  // Снимки из Telegram (js/data/telegram.js): лучшие кадры из видео, затем фото постов; Unsplash — запасной вариант.
+  // Подбираются один раз и не повторяются. Сначала самый яркий кадр — для «Почему Caramell».
   var TG_POST = {};
+  var take = function (t) { if (t) TG_POST[t.src] = t.post; return t; };
+  var any = function () { return take(window.tgPick(null, { photoOnly: true, productOnly: true })); };
+  var whyTG = any();
+  var CAT_TG = [
+    ["discharge", /выписк|роддом|chiqish|tug.?ruqxona/i],
+    ["pajamas", /пижам|uyqu|спальн|shirin/i],
+    ["dresses", /плать|принцесс|девоч|qiz/i],
+    ["bodysuits", /комбинезон|kombinezon|боди|bodi/i],
+    ["sets", /тройк|двойк|костюм|leoking|комплект|to.?plam/i],
+    ["newborn", /новорожд|chaqaloq|малыш|kichkintoy|collection|коллекц/i]
+  ];
   CAT_TG.forEach(function (c) {
-    var t = window.tgPick(c[1], { photoOnly: c[2] }) || window.tgPick(null, { photoOnly: true, productOnly: true });
-    if (t) { CAT_IMG[c[0]][0] = t.src; TG_POST[t.src] = t.post; }
+    var t = take(window.tgPick(c[1], { photoOnly: true })) || any();
+    if (t) CAT_IMG[c[0]][0] = t.src;
   });
-  var heroTG = [0, 1, 2, 3].map(function () { return window.tgPick(null, { photoOnly: true, productOnly: true }); });
-  var whyTG = window.tgPick(null, { photoOnly: true, productOnly: true });
   LOOK = LOOK.map(function (l) {
-    var t = window.tgPick(null, { photoOnly: true, productOnly: true });
-    if (t) TG_POST[t.src] = t.post;
+    var t = take(window.tgPick(null, { kids: true })) || any();
     return t ? [t.src, l[1], true] : [U(l[0], 700), l[1], false];
   });
+  var heroTG = [0, 1, 2, 3].map(any);
   document.querySelectorAll(".hero-slides .slide").forEach(function (s, i) {
     if (heroTG[i]) s.style.backgroundImage = "url('" + heroTG[i].src + "'), linear-gradient(135deg,#22345E,#101A31)";
   });
   var whyImg = document.querySelector(".why-img img");
   if (whyImg && whyTG) whyImg.src = whyTG.src;
 
-  // Ролики из t.me/Caramelluz, подписи — из постов
-  var REELS = ["r1", "r2", "r3", "r4", "r5", "r6", "r7"];
+  // Ролики «Смотрите вживую»: последние видео канала (scripts/sync_telegram.py обновляет их каждый час)
+  var REELS = (window.TG_REELS || []).filter(function (r) { return r && r.src; });
+  var esc = function (s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); };
+  var cap = function (r) { return (r.text || "").split(/\n\s*\n/)[0].replace(/\s+/g, " ").trim().slice(0, 140) || "Caramell"; };
 
   // Адреса и часы работы — из постов канала
   var SHOPS = [
@@ -124,11 +128,12 @@
 
   function reels() {
     var list = document.getElementById("reels-list");
+    document.getElementById("reels").hidden = !REELS.length;
     list.innerHTML = REELS.map(function (r, i) {
-      return '<button class="reel reveal" data-reel="' + i + '" aria-label="' + window.t(r).replace(/"/g, "&quot;") + '">' +
-        '<video muted loop playsinline preload="metadata" src="assets/reels/' + r + '.mp4#t=0.1"></video>' +
+      return '<button class="reel reveal" data-reel="' + i + '" aria-label="' + esc(cap(r)) + '">' +
+        '<video muted loop playsinline preload="metadata"' + (r.poster ? ' poster="' + esc(r.poster) + '"' : "") + ' src="' + esc(r.src) + '#t=0.1"></video>' +
         '<span class="reel-shade"></span><span class="reel-play"><svg class="i"><use href="#i-play"/></svg></span>' +
-        '<span class="reel-cap">' + window.t(r) + "</span></button>";
+        '<span class="reel-cap">' + esc(cap(r)) + "</span></button>";
     }).join("");
     if (reelIO) list.querySelectorAll("video").forEach(function (v) { reelIO.observe(v); });
   }
@@ -179,9 +184,9 @@
     sIdx = i;
     var v = story.querySelector("video");
     story.querySelectorAll(".story-bars i").forEach(function (b, n) { b.style.transform = "scaleX(" + (n < i ? 1 : 0) + ")"; });
-    v.src = "assets/reels/" + REELS[i] + ".mp4";
+    v.src = REELS[i].src;
     var pr = v.play(); if (pr && pr.catch) pr.catch(function () {});
-    story.querySelector(".story-cap").textContent = window.t(REELS[i]);
+    story.querySelector(".story-cap").textContent = cap(REELS[i]);
     story.querySelector(".story-cta").textContent = window.t("reels.order");
   }
   function go(d) {
@@ -245,8 +250,20 @@
     }).join("");
   }
 
-  /* ---------- Тизер Sweet Me ---------- */
+  /* ---------- Тизер: последняя коллекция из канала ---------- */
+  var COL = window.TG_COLLECTION;
+  var soon = document.querySelector(".soon");
   var soonVid = document.querySelector(".soon-vid");
+  if (soon && (!COL || !COL.brand)) soon.closest("section").hidden = true;
+  if (soon && COL && COL.brand) {
+    if (COL.img) soon.style.backgroundImage = "linear-gradient(135deg, rgba(34,52,94,.35), rgba(16,26,49,.35)), url('" + COL.img + "')";
+    soon.querySelector(".soon-link").href = COL.post;
+    if (COL.video) soonVid.dataset.src = COL.video; else { soonVid.remove(); soonVid = null; }
+  }
+  function soonText() {
+    if (!soon || !COL || !COL.brand) return;
+    soon.querySelector("h2").innerHTML = window.t("soon.title").replace("{brand}", esc(COL.brand));
+  }
   if (soonVid && "IntersectionObserver" in window && !reduced) {
     new IntersectionObserver(function (ents) {
       ents.forEach(function (en) {
@@ -262,10 +279,10 @@
         '<span>' + window.t("cat." + c) + '<svg class="i"><use href="#i-arrow"/></svg></span></a>';
     }).join("");
 
-    var rank = { hit: 0, "new": 1, sale: 2 };
-    var hits = window.PRODUCTS.slice().sort(function (a, b) {
-      return (a.badge in rank ? rank[a.badge] : 3) - (b.badge in rank ? rank[b.badge] : 3);
-    }).slice(0, 12);
+    // Сначала настоящие хиты продаж из BILLZ (список в scripts/site_config.json), затем остальное
+    var rank = { hit: 1, "new": 2, sale: 3 };
+    var r = function (p) { return p.badge === "hit" && /^b/.test(p.id) ? 0 : (p.badge in rank ? rank[p.badge] : 4); };
+    var hits = window.PRODUCTS.slice().sort(function (a, b) { return r(a) - r(b); }).slice(0, 12);
     document.getElementById("hits").innerHTML = hits.map(window.productCard).join("");
 
     document.getElementById("look").innerHTML = LOOK.map(function (l) {
@@ -280,6 +297,7 @@
     wordIdx = 0;
     hot();
     reels();
+    soonText();
     builder();
     shops();
     if (story && document.body.classList.contains("story-open")) show(sIdx);

@@ -8,7 +8,9 @@ window.TG_PHOTOS = [
   "prices": [
    540000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4886_v0.jpg",
@@ -18,7 +20,9 @@ window.TG_PHOTOS = [
   "prices": [
    380000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4884_v0.jpg",
@@ -28,7 +32,9 @@ window.TG_PHOTOS = [
   "prices": [
    520000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4883_v0.jpg",
@@ -38,7 +44,9 @@ window.TG_PHOTOS = [
   "prices": [
    560000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4882_v0.jpg",
@@ -48,7 +56,9 @@ window.TG_PHOTOS = [
   "prices": [
    560000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4880_0.jpg",
@@ -56,7 +66,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-17",
   "text": "Новые комплекты от LeoKing уже в наличии! 🧶😍\n\nНежные и уютные образы для ваших малышей — с очаровательными деталями, в которые невозможно не влюбиться.",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4879_0.jpg",
@@ -64,7 +76,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-17",
   "text": "New collection🤩",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4878_0.jpg",
@@ -72,7 +86,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-17",
   "text": "New collection😍😍😍",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4877_0.jpg",
@@ -80,7 +96,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-17",
   "text": "New collection🤩🤩🤩",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4873_0.jpg",
@@ -88,7 +106,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-17",
   "text": "",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4858_v0.jpg",
@@ -98,7 +118,9 @@ window.TG_PHOTOS = [
   "prices": [
    380000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4857_v0.jpg",
@@ -108,7 +130,9 @@ window.TG_PHOTOS = [
   "prices": [
    440000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4854_0.jpg",
@@ -116,7 +140,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-12",
   "text": "Стильные модели, безупречное качество и комфорт — всё, что нужно для создания идеального образа вашего ребёнка.🥰🥰🥰",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4854_1.jpg",
@@ -124,7 +150,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-12",
   "text": "Стильные модели, безупречное качество и комфорт — всё, что нужно для создания идеального образа вашего ребёнка.🥰🥰🥰",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4854_2.jpg",
@@ -132,7 +160,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-12",
   "text": "Стильные модели, безупречное качество и комфорт — всё, что нужно для создания идеального образа вашего ребёнка.🥰🥰🥰",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4851_0.jpg",
@@ -140,7 +170,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-12",
   "text": "Красивые и удобные комплекты на каждый день. Отличный выбор для осеннего гардероба.🍂",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4851_1.jpg",
@@ -148,7 +180,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-12",
   "text": "Красивые и удобные комплекты на каждый день. Отличный выбор для осеннего гардероба.🍂",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4851_2.jpg",
@@ -156,7 +190,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-12",
   "text": "Красивые и удобные комплекты на каждый день. Отличный выбор для осеннего гардероба.🍂",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4849_v0.jpg",
@@ -166,7 +202,9 @@ window.TG_PHOTOS = [
   "prices": [
    285000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4848_v0.jpg",
@@ -176,7 +214,9 @@ window.TG_PHOTOS = [
   "prices": [
    330000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4845_v0.jpg",
@@ -186,7 +226,9 @@ window.TG_PHOTOS = [
   "prices": [
    250000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4844_v0.jpg",
@@ -196,7 +238,9 @@ window.TG_PHOTOS = [
   "prices": [
    420000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4843_v0.jpg",
@@ -206,7 +250,9 @@ window.TG_PHOTOS = [
   "prices": [
    280000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4842_v0.jpg",
@@ -216,7 +262,9 @@ window.TG_PHOTOS = [
   "prices": [
    480000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4841_v0.jpg",
@@ -227,7 +275,9 @@ window.TG_PHOTOS = [
    395000,
    460000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4839_0.jpg",
@@ -237,7 +287,9 @@ window.TG_PHOTOS = [
   "prices": [
    460000
   ],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4836_0.jpg",
@@ -245,7 +297,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-06",
   "text": "Тройки от Leoking для мальчиков — стильные, удобные и практичные🤗\n\nКрасивый дизайн, качественный материал и комфорт для повседневной носки🥰",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4836_1.jpg",
@@ -253,7 +307,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-06",
   "text": "Тройки от Leoking для мальчиков — стильные, удобные и практичные🤗\n\nКрасивый дизайн, качественный материал и комфорт для повседневной носки🥰",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4836_2.jpg",
@@ -261,7 +317,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-06",
   "text": "Тройки от Leoking для мальчиков — стильные, удобные и практичные🤗\n\nКрасивый дизайн, качественный материал и комфорт для повседневной носки🥰",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4833_0.jpg",
@@ -269,7 +327,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-06",
   "text": "Нежные и красивые тройки от Leoking для девочек♥️\n\nИзысканный дизайн, аккуратные детали и комфорт — всё для стильного образа вашей малышки. 🥰",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4833_1.jpg",
@@ -277,7 +337,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-06",
   "text": "Нежные и красивые тройки от Leoking для девочек♥️\n\nИзысканный дизайн, аккуратные детали и комфорт — всё для стильного образа вашей малышки. 🥰",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4833_2.jpg",
@@ -285,7 +347,9 @@ window.TG_PHOTOS = [
   "date": "2026-10-06",
   "text": "Нежные и красивые тройки от Leoking для девочек♥️\n\nИзысканный дизайн, аккуратные детали и комфорт — всё для стильного образа вашей малышки. 🥰",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4825_v0.jpg",
@@ -295,7 +359,9 @@ window.TG_PHOTOS = [
   "prices": [
    290000
   ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4824_v0.jpg",
@@ -305,38 +371,9 @@ window.TG_PHOTOS = [
   "prices": [
    290000
   ],
-  "video": true
- },
- {
-  "src": "assets/tg/4823_v0.jpg",
-  "post": "https://t.me/Caramelluz/4823",
-  "date": "2026-10-05",
-  "text": "Нежный комплект для выписки вашей маленькой принцессы 🎀\n\n🩷 Вязаный плед — 395 000 сум\n🩷 Комплект: вязаный комбинезон, базовое боди и шапочка — 460 000 сум.\nРазмер: 0–1 месяц\n\nДля заказа пишите в Direct 📩\nДоставка по всему Узбекистану 🚚",
-  "prices": [
-   395000,
-   460000
-  ],
-  "video": true
- },
- {
-  "src": "assets/tg/4818_v0.jpg",
-  "post": "https://t.me/Caramelluz/4818",
-  "date": "2026-10-03",
-  "text": "Нежный велюровый набор для девочек 🥰\nПрекрасный выбор для выписки из роддома и подарка новорождённой 🎁\n\nРазмер: 50–56\nЦена: 860 000 сум\n\nДля заказа пишите в Direct 📩",
-  "prices": [
-   860000
-  ],
-  "video": true
- },
- {
-  "src": "assets/tg/4817_v0.jpg",
-  "post": "https://t.me/Caramelluz/4817",
-  "date": "2026-10-03",
-  "text": "Нежный велюровый набор для мальчиков 🤍\nПрекрасный выбор для выписки из роддома и подарка новорождённому 🎁\n\nРазмер: 50–56\nЦена: 860 000 сум\n\nДля заказа пишите в Direct 📩",
-  "prices": [
-   860000
-  ],
-  "video": true
+  "kind": "thumb",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4788_0.jpg",
@@ -344,7 +381,9 @@ window.TG_PHOTOS = [
   "date": "2026-09-23",
   "text": "",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4787_0.jpg",
@@ -352,49 +391,9 @@ window.TG_PHOTOS = [
   "date": "2026-09-23",
   "text": "",
   "prices": [],
-  "video": false
- },
- {
-  "src": "assets/tg/4780_v0.jpg",
-  "post": "https://t.me/Caramelluz/4780",
-  "date": "2026-09-22",
-  "text": "⭐️Комбинезон \nРазмеры: 56-62, 62-68, 68-74, 74-80\nЦена: 235 000 сум",
-  "prices": [
-   235000
-  ],
-  "video": true
- },
- {
-  "src": "assets/tg/4779_v0.jpg",
-  "post": "https://t.me/Caramelluz/4779",
-  "date": "2026-09-21",
-  "text": "Нежный комплект для выписки вашей маленькой принцессы 🎀\n\n🩷 Вязаный плед — 395 000 сум\n🩷 Комплект: вязаный комбинезон, базовое боди и шапочка — 460 000 сум.\nРазмер: 0–1 месяц\n\nДля заказа пишите в Direct 📩\nДоставка по всему Узбекистану 🚚",
-  "prices": [
-   395000,
-   460000
-  ],
-  "video": true
- },
- {
-  "src": "assets/tg/4778_v0.jpg",
-  "post": "https://t.me/Caramelluz/4778",
-  "date": "2026-09-21",
-  "text": "Нежный и тёплый комплект для выписки из роддома 🩵\n\nВязаный плед — 395 000 сум\nКомплект: вязаный комбинезон, базовый комбинезон и шапочка\nЦена:  460 000 сум\n Размер: 0–1 месяц\n\nДля заказа и подробной информации пишите в Direct 📩\nДоставка по всему Узбекистану 🚚",
-  "prices": [
-   395000,
-   460000
-  ],
-  "video": true
- },
- {
-  "src": "assets/tg/4748_v0.jpg",
-  "post": "https://t.me/Caramelluz/4748",
-  "date": "2026-09-14",
-  "text": "Комбинезон 🍁\nРазмеры: 56-62, 62-68, 68-74, 74-80\nЦена: 290 000сум",
-  "prices": [
-   290000
-  ],
-  "video": true
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4636_0.jpg",
@@ -404,7 +403,9 @@ window.TG_PHOTOS = [
   "prices": [
    450000
   ],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4636_1.jpg",
@@ -414,7 +415,9 @@ window.TG_PHOTOS = [
   "prices": [
    450000
   ],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4571_0.jpg",
@@ -422,7 +425,9 @@ window.TG_PHOTOS = [
   "date": "2026-08-04",
   "text": "🥳Sizlar kutgan kolleksiya endi Caramell do’konlarida 😍",
   "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  },
  {
   "src": "assets/tg/4457_0.jpg",
@@ -430,14 +435,67 @@ window.TG_PHOTOS = [
   "date": "2026-07-14",
   "text": "",
   "prices": [],
-  "video": false
- },
- {
-  "src": "assets/tg/4436_0.jpg",
-  "post": "https://t.me/Caramelluz/4436",
-  "date": "2026-07-07",
-  "text": "New collection 🤩🤩🤩",
-  "prices": [],
-  "video": false
+  "kind": "photo",
+  "score": 0,
+  "kids": false
  }
 ];
+window.TG_REELS = [
+ {
+  "src": "assets/reels/4883.mp4",
+  "post": "https://t.me/Caramelluz/4883",
+  "date": "2026-10-20",
+  "text": "Уютный образ для мальчиков 🥰\n\nВ комплект входят вязаный комбинезон с капюшоном и базовый комбинезон, который надевается под него ✨\n\n📏 Размеры: 0–1,1–3, 3-6\n💰 Цена: 560 000 сум\n\nДля заказа пишите в Direct 📩",
+  "poster": ""
+ },
+ {
+  "src": "assets/reels/4882.mp4",
+  "post": "https://t.me/Caramelluz/4882",
+  "date": "2026-10-20",
+  "text": "Нежный и уютный комплект для девочек ♥️\n\nВ комплект входят вязаный комбинезон с капюшоном и базовый комбинезон, который надевается под него ✨\n\n📏 Размеры: 0–1,1–3,3-6 \n💰 Цена комплекта: 560 000 сум\n\nДля заказа пишите в Di",
+  "poster": ""
+ },
+ {
+  "src": "assets/reels/4881.mp4",
+  "post": "https://t.me/Caramelluz/4881",
+  "date": "2026-10-20",
+  "text": "Стильные образы для мальчиков 💙\nУютные комплекты для тёплых прогулок и повседневных приключений 🍂",
+  "poster": ""
+ },
+ {
+  "src": "assets/reels/4866.mp4",
+  "post": "https://t.me/Caramelluz/4866",
+  "date": "2026-10-15",
+  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с ",
+  "poster": ""
+ },
+ {
+  "src": "assets/reels/4861.mp4",
+  "post": "https://t.me/Caramelluz/4861",
+  "date": "2026-10-12",
+  "text": "Для активных малышей 💙\nСтильные и удобные комплекты с начёсом подарят тепло и комфорт в прохладные дни 🍂\n\nРазмеры: 2, 3 и 4 года.",
+  "poster": ""
+ },
+ {
+  "src": "assets/reels/4859.mp4",
+  "post": "https://t.me/Caramelluz/4859",
+  "date": "2026-10-12",
+  "text": "Красивые образы для девочек 🎀\nУютные комплекты с начёсом для тёплых и стильных прогулок 🤍\n\nРазмеры: 2, 3 и 4 года.",
+  "poster": ""
+ },
+ {
+  "src": "assets/reels/4858.mp4",
+  "post": "https://t.me/Caramelluz/4858",
+  "date": "2026-10-12",
+  "text": "Двойка♥️\nРазмеры: 2, 3, 4 года\nЦена: 380 000 сум",
+  "poster": ""
+ }
+];
+window.TG_COLLECTION = {
+ "brand": "Leo King",
+ "post": "https://t.me/Caramelluz/4880",
+ "date": "2026-10-17",
+ "text": "Новые комплекты от LeoKing уже в наличии! 🧶😍\n\nНежные и уютные образы для ваших малышей — с очаровательными деталями, в которые невозможно не влюбиться.",
+ "img": "assets/tg/4880_0.jpg",
+ "video": ""
+};

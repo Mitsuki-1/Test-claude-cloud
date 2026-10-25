@@ -137,13 +137,20 @@
   var PRODUCT_RX = /комплект|коллекц|collection|kolleksiya|leoking|тройк|двойк|модел|образ|набор|комбинезон|плать|пижам|выписк|uyqu|to.?plam|kombinezon/i;
   var used = {};
 
-  // Подобрать фото из канала: re — ключевые слова в тексте поста, photoOnly — без обложек видео
+  // Кадры из видео лучше фото, фото лучше обложек видео; среди кадров — по оценке яркости/цвета
+  var RANK = { frame: 0, photo: 1, thumb: 2 };
+  var kindOf = function (t) { return t.kind || (t.video ? "thumb" : "photo"); };
+  var byQuality = function (a, b) { return (RANK[kindOf(a)] - RANK[kindOf(b)]) || ((b.score || 0) - (a.score || 0)); };
+
+  // Подобрать снимок из канала. re — слова в тексте поста; opts: photoOnly (без обложек 180px),
+  // productOnly (фото только из постов про товар), kids (только кадры детей)
   window.tgPick = function (re, opts) {
     opts = opts || {};
     var pool = TG.filter(function (t) {
-      return !used[t.src] && (!opts.photoOnly || !t.video) && (!re || re.test(t.text)) && (!opts.productOnly || PRODUCT_RX.test(t.text));
-    });
-    pool.sort(function (a, b) { return (a.video ? 1 : 0) - (b.video ? 1 : 0); });
+      var k = kindOf(t);
+      return !used[t.src] && !!t.kids === !!opts.kids && (!opts.photoOnly || k !== "thumb") &&
+        (!re || re.test(t.text)) && (!opts.productOnly || k === "frame" || PRODUCT_RX.test(t.text));
+    }).sort(byQuality);
     var t = pool[0];
     if (t) used[t.src] = true;
     return t || null;
@@ -156,8 +163,8 @@
     var other = p.g === "girl" ? GENDER.boy : p.g === "boy" ? GENDER.girl : null;
     var best = null, bestScore = -99;
     TG.forEach(function (t) {
-      if (used[t.src] || t.prices.indexOf(p.price) < 0) return;
-      var s = (GENDER[p.g] && GENDER[p.g].test(t.text) ? 2 : 0) - (other && other.test(t.text) ? 3 : 0) + (t.video ? 0 : 1);
+      if (used[t.src] || t.kids || t.prices.indexOf(p.price) < 0) return;
+      var s = (GENDER[p.g] && GENDER[p.g].test(t.text) ? 4 : 0) - (other && other.test(t.text) ? 6 : 0) + (2 - RANK[kindOf(t)]) + (t.score || 0) / 1000;
       if (s > bestScore) { best = t; bestScore = s; }
     });
     if (best) { used[best.src] = true; p.img = best.src; p.tg = best.post; }
