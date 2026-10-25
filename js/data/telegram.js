@@ -2702,6 +2702,6 @@ window.TG_COLLECTION = {
  "post": "https://t.me/Caramelluz/4880",
  "date": "2026-10-17",
  "text": "Новые комплекты от LeoKing уже в наличии! 🧶😍\n\nНежные и уютные образы для ваших малышей — с очаровательными деталями, в которые невозможно не влюбиться.",
- "img": "assets/tg/4880_0.jpg",
- "video": ""
+ "img": "assets/tg/f_4767_0.jpg",
+ "video": "assets/reels/c_4767.720.mp4"
 };
