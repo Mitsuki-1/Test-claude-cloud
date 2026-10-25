@@ -151,7 +151,7 @@ def transform(raw, shops, show_oos):
     products = []
     for gid, variants in groups.items():
         base = next((v for v in variants if v.get("id") == gid), variants[0])
-        sizes, stock_total, prices, olds = [], 0, [], []
+        sizes, prices, olds = [], [], []
         for v in variants:
             stock = sum(num(r.get("active_measurement_value")) for r in for_shops(v.get("shop_measurement_values"), shops))
             price_rows = for_shops(v.get("shop_prices"), shops)
@@ -161,7 +161,6 @@ def transform(raw, shops, show_oos):
                 continue
             if stock <= 0 and not show_oos:
                 continue
-            stock_total += max(stock, 0)
             if promo and min(promo) < min(retail):
                 prices.append(min(promo))
                 olds.append(min(retail))
@@ -195,7 +194,6 @@ def transform(raw, shops, show_oos):
             "cat": cat, "g": g, "price": int(min(prices)), "sizes": sizes or ["One size"],
             "color": COLORS[cat], "img": img,
             "name": {"ru": name, "uz": name}, "desc": {"ru": desc, "uz": desc},
-            "stock": int(stock_total),
         }
         if olds:
             item["old"] = int(min(olds))
