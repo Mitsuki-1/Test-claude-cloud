@@ -135,7 +135,11 @@
         '<span class="reel-shade"></span><span class="reel-play"><svg class="i"><use href="#i-play"/></svg></span>' +
         '<span class="reel-cap">' + esc(cap(r)) + "</span></button>";
     }).join("");
-    if (reelIO) list.querySelectorAll("video").forEach(function (v) { reelIO.observe(v); });
+    list.querySelectorAll("video").forEach(function (v) {
+      // список роликов мог закэшироваться в браузере, а ролик уже заменён новым — прячем карточку
+      v.addEventListener("error", function () { var b = v.closest(".reel"); if (b) b.hidden = true; });
+      if (reelIO) reelIO.observe(v);
+    });
   }
 
   var story = null, sIdx = 0;
@@ -160,6 +164,7 @@
       if (v.duration) story.querySelectorAll(".story-bars i")[sIdx].style.transform = "scaleX(" + v.currentTime / v.duration + ")";
     });
     v.addEventListener("ended", function () { go(1); });
+    v.addEventListener("error", function () { if (v.getAttribute("src")) go(1); });
     story.addEventListener("click", function (e) {
       var b = e.target.closest("[data-s]");
       if (!b) { if (e.target === story) closeStory(); return; }
