@@ -418,11 +418,15 @@ def main():
         same_post = [e for e in items if e["post"].endswith("/" + cp["post"])]
         same_brand = [e for e in items if re.search(rx, e["text"], re.I) and e["kind"] != "thumb"]
         pool = sorted(same_post, key=lambda e: (e["kind"] == "thumb", -e["score"])) + sorted(same_brand, key=lambda e: (e["kind"] != "frame", -e["score"]))
+        # Видео для фона: из самого анонса, а если оно слишком большое для ленты — последнее доступное видео того же бренда
+        vp = cp if cp["videos"] else next((p for p in clean_posts if p["videos"] and re.search(rx, p["text"], re.I)), None)
         video = ""
-        if cp["videos"]:
-            name = save_video(cp, "c_" + cp["post"])
+        if vp:
+            name = save_video(vp, "c_" + vp["post"])
             if name:
                 video = "assets/reels/" + name
+                poster = [e for e in items if e["kind"] == "frame" and e["post"].endswith("/" + vp["post"])]
+                pool = sorted(poster, key=lambda e: -e["score"]) + pool
         collection = {"brand": brand, "post": "https://t.me/%s/%s" % (CHANNEL, cp["post"]), "date": cp["date"][:10],
                       "text": cp["text"][:300], "img": pool[0]["src"] if pool else "", "video": video}
 

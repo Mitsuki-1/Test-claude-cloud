@@ -264,7 +264,8 @@
     var media = soon.querySelector(".soon-media");
     if (COL.img) media.querySelector("img").src = COL.img; else if (!COL.video) media.hidden = true;
     soon.querySelectorAll(".soon-link").forEach(function (a) { a.href = COL.post; });
-    if (COL.video) soonVid.dataset.src = COL.video; else { soonVid.remove(); soonVid = null; }
+    // есть видео — фон на всю ширину (как раньше); нет — фото вертикальной карточкой справа
+    if (COL.video) { soonVid.dataset.src = COL.video; soon.classList.add("soon--bg"); } else { soonVid.remove(); soonVid = null; }
   }
   function soonText() {
     if (!soon || !COL || !COL.brand) return;
