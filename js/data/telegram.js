@@ -1062,6 +1062,26 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
+  "src": "assets/tg/f_4765_0.jpg",
+  "post": "https://t.me/Caramelluz/4765",
+  "date": "2026-09-16",
+  "text": "📲 Для заказов и консультаций — пишите в Direct @Caramell_Uzbekistan",
+  "prices": [],
+  "kind": "frame",
+  "score": -6.1,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4765_1.jpg",
+  "post": "https://t.me/Caramelluz/4765",
+  "date": "2026-09-16",
+  "text": "📲 Для заказов и консультаций — пишите в Direct @Caramell_Uzbekistan",
+  "prices": [],
+  "kind": "frame",
+  "score": -6.8,
+  "kids": false
+ },
+ {
   "src": "assets/tg/4636_0.jpg",
   "post": "https://t.me/Caramelluz/4636",
   "date": "2026-08-13",
@@ -1147,16 +1167,6 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
-  "src": "assets/tg/f_4198_0.jpg",
-  "post": "https://t.me/Caramelluz/4198",
-  "date": "2026-05-15",
-  "text": "Новая коллекция 😍😍😍",
-  "prices": [],
-  "kind": "frame",
-  "score": -10.8,
-  "kids": true
- },
- {
   "src": "assets/tg/f_4198_1.jpg",
   "post": "https://t.me/Caramelluz/4198",
   "date": "2026-05-15",
@@ -1164,6 +1174,16 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -12.2,
+  "kids": true
+ },
+ {
+  "src": "assets/tg/f_4198_0.jpg",
+  "post": "https://t.me/Caramelluz/4198",
+  "date": "2026-05-15",
+  "text": "Новая коллекция 😍😍😍",
+  "prices": [],
+  "kind": "frame",
+  "score": -10.8,
   "kids": true
  },
  {
@@ -1207,6 +1227,18 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
+  "src": "assets/tg/f_4122_1.jpg",
+  "post": "https://t.me/Caramelluz/4122",
+  "date": "2026-04-27",
+  "text": "Стильный и удобный комплект для малышей 😎\n\nИзготовлен из мягкого и дышащего материала, идеально подходит для нежной кожи малыша.\n\nПрактичный дизайн обеспечивает комфорт в течение всего дня.\nОтличный выбор для прогулок и повседневной носки 💙\n\nДвойка(футболка и комбинезон)\nРазмер: от 6-9 мес до 3 лет\nЦена: 340 000 сум",
+  "prices": [
+   340000
+  ],
+  "kind": "frame",
+  "score": -10.0,
+  "kids": true
+ },
+ {
   "src": "assets/tg/f_4122_0.jpg",
   "post": "https://t.me/Caramelluz/4122",
   "date": "2026-04-27",
@@ -1218,18 +1250,6 @@ window.TG_PHOTOS = [
   "score": -7.6,
   "kids": true,
   "pin": 11
- },
- {
-  "src": "assets/tg/f_4122_1.jpg",
-  "post": "https://t.me/Caramelluz/4122",
-  "date": "2026-04-27",
-  "text": "Стильный и удобный комплект для малышей 😎\n\nИзготовлен из мягкого и дышащего материала, идеально подходит для нежной кожи малыша.\n\nПрактичный дизайн обеспечивает комфорт в течение всего дня.\nОтличный выбор для прогулок и повседневной носки 💙\n\nДвойка(футболка и комбинезон)\nРазмер: от 6-9 мес до 3 лет\nЦена: 340 000 сум",
-  "prices": [
-   340000
-  ],
-  "kind": "frame",
-  "score": -10.0,
-  "kids": true
  },
  {
   "src": "assets/tg/f_4092_0.jpg",
@@ -1253,16 +1273,6 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
-  "src": "assets/tg/f_3708_0.jpg",
-  "post": "https://t.me/Caramelluz/3708",
-  "date": "2026-02-05",
-  "text": "🥰🥰🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": -36.5,
-  "kids": true
- },
- {
   "src": "assets/tg/f_3708_1.jpg",
   "post": "https://t.me/Caramelluz/3708",
   "date": "2026-02-05",
@@ -1270,6 +1280,16 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -37.5,
+  "kids": true
+ },
+ {
+  "src": "assets/tg/f_3708_0.jpg",
+  "post": "https://t.me/Caramelluz/3708",
+  "date": "2026-02-05",
+  "text": "🥰🥰🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": -36.5,
   "kids": true
  },
  {
@@ -1304,6 +1324,16 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
+  "src": "assets/tg/f_3639_1.jpg",
+  "post": "https://t.me/Caramelluz/3639",
+  "date": "2026-01-21",
+  "text": "",
+  "prices": [],
+  "kind": "frame",
+  "score": -3.2,
+  "kids": true
+ },
+ {
   "src": "assets/tg/f_3639_0.jpg",
   "post": "https://t.me/Caramelluz/3639",
   "date": "2026-01-21",
@@ -1313,16 +1343,6 @@ window.TG_PHOTOS = [
   "score": -0.9,
   "kids": true,
   "pin": 9
- },
- {
-  "src": "assets/tg/f_3639_1.jpg",
-  "post": "https://t.me/Caramelluz/3639",
-  "date": "2026-01-21",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": -3.2,
-  "kids": true
  },
  {
   "src": "assets/tg/f_3634_1.jpg",
@@ -1345,16 +1365,6 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
-  "src": "assets/tg/f_3324_0.jpg",
-  "post": "https://t.me/Caramelluz/3324",
-  "date": "2025-10-18",
-  "text": "Прекрасная коллекция из велюра — тёплый и уютный выбор для вашего маленького ангелочка! 💫\n\nМягкость, нежность и забота в каждой детали🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": -15.4,
-  "kids": true
- },
- {
   "src": "assets/tg/f_3324_1.jpg",
   "post": "https://t.me/Caramelluz/3324",
   "date": "2025-10-18",
@@ -1362,6 +1372,16 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -24.9,
+  "kids": true
+ },
+ {
+  "src": "assets/tg/f_3324_0.jpg",
+  "post": "https://t.me/Caramelluz/3324",
+  "date": "2025-10-18",
+  "text": "Прекрасная коллекция из велюра — тёплый и уютный выбор для вашего маленького ангелочка! 💫\n\nМягкость, нежность и забота в каждой детали🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": -15.4,
   "kids": true
  },
  {
@@ -1385,6 +1405,16 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
+  "src": "assets/tg/f_3000_1.jpg",
+  "post": "https://t.me/Caramelluz/3000",
+  "date": "2025-07-26",
+  "text": "Наша маленькая клиентка ❤️🤗",
+  "prices": [],
+  "kind": "frame",
+  "score": -5.6,
+  "kids": true
+ },
+ {
   "src": "assets/tg/f_3000_0.jpg",
   "post": "https://t.me/Caramelluz/3000",
   "date": "2025-07-26",
@@ -1394,16 +1424,6 @@ window.TG_PHOTOS = [
   "score": -4.5,
   "kids": true,
   "pin": 13
- },
- {
-  "src": "assets/tg/f_3000_1.jpg",
-  "post": "https://t.me/Caramelluz/3000",
-  "date": "2025-07-26",
-  "text": "Наша маленькая клиентка ❤️🤗",
-  "prices": [],
-  "kind": "frame",
-  "score": -5.6,
-  "kids": true
  },
  {
   "src": "assets/tg/f_2984_0.jpg",
@@ -1437,16 +1457,6 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
-  "src": "assets/tg/f_2808_0.jpg",
-  "post": "https://t.me/Caramelluz/2808",
-  "date": "2025-06-11",
-  "text": "Наш маленький клиент 🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": -19.7,
-  "kids": true
- },
- {
   "src": "assets/tg/f_2808_1.jpg",
   "post": "https://t.me/Caramelluz/2808",
   "date": "2025-06-11",
@@ -1454,6 +1464,16 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -20.8,
+  "kids": true
+ },
+ {
+  "src": "assets/tg/f_2808_0.jpg",
+  "post": "https://t.me/Caramelluz/2808",
+  "date": "2025-06-11",
+  "text": "Наш маленький клиент 🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": -19.7,
   "kids": true
  },
  {
@@ -1479,16 +1499,6 @@ window.TG_PHOTOS = [
   "pin": 16
  },
  {
-  "src": "assets/tg/f_2687_0.jpg",
-  "post": "https://t.me/Caramelluz/2687",
-  "date": "2025-05-10",
-  "text": "Little girl collection 🥰❤️",
-  "prices": [],
-  "kind": "frame",
-  "score": -2.8,
-  "kids": true
- },
- {
   "src": "assets/tg/f_2687_1.jpg",
   "post": "https://t.me/Caramelluz/2687",
   "date": "2025-05-10",
@@ -1496,6 +1506,16 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -3.9,
+  "kids": true
+ },
+ {
+  "src": "assets/tg/f_2687_0.jpg",
+  "post": "https://t.me/Caramelluz/2687",
+  "date": "2025-05-10",
+  "text": "Little girl collection 🥰❤️",
+  "prices": [],
+  "kind": "frame",
+  "score": -2.8,
   "kids": true
  },
  {
@@ -1530,16 +1550,6 @@ window.TG_PHOTOS = [
   "pin": 14
  },
  {
-  "src": "assets/tg/f_2318_0.jpg",
-  "post": "https://t.me/Caramelluz/2318",
-  "date": "2025-02-16",
-  "text": "Дорогие клиенты, спасибо за ваше доверие и выбор нашей продукции❤️\n_______\n\nHurmatli mijozlar, ishonchingiz va mahsulotlarimizni tanlaganingiz uchun tashakkur🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": -6.7,
-  "kids": true
- },
- {
   "src": "assets/tg/f_2318_1.jpg",
   "post": "https://t.me/Caramelluz/2318",
   "date": "2025-02-16",
@@ -1549,6 +1559,16 @@ window.TG_PHOTOS = [
   "score": -10.7,
   "kids": true,
   "pin": 10
+ },
+ {
+  "src": "assets/tg/f_2318_0.jpg",
+  "post": "https://t.me/Caramelluz/2318",
+  "date": "2025-02-16",
+  "text": "Дорогие клиенты, спасибо за ваше доверие и выбор нашей продукции❤️\n_______\n\nHurmatli mijozlar, ishonchingiz va mahsulotlarimizni tanlaganingiz uchun tashakkur🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": -6.7,
+  "kids": true
  },
  {
   "src": "assets/tg/f_2315_1.jpg",
@@ -1663,20 +1683,6 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
-  "src": "assets/tg/f_2020_0.jpg",
-  "post": "https://t.me/Caramelluz/2020",
-  "date": "2024-12-24",
-  "text": "Шапка🥰\nЦена: 55 000 сум\n\nУтепленный комбинезон😊\nРазмеры: 56-62, 62-68, 68-74, 74-80\nЦена: 335 000 сум \n\nПлед 😍\nЦена: 230 000 сум \nРазмер: 85х90 см \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n⠀📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n\n📍Адрес магазина: Шайхантахурский район, улица Беруни, дом 8.\n✔️Ориентир: От перекрестка Орзу в сторону метро Тинчлик 200 метров",
-  "prices": [
-   55000,
-   335000,
-   230000
-  ],
-  "kind": "frame",
-  "score": -3.1,
-  "kids": true
- },
- {
   "src": "assets/tg/f_2020_1.jpg",
   "post": "https://t.me/Caramelluz/2020",
   "date": "2024-12-24",
@@ -1690,6 +1696,20 @@ window.TG_PHOTOS = [
   "score": -6.3,
   "kids": true,
   "pin": 5
+ },
+ {
+  "src": "assets/tg/f_2020_0.jpg",
+  "post": "https://t.me/Caramelluz/2020",
+  "date": "2024-12-24",
+  "text": "Шапка🥰\nЦена: 55 000 сум\n\nУтепленный комбинезон😊\nРазмеры: 56-62, 62-68, 68-74, 74-80\nЦена: 335 000 сум \n\nПлед 😍\nЦена: 230 000 сум \nРазмер: 85х90 см \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n⠀📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n\n📍Адрес магазина: Шайхантахурский район, улица Беруни, дом 8.\n✔️Ориентир: От перекрестка Орзу в сторону метро Тинчлик 200 метров",
+  "prices": [
+   55000,
+   335000,
+   230000
+  ],
+  "kind": "frame",
+  "score": -3.1,
+  "kids": true
  },
  {
   "src": "assets/tg/f_2018_0.jpg",
