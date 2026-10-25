@@ -1,9 +1,10 @@
 /*
  * Каталог Caramell Uzbekistan.
- * Товары c101–c104 — реальные позиции и цены из Telegram-канала t.me/Caramelluz
- * (посты за сентябрь 2026). Остальные позиции — иллюстративные, по образу тех же
- * категорий, что продаёт магазин (вязаные комплекты, боди, костюмы, платья, пижамы) —
- * замените на свои фото и цены по мере появления новых постов в канале.
+ * Товары c101–c104 — реальные позиции и цены из Telegram-канала t.me/Caramelluz.
+ * Остальные — демо. Когда scripts/sync_billz.py заполняет js/data/billz.js,
+ * демо заменяются товарами из BILLZ (c101–c103 остаются: на них завязаны
+ * конструктор выписки и «хит недели»). Фото c101–c104 подбираются из
+ * js/data/telegram.js по цене в тексте поста; Unsplash — запасной вариант.
  *   price — цена в сумах, old — старая цена (для скидки, необязательно)
  *   img   — путь к фото, например "assets/img/body-01.jpg" (или ссылка)
  *   sizes — ключи размеров из SIZES ниже
@@ -115,6 +116,51 @@
       name: { ru: "Спальный мешок муслиновый", uz: "Muslin uyqu qopi" },
       desc: { ru: "Безопасный сон без одеяла, молния снизу для смены подгузника.", uz: "Ko‘rpasiz xavfsiz uyqu, taglik almashtirish uchun pastda molniya." } }
   ];
+
+  var KEEP = ["c101", "c102", "c103"];
+  var billz = window.BILLZ && window.BILLZ.products;
+  if (billz && billz.length) {
+    var str = function (v) { return typeof v === "object" && v ? v : { ru: String(v || ""), uz: String(v || "") }; };
+    window.PRODUCTS = window.PRODUCTS.filter(function (p) { return KEEP.indexOf(p.id) > -1; }).concat(billz.map(function (b) {
+      var cat = window.CATEGORIES.indexOf(b.cat) > -1 ? b.cat : "sets";
+      return {
+        id: String(b.id), cat: cat, g: b.g || "unisex", price: +b.price || 0, old: b.old ? +b.old : undefined, badge: b.badge,
+        sizes: b.sizes && b.sizes.length ? b.sizes : ["One size"], color: b.color || "#EAF0F8",
+        img: b.img || window.artSVG(cat, b.color), name: str(b.name), desc: str(b.desc)
+      };
+    }));
+  }
+
+  /* ---------- Фото из Telegram ---------- */
+  var TG = window.TG_PHOTOS || [];
+  var PRODUCT_RX = /комплект|коллекц|collection|kolleksiya|leoking|тройк|двойк|модел|образ|набор|комбинезон|плать|пижам|выписк|uyqu|to.?plam|kombinezon/i;
+  var used = {};
+
+  // Подобрать фото из канала: re — ключевые слова в тексте поста, photoOnly — без обложек видео
+  window.tgPick = function (re, opts) {
+    opts = opts || {};
+    var pool = TG.filter(function (t) {
+      return !used[t.src] && (!opts.photoOnly || !t.video) && (!re || re.test(t.text)) && (!opts.productOnly || PRODUCT_RX.test(t.text));
+    });
+    pool.sort(function (a, b) { return (a.video ? 1 : 0) - (b.video ? 1 : 0); });
+    var t = pool[0];
+    if (t) used[t.src] = true;
+    return t || null;
+  };
+
+  var GENDER = { girl: /девоч|принцесс|qiz|🎀|🩷/i, boy: /мальч|o.?g.?il|🩵|💙/i };
+  ["c101", "c102", "c103", "c104"].forEach(function (id) {
+    var p = window.PRODUCTS.filter(function (x) { return x.id === id; })[0];
+    if (!p) return;
+    var other = p.g === "girl" ? GENDER.boy : p.g === "boy" ? GENDER.girl : null;
+    var best = null, bestScore = -99;
+    TG.forEach(function (t) {
+      if (used[t.src] || t.prices.indexOf(p.price) < 0) return;
+      var s = (GENDER[p.g] && GENDER[p.g].test(t.text) ? 2 : 0) - (other && other.test(t.text) ? 3 : 0) + (t.video ? 0 : 1);
+      if (s > bestScore) { best = t; bestScore = s; }
+    });
+    if (best) { used[best.src] = true; p.img = best.src; p.tg = best.post; }
+  });
 
   window.findProduct = function (id) {
     for (var i = 0; i < window.PRODUCTS.length; i++) if (window.PRODUCTS[i].id === id) return window.PRODUCTS[i];

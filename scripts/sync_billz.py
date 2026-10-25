@@ -4,13 +4,14 @@
 
 Запускается в GitHub Actions (.github/workflows/pages.yml) раз в час.
 Результат — js/data/billz.js: window.BILLZ = { synced_at, products: [...] }.
-Сайт берёт товары оттуда; если файл пустой — показывает товары из js/products.js.
+Если товаров нет, сайт показывает товары из js/products.js.
 
 Переменные окружения:
-  BILLZ_SECRET_TOKEN   — секретный ключ API из кабинета BILLZ (GitHub → Settings → Secrets)
-  BILLZ_SHOP_IDS       — необязательно: id магазинов через запятую, чьи цены/остатки брать
+  BILLZ_SECRET_TOKEN      — секретный ключ API из кабинета BILLZ (GitHub → Settings → Secrets)
+  BILLZ_SHOP_IDS          — необязательно: id магазинов через запятую, чьи цены и остатки брать
   BILLZ_SHOW_OUT_OF_STOCK — "1", чтобы показывать товары с нулевым остатком (по умолчанию скрываются)
-  BILLZ_FIXTURE        — путь к JSON-ответу /v2/products (для локальной проверки без API)
+  BILLZ_FIXTURE           — путь к JSON-ответу /v2/products (для проверки без API)
+  BILLZ_OUT               — куда писать результат (по умолчанию js/data/billz.js)
 """
 import html
 import json
@@ -19,19 +20,22 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
 HOST = "https://api-admin.billz.ai"
-OUT = os.path.join(os.path.dirname(__file__), "..", "js", "data", "billz.js")
+OUT = os.environ.get("BILLZ_OUT") or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "js", "data", "billz.js")
 PAGE_LIMIT = 100
 
-# Турецкая сетка сайта (как в js/products.js): ключ, рост от/до
-SIZES = [("0-3m", 50, 62), ("3-6m", 62, 68), ("6-9m", 68, 74), ("9-12m", 74, 80),
-         ("12-18m", 80, 86), ("18-24m", 86, 92), ("2-3y", 92, 98), ("3-4y", 98, 104),
-         ("4-5y", 104, 110), ("5-6y", 110, 116), ("6-7y", 116, 122), ("7-8y", 122, 128)]
+# Сетка сайта (как window.SIZES в js/products.js): ключ, рост до (см)
+SIZES = [("0-3m", 62), ("3-6m", 68), ("6-9m", 74), ("9-12m", 80), ("12-18m", 86), ("18-24m", 92),
+         ("2-3y", 98), ("3-4y", 104), ("4-5y", 110), ("5-6y", 116), ("6-7y", 122), ("7-8y", 128)]
+KEYS = [k for k, _ in SIZES]
+MONTH_KEYS = [k for k in KEYS if k.endswith("m")]
+YEAR_KEYS = [k for k in KEYS if k.endswith("y")]
 
-# Категории сайта по ключевым словам в категории/названии товара BILLZ (порядок важен)
+# Категория сайта по ключевым словам в категориях и названии (порядок важен)
 CAT_RULES = [
     ("discharge", r"выписк|chiqish|tug.?ruqxona|konvert|конверт|плед|ko.?rpa"),
     ("pajamas", r"пижам|pijama|спальн|uyqu|ночн"),
@@ -41,16 +45,14 @@ CAT_RULES = [
     ("sets", r"костюм|kostyum|комплект|to.?plam|набор|кофт|футболк|брюк|шорт|свитер|кардиган"),
 ]
 GIRL = r"девоч|qiz|girl|принцесс|malika"
-BOY = r"мальч|o.?g.?il|boy|принц\b|shahzoda"
+BOY = r"мальч|o.?g.?il|boy|принц(?!есс)|shahzoda"
 SIZE_ATTR = r"размер|o.?lcham|size|рост|beden"
 COLORS = {"discharge": "#F5DCE2", "pajamas": "#E4ECF8", "dresses": "#F5DCE2",
           "bodysuits": "#EAF0F8", "newborn": "#F4ECE1", "sets": "#EAF0F8"}
 
 
 def request(method, path, token=None, body=None, params=None):
-    url = HOST + path
-    if params:
-        url += "?" + "&".join("%s=%s" % (k, urllib.request.quote(str(v))) for k, v in params.items())
+    url = HOST + path + ("?" + urllib.parse.urlencode(params) if params else "")
     data = json.dumps(body).encode() if body is not None else None
     req = urllib.request.Request(url, data=data, method=method)
     req.add_header("Content-Type", "application/json")
@@ -63,7 +65,7 @@ def request(method, path, token=None, body=None, params=None):
                 return json.loads(r.read().decode())
         except urllib.error.HTTPError as e:
             if e.code < 500 or attempt == 3:
-                raise RuntimeError("BILLZ %s %s -> HTTP %s: %s" % (method, path, e.code, e.read()[:300]))
+                raise RuntimeError("BILLZ %s %s -> HTTP %s: %s" % (method, path, e.code, e.read()[:300].decode("utf-8", "replace")))
         except urllib.error.URLError:
             if attempt == 3:
                 raise
@@ -72,50 +74,56 @@ def request(method, path, token=None, body=None, params=None):
 
 def login(secret):
     resp = request("POST", "/v1/auth/login", body={"secret_token": secret})
-    data = resp.get("data") or {}
-    if not data.get("access_token"):
-        raise RuntimeError("BILLZ: не удалось войти — проверьте BILLZ_SECRET_TOKEN")
-    return data["access_token"]
+    token = (resp.get("data") or {}).get("access_token") or resp.get("access_token")
+    if not token:
+        raise RuntimeError("BILLZ: в ответе на вход нет access_token — проверьте BILLZ_SECRET_TOKEN")
+    return token
 
 
 def fetch_products(token):
     out, page = [], 1
-    while True:
+    while page <= 500:
         resp = request("GET", "/v2/products", token=token, params={"page": page, "limit": PAGE_LIMIT})
-        items = resp.get("products") or []
+        body = resp.get("data") if isinstance(resp.get("data"), dict) else resp
+        items = body.get("products") or []
         out.extend(items)
-        count = resp.get("count") or 0
-        if not items or len(out) >= count or page > 200:
-            return out
+        count = body.get("count") or 0
+        if not items or (count and len(out) >= count) or len(items) < PAGE_LIMIT:
+            break
         page += 1
+    return out
 
 
 def size_key(value):
-    """'62-68' / '56' / '3-6 мес' / '0-3 ay' / '2-3 года' / '4 yosh' -> ключ сетки сайта или исходная строка."""
-    v = value.strip().lower().replace("–", "-").replace("—", "-")
+    """'56-62' / '62' / '3-6 мес' / '0-3 ay' / '2-3 года' / '4 yaş' / '3-6' -> ключ сетки сайта, иначе исходная строка."""
+    raw = (value or "").strip()
+    v = raw.lower().replace("–", "-").replace("—", "-")
     nums = [float(n.replace(",", ".")) for n in re.findall(r"\d+(?:[.,]\d+)?", v)]
     if not nums:
-        return value.strip()
-    if re.search(r"мес|oy\b|ay\b|month|\bm\b", v):
-        months = nums[-1]
-        for k, lo, hi in SIZES:
-            a = {"m": 1}.get(k[-1], 12)
-            top = int(k[:-1].split("-")[1]) * a
-            if months <= top:
+        return raw
+
+    def by_months(m):
+        for k in KEYS:
+            lo, hi = (int(x) for x in k[:-1].split("-"))
+            if m <= hi * (1 if k.endswith("m") else 12):
                 return k
-    if re.search(r"год|лет|yosh|yas|year|\by\b", v):
-        years = nums[-1]
-        for k, lo, hi in SIZES:
-            if k.endswith("y") and years <= int(k[:-1].split("-")[1]):
-                return k
-        return SIZES[-1][0]
-    h = (nums[0] + nums[-1]) / 2 if len(nums) > 1 else nums[0]
+        return KEYS[-1]
+
+    if re.search(r"мес|\boy\b|\bay\b|month|\bm\b", v):
+        return by_months(nums[-1])
+    if re.search(r"год|лет|yosh|ya[sş]|year|\by\b", v):
+        return by_months(nums[-1] * 12) if nums[-1] < 2 else next((k for k in YEAR_KEYS if nums[-1] <= int(k[:-1].split("-")[1])), YEAR_KEYS[-1])
+    if len(nums) == 2 and nums[1] <= 24:  # без единиц: 3-6 → месяцы, 2-3 → годы
+        pair = "%d-%d" % (nums[0], nums[1])
+        if pair + "m" in MONTH_KEYS:
+            return pair + "m"
+        if pair + "y" in YEAR_KEYS:
+            return pair + "y"
+        return raw
+    h = (nums[0] + nums[-1]) / 2
     if 44 <= h <= 140:  # рост в см
-        for k, lo, hi in SIZES:
-            if h <= hi:
-                return k
-        return SIZES[-1][0]
-    return value.strip()
+        return next((k for k, top in SIZES if h <= top), KEYS[-1])
+    return raw
 
 
 def clean(text):
@@ -123,88 +131,110 @@ def clean(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def pick_shop(rows, shops, key):
+def for_shops(rows, shops):
     rows = rows or []
-    if shops:
-        rows = [r for r in rows if r.get("shop_id") in shops] or []
-    return rows
+    return [r for r in rows if str(r.get("shop_id")) in shops] if shops else rows
+
+
+def num(x):
+    try:
+        return float(x or 0)
+    except (TypeError, ValueError):
+        return 0.0
 
 
 def transform(raw, shops, show_oos):
     groups = {}
     for p in raw:
-        key = p.get("parent_id") or p.get("id")
-        groups.setdefault(key, []).append(p)
+        groups.setdefault(p.get("parent_id") or p.get("id"), []).append(p)
 
     products = []
     for gid, variants in groups.items():
         base = next((v for v in variants if v.get("id") == gid), variants[0])
         sizes, stock_total, prices, olds = [], 0, [], []
         for v in variants:
-            stock = sum(float(r.get("active_measurement_value") or 0) for r in pick_shop(v.get("shop_measurement_values"), shops, "stock"))
-            price_rows = pick_shop(v.get("shop_prices"), shops, "price")
-            retail = [float(r["retail_price"]) for r in price_rows if r.get("retail_price")]
-            promo = [float(r["promo_price"]) for r in price_rows if r.get("promo_price")]
+            stock = sum(num(r.get("active_measurement_value")) for r in for_shops(v.get("shop_measurement_values"), shops))
+            price_rows = for_shops(v.get("shop_prices"), shops)
+            retail = [num(r.get("retail_price")) for r in price_rows if num(r.get("retail_price")) > 0]
+            promo = [num(r.get("promo_price")) for r in price_rows if num(r.get("promo_price")) > 0]
             if not retail:
                 continue
-            stock_total += max(stock, 0)
             if stock <= 0 and not show_oos:
                 continue
+            stock_total += max(stock, 0)
             if promo and min(promo) < min(retail):
-                prices.append(min(promo)); olds.append(min(retail))
+                prices.append(min(promo))
+                olds.append(min(retail))
             else:
                 prices.append(min(retail))
             for a in v.get("product_attributes") or []:
-                if re.search(SIZE_ATTR, (a.get("attribute_name") or ""), re.I):
-                    k = size_key(a.get("attribute_value") or "")
+                if re.search(SIZE_ATTR, a.get("attribute_name") or "", re.I):
+                    k = size_key(a.get("attribute_value"))
                     if k and k not in sizes:
                         sizes.append(k)
         if not prices:
             continue
 
-        name = clean(re.sub(r"\s*[/|,]?\s*(размер|o.?lcham)?\s*\d+\s*-\s*\d+\s*(мес|ay|oy|см)?\s*$", "", base.get("name") or "", flags=re.I)) or clean(base.get("name"))
+        full = clean(base.get("name"))
+        name = clean(re.sub(r"\s*[/|,(-]?\s*(размер|o.?lcham)?\s*\d+\s*-\s*\d+\s*(мес|ay|oy|см|лет|года?)?\)?\s*$", "", full, flags=re.I)) or full
         cats = " ".join(c.get("name") or "" for c in base.get("categories") or [])
-        hay = (cats + " " + name).lower()
+        hay = (cats + " " + full).lower()
         cat = next((c for c, rx in CAT_RULES if re.search(rx, hay)), "sets")
         g = "girl" if re.search(GIRL, hay) else "boy" if re.search(BOY, hay) else "unisex"
 
         photos = sorted(base.get("photos") or [], key=lambda x: (not x.get("is_main"), x.get("sequence") or 0))
-        img = base.get("main_image_url_full") or base.get("main_image_url") or (photos[0]["photo_url"] if photos else "")
+        img = base.get("main_image_url_full") or base.get("main_image_url") or (photos[0].get("photo_url") if photos else "")
         if not img:
-            img = next((v.get("main_image_url_full") or v.get("main_image_url") for v in variants if v.get("main_image_url")), "")
+            img = next((v.get("main_image_url_full") or v.get("main_image_url") for v in variants
+                        if v.get("main_image_url_full") or v.get("main_image_url")), "")
 
-        sizes.sort(key=lambda k: next((i for i, s in enumerate(SIZES) if s[0] == k), 99))
-        price = min(prices)
+        sizes.sort(key=lambda k: KEYS.index(k) if k in KEYS else 99)
+        desc = clean(base.get("description"))
         item = {
             "id": "b" + re.sub(r"[^a-zA-Z0-9]", "", str(base.get("sku") or gid))[:24],
-            "cat": cat, "g": g, "price": int(price), "sizes": sizes or ["One size"],
+            "cat": cat, "g": g, "price": int(min(prices)), "sizes": sizes or ["One size"],
             "color": COLORS[cat], "img": img,
-            "name": {"ru": name, "uz": name},
-            "desc": {"ru": clean(base.get("description")), "uz": clean(base.get("description"))},
-            "stock": int(stock_total), "billz": True,
+            "name": {"ru": name, "uz": name}, "desc": {"ru": desc, "uz": desc},
+            "stock": int(stock_total),
         }
         if olds:
-            item["old"] = int(min(olds)); item["badge"] = "sale"
+            item["old"] = int(min(olds))
+            item["badge"] = "sale"
         products.append(item)
 
-    # уникальные id
     seen = {}
     for p in products:
-        n = seen.get(p["id"], 0); seen[p["id"]] = n + 1
+        n = seen.get(p["id"], 0)
+        seen[p["id"]] = n + 1
         if n:
             p["id"] += "_" + str(n)
     return products
 
 
+def unchanged(products):
+    try:
+        with open(OUT, encoding="utf-8") as f:
+            s = f.read()
+        old = json.loads(s[s.index("{"):s.rindex("}") + 1])
+        return old.get("products") == products
+    except (OSError, ValueError, AttributeError):
+        return False
+
+
 def write(products):
+    if unchanged(products):
+        print("Каталог не изменился — файл не перезаписан")
+        return
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     payload = {"synced_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "products": products}
-    with open(OUT, "w", encoding="utf-8") as f:
+    with open(OUT, "w", encoding="utf-8", newline="\n") as f:
         f.write("/* Сгенерировано scripts/sync_billz.py — не редактируйте вручную. */\n")
         f.write("window.BILLZ = " + json.dumps(payload, ensure_ascii=False, indent=1) + ";\n")
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     shops = {s.strip() for s in os.environ.get("BILLZ_SHOP_IDS", "").split(",") if s.strip()}
     show_oos = os.environ.get("BILLZ_SHOW_OUT_OF_STOCK") == "1"
     fixture = os.environ.get("BILLZ_FIXTURE")
@@ -220,7 +250,7 @@ def main():
     products = transform(raw, shops, show_oos)
     print("BILLZ: получено %d позиций, на сайте %d товаров" % (len(raw), len(products)))
     if not products and not fixture:
-        print("Нет товаров с ценой/остатком — файл не перезаписан")
+        print("Нет товаров с ценой и остатком — файл не перезаписан")
         return 0
     write(products)
     return 0

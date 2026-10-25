@@ -1,0 +1,65 @@
+{
+  "count": 9,
+  "products": [
+    {
+      "id": "p1", "parent_id": null, "sku": "CR-VYP-01", "name": "Комплект на выписку для девочки",
+      "description": "<p>Вязаный комбинезон, боди и шапочка</p>",
+      "categories": [{"name": "Выписка"}],
+      "main_image_url": "https://cdn.billz.ai/p1.jpg", "main_image_url_full": "https://cdn.billz.ai/p1_full.jpg",
+      "photos": [{"photo_url": "https://cdn.billz.ai/p1_2.jpg", "is_main": false}],
+      "shop_prices": [], "shop_measurement_values": [], "product_attributes": []
+    },
+    {
+      "id": "p1-a", "parent_id": "p1", "sku": "CR-VYP-01-56", "name": "Комплект на выписку для девочки 56-62",
+      "product_attributes": [{"attribute_name": "Размер", "attribute_value": "56-62"}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 460000, "promo_price": 0}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 3}]
+    },
+    {
+      "id": "p1-b", "parent_id": "p1", "sku": "CR-VYP-01-62", "name": "Комплект на выписку для девочки 62-68",
+      "product_attributes": [{"attribute_name": "Размер", "attribute_value": "62-68"}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 460000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 0}]
+    },
+    {
+      "id": "p2-a", "parent_id": "p2", "sku": "CR-BODY-3", "name": "Набор боди 3 шт",
+      "categories": [{"name": "Боди"}], "main_image_url": "https://cdn.billz.ai/p2.jpg",
+      "product_attributes": [{"attribute_name": "O'lcham", "attribute_value": "3-6 мес"}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 259000, "promo_price": 199000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 2}]
+    },
+    {
+      "id": "p2-b", "parent_id": "p2", "sku": "CR-BODY-3", "name": "Набор боди 3 шт",
+      "categories": [{"name": "Боди"}],
+      "product_attributes": [{"attribute_name": "O'lcham", "attribute_value": "6-9"}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 259000, "promo_price": 199000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "p3-a", "parent_id": "p3", "sku": "CR-PJ-7", "name": "Пижама для мальчика",
+      "categories": [{"name": "Сон"}],
+      "product_attributes": [{"attribute_name": "Размер", "attribute_value": "2-3 года"}],
+      "shop_prices": [{"shop_id": "s2", "retail_price": 199000}],
+      "shop_measurement_values": [{"shop_id": "s2", "active_measurement_value": 4}]
+    },
+    {
+      "id": "p3-b", "parent_id": "p3", "sku": "CR-PJ-7", "name": "Пижама для мальчика",
+      "categories": [{"name": "Сон"}],
+      "product_attributes": [{"attribute_name": "Beden", "attribute_value": "4 yaş"}],
+      "shop_prices": [{"shop_id": "s2", "retail_price": 199000}],
+      "shop_measurement_values": [{"shop_id": "s2", "active_measurement_value": 1}]
+    },
+    {
+      "id": "p4", "parent_id": null, "sku": "CR-DRESS-9", "name": "Платье нарядное",
+      "product_attributes": [{"attribute_name": "Размер", "attribute_value": "92"}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 389000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 0}]
+    },
+    {
+      "id": "p5", "parent_id": null, "sku": "CR-HAT", "name": "Шапочка для новорождённого",
+      "photos": [{"photo_url": "https://cdn.billz.ai/p5.jpg", "is_main": true}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 89000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 5}]
+    }
+  ]
+}

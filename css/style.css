@@ -245,6 +245,7 @@ em { font-style: italic; color: var(--caramel); }
 .look figure:nth-child(7) { grid-area: 3 / 1 / 4 / 3; }
 .look figure:nth-child(8) { grid-area: 3 / 3; }
 .look img { width: 100%; height: 100%; object-fit: cover; transition: transform .8s var(--ease); }
+.look figure > a { display: block; height: 100%; }
 .look figure:hover img { transform: scale(1.05); }
 @media (max-width: 900px) {
   .look { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 150px; gap: 12px; }

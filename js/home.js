@@ -19,6 +19,33 @@
     ["1515488042361-ee00e0ddd4e4", "#E4ECF8"], ["1502781252888-9143ba7f074e", "#EAF0F8"]
   ];
 
+  // Фото из Telegram (js/data/telegram.js) вместо стоковых — подбираются один раз, Unsplash остаётся запасным
+  var CAT_TG = [
+    ["discharge", /выписк|роддом|chiqish|tug.?ruqxona/i, false],
+    ["pajamas", /пижам|uyqu|спальн|shirin/i, true],
+    ["dresses", /плать|принцесс|девоч|qiz/i, false],
+    ["bodysuits", /комбинезон|kombinezon|боди|bodi/i, false],
+    ["sets", /тройк|двойк|костюм|leoking|комплект|to.?plam/i, false],
+    ["newborn", /новорожд|chaqaloq|малыш|kichkintoy|collection|коллекц/i, true]
+  ];
+  var TG_POST = {};
+  CAT_TG.forEach(function (c) {
+    var t = window.tgPick(c[1], { photoOnly: c[2] }) || window.tgPick(null, { photoOnly: true, productOnly: true });
+    if (t) { CAT_IMG[c[0]][0] = t.src; TG_POST[t.src] = t.post; }
+  });
+  var heroTG = [0, 1, 2, 3].map(function () { return window.tgPick(null, { photoOnly: true, productOnly: true }); });
+  var whyTG = window.tgPick(null, { photoOnly: true, productOnly: true });
+  LOOK = LOOK.map(function (l) {
+    var t = window.tgPick(null, { photoOnly: true, productOnly: true });
+    if (t) TG_POST[t.src] = t.post;
+    return t ? [t.src, l[1], true] : [U(l[0], 700), l[1], false];
+  });
+  document.querySelectorAll(".hero-slides .slide").forEach(function (s, i) {
+    if (heroTG[i]) s.style.backgroundImage = "url('" + heroTG[i].src + "'), linear-gradient(135deg,#22345E,#101A31)";
+  });
+  var whyImg = document.querySelector(".why-img img");
+  if (whyImg && whyTG) whyImg.src = whyTG.src;
+
   // Ролики из t.me/Caramelluz, подписи — из постов
   var REELS = ["r1", "r2", "r3", "r4", "r5", "r6", "r7"];
 
@@ -235,12 +262,15 @@
         '<span>' + window.t("cat." + c) + '<svg class="i"><use href="#i-arrow"/></svg></span></a>';
     }).join("");
 
-    var hits = window.PRODUCTS.filter(function (p) { return p.badge === "hit"; })
-      .concat(window.PRODUCTS.filter(function (p) { return p.badge === "new"; }));
+    var rank = { hit: 0, "new": 1, sale: 2 };
+    var hits = window.PRODUCTS.slice().sort(function (a, b) {
+      return (a.badge in rank ? rank[a.badge] : 3) - (b.badge in rank ? rank[b.badge] : 3);
+    }).slice(0, 12);
     document.getElementById("hits").innerHTML = hits.map(window.productCard).join("");
 
     document.getElementById("look").innerHTML = LOOK.map(function (l) {
-      return '<figure class="reveal"><img loading="lazy" src="' + U(l[0], 700) + '" alt="Caramell kids" data-art="kid" data-color="' + l[1] + '"></figure>';
+      var img = '<img loading="lazy" src="' + l[0] + '" alt="Caramell kids" data-art="kid" data-color="' + l[1] + '">';
+      return '<figure class="reveal">' + (l[2] ? '<a href="' + TG_POST[l[0]] + '" target="_blank" rel="noopener">' + img + "</a>" : img) + "</figure>";
     }).join("");
 
     var words = [window.t("trust.tr"), window.t("trust.off"), window.t("trust.price"), window.t("trust.opt"), window.t("trust.del")];
