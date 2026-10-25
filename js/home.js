@@ -261,8 +261,9 @@
   var soonVid = document.querySelector(".soon-vid");
   if (soon && (!COL || !COL.brand)) soon.closest("section").hidden = true;
   if (soon && COL && COL.brand) {
-    if (COL.img) soon.style.backgroundImage = "linear-gradient(135deg, rgba(34,52,94,.35), rgba(16,26,49,.35)), url('" + COL.img + "')";
-    soon.querySelector(".soon-link").href = COL.post;
+    var media = soon.querySelector(".soon-media");
+    if (COL.img) media.querySelector("img").src = COL.img; else if (!COL.video) media.hidden = true;
+    soon.querySelectorAll(".soon-link").forEach(function (a) { a.href = COL.post; });
     if (COL.video) soonVid.dataset.src = COL.video; else { soonVid.remove(); soonVid = null; }
   }
   function soonText() {

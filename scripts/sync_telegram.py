@@ -43,6 +43,7 @@ MAX_PHOTOS = 24       # фото постов
 MAX_THUMBS = 16       # обложки видео из постов с ценой (для подбора фото товара по цене)
 FRAME_POSTS = 40      # из скольких свежих скачиваемых видео брать кадры
 FRAMES_PER_VIDEO = 2
+KIDS_FRAMES = 4       # кандидатов из роликов с детьми (лучшие отбираются вручную в featured_frames)
 
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 BG = re.compile(r"background-image:url\('([^']+)'\)")
@@ -325,7 +326,7 @@ def main():
     frame_posts = [p for p in clean_posts if p["videos"]][:FRAME_POSTS]
     missing_kids = [k for k in kids_posts if k not in by_id or not by_id[k]["videos"]]
     for k in missing_kids:
-        if any(n.startswith("f_%s_" % k) for n in os.listdir(IMG_DIR)) or not FFMPEG:
+        if any(n.startswith("k_%s_" % k) for n in os.listdir(IMG_DIR)) or not FFMPEG:
             continue
         try:
             p = fetch_post(k)
@@ -338,7 +339,7 @@ def main():
     for k in kids_posts:  # кадры детей сохраняются, даже если пост ушёл из ленты
         for n in os.listdir(IMG_DIR):
             src = "assets/tg/" + n
-            if n.startswith("f_%s_" % k) and n[:-4] not in skip and src in previous and k not in {p["post"] for p in frame_posts}:
+            if n.startswith("k_%s_" % k) and n[:-4] not in skip and src in previous and k not in {p["post"] for p in frame_posts}:
                 e = dict(previous[src], kids=True)
                 items.append(e)
                 keep.add(n)
@@ -346,7 +347,7 @@ def main():
     n_new = 0
     for p in frame_posts:
         kids = p["post"] in kids_posts
-        prefix = "f_%s_" % p["post"]
+        prefix = ("k_%s_" if kids else "f_%s_") % p["post"]
         have = sorted(n for n in os.listdir(IMG_DIR) if n.startswith(prefix) and n[:-4] not in skip)
         if have or any(x.startswith(prefix) for x in skip):
             for n in have:
@@ -366,8 +367,9 @@ def main():
             except Exception as e:
                 print("  видео %s не скачалось: %s" % (p["post"], e))
                 continue
-            for i, f in enumerate(best_moments(analyze(path))):
-                name = "f_%s_%d.jpg" % (p["post"], i)
+            moments = best_moments(analyze(path), k=KIDS_FRAMES, gap=2.5) if kids else best_moments(analyze(path))
+            for i, f in enumerate(moments):
+                name = "%s%d.jpg" % (prefix, i)
                 if name[:-4] in skip:
                     continue
                 if extract(path, f["t"], os.path.join(IMG_DIR, name)):
