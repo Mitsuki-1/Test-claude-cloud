@@ -36,10 +36,14 @@ jobs:
           key: reels-${{ github.run_id }}
           restore-keys: reels-
 
-      - name: Видео, кадры и фото из Telegram
+      - name: Установить ffmpeg (сжатие роликов и выбор кадров)
         run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg > /dev/null
           ffmpeg -version | head -1
-          python scripts/sync_telegram.py
+
+      - name: Видео, кадры и фото из Telegram
+        run: python scripts/sync_telegram.py
         continue-on-error: true
 
       - name: Каталог из BILLZ (пропускается, если секрета нет)
