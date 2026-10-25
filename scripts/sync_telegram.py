@@ -252,24 +252,29 @@ def download(url, path):
         f.write(get(url, binary=True))
 
 
-def save_video(post, out):
-    """Скачать видео поста в out (сжать, если есть ffmpeg)."""
-    if os.path.exists(out):
-        return True
-    tmp = out + ".part"
+def save_video(post, stem):
+    """Сохранить видео поста в assets/reels: сжатое — <stem>.720.mp4, без ffmpeg — оригинал <stem>.mp4.
+    Возвращает имя файла или "". Оригинал из прошлых запусков сжимается без повторного скачивания."""
+    small, orig = stem + ".720.mp4", stem + ".mp4"
+    small_path, orig_path = os.path.join(REEL_DIR, small), os.path.join(REEL_DIR, orig)
+    if os.path.exists(small_path):
+        return small
     try:
-        download(post["videos"][0], tmp)
-        if FFMPEG and compress(tmp, out):
-            os.remove(tmp)
-        else:
-            os.replace(tmp, out)
-        return True
+        if not os.path.exists(orig_path):
+            download(post["videos"][0], orig_path + ".part")
+            os.replace(orig_path + ".part", orig_path)
     except Exception as e:
         print("  видео %s не скачалось: %s" % (post["post"], e))
-        for f in (tmp, out):
+        for f in (orig_path + ".part", orig_path):
             if os.path.exists(f):
                 os.remove(f)
-        return False
+        return ""
+    if FFMPEG and compress(orig_path, small_path):
+        os.remove(orig_path)
+        return small
+    if os.path.exists(small_path):
+        os.remove(small_path)
+    return orig
 
 
 # ---------- main ----------
@@ -310,8 +315,8 @@ def main():
     # Ролики «Смотрите вживую»: последние доступные видео
     reels = []
     for p in pick_reels(posts, reels_count):
-        name = "%s.mp4" % p["post"]
-        if save_video(p, os.path.join(REEL_DIR, name)):
+        name = save_video(p, p["post"])
+        if name:
             reels.append({"src": "assets/reels/" + name, "post": "https://t.me/%s/%s" % (CHANNEL, p["post"]),
                           "date": p["date"][:10], "text": p["text"][:220], "poster": ""})
 
@@ -351,11 +356,12 @@ def main():
             continue
         if not FFMPEG or not p["videos"]:
             continue
-        reel = os.path.join(REEL_DIR, "%s.mp4" % p["post"])
+        reel = next((os.path.join(REEL_DIR, p["post"] + ext) for ext in (".mp4", ".720.mp4")
+                     if os.path.exists(os.path.join(REEL_DIR, p["post"] + ext))), "")
         with tempfile.TemporaryDirectory() as tmp:
-            path = reel if os.path.exists(reel) else os.path.join(tmp, "v.mp4")
+            path = reel or os.path.join(tmp, "v.mp4")
             try:
-                if path != reel:
+                if not reel:
                     download(p["videos"][0], path)
             except Exception as e:
                 print("  видео %s не скачалось: %s" % (p["post"], e))
@@ -412,8 +418,8 @@ def main():
         pool = sorted(same_post, key=lambda e: (e["kind"] == "thumb", -e["score"])) + sorted(same_brand, key=lambda e: (e["kind"] != "frame", -e["score"]))
         video = ""
         if cp["videos"]:
-            name = "c_%s.mp4" % cp["post"]
-            if save_video(cp, os.path.join(REEL_DIR, name)):
+            name = save_video(cp, "c_" + cp["post"])
+            if name:
                 video = "assets/reels/" + name
         collection = {"brand": brand, "post": "https://t.me/%s/%s" % (CHANNEL, cp["post"]), "date": cp["date"][:10],
                       "text": cp["text"][:300], "img": pool[0]["src"] if pool else "", "video": video}
