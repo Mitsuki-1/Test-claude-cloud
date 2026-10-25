@@ -1,6 +1,6 @@
 /* Сгенерировано scripts/sync_billz.py — не редактируйте вручную. */
 window.BILLZ = {
- "synced_at": "2026-10-25T09:46:58Z",
+ "synced_at": "2026-10-25T09:51:28Z",
  "products": [
   {
    "id": "bAPE2614TAS5662",
@@ -1922,6 +1922,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bBE2612MAVI6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 205000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "3'lü Uzun Kollu Body",
+    "uz": "3'lü Uzun Kollu Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bBK2647PEMBE6268",
    "cat": "sets",
    "g": "unisex",
@@ -2264,63 +2283,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBE2636MAVI6268_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 200000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "2'li Body",
-    "uz": "2'li Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bBE2636MAVI6874_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 200000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "2'li Body",
-    "uz": "2'li Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bAPK2648PEMBE5056_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 140000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "2 li Pantolon",
-    "uz": "2 li Pantolon"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bAPE2637MAVI5662",
    "cat": "sets",
    "g": "unisex",
@@ -2379,6 +2341,63 @@ window.BILLZ = {
   },
   {
    "id": "bAPE2637BEJ5056_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 140000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "2 li Pantolon",
+    "uz": "2 li Pantolon"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bBE2636MAVI6268_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 200000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "2'li Body",
+    "uz": "2'li Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bBE2636MAVI6874_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 200000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "2'li Body",
+    "uz": "2'li Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bAPK2648PEMBE5056_1",
    "cat": "sets",
    "g": "unisex",
    "price": 140000,
@@ -2587,25 +2606,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2750MAVI5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 200000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bZK2643PEMBE5056",
    "cat": "sets",
    "g": "unisex",
@@ -2656,6 +2656,25 @@ window.BILLZ = {
    "name": {
     "ru": "5 li Set",
     "uz": "5 li Set"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE2750MAVI5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 200000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
    },
    "desc": {
     "ru": "",
@@ -2796,25 +2815,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bAPK2648PEMBE6268_2",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 140000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "2 li Pantolon",
-    "uz": "2 li Pantolon"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bZE2632BEJ5056_1",
    "cat": "sets",
    "g": "unisex",
@@ -2872,6 +2872,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bAPK2648PEMBE6268_2",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 140000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "2 li Pantolon",
+    "uz": "2 li Pantolon"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bk83992",
    "cat": "sets",
    "g": "unisex",
@@ -2922,25 +2941,6 @@ window.BILLZ = {
    "name": {
     "ru": "kulotlu corap / katamino",
     "uz": "kulotlu corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bk46358",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 35000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "corap / katamino",
-    "uz": "corap / katamino"
    },
    "desc": {
     "ru": "",
@@ -3100,10 +3100,10 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bk46350",
+   "id": "bk46358",
    "cat": "sets",
    "g": "unisex",
-   "price": 25000,
+   "price": 35000,
    "sizes": [
     "One size"
    ],
@@ -3119,10 +3119,10 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bk44145",
+   "id": "bk46350",
    "cat": "sets",
    "g": "unisex",
-   "price": 35000,
+   "price": 25000,
    "sizes": [
     "One size"
    ],
@@ -3271,6 +3271,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bk44145",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 35000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "corap / katamino",
+    "uz": "corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bk45923",
    "cat": "sets",
    "g": "unisex",
@@ -3283,44 +3302,6 @@ window.BILLZ = {
    "name": {
     "ru": "havlu corap / katamino",
     "uz": "havlu corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bk44092",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 35000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "corap / katamino",
-    "uz": "corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bk44048",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 35000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "corap / katamino",
-    "uz": "corap / katamino"
    },
    "desc": {
     "ru": "",
@@ -3385,10 +3366,48 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bk44092",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 35000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "corap / katamino",
+    "uz": "corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bk41009",
    "cat": "sets",
    "g": "unisex",
    "price": 25000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "corap / katamino",
+    "uz": "corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bk44048",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 35000,
    "sizes": [
     "One size"
    ],
@@ -3427,25 +3446,6 @@ window.BILLZ = {
    "cat": "sets",
    "g": "unisex",
    "price": 35000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "corap / katamino",
-    "uz": "corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bk38057",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 55000,
    "sizes": [
     "One size"
    ],
@@ -3537,6 +3537,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bk38057",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 55000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "corap / katamino",
+    "uz": "corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bk40901",
    "cat": "sets",
    "g": "unisex",
@@ -3560,6 +3579,25 @@ window.BILLZ = {
    "cat": "sets",
    "g": "unisex",
    "price": 55000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "kulotlu corap / katamino",
+    "uz": "kulotlu corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bk38040",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 40000,
    "sizes": [
     "One size"
    ],
@@ -3663,25 +3701,6 @@ window.BILLZ = {
    "name": {
     "ru": "corap / katamino",
     "uz": "corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bk38040",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 40000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "kulotlu corap / katamino",
-    "uz": "kulotlu corap / katamino"
    },
    "desc": {
     "ru": "",
@@ -3803,44 +3822,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bk32371",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 55000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "kulotlu corap / katamino",
-    "uz": "kulotlu corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bk30133",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "corap / katamino",
-    "uz": "corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bk30132",
    "cat": "sets",
    "g": "unisex",
@@ -3898,18 +3879,37 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bk128999",
+   "id": "bk32371",
    "cat": "sets",
    "g": "unisex",
-   "price": 70000,
+   "price": 55000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
    "img": "",
    "name": {
-    "ru": "2li atlet body / katamino",
-    "uz": "2li atlet body / katamino"
+    "ru": "kulotlu corap / katamino",
+    "uz": "kulotlu corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bk30133",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "corap / katamino",
+    "uz": "corap / katamino"
    },
    "desc": {
     "ru": "",
@@ -3967,6 +3967,25 @@ window.BILLZ = {
    "name": {
     "ru": "golf corap / katamino",
     "uz": "golf corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bk128986",
+   "cat": "bodysuits",
+   "g": "unisex",
+   "price": 70000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "3li slip / katamino",
+    "uz": "3li slip / katamino"
    },
    "desc": {
     "ru": "",
@@ -4069,8 +4088,8 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bk128986",
-   "cat": "bodysuits",
+   "id": "bk128999",
+   "cat": "sets",
    "g": "unisex",
    "price": 70000,
    "sizes": [
@@ -4079,8 +4098,8 @@ window.BILLZ = {
    "color": "#EAF0F8",
    "img": "",
    "name": {
-    "ru": "3li slip / katamino",
-    "uz": "3li slip / katamino"
+    "ru": "2li atlet body / katamino",
+    "uz": "2li atlet body / katamino"
    },
    "desc": {
     "ru": "",
@@ -4119,6 +4138,25 @@ window.BILLZ = {
    "name": {
     "ru": "atlet takim / katamino",
     "uz": "atlet takim / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "b450935",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 35000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "corap / katamino",
+    "uz": "corap / katamino"
    },
    "desc": {
     "ru": "",
@@ -4259,25 +4297,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "b450935",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 35000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "corap / katamino",
-    "uz": "corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "b600015",
    "cat": "sets",
    "g": "unisex",
@@ -4392,6 +4411,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "b350308",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 65000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "havlu corap / katamino",
+    "uz": "havlu corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "b450922",
    "cat": "sets",
    "g": "unisex",
@@ -4472,44 +4510,6 @@ window.BILLZ = {
    "cat": "sets",
    "g": "unisex",
    "price": 35000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "havlu corap / katamino",
-    "uz": "havlu corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "b350308",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 65000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "havlu corap / katamino",
-    "uz": "havlu corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "b350300",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 55000,
    "sizes": [
     "One size"
    ],
@@ -4620,7 +4620,83 @@ window.BILLZ = {
    }
   },
   {
+   "id": "b350300",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 55000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "havlu corap / katamino",
+    "uz": "havlu corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "b300935",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 55000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "kulotlu corap / katamino",
+    "uz": "kulotlu corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "b300951",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 55000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "kulotlu corap / katamino",
+    "uz": "kulotlu corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "b300936",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 55000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "kulotlu corap / katamino",
+    "uz": "kulotlu corap / katamino"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "b300948",
    "cat": "sets",
    "g": "unisex",
    "price": 55000,
@@ -4697,63 +4773,6 @@ window.BILLZ = {
   },
   {
    "id": "b300940",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 55000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "kulotlu corap / katamino",
-    "uz": "kulotlu corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "b300951",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 55000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "kulotlu corap / katamino",
-    "uz": "kulotlu corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "b300935",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 55000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "kulotlu corap / katamino",
-    "uz": "kulotlu corap / katamino"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "b300948",
    "cat": "sets",
    "g": "unisex",
    "price": 55000,
@@ -5501,7 +5520,6 @@ window.BILLZ = {
    "price": 560000,
    "sizes": [
     "6-9m",
-    "9-12m",
     "12-18m",
     "18-24m"
    ],
@@ -8293,25 +8311,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bMND9605PEMBE",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 70000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b215eb8f-8baa-4593-8ade-16de81feb170.jpg",
-   "name": {
-    "ru": "5 li Havlu Mendil",
-    "uz": "5 li Havlu Mendil"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bBE1508HARDAL8086",
    "cat": "sets",
    "g": "unisex",
@@ -8324,6 +8323,25 @@ window.BILLZ = {
    "name": {
     "ru": "3'lü Body",
     "uz": "3'lü Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bMND9605PEMBE",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 70000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b215eb8f-8baa-4593-8ade-16de81feb170.jpg",
+   "name": {
+    "ru": "5 li Havlu Mendil",
+    "uz": "5 li Havlu Mendil"
    },
    "desc": {
     "ru": "",
@@ -9889,45 +9907,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bES1254Beyaz85",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 145000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Dantelli Kaplı Sütyen",
-    "uz": "Dantelli Kaplı Sütyen"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bES1255Ekru90",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 105000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Emzirme Sütyeni",
-    "uz": "Emzirme Sütyeni"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bES1255Siyah85",
    "cat": "sets",
    "g": "unisex",
    "price": 105000,
@@ -9965,7 +9945,45 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bES1254Beyaz85",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 145000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Dantelli Kaplı Sütyen",
+    "uz": "Dantelli Kaplı Sütyen"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bES1255Ekru85",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 105000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Emzirme Sütyeni",
+    "uz": "Emzirme Sütyeni"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bES1255Siyah85",
    "cat": "sets",
    "g": "unisex",
    "price": 105000,
@@ -10060,7 +10078,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bES1255Beyaz90",
+   "id": "bES1255Beyaz80",
    "cat": "sets",
    "g": "unisex",
    "price": 105000,
@@ -10079,7 +10097,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bES1255Beyaz80",
+   "id": "bES1255Beyaz90",
    "cat": "sets",
    "g": "unisex",
    "price": 105000,
@@ -11371,7 +11389,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bAPK2606PEMBE6268_1",
+   "id": "bAPK2606SOMON6268",
    "cat": "sets",
    "g": "unisex",
    "price": 60000,
@@ -11379,7 +11397,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9b7d68f8-6948-42e6-9a1e-779506d900ef.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d1376d79-5c23-4204-ba30-fd4e381fce87.jpg",
    "name": {
     "ru": "Pantolon",
     "uz": "Pantolon"
@@ -11390,7 +11408,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bAPK2606SOMON6268",
+   "id": "bAPK2606PEMBE6268_1",
    "cat": "sets",
    "g": "unisex",
    "price": 60000,
@@ -11398,7 +11416,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d1376d79-5c23-4204-ba30-fd4e381fce87.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9b7d68f8-6948-42e6-9a1e-779506d900ef.jpg",
    "name": {
     "ru": "Pantolon",
     "uz": "Pantolon"
@@ -14943,7 +14961,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK2705PEMBE5662",
+   "id": "bTK2705PEMBE6268",
    "cat": "sets",
    "g": "unisex",
    "price": 270000,
@@ -14951,7 +14969,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2aa8c704-4485-4f74-ac60-b96e25ea3621.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fc946524-db44-4056-a9ee-6771ca15cedb.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -14962,7 +14980,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK2705PEMBE6268",
+   "id": "bTK2705PEMBE5662",
    "cat": "sets",
    "g": "unisex",
    "price": 270000,
@@ -14970,7 +14988,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fc946524-db44-4056-a9ee-6771ca15cedb.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2aa8c704-4485-4f74-ac60-b96e25ea3621.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -15874,7 +15892,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2701EKRU5662",
+   "id": "bTE2701EKRU6874",
    "cat": "sets",
    "g": "unisex",
    "price": 270000,
@@ -15882,7 +15900,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/85290556-0566-4904-9de6-16e4555c37a8.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bb695e6d-e7d8-4fb9-baf0-1ab41e072eb0.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -15893,7 +15911,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2701EKRU6874",
+   "id": "bTE2701EKRU5662",
    "cat": "sets",
    "g": "unisex",
    "price": 270000,
@@ -15901,7 +15919,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bb695e6d-e7d8-4fb9-baf0-1ab41e072eb0.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/85290556-0566-4904-9de6-16e4555c37a8.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -16482,6 +16500,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTK2707BEJ6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 270000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f50f456c-b0fc-42bb-bc2b-18fa8cf1b1f1.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTK2707BEJ6268",
    "cat": "sets",
    "g": "unisex",
@@ -16529,25 +16566,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/712344d3-0259-4309-859e-c03694cb9574.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTK2707BEJ6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 270000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f50f456c-b0fc-42bb-bc2b-18fa8cf1b1f1.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -16767,7 +16785,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "b2615007",
+   "id": "b2615010",
    "cat": "sets",
    "g": "unisex",
    "price": 100000,
@@ -16786,7 +16804,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "b2615010",
+   "id": "b2615007",
    "cat": "sets",
    "g": "unisex",
    "price": 100000,
@@ -17261,6 +17279,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "b18231",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 550000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c19b8eec-96e0-42f8-9d6b-23041455188c.jpg",
+   "name": {
+    "ru": "3li takim Sweetme / Lacivert",
+    "uz": "3li takim Sweetme / Lacivert"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bswt18209",
    "cat": "sets",
    "g": "unisex",
@@ -17311,25 +17348,6 @@ window.BILLZ = {
    "name": {
     "ru": "3li takim Sweetme / KIRMIZI",
     "uz": "3li takim Sweetme / KIRMIZI"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "b18231",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 550000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c19b8eec-96e0-42f8-9d6b-23041455188c.jpg",
-   "name": {
-    "ru": "3li takim Sweetme / Lacivert",
-    "uz": "3li takim Sweetme / Lacivert"
    },
    "desc": {
     "ru": "",
@@ -17413,7 +17431,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "b1018",
+   "id": "b1017",
    "cat": "sets",
    "g": "unisex",
    "price": 30000,
@@ -17432,7 +17450,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "b1017",
+   "id": "b1018",
    "cat": "sets",
    "g": "unisex",
    "price": 30000,
@@ -17622,7 +17640,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK2722GULKURUSU5056",
+   "id": "bTK2722GULKURUSU6268",
    "cat": "sets",
    "g": "unisex",
    "price": 240000,
@@ -17630,7 +17648,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/220871cd-bd92-40a0-b15d-4f68a9ecd126.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a15c01e0-3c65-4718-b998-39d7ffbc1ccd.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -17641,7 +17659,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK2722GULKURUSU6268",
+   "id": "bTK2722GULKURUSU5056",
    "cat": "sets",
    "g": "unisex",
    "price": 240000,
@@ -17649,7 +17667,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a15c01e0-3c65-4718-b998-39d7ffbc1ccd.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/220871cd-bd92-40a0-b15d-4f68a9ecd126.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -23227,6 +23245,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bSPK2693BEJ7480",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 80000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bSPE2663EKRU6268",
    "cat": "sets",
    "g": "unisex",
@@ -23551,25 +23588,6 @@ window.BILLZ = {
   },
   {
    "id": "bSPK2693BEJ6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 80000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bSPK2693BEJ7480",
    "cat": "sets",
    "g": "unisex",
    "price": 80000,
@@ -24025,6 +24043,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bSPK2649EPEMBE5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/03105b59-8997-4611-b8f1-c11c33137a2e.jpg",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bSPE2638EMAVI6874",
    "cat": "sets",
    "g": "unisex",
@@ -24300,25 +24337,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/318ebca8-233a-4abc-9f4d-1d48813d3388.jpg",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bSPK2649EPEMBE5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/03105b59-8997-4611-b8f1-c11c33137a2e.jpg",
    "name": {
     "ru": "Şapka",
     "uz": "Şapka"
@@ -26609,6 +26627,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTK2686PUDRA6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 260000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/65dcf4f1-7d5e-4a14-a61c-13ef60f63400.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKK2687BEJ8086",
    "cat": "sets",
    "g": "unisex",
@@ -26640,25 +26677,6 @@ window.BILLZ = {
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTK2686PUDRA6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 260000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/65dcf4f1-7d5e-4a14-a61c-13ef60f63400.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
    },
    "desc": {
     "ru": "",
@@ -31416,25 +31434,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "b90219",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 70000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/07dc8fa9-2eef-46ea-82db-7d40f43dec55.jpg",
-   "name": {
-    "ru": "BİSTYLE 2Lİ SAÇ BANDI WHITE / EKRU / BISTYLE",
-    "uz": "BİSTYLE 2Lİ SAÇ BANDI WHITE / EKRU / BISTYLE"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "b90220",
    "cat": "sets",
    "g": "unisex",
@@ -31447,6 +31446,25 @@ window.BILLZ = {
    "name": {
     "ru": "BİSTYLE 2Lİ SAÇ BANDI BLOOM / EKRU / BISTYLE",
     "uz": "BİSTYLE 2Lİ SAÇ BANDI BLOOM / EKRU / BISTYLE"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "b90219",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 70000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/07dc8fa9-2eef-46ea-82db-7d40f43dec55.jpg",
+   "name": {
+    "ru": "BİSTYLE 2Lİ SAÇ BANDI WHITE / EKRU / BISTYLE",
+    "uz": "BİSTYLE 2Lİ SAÇ BANDI WHITE / EKRU / BISTYLE"
    },
    "desc": {
     "ru": "",
@@ -31644,6 +31662,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "b80127",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 540000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/51c0ba55-18ac-4338-a4a1-85c513bf93f7.jpg",
+   "name": {
+    "ru": "BİSTYLE PİKE TAKIMI ANIMALS / gri / BISTYLE",
+    "uz": "BİSTYLE PİKE TAKIMI ANIMALS / gri / BISTYLE"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "b80131",
    "cat": "sets",
    "g": "unisex",
@@ -31656,25 +31693,6 @@ window.BILLZ = {
    "name": {
     "ru": "BİSTYLE PİKE TAKIMI BUTTERFLY BALOONS / mavi / BISTYLE",
     "uz": "BİSTYLE PİKE TAKIMI BUTTERFLY BALOONS / mavi / BISTYLE"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "b80127",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 540000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/457b9e7b-9326-414b-8711-5971e6e2a5bc.jpg",
-   "name": {
-    "ru": "BİSTYLE PİKE TAKIMI ANIMALS / bej / BISTYLE",
-    "uz": "BİSTYLE PİKE TAKIMI ANIMALS / bej / BISTYLE"
    },
    "desc": {
     "ru": "",
@@ -35065,7 +35083,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBNT2755BEJ",
+   "id": "bBNT2755PEMBE",
    "cat": "sets",
    "g": "unisex",
    "price": 40000,
@@ -35084,7 +35102,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBNT2755PEMBE",
+   "id": "bBNT2755BEJ",
    "cat": "sets",
    "g": "unisex",
    "price": 40000,
@@ -37744,25 +37762,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE2589MAVI8692",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 250000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/007385a3-f2af-4b68-9620-913a05eadcda.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE2589PETROL8692",
    "cat": "sets",
    "g": "unisex",
@@ -37810,6 +37809,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0872cb1b-3b25-48a3-ad75-e261f4aafff5.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE2589MAVI8692",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 250000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/007385a3-f2af-4b68-9620-913a05eadcda.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -38865,25 +38883,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bMNK2730EKRU7480",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 380000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5d7fed0a-fdbd-4397-833c-668ac58a39ca.jpg",
-   "name": {
-    "ru": "Mont",
-    "uz": "Mont"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bYLK2729SOMON7480",
    "cat": "sets",
    "g": "unisex",
@@ -38896,63 +38895,6 @@ window.BILLZ = {
    "name": {
     "ru": "Yelek",
     "uz": "Yelek"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bYLK2729SOMON6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 310000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b7fa98af-47e9-4bec-8a6e-f0e26e2d2888.jpg",
-   "name": {
-    "ru": "Yelek",
-    "uz": "Yelek"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bMNK2730SOMON7480",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 380000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/4dbf364d-bc8d-4b13-a17f-b3cbb06542a9.jpg",
-   "name": {
-    "ru": "Mont",
-    "uz": "Mont"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bMNK2730EKRU6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 380000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0726ae5a-b57f-4cf5-9096-22de6ff85cc2.jpg",
-   "name": {
-    "ru": "Mont",
-    "uz": "Mont"
    },
    "desc": {
     "ru": "",
@@ -38998,7 +38940,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bMNK2730SOMON6268",
+   "id": "bMNK2730EKRU6874",
    "cat": "sets",
    "g": "unisex",
    "price": 380000,
@@ -39006,7 +38948,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e1e292c1-fd7c-4eac-8945-e73f930214ba.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0726ae5a-b57f-4cf5-9096-22de6ff85cc2.jpg",
    "name": {
     "ru": "Mont",
     "uz": "Mont"
@@ -39029,6 +38971,82 @@ window.BILLZ = {
    "name": {
     "ru": "Yelek",
     "uz": "Yelek"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bMNK2730EKRU7480",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 380000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5d7fed0a-fdbd-4397-833c-668ac58a39ca.jpg",
+   "name": {
+    "ru": "Mont",
+    "uz": "Mont"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bMNK2730SOMON6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 380000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e1e292c1-fd7c-4eac-8945-e73f930214ba.jpg",
+   "name": {
+    "ru": "Mont",
+    "uz": "Mont"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bYLK2729SOMON6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 310000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b7fa98af-47e9-4bec-8a6e-f0e26e2d2888.jpg",
+   "name": {
+    "ru": "Yelek",
+    "uz": "Yelek"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bMNK2730SOMON7480",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 380000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/4dbf364d-bc8d-4b13-a17f-b3cbb06542a9.jpg",
+   "name": {
+    "ru": "Mont",
+    "uz": "Mont"
    },
    "desc": {
     "ru": "",
@@ -39093,7 +39111,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bMNK2730EKRU6874_1",
+   "id": "bMNK2730EKRU6268",
    "cat": "sets",
    "g": "unisex",
    "price": 380000,
@@ -39101,7 +39119,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8472d62d-a290-44a9-a8c0-f015f181b732.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/cb3be675-2827-46a1-9a72-e824f75ae2ea.jpg",
    "name": {
     "ru": "Mont",
     "uz": "Mont"
@@ -39112,7 +39130,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bMNK2730EKRU6268",
+   "id": "bMNK2730EKRU6874_1",
    "cat": "sets",
    "g": "unisex",
    "price": 380000,
@@ -39120,7 +39138,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/cb3be675-2827-46a1-9a72-e824f75ae2ea.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8472d62d-a290-44a9-a8c0-f015f181b732.jpg",
    "name": {
     "ru": "Mont",
     "uz": "Mont"
@@ -42038,25 +42056,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bAPK2666EKRU6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 140000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dfded4a3-e2ca-4c2e-b0dc-708c210ce299.jpg",
-   "name": {
-    "ru": "2 li Pantolon",
-    "uz": "2 li Pantolon"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bBK2573EKRU6268",
    "cat": "sets",
    "g": "unisex",
@@ -42069,6 +42068,25 @@ window.BILLZ = {
    "name": {
     "ru": "2'li Body",
     "uz": "2'li Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bAPK2666EKRU6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 140000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dfded4a3-e2ca-4c2e-b0dc-708c210ce299.jpg",
+   "name": {
+    "ru": "2 li Pantolon",
+    "uz": "2 li Pantolon"
    },
    "desc": {
     "ru": "",
@@ -42551,7 +42569,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bZK2523PEMBE5056_1",
+   "id": "bZE2515YESIL5056_1",
    "cat": "sets",
    "g": "unisex",
    "price": 230000,
@@ -42559,7 +42577,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5d746cba-6eaf-4dfc-894b-0681f5ac77a1.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c62fd13a-2704-47ae-b3e2-d53190b35e05.jpg",
    "name": {
     "ru": "5 li Set",
     "uz": "5 li Set"
@@ -42589,7 +42607,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bZE2515YESIL5056_1",
+   "id": "bZK2523PEMBE5056_1",
    "cat": "sets",
    "g": "unisex",
    "price": 230000,
@@ -42597,7 +42615,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c62fd13a-2704-47ae-b3e2-d53190b35e05.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5d746cba-6eaf-4dfc-894b-0681f5ac77a1.jpg",
    "name": {
     "ru": "5 li Set",
     "uz": "5 li Set"
@@ -45667,10 +45685,10 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bk44091_1",
+   "id": "bk43024",
    "cat": "sets",
    "g": "unisex",
-   "price": 30000,
+   "price": 25000,
    "sizes": [
     "One size"
    ],
@@ -45686,10 +45704,10 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bk43024",
+   "id": "bk44091_1",
    "cat": "sets",
    "g": "unisex",
-   "price": 25000,
+   "price": 30000,
    "sizes": [
     "One size"
    ],
@@ -46409,63 +46427,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2379KAHVE5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 125000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/782f2516-78e8-42a8-8ebb-f9df4d784600.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTE2379KAHVE6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 125000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/599248e5-9dd1-4926-87ab-6ac5e1aeb88f.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTE2378KAHVE5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 125000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2572ce17-3845-415f-acb0-5842907d6760.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTE2379INDIGO6268",
    "cat": "sets",
    "g": "unisex",
@@ -46561,6 +46522,63 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTE2379KAHVE5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 125000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/782f2516-78e8-42a8-8ebb-f9df4d784600.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE2379KAHVE6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 125000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/599248e5-9dd1-4926-87ab-6ac5e1aeb88f.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE2378KAHVE5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 125000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2572ce17-3845-415f-acb0-5842907d6760.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTE2379EKRU6874",
    "cat": "sets",
    "g": "unisex",
@@ -46637,7 +46655,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2378KAHVE6874",
+   "id": "bTE2379EKRU6268",
    "cat": "sets",
    "g": "unisex",
    "price": 125000,
@@ -46645,7 +46663,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/83196d85-b09a-4383-8fcf-aa13f4641050.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/080bdeb3-3d1f-4ca5-bd9b-7a46630a1d78.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -46656,7 +46674,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2379EKRU6268",
+   "id": "bTE2378KAHVE6874",
    "cat": "sets",
    "g": "unisex",
    "price": 125000,
@@ -46664,7 +46682,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/080bdeb3-3d1f-4ca5-bd9b-7a46630a1d78.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/83196d85-b09a-4383-8fcf-aa13f4641050.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -46770,6 +46788,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTE2379MAVI6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 125000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7ae77860-1ccb-49bc-8065-6c9db464270a.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKE2381INDIGO6874",
    "cat": "sets",
    "g": "unisex",
@@ -46789,7 +46826,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2379MAVI6874",
+   "id": "bTE2379MAVI6268",
    "cat": "sets",
    "g": "unisex",
    "price": 125000,
@@ -46797,7 +46834,26 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7ae77860-1ccb-49bc-8065-6c9db464270a.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bfa295a2-f166-42c0-94dc-dd1573a0fa76.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE2379INDIGO5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 125000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3c018c1b-7d55-4586-8323-f15586ded5ac.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -46865,44 +46921,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2379MAVI6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 125000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bfa295a2-f166-42c0-94dc-dd1573a0fa76.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTE2379INDIGO5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 125000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3c018c1b-7d55-4586-8323-f15586ded5ac.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE2381INDIGO7480",
    "cat": "sets",
    "g": "unisex",
@@ -46960,6 +46978,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bSLE2382KAHVE7480",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 190000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dfccabc2-8d3d-4e31-87ca-8505a40bf999.jpg",
+   "name": {
+    "ru": "Salopet",
+    "uz": "Salopet"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bSLE2382KAHVE5662",
    "cat": "sets",
    "g": "unisex",
@@ -46998,7 +47035,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSLE2382KAHVE7480",
+   "id": "bSLE2382KAHVE6268",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -47006,7 +47043,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dfccabc2-8d3d-4e31-87ca-8505a40bf999.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/33ccdefd-6e48-49cf-aa51-9f16d0108fdf.jpg",
    "name": {
     "ru": "Salopet",
     "uz": "Salopet"
@@ -47026,25 +47063,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/11bb2c66-ea93-43d2-af89-3208a3ee53ed.jpg",
-   "name": {
-    "ru": "Salopet",
-    "uz": "Salopet"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bSLE2382KAHVE6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 190000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/33ccdefd-6e48-49cf-aa51-9f16d0108fdf.jpg",
    "name": {
     "ru": "Salopet",
     "uz": "Salopet"
@@ -47264,7 +47282,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE2398MAVI9298",
+   "id": "bTKE2398BEYAZ8086",
    "cat": "sets",
    "g": "unisex",
    "price": 290000,
@@ -47272,7 +47290,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7fb6cb39-7e0d-4f74-b9cb-25224ab7c45a.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/24d1a66f-9b1a-4659-baed-4c3307285000.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -47302,7 +47320,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE2398BEYAZ8086",
+   "id": "bTKE2398MAVI9298",
    "cat": "sets",
    "g": "unisex",
    "price": 290000,
@@ -47310,26 +47328,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/24d1a66f-9b1a-4659-baed-4c3307285000.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE2398MAVI8086",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 290000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fa27bb5d-1c7e-4f05-82f1-a263415ecfe4.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7fb6cb39-7e0d-4f74-b9cb-25224ab7c45a.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -47368,6 +47367,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/12936290-cfcf-4856-8ae2-e810f3dace6f.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE2398MAVI8086",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 290000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fa27bb5d-1c7e-4f05-82f1-a263415ecfe4.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -47511,6 +47529,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTKE2381EKRU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 145000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0bc6f53d-1fdf-4424-8c1b-9165466a1680.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKE2381YESIL5662",
    "cat": "sets",
    "g": "unisex",
@@ -47539,25 +47576,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/26bced6b-e435-4ea1-a586-eb3af918697f.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE2381EKRU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 145000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0bc6f53d-1fdf-4424-8c1b-9165466a1680.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -47682,7 +47700,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK2427BEJ5662",
+   "id": "bTK2427PEMBE6268",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -47690,7 +47708,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/212ae157-599f-48fd-abac-d531cb4089ba.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a359ac5e-680e-4495-8a06-072ef879d8d2.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -47720,7 +47738,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK2427PEMBE6268",
+   "id": "bTK2427BEJ5662",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -47728,7 +47746,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a359ac5e-680e-4495-8a06-072ef879d8d2.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/212ae157-599f-48fd-abac-d531cb4089ba.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -48309,7 +48327,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2385EKRU6268",
+   "id": "bTKK2385EKRU5662",
    "cat": "sets",
    "g": "unisex",
    "price": 155000,
@@ -48317,7 +48335,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e5ecda2a-f51a-4a43-a5b2-85b06633d700.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1cad92fa-f899-4f70-959a-3fcb6a144fae.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -48328,7 +48346,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2385EKRU5662",
+   "id": "bTKK2385EKRU6268",
    "cat": "sets",
    "g": "unisex",
    "price": 155000,
@@ -48336,7 +48354,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1cad92fa-f899-4f70-959a-3fcb6a144fae.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e5ecda2a-f51a-4a43-a5b2-85b06633d700.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -48451,6 +48469,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5c24beb5-0bc9-4b11-bc5f-7963968e8e9b.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKK2385GULKURUSU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 155000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/120f807b-e5db-4435-b7ad-8877daa3ae7c.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -48651,25 +48688,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2385GULKURUSU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 155000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/120f807b-e5db-4435-b7ad-8877daa3ae7c.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKK2385EKRU6874_1",
    "cat": "sets",
    "g": "unisex",
@@ -48803,6 +48821,44 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTKK2385BEJ7480",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 155000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dd1dd6cd-71d5-476a-88fb-021869b5323b.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKK2385BEJ6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 155000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9e6fbf72-3368-4e42-9029-d4077d944565.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKK2386PEMBE7480",
    "cat": "sets",
    "g": "unisex",
@@ -48850,44 +48906,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6cc881a8-475e-41f0-8386-b8bbf15127dd.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKK2385BEJ7480",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 155000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dd1dd6cd-71d5-476a-88fb-021869b5323b.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKK2385BEJ6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 155000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9e6fbf72-3368-4e42-9029-d4077d944565.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -49164,25 +49182,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bELB2431PEMBE7480",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 260000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3b6e68c5-4444-4df8-b96f-a222b0aadb35.jpg",
-   "name": {
-    "ru": "Elbise",
-    "uz": "Elbise"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bJIK2434PEMBE8086",
    "cat": "sets",
    "g": "unisex",
@@ -49211,6 +49210,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1857cced-59c7-4995-a41d-effdd367908b.jpg",
+   "name": {
+    "ru": "Elbise",
+    "uz": "Elbise"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bELB2431PEMBE7480",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 260000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3b6e68c5-4444-4df8-b96f-a222b0aadb35.jpg",
    "name": {
     "ru": "Elbise",
     "uz": "Elbise"
@@ -49259,7 +49277,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bJIK2434PEMBE6874",
+   "id": "bJIK2434PEMBE6268",
    "cat": "sets",
    "g": "unisex",
    "price": 260000,
@@ -49267,7 +49285,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/38f038ee-f19e-4c86-aab3-dd5fab5e3f9a.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dcca58c7-6ee1-4518-adb9-04a62bebadf5.jpg",
    "name": {
     "ru": "Jile",
     "uz": "Jile"
@@ -49278,7 +49296,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bJIK2434PEMBE6268",
+   "id": "bJIK2434PEMBE6874",
    "cat": "sets",
    "g": "unisex",
    "price": 260000,
@@ -49286,7 +49304,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dcca58c7-6ee1-4518-adb9-04a62bebadf5.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/38f038ee-f19e-4c86-aab3-dd5fab5e3f9a.jpg",
    "name": {
     "ru": "Jile",
     "uz": "Jile"
@@ -49496,25 +49514,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/72a64003-e5b5-452d-a0f0-1c0524ba07f4.jpg",
-   "name": {
-    "ru": "Bodyjile",
-    "uz": "Bodyjile"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bBK2387EKRU7480",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 155000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8e28d59e-76ef-47e0-bd7f-79ca3cf24d56.jpg",
    "name": {
     "ru": "Bodyjile",
     "uz": "Bodyjile"
@@ -55225,7 +55224,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bUSB1308",
+   "id": "bUSB1810",
    "cat": "sets",
    "g": "unisex",
    "price": 260000,
@@ -55233,7 +55232,7 @@ window.BILLZ = {
     "-"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f020559b-c34f-44f2-a58d-cd7a3d78080c.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6b416fcc-58e3-4687-a55e-c9958c283f2b.jpg",
    "name": {
     "ru": "ayakkabi / - / V1 / v1 / polo",
     "uz": "ayakkabi / - / V1 / v1 / polo"
@@ -55244,7 +55243,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bUSB1810",
+   "id": "bUSB1308",
    "cat": "sets",
    "g": "unisex",
    "price": 260000,
@@ -55252,7 +55251,7 @@ window.BILLZ = {
     "-"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6b416fcc-58e3-4687-a55e-c9958c283f2b.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f020559b-c34f-44f2-a58d-cd7a3d78080c.jpg",
    "name": {
     "ru": "ayakkabi / - / V1 / v1 / polo",
     "uz": "ayakkabi / - / V1 / v1 / polo"
@@ -55605,6 +55604,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTAK2501BEJ5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 85000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/cde30f93-34bb-4cec-ac6b-ba3576208247.jpg",
+   "name": {
+    "ru": "4 lü Takım Aksesuar",
+    "uz": "4 lü Takım Aksesuar"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTAK2501BEJ5056",
    "cat": "sets",
    "g": "unisex",
@@ -55633,25 +55651,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/48efd0de-e019-40f0-ac48-91f8c6a6fa49.jpg",
-   "name": {
-    "ru": "4 lü Takım Aksesuar",
-    "uz": "4 lü Takım Aksesuar"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTAK2501BEJ5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 85000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/cde30f93-34bb-4cec-ac6b-ba3576208247.jpg",
    "name": {
     "ru": "4 lü Takım Aksesuar",
     "uz": "4 lü Takım Aksesuar"
@@ -55700,7 +55699,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bANE2198EKRU",
+   "id": "bANE2198MAVI_1",
    "cat": "sets",
    "g": "unisex",
    "price": 365000,
@@ -55708,7 +55707,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/78ba2c30-78a7-496d-a260-086bfa46c6d9.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7e40ef1f-94e2-43e1-9b22-f2cd3febb61e.jpg",
    "name": {
     "ru": "Anakucağı",
     "uz": "Anakucağı"
@@ -55719,7 +55718,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bANE2198MAVI_1",
+   "id": "bANE2198EKRU",
    "cat": "sets",
    "g": "unisex",
    "price": 365000,
@@ -55727,7 +55726,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7e40ef1f-94e2-43e1-9b22-f2cd3febb61e.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/78ba2c30-78a7-496d-a260-086bfa46c6d9.jpg",
    "name": {
     "ru": "Anakucağı",
     "uz": "Anakucağı"
@@ -60336,7 +60335,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2242MAVI5662",
+   "id": "bTE2242EKRU5056",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -60344,7 +60343,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8f29eccb-6a27-4a48-bd46-cb88fd66634a.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e5c523eb-2712-4797-9ca4-b3fcf7fad5a9.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -60355,7 +60354,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2242EKRU5056",
+   "id": "bTE2242MAVI5662",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -60363,7 +60362,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e5c523eb-2712-4797-9ca4-b3fcf7fad5a9.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8f29eccb-6a27-4a48-bd46-cb88fd66634a.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -61210,25 +61209,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2220EKRU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 175000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/daa499f4-ec17-4038-900b-8604d272f10c.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTE2219GRI5056",
    "cat": "sets",
    "g": "unisex",
@@ -61257,6 +61237,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9c8128cf-1897-42a0-bde0-f82258ce6830.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE2220EKRU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 175000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/daa499f4-ec17-4038-900b-8604d272f10c.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -63262,15 +63261,34 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bUSB3019",
+   "id": "bUSB2980",
    "cat": "sets",
    "g": "unisex",
-   "price": 230000,
+   "price": 325000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a3fce445-737c-4641-a0bd-b96d28938fa8.jpg",
+   "name": {
+    "ru": "elbise / - / v1 / polo",
+    "uz": "elbise / - / v1 / polo"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bUSB2982",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 250000,
    "sizes": [
     "-"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2f5bf5dd-3d76-492e-a96f-1a133134e604.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5f0953c1-d679-4a82-a6c4-a11ec406dabe.jpg",
    "name": {
     "ru": "t-shirt / - / v1 / polo",
     "uz": "t-shirt / - / v1 / polo"
@@ -63300,34 +63318,15 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bUSB2980",
+   "id": "bUSB3019",
    "cat": "sets",
    "g": "unisex",
-   "price": 325000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a3fce445-737c-4641-a0bd-b96d28938fa8.jpg",
-   "name": {
-    "ru": "elbise / - / v1 / polo",
-    "uz": "elbise / - / v1 / polo"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bUSB2982",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 250000,
+   "price": 230000,
    "sizes": [
     "-"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5f0953c1-d679-4a82-a6c4-a11ec406dabe.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2f5bf5dd-3d76-492e-a96f-1a133134e604.jpg",
    "name": {
     "ru": "t-shirt / - / v1 / polo",
     "uz": "t-shirt / - / v1 / polo"
@@ -63918,8 +63917,8 @@ window.BILLZ = {
    "color": "#EAF0F8",
    "img": "",
    "name": {
-    "ru": "set of2 / blue",
-    "uz": "set of2 / blue"
+    "ru": "set of2 / WHITE",
+    "uz": "set of2 / WHITE"
    },
    "desc": {
     "ru": "",
@@ -65143,15 +65142,15 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1547BEJ5056",
+   "id": "bTE1548GRI5662",
    "cat": "sets",
    "g": "unisex",
-   "price": 165000,
+   "price": 155000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1ca49c63-eff7-4436-9d41-05ff420952be.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f11b30e0-0adc-4b7e-ae0a-01a511210a49.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -65181,15 +65180,15 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1548GRI5662",
+   "id": "bTE1547BEJ5056",
    "cat": "sets",
    "g": "unisex",
-   "price": 155000,
+   "price": 165000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f11b30e0-0adc-4b7e-ae0a-01a511210a49.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1ca49c63-eff7-4436-9d41-05ff420952be.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -65257,7 +65256,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1550GRI6268",
+   "id": "bTKE1550BEJ6268",
    "cat": "sets",
    "g": "unisex",
    "price": 205000,
@@ -65265,7 +65264,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c1fad035-0229-4360-a9b5-b2348a247d0b.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8c6f1b5d-ff71-4113-9337-b676c9e7add1.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -65276,7 +65275,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1550BEJ6268",
+   "id": "bTKE1550GRI6268",
    "cat": "sets",
    "g": "unisex",
    "price": 205000,
@@ -65284,7 +65283,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8c6f1b5d-ff71-4113-9337-b676c9e7add1.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c1fad035-0229-4360-a9b5-b2348a247d0b.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -65561,6 +65560,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bAPE1555GRI5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 120000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9321be40-1b28-42e5-a7fb-618c1c7aec60.jpg",
+   "name": {
+    "ru": "2 li Pantolon",
+    "uz": "2 li Pantolon"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bAPE1554GRI5056",
    "cat": "sets",
    "g": "unisex",
@@ -65589,25 +65607,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/684fb589-fe27-4bfe-ac9f-1daa5667b148.jpg",
-   "name": {
-    "ru": "2 li Pantolon",
-    "uz": "2 li Pantolon"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bAPE1555GRI5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 120000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9321be40-1b28-42e5-a7fb-618c1c7aec60.jpg",
    "name": {
     "ru": "2 li Pantolon",
     "uz": "2 li Pantolon"
@@ -66264,7 +66263,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2246EKRU5662",
+   "id": "bTKK2246PEMBE6268",
    "cat": "sets",
    "g": "unisex",
    "price": 205000,
@@ -66272,7 +66271,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f146dbce-48c3-4331-b4cd-64ab622c8bd9.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2a49a857-09d2-432c-b3d6-077730351bf7.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -66283,7 +66282,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2246PEMBE6268",
+   "id": "bTKK2246EKRU5662",
    "cat": "sets",
    "g": "unisex",
    "price": 205000,
@@ -66291,7 +66290,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2a49a857-09d2-432c-b3d6-077730351bf7.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f146dbce-48c3-4331-b4cd-64ab622c8bd9.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -66473,7 +66472,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bZE2355GRI5662",
+   "id": "bZE2355EKRU5662",
    "cat": "sets",
    "g": "unisex",
    "price": 520000,
@@ -66481,7 +66480,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a1b233bd-ed3b-4d11-90ea-5f313b0e6823.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/54123add-be48-450e-a05f-89264de532bf.jpg",
    "name": {
     "ru": "10 lu Set/Tulum lu",
     "uz": "10 lu Set/Tulum lu"
@@ -66492,7 +66491,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bZE2355EKRU5662",
+   "id": "bZE2355GRI5662",
    "cat": "sets",
    "g": "unisex",
    "price": 520000,
@@ -66500,7 +66499,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/54123add-be48-450e-a05f-89264de532bf.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a1b233bd-ed3b-4d11-90ea-5f313b0e6823.jpg",
    "name": {
     "ru": "10 lu Set/Tulum lu",
     "uz": "10 lu Set/Tulum lu"
@@ -67119,7 +67118,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2358GRI5662",
+   "id": "bTE2358BEJ6874",
    "cat": "sets",
    "g": "unisex",
    "price": 205000,
@@ -67127,7 +67126,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8d03461d-ea50-4953-b7fc-a5601fc7271e.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c97b4ae4-79b9-45e0-a18e-aa527add7ae0.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -67138,7 +67137,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2358BEJ6874",
+   "id": "bTE2358GRI5662",
    "cat": "sets",
    "g": "unisex",
    "price": 205000,
@@ -67146,7 +67145,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c97b4ae4-79b9-45e0-a18e-aa527add7ae0.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8d03461d-ea50-4953-b7fc-a5601fc7271e.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -70140,25 +70139,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bUSB2016",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 960000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3efd5fe4-4d76-4386-9553-5c5b64c51393.jpg",
-   "name": {
-    "ru": "10li set",
-    "uz": "10li set"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bUSB1308_1",
    "cat": "sets",
    "g": "unisex",
@@ -70171,6 +70151,25 @@ window.BILLZ = {
    "name": {
     "ru": "ayakkabi",
     "uz": "ayakkabi"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bUSB2016",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 960000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3efd5fe4-4d76-4386-9553-5c5b64c51393.jpg",
+   "name": {
+    "ru": "10li set",
+    "uz": "10li set"
    },
    "desc": {
     "ru": "",
@@ -70881,7 +70880,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2394BEJ6268",
+   "id": "bTKK2395PEMBE6268",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -70889,7 +70888,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/67946f4c-a599-4b3b-9090-7c3844aab503.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8153bb0a-5c33-4077-bd31-11faa88d045d.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -70900,7 +70899,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2395PEMBE6268",
+   "id": "bTKK2394BEJ6268",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -70908,7 +70907,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8153bb0a-5c33-4077-bd31-11faa88d045d.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/67946f4c-a599-4b3b-9090-7c3844aab503.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -71071,7 +71070,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2396EKRU6268",
+   "id": "bTKK2396EKRU7480",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -71079,7 +71078,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7f8fb6ca-de5c-4fd5-aca5-423c637a6f86.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/80fd20dd-2d55-4380-b752-2659eaaa7e22.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -71090,7 +71089,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2396EKRU7480",
+   "id": "bTKK2396EKRU6268",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -71098,7 +71097,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/80fd20dd-2d55-4380-b752-2659eaaa7e22.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7f8fb6ca-de5c-4fd5-aca5-423c637a6f86.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -71204,15 +71203,15 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBTU2468YESIL80x85",
+   "id": "bBTU2467GRI80x85",
    "cat": "sets",
    "g": "unisex",
-   "price": 300000,
+   "price": 240000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/4909af8b-644a-44e6-8cc2-a221686d4cb9.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9f4d9d38-4122-407e-ac1c-581c5248d786.jpg",
    "name": {
     "ru": "Battaniye",
     "uz": "Battaniye"
@@ -71223,15 +71222,15 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBTU2467GRI80x85",
+   "id": "bBTU2468YESIL80x85",
    "cat": "sets",
    "g": "unisex",
-   "price": 240000,
+   "price": 300000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9f4d9d38-4122-407e-ac1c-581c5248d786.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/4909af8b-644a-44e6-8cc2-a221686d4cb9.jpg",
    "name": {
     "ru": "Battaniye",
     "uz": "Battaniye"
@@ -75802,6 +75801,44 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bAPK1533GULKURUSU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 85000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/201ff00f-1732-4536-aff0-2805a75ef0ed.jpg",
+   "name": {
+    "ru": "Ç.Pantolon",
+    "uz": "Ç.Pantolon"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bAPK1533GULKURUSU5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 85000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f1fca53f-2dd7-4aa4-9b0b-bf1e1c9474c4.jpg",
+   "name": {
+    "ru": "Ç.Pantolon",
+    "uz": "Ç.Pantolon"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bAPK1533GULKURUSU6268",
    "cat": "sets",
    "g": "unisex",
@@ -75833,44 +75870,6 @@ window.BILLZ = {
    "name": {
     "ru": "2 li Pantolon",
     "uz": "2 li Pantolon"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bAPK1533GULKURUSU5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 85000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f1fca53f-2dd7-4aa4-9b0b-bf1e1c9474c4.jpg",
-   "name": {
-    "ru": "Ç.Pantolon",
-    "uz": "Ç.Pantolon"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bAPK1533GULKURUSU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 85000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/201ff00f-1732-4536-aff0-2805a75ef0ed.jpg",
-   "name": {
-    "ru": "Ç.Pantolon",
-    "uz": "Ç.Pantolon"
    },
    "desc": {
     "ru": "",
@@ -76011,25 +76010,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bAPK1533PEMBE5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 85000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c23b8dd2-db90-4c79-b721-183b0970642a.jpg",
-   "name": {
-    "ru": "Ç.Pantolon",
-    "uz": "Ç.Pantolon"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bBPS1536EKRU5056",
    "cat": "sets",
    "g": "unisex",
@@ -76042,6 +76022,25 @@ window.BILLZ = {
    "name": {
     "ru": "Body Pantolon Şapka",
     "uz": "Body Pantolon Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bAPK1533PEMBE5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 85000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c23b8dd2-db90-4c79-b721-183b0970642a.jpg",
+   "name": {
+    "ru": "Ç.Pantolon",
+    "uz": "Ç.Pantolon"
    },
    "desc": {
     "ru": "",
@@ -78692,6 +78691,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTK2140EKRU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 190000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/479a63ca-e2cc-4255-a031-5a845c5db041.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKE2158BEJ6268",
    "cat": "sets",
    "g": "unisex",
@@ -78723,25 +78741,6 @@ window.BILLZ = {
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTK2140EKRU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 190000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/479a63ca-e2cc-4255-a031-5a845c5db041.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
    },
    "desc": {
     "ru": "",
@@ -78844,25 +78843,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2155EKRU6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 190000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2712bcaa-8d97-49dc-a34e-9646476a8057.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE2156BEJ6874",
    "cat": "sets",
    "g": "unisex",
@@ -78875,6 +78855,25 @@ window.BILLZ = {
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE2155EKRU6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 190000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2712bcaa-8d97-49dc-a34e-9646476a8057.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
    },
    "desc": {
     "ru": "",
@@ -79376,7 +79375,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2142GULKURUSU5662",
+   "id": "bTKK2142GULKURUSU7480",
    "cat": "sets",
    "g": "unisex",
    "price": 225000,
@@ -79384,7 +79383,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0b58a1b4-7aa9-4fb6-b1a3-0b2755831212.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/740b950a-57a0-4036-b0c6-b7f629c922a0.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -79395,7 +79394,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2142GULKURUSU7480",
+   "id": "bTKK2142GULKURUSU5662",
    "cat": "sets",
    "g": "unisex",
    "price": 225000,
@@ -79403,7 +79402,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/740b950a-57a0-4036-b0c6-b7f629c922a0.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0b58a1b4-7aa9-4fb6-b1a3-0b2755831212.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -79585,25 +79584,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE2154EKRU6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 190000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6b0238c8-98eb-4850-a94e-da995710b37b.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKK2142PUDRA6268",
    "cat": "sets",
    "g": "unisex",
@@ -79635,6 +79615,25 @@ window.BILLZ = {
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE2154EKRU6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 190000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6b0238c8-98eb-4850-a94e-da995710b37b.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
    },
    "desc": {
     "ru": "",
@@ -81409,7 +81408,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2144BEJ7480_1",
+   "id": "bTKK2144GULKURUSU7480_1",
    "cat": "sets",
    "g": "unisex",
    "price": 225000,
@@ -81417,7 +81416,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8b848ce6-79a6-4305-a66f-5aad38570fc6.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/89a82486-69a3-47f2-826e-549d3a88f6ef.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -81428,7 +81427,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2144GULKURUSU7480_1",
+   "id": "bTKK2144BEJ7480_1",
    "cat": "sets",
    "g": "unisex",
    "price": 225000,
@@ -81436,7 +81435,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/89a82486-69a3-47f2-826e-549d3a88f6ef.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8b848ce6-79a6-4305-a66f-5aad38570fc6.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -83119,7 +83118,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2102EKRU6268_1",
+   "id": "bTKK2102EKRU8086",
    "cat": "sets",
    "g": "unisex",
    "price": 350000,
@@ -83127,7 +83126,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5a4eac62-b2bd-48ee-93e0-c0a36ef2cee2.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/db774fa8-67b5-48eb-9bd6-1a66b12a216f.jpg",
    "name": {
     "ru": "TKK2102.EKRU.",
     "uz": "TKK2102.EKRU."
@@ -83138,7 +83137,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK2102EKRU8086",
+   "id": "bTKK2102EKRU6268_1",
    "cat": "sets",
    "g": "unisex",
    "price": 350000,
@@ -83146,7 +83145,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/db774fa8-67b5-48eb-9bd6-1a66b12a216f.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5a4eac62-b2bd-48ee-93e0-c0a36ef2cee2.jpg",
    "name": {
     "ru": "TKK2102.EKRU.",
     "uz": "TKK2102.EKRU."
@@ -84715,6 +84714,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTKE2045KAHVE8086",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 350000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1713138c-c914-4b42-a50d-61a8b0c875be.jpg",
+   "name": {
+    "ru": "3 lü Takım / Kahve / Kahve",
+    "uz": "3 lü Takım / Kahve / Kahve"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKE2045EKRU6268",
    "cat": "sets",
    "g": "unisex",
@@ -84746,25 +84764,6 @@ window.BILLZ = {
    "name": {
     "ru": "3 lü Takım / Ekru / EKRU",
     "uz": "3 lü Takım / Ekru / EKRU"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE2045KAHVE8086",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 350000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1713138c-c914-4b42-a50d-61a8b0c875be.jpg",
-   "name": {
-    "ru": "3 lü Takım / Kahve / Kahve",
-    "uz": "3 lü Takım / Kahve / Kahve"
    },
    "desc": {
     "ru": "",
@@ -84943,6 +84942,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTKE2046EKRU8086",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 385000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fdc06145-0154-4f6d-8111-5987d5463dd7.jpg",
+   "name": {
+    "ru": "3 lü Takım / Ekru / EKRU",
+    "uz": "3 lü Takım / Ekru / EKRU"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKE2046EKRU6268",
    "cat": "sets",
    "g": "unisex",
@@ -84974,25 +84992,6 @@ window.BILLZ = {
    "name": {
     "ru": "3 lü Takım / Kahve / Kahve",
     "uz": "3 lü Takım / Kahve / Kahve"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE2046EKRU8086",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 385000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fdc06145-0154-4f6d-8111-5987d5463dd7.jpg",
-   "name": {
-    "ru": "3 lü Takım / Ekru / EKRU",
-    "uz": "3 lü Takım / Ekru / EKRU"
    },
    "desc": {
     "ru": "",
@@ -85057,25 +85056,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE2046TAS7480",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 385000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f478cb9e-d91f-4581-baaf-447bd817b9eb.jpg",
-   "name": {
-    "ru": "3 lü Takım / TAS / Tas",
-    "uz": "3 lü Takım / TAS / Tas"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE2045MAVI7480",
    "cat": "sets",
    "g": "unisex",
@@ -85088,6 +85068,25 @@ window.BILLZ = {
    "name": {
     "ru": "3 lü Takım / Mavi / mavi",
     "uz": "3 lü Takım / Mavi / mavi"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE2046TAS7480",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 385000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f478cb9e-d91f-4581-baaf-447bd817b9eb.jpg",
+   "name": {
+    "ru": "3 lü Takım / TAS / Tas",
+    "uz": "3 lü Takım / TAS / Tas"
    },
    "desc": {
     "ru": "",
@@ -87470,7 +87469,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK1741BEJ6874",
+   "id": "bTK1741BEJ6268",
    "cat": "sets",
    "g": "unisex",
    "price": 240000,
@@ -87478,7 +87477,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0f4feb6d-8d86-4346-954e-023afbe0fd29.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a62f6796-8e9a-4367-9542-be6833a66eee.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -87489,7 +87488,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK1741BEJ6268",
+   "id": "bTK1741BEJ6874",
    "cat": "sets",
    "g": "unisex",
    "price": 240000,
@@ -87497,7 +87496,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a62f6796-8e9a-4367-9542-be6833a66eee.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0f4feb6d-8d86-4346-954e-023afbe0fd29.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -87546,6 +87545,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bUSB2431",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 315000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "2takim",
+    "uz": "2takim"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bUSB2453",
    "cat": "sets",
    "g": "unisex",
@@ -87569,25 +87587,6 @@ window.BILLZ = {
    "cat": "sets",
    "g": "unisex",
    "price": 520000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "2takim",
-    "uz": "2takim"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bUSB2431",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 315000,
    "sizes": [
     "One size"
    ],
@@ -87698,6 +87697,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "b2379",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 355000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "elbise",
+    "uz": "elbise"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "b2410",
    "cat": "sets",
    "g": "unisex",
@@ -87729,25 +87747,6 @@ window.BILLZ = {
    "name": {
     "ru": "tulum",
     "uz": "tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "b2379",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 355000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "elbise",
-    "uz": "elbise"
    },
    "desc": {
     "ru": "",
@@ -87926,6 +87925,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bBE1317GRI5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 165000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2071ea46-9719-4cf5-91b5-b702cb987418.jpg",
+   "name": {
+    "ru": "Body",
+    "uz": "Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bBE1317INDIGO6874",
    "cat": "sets",
    "g": "unisex",
@@ -87954,25 +87972,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dbc75e18-7dc3-4ab1-9be2-7c6ed3c55e44.jpg",
-   "name": {
-    "ru": "Body",
-    "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bBE1317GRI5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2071ea46-9719-4cf5-91b5-b702cb987418.jpg",
    "name": {
     "ru": "Body",
     "uz": "Body"
@@ -88078,6 +88077,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bBE1317MAVI6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 165000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/03bccc0b-e159-4ced-adb6-578829975391.jpg",
+   "name": {
+    "ru": "Body",
+    "uz": "Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bBE1317BEJ5056",
    "cat": "sets",
    "g": "unisex",
@@ -88135,25 +88153,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBE1317MAVI6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/03bccc0b-e159-4ced-adb6-578829975391.jpg",
-   "name": {
-    "ru": "Body",
-    "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bBE1317BEJ6268",
    "cat": "sets",
    "g": "unisex",
@@ -88192,7 +88191,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBE1317MAVI5662",
+   "id": "bBE1317MAVI5056",
    "cat": "sets",
    "g": "unisex",
    "price": 165000,
@@ -88200,7 +88199,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/14b8982c-33aa-45fc-9e5b-8307cae53057.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9f75164d-81f8-454c-93bd-7557b57cf676.jpg",
    "name": {
     "ru": "Body",
     "uz": "Body"
@@ -88211,7 +88210,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBE1317MAVI5056",
+   "id": "bBE1317MAVI5662",
    "cat": "sets",
    "g": "unisex",
    "price": 165000,
@@ -88219,7 +88218,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9f75164d-81f8-454c-93bd-7557b57cf676.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/14b8982c-33aa-45fc-9e5b-8307cae53057.jpg",
    "name": {
     "ru": "Body",
     "uz": "Body"
@@ -88458,25 +88457,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBE1263BEJ6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 150000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2301b06c-7dc3-4b4a-9b75-2f4e6d650958.jpg",
-   "name": {
-    "ru": "Body",
-    "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bBE1263MAVI5662",
    "cat": "sets",
    "g": "unisex",
@@ -88489,6 +88469,25 @@ window.BILLZ = {
    "name": {
     "ru": "Body",
     "uz": "Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bAPE1265BEJ5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 115000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c9fca88e-386c-4323-9942-6e40487f6257.jpg",
+   "name": {
+    "ru": "Pantolon",
+    "uz": "Pantolon"
    },
    "desc": {
     "ru": "",
@@ -88515,18 +88514,18 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bAPE1265BEJ5056",
+   "id": "bBE1263BEJ6268",
    "cat": "sets",
    "g": "unisex",
-   "price": 115000,
+   "price": 150000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c9fca88e-386c-4323-9942-6e40487f6257.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2301b06c-7dc3-4b4a-9b75-2f4e6d650958.jpg",
    "name": {
-    "ru": "Pantolon",
-    "uz": "Pantolon"
+    "ru": "Body",
+    "uz": "Body"
    },
    "desc": {
     "ru": "",
@@ -88933,26 +88932,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1601GRI5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 340000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/efaed0f9-d2a9-4180-be3b-f44ff30d60b7.jpg",
-   "name": {
-    "ru": "3'lü Takım",
-    "uz": "3'lü Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE1600KIREMIT5662",
+   "id": "bTKE1600GRI6874",
    "cat": "sets",
    "g": "unisex",
    "price": 215000,
@@ -88960,7 +88940,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2fa3fbe5-c521-450a-a6d6-02bba043498c.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/208eafe4-e3cf-41aa-a5ab-1f78434e4e8f.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -88990,25 +88970,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1600GRI6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 215000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/208eafe4-e3cf-41aa-a5ab-1f78434e4e8f.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1600HARDAL6268",
    "cat": "sets",
    "g": "unisex",
@@ -89021,6 +88982,44 @@ window.BILLZ = {
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1600KIREMIT5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 215000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2fa3fbe5-c521-450a-a6d6-02bba043498c.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1601GRI5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 340000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/efaed0f9-d2a9-4180-be3b-f44ff30d60b7.jpg",
+   "name": {
+    "ru": "3'lü Takım",
+    "uz": "3'lü Takım"
    },
    "desc": {
     "ru": "",
@@ -90206,25 +90205,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1793KIREMIT6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 295000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/69ec9ccb-f435-41c0-acee-4441ca718c18.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1793LACIVERT9298",
    "cat": "sets",
    "g": "unisex",
@@ -90253,6 +90233,44 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e6f0cf3b-a296-444c-a7f4-4be91ff33f63.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1793LACIVERT8692",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 295000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/94a74036-94e3-4875-a0a0-74757e23d011.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1793KIREMIT6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 295000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/69ec9ccb-f435-41c0-acee-4441ca718c18.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -90339,18 +90357,18 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bJIK1816NARCICEGI7480",
+   "id": "bTKK1742EKRU6874",
    "cat": "sets",
    "g": "unisex",
-   "price": 320000,
+   "price": 270000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/edfd8a0a-d84e-4386-a5b4-50b943baeae5.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d7e2e885-6a1f-420f-946a-9efd0794eec5.jpg",
    "name": {
-    "ru": "Jile",
-    "uz": "Jile"
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -90396,18 +90414,18 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK1742EKRU6874",
+   "id": "bJIK1816NARCICEGI7480",
    "cat": "sets",
    "g": "unisex",
-   "price": 270000,
+   "price": 320000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d7e2e885-6a1f-420f-946a-9efd0794eec5.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/edfd8a0a-d84e-4386-a5b4-50b943baeae5.jpg",
    "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
+    "ru": "Jile",
+    "uz": "Jile"
    },
    "desc": {
     "ru": "",
@@ -90472,6 +90490,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bELB1815EKRU7480",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 320000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1dbabe9b-0cd2-4816-86ec-042eed45796e.jpg",
+   "name": {
+    "ru": "Elbise",
+    "uz": "Elbise"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bELB1815NARCICEGI6874",
    "cat": "sets",
    "g": "unisex",
@@ -90491,7 +90528,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bELB1815EKRU7480",
+   "id": "bJIK1816NARCICEGI8086",
    "cat": "sets",
    "g": "unisex",
    "price": 320000,
@@ -90499,10 +90536,10 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1dbabe9b-0cd2-4816-86ec-042eed45796e.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7d9b864d-4081-4e06-972f-4c20036594b8.jpg",
    "name": {
-    "ru": "Elbise",
-    "uz": "Elbise"
+    "ru": "Jile",
+    "uz": "Jile"
    },
    "desc": {
     "ru": "",
@@ -90541,25 +90578,6 @@ window.BILLZ = {
    "name": {
     "ru": "Elbise",
     "uz": "Elbise"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bJIK1816NARCICEGI8086",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 320000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7d9b864d-4081-4e06-972f-4c20036594b8.jpg",
-   "name": {
-    "ru": "Jile",
-    "uz": "Jile"
    },
    "desc": {
     "ru": "",
@@ -90776,7 +90794,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK1739BEJ6874",
+   "id": "bTK1741BEJ6874_1",
    "cat": "sets",
    "g": "unisex",
    "price": 240000,
@@ -90784,7 +90802,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3a580cc1-9c3b-4cb9-b847-f164fa3e40cc.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2afe6d01-2e84-4477-8afb-f7fc4c4b31d6.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -90795,7 +90813,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK1741BEJ6874_1",
+   "id": "bTK1739BEJ6874",
    "cat": "sets",
    "g": "unisex",
    "price": 240000,
@@ -90803,7 +90821,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2afe6d01-2e84-4477-8afb-f7fc4c4b31d6.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3a580cc1-9c3b-4cb9-b847-f164fa3e40cc.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -90845,25 +90863,6 @@ window.BILLZ = {
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bELB1746EKRU8086_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 275000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/097e6347-0f5d-40dd-8fa0-197d3a19092e.jpg",
-   "name": {
-    "ru": "Elbise",
-    "uz": "Elbise"
    },
    "desc": {
     "ru": "",
@@ -90947,7 +90946,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bELB1746EKRU6268",
+   "id": "bELB1746EKRU8086_1",
    "cat": "sets",
    "g": "unisex",
    "price": 275000,
@@ -90955,7 +90954,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9f3e07bb-947f-4ca4-acc5-24ab255591f9.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/097e6347-0f5d-40dd-8fa0-197d3a19092e.jpg",
    "name": {
     "ru": "Elbise",
     "uz": "Elbise"
@@ -90985,6 +90984,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bELB1746EKRU6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 275000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9f3e07bb-947f-4ca4-acc5-24ab255591f9.jpg",
+   "name": {
+    "ru": "Elbise",
+    "uz": "Elbise"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bELB1744PEMBE6268",
    "cat": "sets",
    "g": "unisex",
@@ -90994,6 +91012,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/130ec8c1-f492-4f00-a3cc-644c259096fb.jpg",
+   "name": {
+    "ru": "Elbise",
+    "uz": "Elbise"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bELB1746PEMBE6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 275000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3bcc61fb-f6c8-4d6d-862e-8bf6a04c5b11.jpg",
    "name": {
     "ru": "Elbise",
     "uz": "Elbise"
@@ -91051,25 +91088,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9a0d1bb8-de45-497f-b532-8cb686fd2196.jpg",
-   "name": {
-    "ru": "Elbise",
-    "uz": "Elbise"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bELB1746PEMBE6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 275000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3bcc61fb-f6c8-4d6d-862e-8bf6a04c5b11.jpg",
    "name": {
     "ru": "Elbise",
     "uz": "Elbise"
@@ -91232,37 +91250,18 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1748BEJ6874",
+   "id": "bELB1744EKRU6874",
    "cat": "sets",
    "g": "unisex",
-   "price": 200000,
+   "price": 275000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3d722e39-be6c-4c3a-a88a-b609621b6af3.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d35e18dd-2dc5-4ba3-9f6c-3e55fa3b2856.jpg",
    "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE1749BEJ6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 235000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e9a8a710-e44f-4102-b683-6101d9e87596.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
+    "ru": "Elbise",
+    "uz": "Elbise"
    },
    "desc": {
     "ru": "",
@@ -91289,18 +91288,37 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bELB1744EKRU6874",
+   "id": "bTKE1749BEJ6874",
    "cat": "sets",
    "g": "unisex",
-   "price": 275000,
+   "price": 235000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d35e18dd-2dc5-4ba3-9f6c-3e55fa3b2856.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e9a8a710-e44f-4102-b683-6101d9e87596.jpg",
    "name": {
-    "ru": "Elbise",
-    "uz": "Elbise"
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE1748BEJ6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 200000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3d722e39-be6c-4c3a-a88a-b609621b6af3.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
    },
    "desc": {
     "ru": "",
@@ -91935,7 +91953,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPK1747PEMBE7480",
+   "id": "bSPK1747BEJ8086_2",
    "cat": "sets",
    "g": "unisex",
    "price": 100000,
@@ -91954,7 +91972,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPK1747BEJ8086_2",
+   "id": "bSPK1747PEMBE7480",
    "cat": "sets",
    "g": "unisex",
    "price": 100000,
@@ -92116,8 +92134,8 @@ window.BILLZ = {
    "color": "#EAF0F8",
    "img": "",
    "name": {
-    "ru": "set of3 / - / brown / - / brown / Leo king",
-    "uz": "set of3 / - / brown / - / brown / Leo king"
+    "ru": "set of3 / - / graay / - / graay / Leo king",
+    "uz": "set of3 / - / graay / - / graay / Leo king"
    },
    "desc": {
     "ru": "",
@@ -92676,44 +92694,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "b50519",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 265000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "2takim / LILA",
-    "uz": "2takim / LILA"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "b50078",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 90000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "t-shirt / Haki",
-    "uz": "t-shirt / Haki"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "b50080",
    "cat": "sets",
    "g": "unisex",
@@ -92771,6 +92751,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "b50078",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 90000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "t-shirt / Haki",
+    "uz": "t-shirt / Haki"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "b50518",
    "cat": "sets",
    "g": "unisex",
@@ -92783,6 +92782,25 @@ window.BILLZ = {
    "name": {
     "ru": "ceket / LILA",
     "uz": "ceket / LILA"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "b50519",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 265000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "2takim / orange",
+    "uz": "2takim / orange"
    },
    "desc": {
     "ru": "",
@@ -92809,25 +92827,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "b50032",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 185000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "pantolon / KREM",
-    "uz": "pantolon / KREM"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "b500010",
    "cat": "sets",
    "g": "unisex",
@@ -92847,6 +92846,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "b50032",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 185000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "pantolon / KREM",
+    "uz": "pantolon / KREM"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "b40060",
    "cat": "sets",
    "g": "unisex",
@@ -92857,8 +92875,8 @@ window.BILLZ = {
    "color": "#EAF0F8",
    "img": "",
    "name": {
-    "ru": "pantolon / gri",
-    "uz": "pantolon / gri"
+    "ru": "pantolon / bej",
+    "uz": "pantolon / bej"
    },
    "desc": {
     "ru": "",
@@ -92999,7 +93017,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBK1298EKRU5056_2",
+   "id": "bBK1298EKRU5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 165000,
@@ -93007,7 +93025,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3f3f8e38-c61a-435d-a4cb-5711e6526e95.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/20c5f8e8-5063-4682-945c-ab99ebbf2594.jpg",
    "name": {
     "ru": "Body",
     "uz": "Body"
@@ -93018,7 +93036,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBK1298EKRU5662_1",
+   "id": "bBK1298EKRU5056_2",
    "cat": "sets",
    "g": "unisex",
    "price": 165000,
@@ -93026,7 +93044,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/20c5f8e8-5063-4682-945c-ab99ebbf2594.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3f3f8e38-c61a-435d-a4cb-5711e6526e95.jpg",
    "name": {
     "ru": "Body",
     "uz": "Body"
@@ -93341,7 +93359,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1428MAVI5662",
+   "id": "bTKE1428BEJMELANJ5662",
    "cat": "sets",
    "g": "unisex",
    "price": 270000,
@@ -93349,29 +93367,10 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/45e95370-588f-43fc-a6e9-5f9a5738e7d5.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9c46c5b0-b0d8-453d-9703-27e10df5d359.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE1608EKRU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 330000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/50c4b3a0-f95c-4678-98da-f827468ae775.jpg",
-   "name": {
-    "ru": "3 lü Takım",
-    "uz": "3 lü Takım"
    },
    "desc": {
     "ru": "",
@@ -93417,7 +93416,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1428BEJMELANJ5662",
+   "id": "bTKE1428MAVI5662",
    "cat": "sets",
    "g": "unisex",
    "price": 270000,
@@ -93425,10 +93424,29 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9c46c5b0-b0d8-453d-9703-27e10df5d359.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/45e95370-588f-43fc-a6e9-5f9a5738e7d5.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1608EKRU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 330000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/50c4b3a0-f95c-4678-98da-f827468ae775.jpg",
+   "name": {
+    "ru": "3 lü Takım",
+    "uz": "3 lü Takım"
    },
    "desc": {
     "ru": "",
@@ -93740,6 +93758,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTE1425EKRU6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 210000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fcf9854d-c838-4491-b488-b57ac94cc5ee.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKE1428GRI6268",
    "cat": "sets",
    "g": "unisex",
@@ -93752,25 +93789,6 @@ window.BILLZ = {
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTE1425GRI6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 210000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fa8a9c5e-b4b6-4d6f-a44d-6a52d9c7f06b.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
    },
    "desc": {
     "ru": "",
@@ -93797,7 +93815,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1425EKRU6874",
+   "id": "bTE1425GRI6268",
    "cat": "sets",
    "g": "unisex",
    "price": 210000,
@@ -93805,7 +93823,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fcf9854d-c838-4491-b488-b57ac94cc5ee.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fa8a9c5e-b4b6-4d6f-a44d-6a52d9c7f06b.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -94101,6 +94119,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTKE1427EKRU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 215000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a0b82c36-3bd7-4ac7-8ef1-71f1764f7cfb.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bBE1430GRI6874",
    "cat": "sets",
    "g": "unisex",
@@ -94132,25 +94169,6 @@ window.BILLZ = {
    "name": {
     "ru": "Body",
     "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE1427EKRU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 215000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a0b82c36-3bd7-4ac7-8ef1-71f1764f7cfb.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -94196,44 +94214,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBE1430GRI6268_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 150000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8e22760a-2230-4371-a0b8-20b06605c621.jpg",
-   "name": {
-    "ru": "Body",
-    "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bBE1430GRI5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 150000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/83d184cd-34c8-48d6-9f6f-fa829c228265.jpg",
-   "name": {
-    "ru": "Body",
-    "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTE1426GRI6874",
    "cat": "sets",
    "g": "unisex",
@@ -94265,6 +94245,44 @@ window.BILLZ = {
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bBE1430GRI5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 150000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/83d184cd-34c8-48d6-9f6f-fa829c228265.jpg",
+   "name": {
+    "ru": "Body",
+    "uz": "Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bBE1430GRI6268_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 150000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8e22760a-2230-4371-a0b8-20b06605c621.jpg",
+   "name": {
+    "ru": "Body",
+    "uz": "Body"
    },
    "desc": {
     "ru": "",
@@ -94557,7 +94575,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBSU1884EKRU82x90",
+   "id": "bBSU1885EKRU82x90",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -94576,7 +94594,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBSU1885EKRU82x90",
+   "id": "bBSU1884EKRU82x90",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -95070,6 +95088,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bSPE1345BEJ5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bSPE1343MAVI5056_1",
    "cat": "sets",
    "g": "unisex",
@@ -95108,7 +95145,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE1345BEJ5056",
+   "id": "bSPE1345EKRU6874",
    "cat": "sets",
    "g": "unisex",
    "price": 45000,
@@ -95128,25 +95165,6 @@ window.BILLZ = {
   },
   {
    "id": "bSPE1343MAVI5662_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bSPE1345EKRU6874",
    "cat": "sets",
    "g": "unisex",
    "price": 45000,
@@ -95241,44 +95259,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1805BEJ6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b8036248-49a9-4fe0-8ac8-c662af312fa7.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE1804BEJ6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5268d43d-64fd-4c40-91bc-fbcae8c5b866.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1804BEJ7480",
    "cat": "sets",
    "g": "unisex",
@@ -95336,7 +95316,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1805GRIMELANJ6874",
+   "id": "bTKE1805BEJ6268",
    "cat": "sets",
    "g": "unisex",
    "price": 165000,
@@ -95344,7 +95324,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b2c9d92b-5877-4309-b8c8-3f90294dbf9b.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b8036248-49a9-4fe0-8ac8-c662af312fa7.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -95355,7 +95335,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1805BEJ6874",
+   "id": "bTKE1804BEJ6268",
    "cat": "sets",
    "g": "unisex",
    "price": 165000,
@@ -95363,7 +95343,26 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8df7f1f1-bb44-49c6-969b-a00af024e643.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5268d43d-64fd-4c40-91bc-fbcae8c5b866.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1805GRIMELANJ6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 165000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b2c9d92b-5877-4309-b8c8-3f90294dbf9b.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -95386,6 +95385,25 @@ window.BILLZ = {
    "name": {
     "ru": "Şapka",
     "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1805BEJ6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 165000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8df7f1f1-bb44-49c6-969b-a00af024e643.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -95469,25 +95487,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1805BEJ8086",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/86e86347-1126-4dfa-b343-37ac15f327e8.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1805BEJ7480",
    "cat": "sets",
    "g": "unisex",
@@ -95497,25 +95496,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3a00df73-3180-49d7-a140-928f52800787.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE1805GRIMELANJ8086",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/717cb7db-f0d2-4eb3-b80c-134022d0fe5e.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -95554,6 +95534,44 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/558632bd-24f3-47f9-9248-13ddf2bb46d1.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1805BEJ8086",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 165000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/86e86347-1126-4dfa-b343-37ac15f327e8.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1805GRIMELANJ8086",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 165000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/717cb7db-f0d2-4eb3-b80c-134022d0fe5e.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -95621,25 +95639,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1804KREM6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/122b3fa6-921a-4429-80d2-cb03273d0587.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1807KREM6268",
    "cat": "sets",
    "g": "unisex",
@@ -95678,6 +95677,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTKE1804KREM6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 165000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/122b3fa6-921a-4429-80d2-cb03273d0587.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKE1804KREM8086",
    "cat": "sets",
    "g": "unisex",
@@ -95697,7 +95715,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1807KREM6874",
+   "id": "bTKE1807GRIMELANJ6874",
    "cat": "sets",
    "g": "unisex",
    "price": 165000,
@@ -95705,7 +95723,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/755c1d1f-ed88-47c1-af0c-c35330e47522.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5106a5b6-600c-4b85-8fab-494473064be8.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -95716,7 +95734,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1807GRIMELANJ6874",
+   "id": "bTKE1807KREM6874",
    "cat": "sets",
    "g": "unisex",
    "price": 165000,
@@ -95724,7 +95742,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5106a5b6-600c-4b85-8fab-494473064be8.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/755c1d1f-ed88-47c1-af0c-c35330e47522.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -95811,25 +95829,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1807MAVI6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f5da07f9-4bc4-4e28-853c-855ef8f5afda.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1804MAVI6874",
    "cat": "sets",
    "g": "unisex",
@@ -95849,7 +95848,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1807GRIMELANJ8086",
+   "id": "bTKE1807MAVI6874",
    "cat": "sets",
    "g": "unisex",
    "price": 165000,
@@ -95857,7 +95856,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/97bcae9c-c7f1-4d4f-bcce-91cd4b67057b.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f5da07f9-4bc4-4e28-853c-855ef8f5afda.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -95877,6 +95876,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dec2491c-beae-4d35-9153-0a448a210d84.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1807GRIMELANJ8086",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 165000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/97bcae9c-c7f1-4d4f-bcce-91cd4b67057b.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -96438,25 +96456,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBPS2018KAYISI6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dd9d8855-4600-4728-8539-46a821227a25.jpg",
-   "name": {
-    "ru": "Body Pantolon Şapka",
-    "uz": "Body Pantolon Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTK2017YESIL6268",
    "cat": "sets",
    "g": "unisex",
@@ -96837,25 +96836,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBPS2018YESIL6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 165000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/60aca104-a8cf-4d69-8cd3-7edb0251d5a2.jpg",
-   "name": {
-    "ru": "Body Pantolon Şapka",
-    "uz": "Body Pantolon Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTE2019GRI5056",
    "cat": "sets",
    "g": "unisex",
@@ -96868,6 +96848,25 @@ window.BILLZ = {
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bBPS2018YESIL6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 165000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/60aca104-a8cf-4d69-8cd3-7edb0251d5a2.jpg",
+   "name": {
+    "ru": "Body Pantolon Şapka",
+    "uz": "Body Pantolon Şapka"
    },
    "desc": {
     "ru": "",
@@ -96932,25 +96931,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1799SAKS5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 190000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2e64a882-48a8-480e-8f87-9da0d30662c1.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTE1799SAKS7480",
    "cat": "sets",
    "g": "unisex",
@@ -96989,6 +96969,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTE1799SAKS5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 190000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2e64a882-48a8-480e-8f87-9da0d30662c1.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTE1799YESIL6268",
    "cat": "sets",
    "g": "unisex",
@@ -97008,7 +97007,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1799KIREMIT5662",
+   "id": "bTE1799SAKS6268",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -97016,7 +97015,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/cdd43e1a-0c2f-4072-9189-926693a4f6ea.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/27d7a150-d0de-477b-947e-b0bd2a885ab5.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -97027,7 +97026,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1799SAKS6268",
+   "id": "bTE1799KIREMIT5662",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -97035,7 +97034,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/27d7a150-d0de-477b-947e-b0bd2a885ab5.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/cdd43e1a-0c2f-4072-9189-926693a4f6ea.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -97103,7 +97102,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1799YESIL6874",
+   "id": "bTE1799YESIL7480",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -97111,7 +97110,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/20e8c2b6-41d5-4ba6-a3dc-aab3de99d372.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0c397f0b-13b0-4940-9a7b-f4a58b7f94ce.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -97122,7 +97121,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1799YESIL7480",
+   "id": "bTE1799YESIL6874",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -97130,7 +97129,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0c397f0b-13b0-4940-9a7b-f4a58b7f94ce.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/20e8c2b6-41d5-4ba6-a3dc-aab3de99d372.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -97198,7 +97197,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1800SAKS6874",
+   "id": "bTKE1800SAKS8692",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -97217,7 +97216,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1800SAKS8692",
+   "id": "bTKE1800SAKS6874",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -97502,25 +97501,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK1276EKRU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 200000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f9043717-1e3b-442e-8046-46fb56a275a8.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKK1276SOMON7480",
    "cat": "sets",
    "g": "unisex",
@@ -97549,6 +97529,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/382ec3e7-6b0d-4c02-874c-a35519e34b75.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKK1276EKRU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 200000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f9043717-1e3b-442e-8046-46fb56a275a8.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -97616,7 +97615,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK1288EKRU6874",
+   "id": "bTKK1288EKRU7480",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -97624,7 +97623,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/11a82b90-d036-468f-a18f-5d78f3a1a8c4.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/468a1c8d-b19e-4e17-82f1-b31df5c8b565.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -97635,7 +97634,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK1288EKRU7480",
+   "id": "bTKK1288EKRU6874",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -97643,7 +97642,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/468a1c8d-b19e-4e17-82f1-b31df5c8b565.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/11a82b90-d036-468f-a18f-5d78f3a1a8c4.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -98167,6 +98166,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bAPK1825EKRU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 85000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5593c258-e86d-4e22-96c2-87a6b489031e.jpg",
+   "name": {
+    "ru": "Ç.Pantolon",
+    "uz": "Ç.Pantolon"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bAPK1825EKRU5056",
    "cat": "sets",
    "g": "unisex",
@@ -98195,25 +98213,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/93db1a6c-6f32-4b11-a056-dd9452d3846c.jpg",
-   "name": {
-    "ru": "Ç.Pantolon",
-    "uz": "Ç.Pantolon"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bAPK1825EKRU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 85000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/5593c258-e86d-4e22-96c2-87a6b489031e.jpg",
    "name": {
     "ru": "Ç.Pantolon",
     "uz": "Ç.Pantolon"
@@ -98490,7 +98489,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1363MAVI5662",
+   "id": "bTE1363EKRU6268",
    "cat": "sets",
    "g": "unisex",
    "price": 185000,
@@ -98498,7 +98497,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f66ae0ef-8457-4716-865d-f59b5acd83cb.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3c0653f7-0c79-453e-a0f5-595c3d688069.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -98509,7 +98508,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1363EKRU6268",
+   "id": "bTE1363MAVI5662",
    "cat": "sets",
    "g": "unisex",
    "price": 185000,
@@ -98517,7 +98516,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3c0653f7-0c79-453e-a0f5-595c3d688069.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f66ae0ef-8457-4716-865d-f59b5acd83cb.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -100143,25 +100142,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBE1713YESIL5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 95000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/327b21db-baeb-4432-9c4d-d1a76e3700d6.jpg",
-   "name": {
-    "ru": "Body",
-    "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1711GRI6268",
    "cat": "sets",
    "g": "unisex",
@@ -100174,6 +100154,25 @@ window.BILLZ = {
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bBE1713YESIL5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 95000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/327b21db-baeb-4432-9c4d-d1a76e3700d6.jpg",
+   "name": {
+    "ru": "Body",
+    "uz": "Body"
    },
    "desc": {
     "ru": "",
@@ -100238,25 +100237,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1710BEJ5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 135000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/08f5ea69-3ed1-4e48-b754-1a427b1fadc5.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1710GRI5662",
    "cat": "sets",
    "g": "unisex",
@@ -100285,6 +100265,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9d46a32a-c6e0-46e3-8ad4-9be8b6634c08.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1710BEJ5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 135000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/08f5ea69-3ed1-4e48-b754-1a427b1fadc5.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -100428,7 +100427,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1708YESIL5662",
+   "id": "bTE1709BEJ6268",
    "cat": "sets",
    "g": "unisex",
    "price": 115000,
@@ -100436,7 +100435,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/ea400328-a222-4c82-a222-740bf00e6a29.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e08fad40-56fd-44e5-aa93-686f4eaed51c.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -100447,7 +100446,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1709BEJ6268",
+   "id": "bTE1708YESIL5662",
    "cat": "sets",
    "g": "unisex",
    "price": 115000,
@@ -100455,7 +100454,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e08fad40-56fd-44e5-aa93-686f4eaed51c.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/ea400328-a222-4c82-a222-740bf00e6a29.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -100523,25 +100522,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1708GRI5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 115000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6447cb94-9205-4b22-ae02-522415cf4a95.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTE1709BEJ5056",
    "cat": "sets",
    "g": "unisex",
@@ -100580,7 +100560,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1708GRI6874",
+   "id": "bTE1708GRI5662",
    "cat": "sets",
    "g": "unisex",
    "price": 115000,
@@ -100588,7 +100568,26 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/315229c8-1d71-4ba3-aa3e-2e86588e40f0.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6447cb94-9205-4b22-ae02-522415cf4a95.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE1708BEJ6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 115000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f067c324-1270-4002-ba59-cb03d7ec6067.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -100618,7 +100617,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1708BEJ6268",
+   "id": "bTE1708GRI6874",
    "cat": "sets",
    "g": "unisex",
    "price": 115000,
@@ -100626,7 +100625,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f067c324-1270-4002-ba59-cb03d7ec6067.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/315229c8-1d71-4ba3-aa3e-2e86588e40f0.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -100846,26 +100845,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBK1684PEMBE5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 95000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0656f506-2e69-4f93-9cc4-769a2a5ff74a.jpg",
-   "name": {
-    "ru": "Body",
-    "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTK1679KAYISI5056",
+   "id": "bTK1679EKRU6874",
    "cat": "sets",
    "g": "unisex",
    "price": 115000,
@@ -100873,7 +100853,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/05623a17-76b5-4b1b-ac0d-0b1d793d5b78.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d64cc073-bfea-4c65-a4a5-755b2ec2c2da.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -100896,25 +100876,6 @@ window.BILLZ = {
    "name": {
     "ru": "Body",
     "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTK1679EKRU6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 115000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d64cc073-bfea-4c65-a4a5-755b2ec2c2da.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
    },
    "desc": {
     "ru": "",
@@ -103601,6 +103562,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bBSU1858KAHVE82x90",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 180000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Bebe Silgisi",
+    "uz": "Bebe Silgisi"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTE1195BEJ6874",
    "cat": "sets",
    "g": "unisex",
@@ -104190,7 +104170,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bELB1693EKRU6874",
+   "id": "bELB1693SOMON7480",
    "cat": "sets",
    "g": "unisex",
    "price": 210000,
@@ -104198,7 +104178,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3d95a365-608c-4391-a434-d190874dc957.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3e17aceb-e619-4885-9058-44c4afbac955.jpg",
    "name": {
     "ru": "Elbise",
     "uz": "Elbise"
@@ -104209,7 +104189,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bELB1693SOMON7480",
+   "id": "bELB1693EKRU6874",
    "cat": "sets",
    "g": "unisex",
    "price": 210000,
@@ -104217,7 +104197,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3e17aceb-e619-4885-9058-44c4afbac955.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3d95a365-608c-4391-a434-d190874dc957.jpg",
    "name": {
     "ru": "Elbise",
     "uz": "Elbise"
@@ -104342,25 +104322,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKU1773KAHVE6874_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 210000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a0bd6774-0160-4293-84c4-fa7fecb73bd0.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bSPU1777GULKURUSU6874",
    "cat": "sets",
    "g": "unisex",
@@ -104392,6 +104353,25 @@ window.BILLZ = {
    "name": {
     "ru": "Elbise",
     "uz": "Elbise"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKU1773KAHVE6874_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 210000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a0bd6774-0160-4293-84c4-fa7fecb73bd0.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -104456,7 +104436,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTU1772GULKURUSU6268_1",
+   "id": "bTU1772GULKURUSU5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 170000,
@@ -104464,7 +104444,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/45609b66-79cd-4f7a-b5e2-2f53ea63884c.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bdb9b321-c42c-40c4-b051-94ddcebabece.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -104475,7 +104455,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTU1772GULKURUSU5662_1",
+   "id": "bTU1772GULKURUSU6268_1",
    "cat": "sets",
    "g": "unisex",
    "price": 170000,
@@ -104483,7 +104463,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bdb9b321-c42c-40c4-b051-94ddcebabece.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/45609b66-79cd-4f7a-b5e2-2f53ea63884c.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -104513,7 +104493,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBU1774GULKURUSU5662_1",
+   "id": "bBU1774PEMBE6268",
    "cat": "sets",
    "g": "unisex",
    "price": 105000,
@@ -104521,7 +104501,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7f698204-7971-4dae-b8e7-0386d61a0a32.jpg",
+   "img": "",
    "name": {
     "ru": "Body",
     "uz": "Body"
@@ -104532,7 +104512,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBU1774PEMBE6268",
+   "id": "bBU1774GULKURUSU5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 105000,
@@ -104540,7 +104520,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7f698204-7971-4dae-b8e7-0386d61a0a32.jpg",
    "name": {
     "ru": "Body",
     "uz": "Body"
@@ -104589,7 +104569,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBU1774PEMBE6874_1",
+   "id": "bBU1774KAHVE6268",
    "cat": "sets",
    "g": "unisex",
    "price": 105000,
@@ -104597,7 +104577,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/04e1bf12-85cd-405c-8e24-061c103d38ef.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bebd2c7f-41fe-4a21-af93-50b82c7fc2ba.jpg",
    "name": {
     "ru": "Body",
     "uz": "Body"
@@ -104608,7 +104588,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBU1774KAHVE6268",
+   "id": "bBU1774PEMBE6874_1",
    "cat": "sets",
    "g": "unisex",
    "price": 105000,
@@ -104616,7 +104596,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bebd2c7f-41fe-4a21-af93-50b82c7fc2ba.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/04e1bf12-85cd-405c-8e24-061c103d38ef.jpg",
    "name": {
     "ru": "Body",
     "uz": "Body"
@@ -105387,7 +105367,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK1679KAYISI5056_1",
+   "id": "bTK1679KAYISI5056",
    "cat": "sets",
    "g": "unisex",
    "price": 115000,
@@ -106603,7 +106583,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK1663EKRU5662_1",
+   "id": "bTKK1663EKRU6268",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -106611,7 +106591,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/aaa8d508-d70f-4b67-9029-45b55241aed8.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7e7bbd4a-b284-486e-823e-a8b97c9fb4ce.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -106622,7 +106602,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK1663EKRU6268",
+   "id": "bTKK1663EKRU5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -106630,7 +106610,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7e7bbd4a-b284-486e-823e-a8b97c9fb4ce.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/aaa8d508-d70f-4b67-9029-45b55241aed8.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -106698,25 +106678,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK1664YESIL5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 255000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f1e0318d-5e28-428e-ae9e-9d2007140fee.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKK1692SOMON7480_1",
    "cat": "sets",
    "g": "unisex",
@@ -106736,6 +106697,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTKK1664YESIL5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 255000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/f1e0318d-5e28-428e-ae9e-9d2007140fee.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKK1692SOMON8692_1",
    "cat": "sets",
    "g": "unisex",
@@ -106748,6 +106728,44 @@ window.BILLZ = {
    "name": {
     "ru": "3 lü Takım",
     "uz": "3 lü Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE1708MAVI5056_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 115000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8002a567-95b4-4b28-8bd4-ec3d708f1e3b.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKK1664GULKURUSU5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 255000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/be3b7281-c43d-42ab-a022-b34d0cef840d.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -106793,44 +106811,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK1664GULKURUSU5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 255000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/be3b7281-c43d-42ab-a022-b34d0cef840d.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTE1708MAVI5056_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 115000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/8002a567-95b4-4b28-8bd4-ec3d708f1e3b.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1710GRI5662_1",
    "cat": "sets",
    "g": "unisex",
@@ -106843,6 +106823,44 @@ window.BILLZ = {
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE1709BEJ5056_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 115000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2a877d91-cf23-459a-82bc-adcf3ea6959d.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE1709YESIL5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 115000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6707a034-8a86-45d2-8c0d-0e748009c79b.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
    },
    "desc": {
     "ru": "",
@@ -106878,44 +106896,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/658f6e0e-fd84-4dc8-9bf5-1037d1f010ac.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTE1709YESIL5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 115000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6707a034-8a86-45d2-8c0d-0e748009c79b.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTE1709BEJ5056_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 115000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2a877d91-cf23-459a-82bc-adcf3ea6959d.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -107800,25 +107780,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bELB1814NARCICEGI80",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 365000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7d80c381-ec3d-4e60-b704-58c0fa996df0.jpg",
-   "name": {
-    "ru": "Elbise",
-    "uz": "Elbise"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bSPK1817MAVI6874_1",
    "cat": "sets",
    "g": "unisex",
@@ -107990,25 +107951,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE1342BEJ5662_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b6df26a7-a07f-4f9b-928d-ed456404bd9f.jpg",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bSPE1342MAVI5662_1",
    "cat": "sets",
    "g": "unisex",
@@ -108028,7 +107970,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE1342EKRU6874",
+   "id": "bSPE1342BEJ5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 45000,
@@ -108036,7 +107978,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/21b43bb7-ea08-489f-b7e5-b990dac38a41.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b6df26a7-a07f-4f9b-928d-ed456404bd9f.jpg",
    "name": {
     "ru": "Şapka",
     "uz": "Şapka"
@@ -108056,6 +107998,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1d17aa56-81bd-498b-9050-a53429bc59b3.jpg",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bSPE1342EKRU6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/21b43bb7-ea08-489f-b7e5-b990dac38a41.jpg",
    "name": {
     "ru": "Şapka",
     "uz": "Şapka"
@@ -108237,7 +108198,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK1741PEMBE5662_1",
+   "id": "bTK1741BEJ6268_2",
    "cat": "sets",
    "g": "unisex",
    "price": 240000,
@@ -108245,7 +108206,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b009dde5-2a7d-443b-912a-f10c34dd6514.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0950e1a3-27a1-4c66-9147-e60e3bd007e0.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -108256,7 +108217,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK1741BEJ6268_2",
+   "id": "bTK1741PEMBE5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 240000,
@@ -108264,7 +108225,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0950e1a3-27a1-4c66-9147-e60e3bd007e0.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b009dde5-2a7d-443b-912a-f10c34dd6514.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -109909,7 +109870,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1793LACIVERT8692",
+   "id": "bTKE1793LACIVERT8692_1",
    "cat": "sets",
    "g": "unisex",
    "price": 295000,
@@ -110954,7 +110915,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1425GRI5662_1",
+   "id": "bTE1425EKRU5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 210000,
@@ -110962,7 +110923,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6400c1c2-c48e-4f44-be06-d5ec5e95235f.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e24a5d43-3531-4659-bf27-bf599a711b11.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -110973,7 +110934,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1425EKRU5662_1",
+   "id": "bTE1425GRI5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 210000,
@@ -110981,7 +110942,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e24a5d43-3531-4659-bf27-bf599a711b11.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6400c1c2-c48e-4f44-be06-d5ec5e95235f.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -111467,7 +111428,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1675GRI5662_1",
+   "id": "bTKE1675GRI6268_1",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -111475,7 +111436,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/944a579c-ef12-4ddd-9e53-274905337455.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c7b9c956-1805-4548-ba6e-ed9b1fd3d73f.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -111486,7 +111447,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1675GRI6268_1",
+   "id": "bTKE1675GRI5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -111494,7 +111455,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c7b9c956-1805-4548-ba6e-ed9b1fd3d73f.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/944a579c-ef12-4ddd-9e53-274905337455.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -111524,7 +111485,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1675GRI6874_1",
+   "id": "bTKE1675KAHVE7480_1",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -111532,7 +111493,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/46af7878-378b-46be-8be9-fc47467ac3c6.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a5d21a96-4e78-4622-9500-0bde0662c8e0.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -111543,7 +111504,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1675KAHVE7480_1",
+   "id": "bTKE1675GRI6874_1",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -111551,7 +111512,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a5d21a96-4e78-4622-9500-0bde0662c8e0.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/46af7878-378b-46be-8be9-fc47467ac3c6.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -111581,7 +111542,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1675MAVI6268_1",
+   "id": "bTKE1675MAVI5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -111589,7 +111550,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e1c8475b-a3c5-4811-ac9b-f645253d90b1.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e9734790-22a9-4001-9709-99a8ffc6053b.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -111600,7 +111561,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1675MAVI5662_1",
+   "id": "bTKE1675MAVI6268_1",
    "cat": "sets",
    "g": "unisex",
    "price": 255000,
@@ -111608,7 +111569,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e9734790-22a9-4001-9709-99a8ffc6053b.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/e1c8475b-a3c5-4811-ac9b-f645253d90b1.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -111790,7 +111751,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1672YESIL7480_1",
+   "id": "bTE1672GRI7480",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -111798,7 +111759,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/cbe59d54-06b7-446e-a68f-b91e45d399b5.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/354c2893-a114-41c0-bf5c-86179d5b96f2.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -111809,7 +111770,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1672GRI7480",
+   "id": "bTE1672YESIL7480_1",
    "cat": "sets",
    "g": "unisex",
    "price": 190000,
@@ -111817,7 +111778,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/354c2893-a114-41c0-bf5c-86179d5b96f2.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/cbe59d54-06b7-446e-a68f-b91e45d399b5.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -111923,25 +111884,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1672MAVI6268_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 190000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bde6a13c-42f3-4038-9290-551f016bd050.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTE1672YESIL6268_1",
    "cat": "sets",
    "g": "unisex",
@@ -111961,6 +111903,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTE1672MAVI6268_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 190000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/bde6a13c-42f3-4038-9290-551f016bd050.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTE1672EKRU5662_1",
    "cat": "sets",
    "g": "unisex",
@@ -111970,6 +111931,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3b385b7d-139b-4677-a006-7846c1642c29.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE1672MAVI5662_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 190000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0f35cb09-3aea-4c6c-bc43-c0ce5e703349.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -112008,25 +111988,6 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/ef86b188-e9af-42ca-a220-7c8124adb8b5.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTE1672MAVI5662_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 190000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/0f35cb09-3aea-4c6c-bc43-c0ce5e703349.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -112094,25 +112055,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1674MAVI5662_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 235000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fd3046fc-1f11-49da-942c-80cbb0e23f51.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTE1672GRI5662_1",
    "cat": "sets",
    "g": "unisex",
@@ -112125,6 +112067,25 @@ window.BILLZ = {
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1674MAVI5662_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 235000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fd3046fc-1f11-49da-942c-80cbb0e23f51.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -112170,18 +112131,18 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1672GRI6268",
+   "id": "bTKE1674KAHVE5662_1",
    "cat": "sets",
    "g": "unisex",
-   "price": 190000,
+   "price": 235000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b6688f7a-efdb-4d38-bb56-97a71cb67380.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/18c24995-0dc6-497b-80a7-a531322515b4.jpg",
    "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -112208,7 +112169,26 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1674KAHVE5662_1",
+   "id": "bTE1672GRI6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 190000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/b6688f7a-efdb-4d38-bb56-97a71cb67380.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1674KAHVE7480_1",
    "cat": "sets",
    "g": "unisex",
    "price": 235000,
@@ -112216,7 +112196,45 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/18c24995-0dc6-497b-80a7-a531322515b4.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2425e7d6-e6ed-428c-b0af-2f213d68922b.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1674BEJ6874_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 235000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/20459918-1da2-4970-afdd-fe50c31cde3c.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1674MAVI7480",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 235000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/18bf97c2-914a-473e-a4f0-652f3c01dde7.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -112258,63 +112276,6 @@ window.BILLZ = {
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE1674MAVI7480",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 235000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/18bf97c2-914a-473e-a4f0-652f3c01dde7.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE1674KAHVE7480_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 235000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2425e7d6-e6ed-428c-b0af-2f213d68922b.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bTKE1674BEJ6874_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 235000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/20459918-1da2-4970-afdd-fe50c31cde3c.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -112417,7 +112378,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1674YESIL7480",
+   "id": "bTKE1674YESIL5662",
    "cat": "sets",
    "g": "unisex",
    "price": 235000,
@@ -112425,7 +112386,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6d9f1513-685d-460f-a87e-0d4fc7632275.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6eee347f-8ea3-466c-8a62-7b2091ff4ff5.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -112436,7 +112397,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1674YESIL5662",
+   "id": "bTKE1674YESIL7480",
    "cat": "sets",
    "g": "unisex",
    "price": 235000,
@@ -112444,7 +112405,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6eee347f-8ea3-466c-8a62-7b2091ff4ff5.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6d9f1513-685d-460f-a87e-0d4fc7632275.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -112797,7 +112758,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKK1295EKRU8086",
+   "id": "bTKE1314GRI7480",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -112805,7 +112766,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/892fbb1d-2e6b-4ba7-a13a-5dfb4fd99254.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/4646c520-08b2-45c6-b21d-48ea5a5c859f.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -112816,7 +112777,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1314GRI7480",
+   "id": "bTKK1295EKRU8086",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -112824,7 +112785,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/4646c520-08b2-45c6-b21d-48ea5a5c859f.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/892fbb1d-2e6b-4ba7-a13a-5dfb4fd99254.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -113006,25 +112967,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1364EKRU5662_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 200000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6844e150-a3b9-4123-9111-dcb2fe5a92a4.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bBE1317INDIGO6268_1",
    "cat": "sets",
    "g": "unisex",
@@ -113037,6 +112979,25 @@ window.BILLZ = {
    "name": {
     "ru": "Body",
     "uz": "Body"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1364EKRU5662_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 200000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6844e150-a3b9-4123-9111-dcb2fe5a92a4.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -113158,18 +113119,18 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1364EKRU6268_1",
+   "id": "bBE1317GRI5056_1",
    "cat": "sets",
    "g": "unisex",
-   "price": 200000,
+   "price": 165000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7b0fbed8-9c57-4c79-9cdf-baa7e97cbca7.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d34a47c0-7930-4093-b5b7-3a5f8bb5304d.jpg",
    "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
+    "ru": "Body",
+    "uz": "Body"
    },
    "desc": {
     "ru": "",
@@ -113196,18 +113157,18 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBE1317GRI5056_1",
+   "id": "bTKE1364EKRU6268_1",
    "cat": "sets",
    "g": "unisex",
-   "price": 165000,
+   "price": 200000,
    "sizes": [
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/d34a47c0-7930-4093-b5b7-3a5f8bb5304d.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7b0fbed8-9c57-4c79-9cdf-baa7e97cbca7.jpg",
    "name": {
-    "ru": "Body",
-    "uz": "Body"
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
    },
    "desc": {
     "ru": "",
@@ -116388,7 +116349,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBK1684PEMBE5056_1",
+   "id": "bBK1684PEMBE5056",
    "cat": "sets",
    "g": "unisex",
    "price": 95000,
@@ -116445,7 +116406,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK1680YESIL5056_1",
+   "id": "bTK1679KAYISI5056_1",
    "cat": "sets",
    "g": "unisex",
    "price": 115000,
@@ -116453,7 +116414,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/854b908b-53fa-46d1-8256-28501d66f97b.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/efcbfb7f-3269-4b78-872d-de7be3a9a037.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -116464,7 +116425,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTK1679KAYISI5056_2",
+   "id": "bTK1680YESIL5056_1",
    "cat": "sets",
    "g": "unisex",
    "price": 115000,
@@ -116472,7 +116433,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/efcbfb7f-3269-4b78-872d-de7be3a9a037.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/854b908b-53fa-46d1-8256-28501d66f97b.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -116635,7 +116596,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1795BEJ6874_1",
+   "id": "bTKE1795BEYAZ6874_1",
    "cat": "sets",
    "g": "unisex",
    "price": 270000,
@@ -116643,7 +116604,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7fc9388d-8488-4f8b-842a-343b7643bb15.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c4018756-98d7-4a49-8560-e5a3c08e272d.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -116654,7 +116615,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1795BEYAZ6874_1",
+   "id": "bTKE1795BEJ6874_1",
    "cat": "sets",
    "g": "unisex",
    "price": 270000,
@@ -116662,7 +116623,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/c4018756-98d7-4a49-8560-e5a3c08e272d.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/7fc9388d-8488-4f8b-842a-343b7643bb15.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -116958,25 +116919,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1676MAVI5662_2",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 330000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/78b47cc2-8e78-4ffe-9861-f02fbb2a4c4c.jpg",
-   "name": {
-    "ru": "3 lü Takım",
-    "uz": "3 lü Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bSLE1673BEJ5662_1",
    "cat": "sets",
    "g": "unisex",
@@ -116989,6 +116931,25 @@ window.BILLZ = {
    "name": {
     "ru": "Salopet",
     "uz": "Salopet"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKE1676MAVI5662_2",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 330000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/78b47cc2-8e78-4ffe-9861-f02fbb2a4c4c.jpg",
+   "name": {
+    "ru": "3 lü Takım",
+    "uz": "3 lü Takım"
    },
    "desc": {
     "ru": "",
@@ -117281,25 +117242,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1671KAHVE7480_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 215000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/ec3b1b1f-7e69-4fa5-9a1d-22f87a2197f3.jpg",
-   "name": {
-    "ru": "Tulum",
-    "uz": "Tulum"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1676KAHVE7480_1",
    "cat": "sets",
    "g": "unisex",
@@ -117319,7 +117261,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1671BEJ5662_1",
+   "id": "bTE1671KAHVE7480_1",
    "cat": "sets",
    "g": "unisex",
    "price": 215000,
@@ -117327,7 +117269,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/28a40fe8-23b8-461c-a7f6-0aea0ac84b17.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/ec3b1b1f-7e69-4fa5-9a1d-22f87a2197f3.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -117347,6 +117289,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/80aa2c8e-5816-4650-a00f-b7d69b2fb45e.jpg",
+   "name": {
+    "ru": "Tulum",
+    "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTE1671BEJ5662_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 215000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/28a40fe8-23b8-461c-a7f6-0aea0ac84b17.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -117404,6 +117365,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/dee23cdb-479f-44bb-8df8-8270ad0d5460.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bTKK1662GULKURUSU7480_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 225000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/14ccaca8-94e1-4ea3-8387-5d8d58fe2a86.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -118307,25 +118287,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bBE1263YESIL5662_3",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 150000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/09f982cd-3d1f-4de6-84b7-2b029e6c870d.jpg",
-   "name": {
-    "ru": "Body",
-    "uz": "Body"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTE1258GRI5056",
    "cat": "sets",
    "g": "unisex",
@@ -118338,6 +118299,25 @@ window.BILLZ = {
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bBE1263YESIL5662_3",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 150000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/09f982cd-3d1f-4de6-84b7-2b029e6c870d.jpg",
+   "name": {
+    "ru": "Body",
+    "uz": "Body"
    },
    "desc": {
     "ru": "",
@@ -119010,7 +118990,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bAPU1775PEMBE6268",
+   "id": "bAPU1775GULKURUSU6874_1",
    "cat": "sets",
    "g": "unisex",
    "price": 65000,
@@ -119018,7 +118998,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6193b54f-2168-43bd-b607-55f7f004a288.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fd82827a-29f4-4233-bebe-30200d13c072.jpg",
    "name": {
     "ru": "Pantolon",
     "uz": "Pantolon"
@@ -119029,7 +119009,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bAPU1775GULKURUSU6874_1",
+   "id": "bAPU1775PEMBE6268",
    "cat": "sets",
    "g": "unisex",
    "price": 65000,
@@ -119037,7 +119017,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/fd82827a-29f4-4233-bebe-30200d13c072.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/6193b54f-2168-43bd-b607-55f7f004a288.jpg",
    "name": {
     "ru": "Pantolon",
     "uz": "Pantolon"
@@ -120302,7 +120282,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1313EKRU7480_1",
+   "id": "bTE1312BEJ6874_1",
    "cat": "sets",
    "g": "unisex",
    "price": 185000,
@@ -120310,7 +120290,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a72affff-54de-4f12-9351-29212219f96a.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/69c4d5ea-32bb-4d41-bce1-373c6eef9961.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -120321,7 +120301,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1312BEJ6874_1",
+   "id": "bTE1313GRI6874_1",
    "cat": "sets",
    "g": "unisex",
    "price": 185000,
@@ -120329,7 +120309,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/69c4d5ea-32bb-4d41-bce1-373c6eef9961.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/aba0419e-6718-44b5-9926-5070dfb74e68.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -120359,7 +120339,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTE1313GRI6874_1",
+   "id": "bTE1313EKRU7480_1",
    "cat": "sets",
    "g": "unisex",
    "price": 185000,
@@ -120367,7 +120347,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/aba0419e-6718-44b5-9926-5070dfb74e68.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/a72affff-54de-4f12-9351-29212219f96a.jpg",
    "name": {
     "ru": "Tulum",
     "uz": "Tulum"
@@ -121518,25 +121498,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSLE1316BEJ5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 230000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3544dfa5-e1fe-4d36-a8ff-7fbd9164fa60.jpg",
-   "name": {
-    "ru": "Salopet",
-    "uz": "Salopet"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bSLE1316MAVI5662",
    "cat": "sets",
    "g": "unisex",
@@ -121568,6 +121529,25 @@ window.BILLZ = {
    "name": {
     "ru": "Şapka",
     "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bSLE1316BEJ5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 230000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/3544dfa5-e1fe-4d36-a8ff-7fbd9164fa60.jpg",
+   "name": {
+    "ru": "Salopet",
+    "uz": "Salopet"
    },
    "desc": {
     "ru": "",
@@ -121746,25 +121726,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1314BEJ5662_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 200000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/869d3892-5704-44b5-8238-841c8c60b17f.jpg",
-   "name": {
-    "ru": "2 li Takım",
-    "uz": "2 li Takım"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bTKE1315GRI8086_1",
    "cat": "sets",
    "g": "unisex",
@@ -121784,7 +121745,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1315GRI6268_2",
+   "id": "bTKE1314BEJ5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -121792,7 +121753,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1369eedc-b7d6-410f-a7c3-643433696ef7.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/869d3892-5704-44b5-8238-841c8c60b17f.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -121803,7 +121764,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1315BEJ6268",
+   "id": "bTKE1315GRI6268_2",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -121811,7 +121772,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/4f9f11e4-58ee-457d-b710-f093f66db59d.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/1369eedc-b7d6-410f-a7c3-643433696ef7.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -121860,6 +121821,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bTKE1315BEJ6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 200000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/4f9f11e4-58ee-457d-b710-f093f66db59d.jpg",
+   "name": {
+    "ru": "2 li Takım",
+    "uz": "2 li Takım"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bTKE1315GRI7480",
    "cat": "sets",
    "g": "unisex",
@@ -121879,7 +121859,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1314MAVI6268",
+   "id": "bTKE1315MAVI7480",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -121887,7 +121867,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2a8530fd-2458-49e5-a42a-d0f076bdaf75.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/77423915-2eaf-4f0b-8fdb-54f8f7f80308.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -121917,7 +121897,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bTKE1315MAVI7480",
+   "id": "bTKE1314MAVI6268",
    "cat": "sets",
    "g": "unisex",
    "price": 200000,
@@ -121925,7 +121905,7 @@ window.BILLZ = {
     "One size"
    ],
    "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/77423915-2eaf-4f0b-8fdb-54f8f7f80308.jpg",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/2a8530fd-2458-49e5-a42a-d0f076bdaf75.jpg",
    "name": {
     "ru": "2 li Takım",
     "uz": "2 li Takım"
@@ -123931,25 +123911,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE1150KAHVE6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 70000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/920f0c5f-9975-4121-95b2-f6f74f42a30b.jpg",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bSPE1150KAHVE5662",
    "cat": "sets",
    "g": "unisex",
@@ -123978,6 +123939,25 @@ window.BILLZ = {
    ],
    "color": "#EAF0F8",
    "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/9e9f83c2-7405-4359-90ea-42f799226aa0.jpg",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bSPE1150KAHVE6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 70000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/920f0c5f-9975-4121-95b2-f6f74f42a30b.jpg",
    "name": {
     "ru": "Şapka",
     "uz": "Şapka"
@@ -126211,25 +126191,6 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE9801YESIL5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bMNK9706YESIL6268",
    "cat": "sets",
    "g": "unisex",
@@ -126242,6 +126203,25 @@ window.BILLZ = {
    "name": {
     "ru": "Mont",
     "uz": "Mont"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bSPE9801YESIL5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
    },
    "desc": {
     "ru": "",
@@ -126553,6 +126533,25 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bSPK9639YESIL6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "https://fra1.digitaloceanspaces.com/billz2-minio-billz/832f3221-dfd6-45d4-85c1-81c4e602d1e9.jpg",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bSPE9802YESIL6874",
    "cat": "sets",
    "g": "unisex",
@@ -126629,121 +126628,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE9802MAVI5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bSPE9624MAVI6268",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bSPE9601MAVI5056",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bSPE9801YESIL5056_1",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
    "id": "bSPE9802MAVI6874",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bSPE9601MAVI5662",
-   "cat": "sets",
-   "g": "unisex",
-   "price": 45000,
-   "sizes": [
-    "One size"
-   ],
-   "color": "#EAF0F8",
-   "img": "",
-   "name": {
-    "ru": "Şapka",
-    "uz": "Şapka"
-   },
-   "desc": {
-    "ru": "",
-    "uz": ""
-   }
-  },
-  {
-   "id": "bSPE9695MAVI5662",
    "cat": "sets",
    "g": "unisex",
    "price": 45000,
@@ -126800,7 +126685,121 @@ window.BILLZ = {
    }
   },
   {
+   "id": "bSPE9601MAVI5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bSPE9624MAVI6268",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bSPE9801YESIL5056_1",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bSPE9601MAVI5662",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
    "id": "bSPE9601MAVI6874",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bSPE9802MAVI5056",
+   "cat": "sets",
+   "g": "unisex",
+   "price": 45000,
+   "sizes": [
+    "One size"
+   ],
+   "color": "#EAF0F8",
+   "img": "",
+   "name": {
+    "ru": "Şapka",
+    "uz": "Şapka"
+   },
+   "desc": {
+    "ru": "",
+    "uz": ""
+   }
+  },
+  {
+   "id": "bSPE9695MAVI5662",
    "cat": "sets",
    "g": "unisex",
    "price": 45000,
@@ -126838,7 +126837,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE9802YESIL6268",
+   "id": "bSPE9802YESIL5056",
    "cat": "sets",
    "g": "unisex",
    "price": 45000,
@@ -126857,7 +126856,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE9802YESIL5056",
+   "id": "bSPE9802YESIL6268",
    "cat": "sets",
    "g": "unisex",
    "price": 45000,
@@ -127142,7 +127141,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE9802AYESIL5662_1",
+   "id": "bSPE9802MAVI6268",
    "cat": "sets",
    "g": "unisex",
    "price": 45000,
@@ -127180,7 +127179,7 @@ window.BILLZ = {
    }
   },
   {
-   "id": "bSPE9802MAVI6268",
+   "id": "bSPE9802AYESIL5662_1",
    "cat": "sets",
    "g": "unisex",
    "price": 45000,
