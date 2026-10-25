@@ -22,6 +22,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      FTP_SERVER: ${{ secrets.FTP_SERVER }}
     steps:
       - uses: actions/checkout@v4
 
@@ -72,3 +74,26 @@ jobs:
           path: .
       - id: deployment
         uses: actions/deploy-pages@v4
+
+      # Основной хостинг — AIRNET (cPanel, Ташкент). Выкладываются только изменившиеся файлы.
+      # Шаг пропускается, пока в Settings → Secrets нет FTP_SERVER / FTP_USERNAME / FTP_PASSWORD.
+      - name: Выложить на хостинг AIRNET (FTP)
+        if: env.FTP_SERVER != ''
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
+          port: ${{ vars.FTP_PORT || 21 }}
+          server-dir: ${{ vars.FTP_DIR || 'public_html/' }}
+          local-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            .github/**
+            scripts/**
+            **/__pycache__/**
+            **/*.part
+            README.md
+            assets/README.md
