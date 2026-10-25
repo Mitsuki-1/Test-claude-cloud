@@ -92,6 +92,34 @@
       "shop_prices": [{"shop_id": "s1", "retail_price": 275000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 2}]
     },
     {
+      "id": "s1", "parent_id": null, "sku": "TE1313.GRI.62-68", "name": "Tulum", "main_image_url": "https://cdn.billz.ai/te1313.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 185000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "s2", "parent_id": null, "sku": "TE1313.GRI.68-74", "name": "Tulum",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 190000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 2}]
+    },
+    {
+      "id": "s3", "parent_id": null, "sku": "TE1313.MAVI.68-74", "name": "Tulum", "main_image_url": "https://cdn.billz.ai/te1313m.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 190000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 2}]
+    },
+    {
+      "id": "k1", "parent_id": null, "sku": "TKE1001.MAVI.74-80", "name": "2 li Takım", "main_image_url": "https://cdn.billz.ai/k1.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 285000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "k2", "parent_id": null, "sku": "TKE1002.BEJ.80-86", "name": "2 li Takım", "main_image_url": "https://cdn.billz.ai/k2.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 285000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "k3", "parent_id": null, "sku": "TKE1003.PEMBE.86-92", "name": "2 li Takım", "main_image_url": "https://cdn.billz.ai/k3.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 285000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "k4", "parent_id": null, "sku": "TKE2052.EKRU.98", "name": "tke2052.ekru.", "main_image_url": "https://cdn.billz.ai/k4.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 300000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
       "id": "p5", "parent_id": null, "sku": "CR-HAT", "name": "Шапочка для новорождённого",
       "photos": [{"photo_url": "https://cdn.billz.ai/p5.jpg", "is_main": true}],
       "shop_prices": [{"shop_id": "s1", "retail_price": 89000}],

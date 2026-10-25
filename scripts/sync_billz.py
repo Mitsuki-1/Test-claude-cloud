@@ -224,33 +224,96 @@ def brand_of(base, variants):
 
 UNKNOWN = collections.Counter()
 
+# Артикул магазина: МОДЕЛЬ.ЦВЕТ.РАЗМЕР, например TE1313.GRI.68-74 или TKE2733.LACIVERT.98
+SKU_RX = re.compile(r"^\s*([A-Za-z]{1,6}\d{2,7}[A-Za-z]?)\.([^.]+)\.([^.]*)\.?\s*$")
+COLOR_NAMES = {
+    "mavi": ("голубой", "havorang"), "blue": ("голубой", "havorang"), "bebemavi": ("голубой", "havorang"),
+    "bej": ("бежевый", "bej"), "bij": ("бежевый", "bej"), "beige": ("бежевый", "bej"),
+    "gri": ("серый", "kulrang"), "grey": ("серый", "kulrang"), "gray": ("серый", "kulrang"),
+    "grimelanj": ("серый меланж", "kulrang melanj"), "ekru": ("молочный", "sutrang"), "ecru": ("молочный", "sutrang"),
+    "lacivert": ("тёмно-синий", "to‘q ko‘k"), "laci": ("тёмно-синий", "to‘q ko‘k"), "navy": ("тёмно-синий", "to‘q ko‘k"),
+    "indigo": ("индиго", "indigo"), "gulkurusu": ("пыльная роза", "chang atirgul"),
+    "pembe": ("розовый", "pushti"), "pink": ("розовый", "pushti"), "pudra": ("пудровый", "pudra"), "powder": ("пудровый", "pudra"),
+    "beyaz": ("белый", "oq"), "white": ("белый", "oq"), "yesil": ("зелёный", "yashil"), "green": ("зелёный", "yashil"),
+    "mint": ("мятный", "yalpiz"), "kahve": ("коричневый", "jigarrang"), "brown": ("коричневый", "jigarrang"),
+    "sari": ("жёлтый", "sariq"), "yellow": ("жёлтый", "sariq"), "kirmizi": ("красный", "qizil"), "red": ("красный", "qizil"),
+    "lila": ("сиреневый", "nafarmon"), "mor": ("фиолетовый", "binafsha"), "purple": ("фиолетовый", "binafsha"),
+    "somon": ("лососевый", "losos"), "krem": ("кремовый", "krem"), "cream": ("кремовый", "krem"),
+    "tas": ("цвет камня", "tosh rang"), "vizon": ("норковый", "norka rang"), "fume": ("дымчатый", "tutunrang"),
+    "siyah": ("чёрный", "qora"), "black": ("чёрный", "qora"), "nar": ("гранатовый", "anor rang"),
+    "haki": ("хаки", "xaki"), "turuncu": ("оранжевый", "to‘q sariq"), "mercan": ("коралловый", "marjon"),
+}
+NAME_SIZE = re.compile(r"(\d{1,3}\s*[-–_]\s*\d{1,3}\s*(?:ay|aylik|мес|oy|yas|yaş|года?|лет)?|\d{1,2}\s*(?:ay|aylik|мес|oy|yas|yaş|года?|лет)\b)", re.I)
+TRAILING_SIZE = re.compile(r"\s*[/|,(-]?\s*(размер|o.?lcham|beden)?\s*\d+\s*[-–_]\s*\d+\s*(мес|ay|oy|см|лет|года?|yas|yaş)?\)?\s*$", re.I)
+PIECES_SUFFIX = re.compile(r" \(\d+ (шт\.|dona)\)$")
 
-def describe(name):
-    """Тип, категория и русское/узбекское название по исходному (обычно турецкому) названию."""
-    folded = tr_fold(name)
+
+def parse_sku(sku):
+    m = SKU_RX.match(str(sku or ""))
+    return (m.group(1).upper(), m.group(2).strip(), m.group(3).strip()) if m else None
+
+
+def color_name(color):
+    return COLOR_NAMES.get(re.sub(r"[^a-z]", "", tr_fold(color)))
+
+
+def describe(name, cats=""):
+    """Категория, русское/узбекское название и признак «тип распознан» по исходному (обычно турецкому) названию."""
+    folded = tr_fold(cats + " " + name)
     m = re.search(PIECES, folded)
     pieces = int(m.group(1) or m.group(2)) if m else 0
     for rx, cat, ru, uz in TYPES:
         if re.search(rx, folded):
             if pieces > 1:
                 ru, uz = "%s (%d шт.)" % (ru, pieces), "%s (%d dona)" % (uz, pieces)
-            return cat, ru, uz
-    low = name.lower()
+            return cat, ru, uz, True
+    low = (cats + " " + name).lower()
     cat = next((c for c, rx in CAT_RULES if re.search(rx, low)), None)
     if cat:
-        return cat, name, name
-    UNKNOWN[(folded.split() or [""])[0]] += 1
-    return "accessories", name, name
+        return cat, name, name, True
+    return "accessories", name, name, False
+
+
+def group_key(p, parents=()):
+    if p.get("parent_id"):
+        return "p:" + str(p["parent_id"])
+    if p.get("is_variative") or str(p.get("id")) in parents:
+        return "p:" + str(p.get("id"))
+    s = parse_sku(p.get("sku"))
+    if s:  # одна модель одного цвета в разных размерах — одна карточка
+        return "s:%s.%s" % (s[0], tr_fold(s[1]))
+    return "i:" + str(p.get("id"))
+
+
+def image_of(p):
+    photos = sorted(p.get("photos") or [], key=lambda x: (not x.get("is_main"), x.get("sequence") or 0))
+    return p.get("main_image_url_full") or p.get("main_image_url") or (photos[0].get("photo_url") if photos else "")
+
+
+def variant_size(v):
+    found = None
+    for a in v.get("product_attributes") or []:
+        if re.search(SIZE_ATTR, a.get("attribute_name") or "", re.I):
+            found = size_key(str(a.get("attribute_value") or "")) or found
+    if not found:
+        s = parse_sku(v.get("sku"))
+        found = size_key(s[2]) if s and s[2] else None
+    if not found:
+        m = NAME_SIZE.search(v.get("name") or "")
+        found = size_key(m.group(1)) if m else None
+    return found
 
 
 def transform(raw, shops, show_oos=False, show_no_photo=True):
-    groups = {}
+    groups = collections.OrderedDict()
+    parents = {str(p["parent_id"]) for p in raw if p.get("parent_id")}
     for p in raw:
-        groups.setdefault(p.get("parent_id") or p.get("id"), []).append(p)
+        groups.setdefault(group_key(p, parents), []).append(p)
 
-    products = []
+    products, pending = [], []
     for gid, variants in groups.items():
-        base = next((v for v in variants if v.get("id") == gid), variants[0])
+        pid = gid[2:]
+        base = next((v for v in variants if str(v.get("id")) == pid), None) or next((v for v in variants if image_of(v)), variants[0])
         sizes, prices, olds = [], [], []
         for v in variants:
             stock = sum(num(r.get("active_measurement_value")) for r in for_shops(v.get("shop_measurement_values"), shops))
@@ -266,46 +329,31 @@ def transform(raw, shops, show_oos=False, show_no_photo=True):
                 olds.append(min(retail))
             else:
                 prices.append(min(retail))
-            found = False
-            for a in v.get("product_attributes") or []:
-                if re.search(SIZE_ATTR, a.get("attribute_name") or "", re.I):
-                    k = size_key(str(a.get("attribute_value") or ""))
-                    if k:
-                        found = True
-                        if k not in sizes:
-                            sizes.append(k)
-            if not found:
-                m = re.search(r"(\d{1,3}\s*[-–_]\s*\d{1,3}\s*(?:ay|aylik|мес|oy|yas|yaş|года?|лет)?|\d{1,2}\s*(?:ay|aylik|мес|oy|yas|yaş|года?|лет)\b)", v.get("name") or "", re.I)
-                k = size_key(m.group(1)) if m else None
-                if k and k not in sizes:
-                    sizes.append(k)
+            k = variant_size(v)
+            if k and k not in sizes:
+                sizes.append(k)
         if not prices:
             continue
 
-        photos = sorted(base.get("photos") or [], key=lambda x: (not x.get("is_main"), x.get("sequence") or 0))
-        img = base.get("main_image_url_full") or base.get("main_image_url") or (photos[0].get("photo_url") if photos else "")
-        if not img:
-            img = next((v.get("main_image_url_full") or v.get("main_image_url") for v in variants
-                        if v.get("main_image_url_full") or v.get("main_image_url")), "")
+        img = image_of(base) or next((image_of(v) for v in variants if image_of(v)), "")
         if not img and not show_no_photo:
             continue
 
+        sku_parts = parse_sku(base.get("sku"))
+        sku = "%s.%s" % sku_parts[:2] if gid.startswith("s:") else str(base.get("sku") or pid)
         full = clean(base.get("name"))
-        original = clean(re.sub(r"\s*[/|,(-]?\s*(размер|o.?lcham|beden)?\s*\d+\s*[-–_]\s*\d+\s*(мес|ay|oy|см|лет|года?|yas|yaş)?\)?\s*$", "", full, flags=re.I)) or full
+        original = clean(TRAILING_SIZE.sub("", full)) or full
         cats = " ".join(c.get("name") or "" for c in base.get("categories") or [])
-        cat, ru, uz = describe(cats + " " + original if cats else original)
-        brand = brand_of(base, variants)
-        if brand and brand.lower() not in ru.lower():
-            ru, uz = ru + " " + brand, uz + " " + brand
+        cat, ru, uz, known = describe(original, cats)
+        color = attr(variants, COLOR_ATTR) or (sku_parts[1] if sku_parts else "")
 
         hay = tr_fold(cats + " " + full).replace("ё", "е")
         g = "girl" if re.search(GIRL, hay) else "boy" if re.search(BOY, hay) else "unisex"
         if g == "unisex" and cat != "accessories":
-            color = tr_fold(attr(variants, COLOR_ATTR))
-            g = "girl" if re.search(GIRL_COLOR, color) else "boy" if re.search(BOY_COLOR, color) else "unisex"
+            fc = tr_fold(color)
+            g = "girl" if re.search(GIRL_COLOR, fc) else "boy" if re.search(BOY_COLOR, fc) else "unisex"
 
         sizes.sort(key=lambda k: KEYS.index(k) if k in KEYS else 99)
-        sku = str(base.get("sku") or gid)
         desc = clean(base.get("description"))
         item = {
             "id": "b" + re.sub(r"[^a-zA-Z0-9]", "", sku)[:24],
@@ -317,7 +365,28 @@ def transform(raw, shops, show_oos=False, show_no_photo=True):
         if olds:
             item["old"] = int(min(olds))
             item["badge"] = "sale"
+        model = re.match(r"[A-Z]+", sku_parts[0]).group(0) if sku_parts else ""
         products.append(item)
+        pending.append((item, known, model, brand_of(base, variants), color_name(color)))
+
+    # Тип для товаров, у которых вместо названия артикул: по буквам модели (TE…, TKE…) у остальных товаров
+    votes = collections.defaultdict(collections.Counter)
+    for item, known, model, _, _ in pending:
+        if known and model:
+            votes[model][(item["cat"], PIECES_SUFFIX.sub("", item["name"]["ru"]), PIECES_SUFFIX.sub("", item["name"]["uz"]))] += 1
+    for item, known, model, brand, cname in pending:
+        if not known:
+            best = votes[model].most_common(1) if model else []
+            if best and best[0][1] >= 3:
+                item["cat"], item["name"]["ru"], item["name"]["uz"] = best[0][0]
+            else:
+                UNKNOWN[(tr_fold(item["name"]["ru"]).split() or [""])[0]] += 1
+        if brand and brand.lower() not in item["name"]["ru"].lower():
+            item["name"]["ru"] += " " + brand
+            item["name"]["uz"] += " " + brand
+        if cname:
+            item["name"]["ru"] += " · " + cname[0]
+            item["name"]["uz"] += " · " + cname[1]
 
     seen = {}
     for p in products:

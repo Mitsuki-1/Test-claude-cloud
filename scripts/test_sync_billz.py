@@ -86,13 +86,25 @@ class TransformTest(unittest.TestCase):
         p = by_id(sb.transform(load(), set()))
         t = p["bTRTULUM"]
         self.assertEqual((t["cat"], t["g"], t["sizes"], t["name"]["ru"], t["name"]["uz"]),
-                         ("bodysuits", "girl", ["6-9m", "9-12m"], "Комбинезон Caramell", "Kombinezon Caramell"))
+                         ("bodysuits", "girl", ["6-9m", "9-12m"], "Комбинезон Caramell · розовый", "Kombinezon Caramell · pushti"))
         self.assertIn("Tulum", t["desc"]["ru"])
         s = p["bTRTAKIM3"]
-        self.assertEqual((s["cat"], s["g"], s["sizes"], s["name"]["ru"]), ("sets", "boy", ["9-12m"], "Комплект (3 шт.) Leo King"))
+        self.assertEqual((s["cat"], s["g"], s["sizes"], s["name"]["ru"]), ("sets", "boy", ["9-12m"], "Комплект (3 шт.) Leo King · голубой"))
         self.assertEqual((p["bTRSET10"]["cat"], p["bTRSET10"]["name"]["ru"]), ("discharge", "Набор на выписку (10 шт.)"))
         self.assertEqual((p["bTREMZ"]["cat"], p["bTREMZ"]["g"]), ("accessories", "unisex"))
         self.assertEqual((p["bTRUYKU"]["cat"], p["bTRUYKU"]["sizes"]), ("pajamas", ["3-6m"]))  # размер из названия
+
+    def test_sku_model_color_groups_sizes(self):
+        p = by_id(sb.transform(load(), set()))
+        grey = p["bTE1313GRI"]
+        self.assertEqual((grey["sizes"], grey["price"], grey["img"]), (["3-6m", "6-9m"], 185000, "https://cdn.billz.ai/te1313.jpg"))
+        self.assertEqual(grey["name"]["ru"], "Комбинезон · серый")
+        self.assertIn("Арт. TE1313.GRI", grey["desc"]["ru"])
+        self.assertEqual((p["bTE1313MAVI"]["sizes"], p["bTE1313MAVI"]["g"]), (["6-9m"], "boy"))  # другой цвет — отдельная карточка
+
+    def test_type_learned_from_model_prefix(self):
+        k = by_id(sb.transform(load(), set()))["bTKE2052EKRU"]
+        self.assertEqual((k["cat"], k["name"]["ru"], k["sizes"]), ("sets", "Комплект · молочный", ["2-3y"]))
 
     def test_hide_without_photo(self):
         p = by_id(sb.transform(load(), set(), show_no_photo=False))
