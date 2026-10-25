@@ -46,13 +46,31 @@
     return res;
   }
 
-  function grid() {
-    var res = list();
-    document.getElementById("found").textContent = window.t("f.found") + ": " + res.length;
-    document.getElementById("grid").innerHTML = res.length ? res.map(window.productCard).join("") :
-      '<div class="empty" style="grid-column:1/-1"><div style="font-size:48px">' + (st.cat === "fav" ? "♡" : "🧸") + '</div><p>' + window.t(st.cat === "fav" ? "fav.empty" : "f.none") + '</p><button class="btn btn-ghost" id="f-reset">' + window.t("f.reset") + "</button></div>";
+  var PAGE = 48, shown = 0, current = [];
+
+  function more() {
+    var g = document.getElementById("grid");
+    var next = current.slice(shown, shown + PAGE);
+    var old = document.getElementById("f-more");
+    if (old) old.parentNode.removeChild(old);
+    g.insertAdjacentHTML("beforeend", next.map(window.productCard).join(""));
+    shown += next.length;
+    if (shown < current.length) {
+      g.insertAdjacentHTML("beforeend", '<div class="more-wrap" id="f-more"><button class="btn btn-ghost">' + window.t("f.more") + "</button><small>" +
+        window.t("f.shown") + " " + shown + " / " + current.length + "</small></div>");
+    }
     window.observeReveal && window.observeReveal();
     window.Fav.sync();
+  }
+
+  function grid() {
+    current = list();
+    shown = 0;
+    document.getElementById("found").textContent = window.t("f.found") + ": " + current.length;
+    var g = document.getElementById("grid");
+    g.innerHTML = current.length ? "" :
+      '<div class="empty" style="grid-column:1/-1"><div style="font-size:48px">' + (st.cat === "fav" ? "♡" : "🧸") + '</div><p>' + window.t(st.cat === "fav" ? "fav.empty" : "f.none") + '</p><button class="btn btn-ghost" id="f-reset">' + window.t("f.reset") + "</button></div>";
+    if (current.length) more();
   }
 
   function sync() {
@@ -68,6 +86,7 @@
   document.addEventListener("click", function (e) {
     var c = e.target.closest("[data-cat]");
     if (c) { st.cat = c.dataset.cat; update(); return; }
+    if (e.target.closest("#f-more")) { more(); return; }
     if (e.target.closest("#f-reset")) { st = { cat: "all", g: "all", size: "all", q: "", sort: "pop" }; document.getElementById("f-q").value = ""; update(); }
   });
   document.addEventListener("change", function (e) {

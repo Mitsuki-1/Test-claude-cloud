@@ -526,6 +526,8 @@ details.sizes-d summary { cursor: pointer; font-weight: 700; margin-top: 24px; c
 .card-fav.is-fav path { fill: currentColor; }
 .card-fav.pop { animation: favPop .45s var(--ease); }
 @keyframes favPop { 40% { transform: scale(1.35); } }
+.more-wrap { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 16px 0 8px; }
+.more-wrap small { color: var(--choco-2); }
 .chip-fav .fav-count { position: static; display: inline-block; margin-left: 4px; vertical-align: 1px; }
 .chip.is-on .fav-count { background: #fff; color: var(--choco); }
 

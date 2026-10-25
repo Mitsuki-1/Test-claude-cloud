@@ -56,6 +56,42 @@
       "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 0}]
     },
     {
+      "id": "t1", "parent_id": null, "is_variative": true, "sku": "TR-TULUM", "name": "Tulum", "main_image_url": "https://cdn.billz.ai/t1.jpg",
+      "shop_prices": [], "shop_measurement_values": []
+    },
+    {
+      "id": "t1-a", "parent_id": "t1", "sku": "TR-TULUM-69", "name": "Tulum",
+      "product_attributes": [{"attribute_name": "Бренд", "attribute_value": "caramell"}, {"attribute_name": "Цвет", "attribute_value": "pembe"}, {"attribute_name": "Размер", "attribute_value": "6_9"}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 205000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 2}]
+    },
+    {
+      "id": "t1-b", "parent_id": "t1", "sku": "TR-TULUM-912", "name": "Tulum",
+      "product_attributes": [{"attribute_name": "Бренд", "attribute_value": "caramell"}, {"attribute_name": "размер 1", "attribute_value": "9-12"}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 205000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "t2", "parent_id": null, "sku": "TR-SET10", "name": "10 lu Set/Tulum lu", "main_image_url": "https://cdn.billz.ai/t2.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 860000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "t3", "parent_id": null, "sku": "TR-TAKIM3", "name": "3'lü Takım", "brand_name": "Leo king", "main_image_url": "https://cdn.billz.ai/t3.jpg",
+      "product_attributes": [{"attribute_name": "Цвет", "attribute_value": "MAVI"}, {"attribute_name": "Размер", "attribute_value": "6-12 AY"}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 440000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 3}]
+    },
+    {
+      "id": "t4", "parent_id": null, "sku": "TR-EMZ", "name": "Emzirme Sütyeni", "main_image_url": "https://cdn.billz.ai/t4.jpg",
+      "product_attributes": [{"attribute_name": "Цвет", "attribute_value": "pembe"}],
+      "shop_prices": [{"shop_id": "s1", "retail_price": 105000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 4}]
+    },
+    {
+      "id": "t5", "parent_id": null, "sku": "TR-SAPKA", "name": "Şapka",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 45000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 9}]
+    },
+    {
+      "id": "t6", "parent_id": null, "sku": "TR-UYKU", "name": "UYKU TULUMU 0-6 AY", "main_image_url": "https://cdn.billz.ai/t6.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 275000}], "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 2}]
+    },
+    {
       "id": "p5", "parent_id": null, "sku": "CR-HAT", "name": "Шапочка для новорождённого",
       "photos": [{"photo_url": "https://cdn.billz.ai/p5.jpg", "is_main": true}],
       "shop_prices": [{"shop_id": "s1", "retail_price": 89000}],

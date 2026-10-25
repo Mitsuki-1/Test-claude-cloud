@@ -20,7 +20,7 @@
 
       "cats.kicker": "Коллекции", "cats.title": "Всё для малыша — в одном месте",
       "cat.all": "Все", "cat.newborn": "Новорождённым", "cat.bodysuits": "Боди и комбинезоны", "cat.sets": "Костюмы и комплекты",
-      "cat.dresses": "Платья", "cat.discharge": "На выписку", "cat.pajamas": "Пижамы и сон",
+      "cat.dresses": "Платья", "cat.discharge": "На выписку", "cat.pajamas": "Пижамы и сон", "cat.accessories": "Аксессуары и уход",
 
       "hits.kicker": "Выбор мам", "hits.title": "Хиты продаж", "hits.all": "Весь каталог →",
       "badge.hit": "Хит", "badge.new": "Новинка", "badge.sale": "Скидка",
@@ -62,7 +62,7 @@
       "f.search": "Поиск: боди, пижама, платье…", "f.gender": "Для кого", "g.all": "Все", "g.girl": "Девочкам", "g.boy": "Мальчикам", "g.unisex": "Унисекс",
       "f.size": "Размер", "f.sizeAll": "Любой", "f.sort": "Сортировка",
       "s.pop": "Популярные", "s.cheap": "Сначала дешевле", "s.exp": "Сначала дороже", "s.new": "Новинки",
-      "f.found": "Найдено", "f.none": "Ничего не нашлось. Попробуйте сбросить фильтры.", "f.reset": "Сбросить",
+      "f.found": "Найдено", "f.none": "Ничего не нашлось. Попробуйте сбросить фильтры.", "f.reset": "Сбросить", "f.more": "Показать ещё", "f.shown": "Показано",
       "p.add": "В корзину", "p.more": "Подробнее", "p.size": "Выберите размер", "p.qty": "Количество",
       "p.pickSize": "Сначала выберите размер", "p.added": "Добавлено в корзину", "p.opt": "Опт от 5 серий — цена по запросу",
       "p.sizes": "Размеры",
@@ -128,7 +128,7 @@
 
       "cats.kicker": "Kolleksiyalar", "cats.title": "Chaqaloq uchun hammasi — bir joyda",
       "cat.all": "Barchasi", "cat.newborn": "Chaqaloqlarga", "cat.bodysuits": "Bodi va kombinezonlar", "cat.sets": "Kostyum va to‘plamlar",
-      "cat.dresses": "Ko‘ylaklar", "cat.discharge": "Tug‘ruqxonadan chiqish", "cat.pajamas": "Pijama va uyqu",
+      "cat.dresses": "Ko‘ylaklar", "cat.discharge": "Tug‘ruqxonadan chiqish", "cat.pajamas": "Pijama va uyqu", "cat.accessories": "Aksessuar va parvarish",
 
       "hits.kicker": "Onalar tanlovi", "hits.title": "Eng ko‘p sotilganlar", "hits.all": "Butun katalog →",
       "badge.hit": "Xit", "badge.new": "Yangi", "badge.sale": "Chegirma",
@@ -169,7 +169,7 @@
       "f.search": "Qidiruv: bodi, pijama, ko‘ylak…", "f.gender": "Kim uchun", "g.all": "Barchasi", "g.girl": "Qizlarga", "g.boy": "O‘g‘il bolalarga", "g.unisex": "Uniseks",
       "f.size": "O‘lcham", "f.sizeAll": "Istalgan", "f.sort": "Saralash",
       "s.pop": "Ommabop", "s.cheap": "Avval arzonroq", "s.exp": "Avval qimmatroq", "s.new": "Yangilar",
-      "f.found": "Topildi", "f.none": "Hech narsa topilmadi. Filtrlarni tozalab ko‘ring.", "f.reset": "Tozalash",
+      "f.found": "Topildi", "f.none": "Hech narsa topilmadi. Filtrlarni tozalab ko‘ring.", "f.reset": "Tozalash", "f.more": "Yana ko‘rsatish", "f.shown": "Ko‘rsatildi",
       "p.add": "Savatga", "p.more": "Batafsil", "p.size": "O‘lchamni tanlang", "p.qty": "Soni",
       "p.pickSize": "Avval o‘lchamni tanlang", "p.added": "Savatga qo‘shildi", "p.opt": "5 seriyadan ulgurji — narx so‘rov bo‘yicha",
       "p.sizes": "O‘lchamlar",

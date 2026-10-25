@@ -31,7 +31,7 @@
     { key: "7-8y",   h: [122, 128], w: [24, 27],  a: [84, 96] }
   ];
 
-  window.CATEGORIES = ["newborn", "bodysuits", "sets", "dresses", "discharge", "pajamas"];
+  window.CATEGORIES = ["newborn", "bodysuits", "sets", "dresses", "discharge", "pajamas", "accessories"];
 
   var BABY = ["0-3m", "3-6m", "6-9m", "9-12m"];
   var TODDLER = ["9-12m", "12-18m", "18-24m", "2-3y"];
@@ -118,6 +118,7 @@
   ];
 
   var KEEP = ["c101", "c102", "c103"];
+  var CAT_COLOR = { discharge: "#F5DCE2", pajamas: "#E4ECF8", dresses: "#F5DCE2", bodysuits: "#EAF0F8", newborn: "#F4ECE1", sets: "#EAF0F8", accessories: "#F4ECE1" };
   var billz = window.BILLZ && window.BILLZ.products;
   if (billz && billz.length) {
     var str = function (v) { return typeof v === "object" && v ? v : { ru: String(v || ""), uz: String(v || "") }; };
@@ -125,7 +126,7 @@
       var cat = window.CATEGORIES.indexOf(b.cat) > -1 ? b.cat : "sets";
       return {
         id: String(b.id), cat: cat, g: b.g || "unisex", price: +b.price || 0, old: b.old ? +b.old : undefined, badge: b.badge,
-        sizes: b.sizes && b.sizes.length ? b.sizes : ["One size"], color: b.color || "#EAF0F8",
+        sizes: b.sizes && b.sizes.length ? b.sizes : ["One size"], color: b.color || CAT_COLOR[cat] || "#EAF0F8",
         img: b.img || window.artSVG(cat, b.color), name: str(b.name), desc: str(b.desc)
       };
     }));
