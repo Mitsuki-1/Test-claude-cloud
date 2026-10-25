@@ -13,7 +13,8 @@
 Кадры выбираются через ffmpeg (в GitHub Actions он есть): самые насыщенные, хорошо
 освещённые и резкие моменты. Без ffmpeg ролики сохраняются как есть, а кадры остаются прежними.
 
-Настройки — scripts/site_config.json: reels_count, kids_posts (посты со съёмкой детей).
+Настройки — scripts/site_config.json: reels_count, kids_posts (посты со съёмкой детей),
+skip_frames (неудачные кадры), featured_frames (лучшие кадры в порядке показа).
 Переменные окружения: TG_CHANNEL, TG_PAGES (страниц ленты по 20 постов, по умолчанию 25).
 """
 import html
@@ -46,7 +47,7 @@ FRAMES_PER_VIDEO = 2
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 BG = re.compile(r"background-image:url\('([^']+)'\)")
 # Посты не про товар (поздравления, опросы, адреса) — их картинки не берём
-JUNK = re.compile(r"muborak|поздравл|праздник|бренд|brend|📍|адрес|manzil|mo.?ljal|ориентир|розыгрыш|konkurs", re.I)
+JUNK = re.compile(r"muborak|поздравл|праздник|бренд|brend|📍|адрес|manzil|mo.?ljal|ориентир|розыгрыш|konkurs|пожелани|taklif", re.I)
 COLLECTION = re.compile(r"коллекц|collection|kolleksiy|новые комплекты|yangi komplekt|новинк", re.I)
 BRANDS = [("Atelier Babbi", r"atelier\s*bab+[iy]"), ("Leo King", r"leo\s*king"), ("U.S. Polo", r"u\.?\s*s\.?\s*polo"),
           ("Monna Rossa", r"mon+a\s*ros+a"), ("Sweet Me", r"swee?t\s*me"), ("Baby Theatre", r"baby\s*theat"),
@@ -210,11 +211,12 @@ def frame_score(f):
     return f["sat"] * 1.2 - abs(f["y"] - 140) * 0.45 - f["blur"] * 4
 
 
-def best_moments(frames, k=FRAMES_PER_VIDEO, gap=3.0, edge=0.6):
+def best_moments(frames, k=FRAMES_PER_VIDEO, gap=3.0, edge=0.6, start=1.5):
+    """Лучшие моменты: без заставки в начале (start, сек) и последних edge секунд, не ближе gap друг к другу."""
     if not frames:
         return []
     end = max(f["t"] for f in frames)
-    cands = [f for f in frames if edge <= f["t"] <= end - edge] or frames
+    cands = [f for f in frames if max(edge, start) <= f["t"] <= end - edge] or frames
     out = []
     for f in sorted(cands, key=frame_score, reverse=True):
         if all(abs(f["t"] - o["t"]) >= gap for o in out):
@@ -293,6 +295,7 @@ def main():
     cfg = load_config()
     reels_count = int(cfg.get("reels_count", 7))
     kids_posts = [str(x) for x in cfg.get("kids_posts", [])]
+    skip = set(cfg.get("skip_frames", []))  # кадры с надписями-заставками, логотипами и т. п.
     os.makedirs(IMG_DIR, exist_ok=True)
     os.makedirs(REEL_DIR, exist_ok=True)
 
@@ -330,7 +333,7 @@ def main():
     for k in kids_posts:  # кадры детей сохраняются, даже если пост ушёл из ленты
         for n in os.listdir(IMG_DIR):
             src = "assets/tg/" + n
-            if n.startswith("f_%s_" % k) and src in previous and k not in {p["post"] for p in frame_posts}:
+            if n.startswith("f_%s_" % k) and n[:-4] not in skip and src in previous and k not in {p["post"] for p in frame_posts}:
                 e = dict(previous[src], kids=True)
                 items.append(e)
                 keep.add(n)
@@ -338,8 +341,9 @@ def main():
     n_new = 0
     for p in frame_posts:
         kids = p["post"] in kids_posts
-        have = sorted(n for n in os.listdir(IMG_DIR) if n.startswith("f_%s_" % p["post"]))
-        if have:
+        prefix = "f_%s_" % p["post"]
+        have = sorted(n for n in os.listdir(IMG_DIR) if n.startswith(prefix) and n[:-4] not in skip)
+        if have or any(x.startswith(prefix) for x in skip):
             for n in have:
                 old = previous.get("assets/tg/" + n, {})
                 items.append(entry(p, "assets/tg/" + n, "frame", old.get("score", 0), kids))
@@ -358,6 +362,8 @@ def main():
                 continue
             for i, f in enumerate(best_moments(analyze(path))):
                 name = "f_%s_%d.jpg" % (p["post"], i)
+                if name[:-4] in skip:
+                    continue
                 if extract(path, f["t"], os.path.join(IMG_DIR, name)):
                     items.append(entry(p, "assets/tg/" + name, "frame", frame_score(f), kids))
                     keep.add(name)
@@ -422,6 +428,11 @@ def main():
         if f.endswith(".jpg") and f not in keep:
             os.remove(os.path.join(IMG_DIR, f))
 
+    featured = cfg.get("featured_frames", [])  # отобранные вручную кадры — на самые заметные места
+    for e in items:
+        name = os.path.basename(e["src"])[:-4]
+        if name in featured:
+            e["pin"] = featured.index(name) + 1
     items.sort(key=lambda e: int(e["post"].rsplit("/", 1)[-1]), reverse=True)
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8", newline="\n") as f:

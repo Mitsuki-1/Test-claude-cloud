@@ -20,11 +20,11 @@
   ];
 
   // Снимки из Telegram (js/data/telegram.js): лучшие кадры из видео, затем фото постов; Unsplash — запасной вариант.
-  // Подбираются один раз и не повторяются. Сначала самый яркий кадр — для «Почему Caramell».
+  // Подбираются один раз и не повторяются. Лучший кадр с ребёнком — для «Почему Caramell», следующие — в галерею.
   var TG_POST = {};
   var take = function (t) { if (t) TG_POST[t.src] = t.post; return t; };
   var any = function () { return take(window.tgPick(null, { photoOnly: true, productOnly: true })); };
-  var whyTG = any();
+  var whyTG = take(window.tgPick(null, { kids: true })) || any();
   var CAT_TG = [
     ["discharge", /выписк|роддом|chiqish|tug.?ruqxona/i],
     ["pajamas", /пижам|uyqu|спальн|shirin/i],

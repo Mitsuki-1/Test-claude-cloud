@@ -135,12 +135,14 @@
   /* ---------- Фото из Telegram ---------- */
   var TG = window.TG_PHOTOS || [];
   var PRODUCT_RX = /комплект|коллекц|collection|kolleksiya|leoking|тройк|двойк|модел|образ|набор|комбинезон|плать|пижам|выписк|uyqu|to.?plam|kombinezon/i;
-  var used = {};
+  var used = {}, usedPost = {};
 
   // Кадры из видео лучше фото, фото лучше обложек видео; среди кадров — по оценке яркости/цвета
   var RANK = { frame: 0, photo: 1, thumb: 2 };
   var kindOf = function (t) { return t.kind || (t.video ? "thumb" : "photo"); };
-  var byQuality = function (a, b) { return (RANK[kindOf(a)] - RANK[kindOf(b)]) || ((b.score || 0) - (a.score || 0)); };
+  var byQuality = function (a, b) {
+    return ((a.pin || 999) - (b.pin || 999)) || (RANK[kindOf(a)] - RANK[kindOf(b)]) || ((b.score || 0) - (a.score || 0));
+  };
 
   // Подобрать снимок из канала. re — слова в тексте поста; opts: photoOnly (без обложек 180px),
   // productOnly (фото только из постов про товар), kids (только кадры детей)
@@ -151,8 +153,9 @@
       return !used[t.src] && !!t.kids === !!opts.kids && (!opts.photoOnly || k !== "thumb") &&
         (!re || re.test(t.text)) && (!opts.productOnly || k === "frame" || PRODUCT_RX.test(t.text));
     }).sort(byQuality);
-    var t = pool[0];
-    if (t) used[t.src] = true;
+    // по возможности — не больше одного снимка из одного поста (кадры одного ролика похожи)
+    var t = pool.filter(function (x) { return !usedPost[x.post]; })[0] || pool[0];
+    if (t) { used[t.src] = true; usedPost[t.post] = true; }
     return t || null;
   };
 

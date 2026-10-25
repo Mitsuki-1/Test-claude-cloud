@@ -327,18 +327,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4849_0.jpg",
-  "post": "https://t.me/Caramelluz/4849",
-  "date": "2026-10-10",
-  "text": "Двойка😊\nРазмеры: 68-74, 74-80, 80-86,86-92\nЦена: 285 000 сум",
-  "prices": [
-   285000
-  ],
-  "kind": "frame",
-  "score": 17.4,
-  "kids": false
- },
- {
   "src": "assets/tg/f_4849_1.jpg",
   "post": "https://t.me/Caramelluz/4849",
   "date": "2026-10-10",
@@ -774,46 +762,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4813_0.jpg",
-  "post": "https://t.me/Caramelluz/4813",
-  "date": "2026-10-02",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": -0.2,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4813_1.jpg",
-  "post": "https://t.me/Caramelluz/4813",
-  "date": "2026-10-02",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": -4.8,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4807_0.jpg",
-  "post": "https://t.me/Caramelluz/4807",
-  "date": "2026-10-01",
-  "text": "Tez kunda🤩",
-  "prices": [],
-  "kind": "frame",
-  "score": -3.7,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4807_1.jpg",
-  "post": "https://t.me/Caramelluz/4807",
-  "date": "2026-10-01",
-  "text": "Tez kunda🤩",
-  "prices": [],
-  "kind": "frame",
-  "score": -48.7,
-  "kids": false
- },
- {
   "src": "assets/tg/f_4803_0.jpg",
   "post": "https://t.me/Caramelluz/4803",
   "date": "2026-09-27",
@@ -884,56 +832,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4798_1.jpg",
-  "post": "https://t.me/Caramelluz/4798",
-  "date": "2026-09-24",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": -5.0,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4796_0.jpg",
-  "post": "https://t.me/Caramelluz/4796",
-  "date": "2026-09-24",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": 12.0,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4796_1.jpg",
-  "post": "https://t.me/Caramelluz/4796",
-  "date": "2026-09-24",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": -3.2,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4795_0.jpg",
-  "post": "https://t.me/Caramelluz/4795",
-  "date": "2026-09-24",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": 26.5,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4795_1.jpg",
-  "post": "https://t.me/Caramelluz/4795",
-  "date": "2026-09-24",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": 8.5,
-  "kids": false
- },
- {
   "src": "assets/tg/f_4794_0.jpg",
   "post": "https://t.me/Caramelluz/4794",
   "date": "2026-09-24",
@@ -954,16 +852,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4793_0.jpg",
-  "post": "https://t.me/Caramelluz/4793",
-  "date": "2026-09-24",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": -3.8,
-  "kids": false
- },
- {
   "src": "assets/tg/f_4793_1.jpg",
   "post": "https://t.me/Caramelluz/4793",
   "date": "2026-09-24",
@@ -971,16 +859,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -7.3,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4792_0.jpg",
-  "post": "https://t.me/Caramelluz/4792",
-  "date": "2026-09-24",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": -4.8,
   "kids": false
  },
  {
@@ -1054,16 +932,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4783_0.jpg",
-  "post": "https://t.me/Caramelluz/4783",
-  "date": "2026-09-22",
-  "text": "В нашем магазине всегда царит тёплая и уютная атмосфера 🥰\nКаждый день мы с любовью помогаем нашим покупателям выбирать самое красивое и комфортное для детей 😊\n\nСпасибо, что выбираете нас и доверяете нам самое ценное ♥️\nМы всегда рады видеть вас в нашем магазине!",
-  "prices": [],
-  "kind": "frame",
-  "score": -8.1,
-  "kids": false
- },
- {
   "src": "assets/tg/f_4783_1.jpg",
   "post": "https://t.me/Caramelluz/4783",
   "date": "2026-09-22",
@@ -1074,26 +942,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4781_0.jpg",
-  "post": "https://t.me/Caramelluz/4781",
-  "date": "2026-09-22",
-  "text": "Пожалуйста, оставляйте свои пожелания и предложения☺️👇🏻",
-  "prices": [],
-  "kind": "frame",
-  "score": 0.7,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4781_1.jpg",
-  "post": "https://t.me/Caramelluz/4781",
-  "date": "2026-09-22",
-  "text": "Пожалуйста, оставляйте свои пожелания и предложения☺️👇🏻",
-  "prices": [],
-  "kind": "frame",
-  "score": 0.7,
-  "kids": false
- },
- {
   "src": "assets/tg/f_4777_0.jpg",
   "post": "https://t.me/Caramelluz/4777",
   "date": "2026-09-20",
@@ -1101,26 +949,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": 9.1,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4777_1.jpg",
-  "post": "https://t.me/Caramelluz/4777",
-  "date": "2026-09-20",
-  "text": "Мягкость, нежность и забота в каждой детали. ❤️",
-  "prices": [],
-  "kind": "frame",
-  "score": 8.9,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4776_0.jpg",
-  "post": "https://t.me/Caramelluz/4776",
-  "date": "2026-09-20",
-  "text": "Стильную и комфортную одежду для осеннего сезона вы найдёте только в Caramell! 🍂\n\nЖдём вас во всех наших филиалах!🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": -7.4,
   "kids": false
  },
  {
@@ -1268,26 +1096,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4484_0.jpg",
-  "post": "https://t.me/Caramelluz/4484",
-  "date": "2026-07-21",
-  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с 9:00 до 21:00\n\n📍Адрес: ТРЦ Chimgan,\nМирзо-Улугбекский район, улица Темура Малика, дом 3А, г. Ташкент\n🕘 Режим работы: с 10:00 до 22:00\n\n📍 Адрес: торговый центр Riviera\n🕘 Режим работы: с 10:00 до 22:00\n\n📲 Для заказов и консультаций — пишите в Direct @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": -17.6,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_4484_1.jpg",
-  "post": "https://t.me/Caramelluz/4484",
-  "date": "2026-07-21",
-  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с 9:00 до 21:00\n\n📍Адрес: ТРЦ Chimgan,\nМирзо-Улугбекский район, улица Темура Малика, дом 3А, г. Ташкент\n🕘 Режим работы: с 10:00 до 22:00\n\n📍 Адрес: торговый центр Riviera\n🕘 Режим работы: с 10:00 до 22:00\n\n📲 Для заказов и консультаций — пишите в Direct @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": -17.6,
-  "kids": true
- },
- {
   "src": "assets/tg/4457_0.jpg",
   "post": "https://t.me/Caramelluz/4457",
   "date": "2026-07-14",
@@ -1298,16 +1106,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4343_0.jpg",
-  "post": "https://t.me/Caramelluz/4343",
-  "date": "2026-06-12",
-  "text": "Стильные и удобные комплекты для мальчиков 💙\nИдеальный вариант для вашего малыша ✨\nМягкие, качественные и очень комфортные\nПодойдут на каждый день 👌\n\nПишите в директ 📩",
-  "prices": [],
-  "kind": "frame",
-  "score": 14.1,
-  "kids": true
- },
- {
   "src": "assets/tg/f_4343_1.jpg",
   "post": "https://t.me/Caramelluz/4343",
   "date": "2026-06-12",
@@ -1315,7 +1113,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -10.9,
-  "kids": true
+  "kids": true,
+  "pin": 15
  },
  {
   "src": "assets/tg/f_4209_0.jpg",
@@ -1335,16 +1134,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -20.4,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_4204_0.jpg",
-  "post": "https://t.me/Caramelluz/4204",
-  "date": "2026-05-17",
-  "text": "Новая коллекция 😍😍😍",
-  "prices": [],
-  "kind": "frame",
-  "score": -13.4,
   "kids": true
  },
  {
@@ -1427,7 +1216,8 @@ window.TG_PHOTOS = [
   ],
   "kind": "frame",
   "score": -7.6,
-  "kids": true
+  "kids": true,
+  "pin": 11
  },
  {
   "src": "assets/tg/f_4122_1.jpg",
@@ -1449,7 +1239,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": 2.9,
-  "kids": true
+  "kids": true,
+  "pin": 3
  },
  {
   "src": "assets/tg/f_4092_1.jpg",
@@ -1499,7 +1290,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -2.2,
-  "kids": true
+  "kids": true,
+  "pin": 4
  },
  {
   "src": "assets/tg/f_3688_1.jpg",
@@ -1512,32 +1304,6 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
-  "src": "assets/tg/f_3684_0.jpg",
-  "post": "https://t.me/Caramelluz/3684",
-  "date": "2026-01-30",
-  "text": "Комбинезон🤩🤩🤩\n\nРазмеры: 56-62, 62-68, 68-74, 74-80\nЦена: 205 000 сум \n\nШапка \nЦена: 45 000 сум \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n⠀📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка",
-  "prices": [
-   205000,
-   45000
-  ],
-  "kind": "frame",
-  "score": 9.4,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_3684_1.jpg",
-  "post": "https://t.me/Caramelluz/3684",
-  "date": "2026-01-30",
-  "text": "Комбинезон🤩🤩🤩\n\nРазмеры: 56-62, 62-68, 68-74, 74-80\nЦена: 205 000 сум \n\nШапка \nЦена: 45 000 сум \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n⠀📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка",
-  "prices": [
-   205000,
-   45000
-  ],
-  "kind": "frame",
-  "score": 2.4,
-  "kids": true
- },
- {
   "src": "assets/tg/f_3639_0.jpg",
   "post": "https://t.me/Caramelluz/3639",
   "date": "2026-01-21",
@@ -1545,7 +1311,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -0.9,
-  "kids": true
+  "kids": true,
+  "pin": 9
  },
  {
   "src": "assets/tg/f_3639_1.jpg",
@@ -1555,16 +1322,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -3.2,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_3634_0.jpg",
-  "post": "https://t.me/Caramelluz/3634",
-  "date": "2026-01-20",
-  "text": "New collection",
-  "prices": [],
-  "kind": "frame",
-  "score": 2.8,
   "kids": true
  },
  {
@@ -1585,32 +1342,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -36.7,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_3359_0.jpg",
-  "post": "https://t.me/Caramelluz/3359",
-  "date": "2025-11-01",
-  "text": "Комбинезон🤩🤩🤩\n\nРазмеры: 56-62, 62-68, 68-74, 74-80\nЦена: 205 000 сум \n\nШапка \nЦена: 45 000 сум \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n⠀📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка",
-  "prices": [
-   205000,
-   45000
-  ],
-  "kind": "frame",
-  "score": 9.4,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_3359_1.jpg",
-  "post": "https://t.me/Caramelluz/3359",
-  "date": "2025-11-01",
-  "text": "Комбинезон🤩🤩🤩\n\nРазмеры: 56-62, 62-68, 68-74, 74-80\nЦена: 205 000 сум \n\nШапка \nЦена: 45 000 сум \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n⠀📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка",
-  "prices": [
-   205000,
-   45000
-  ],
-  "kind": "frame",
-  "score": 2.4,
   "kids": true
  },
  {
@@ -1661,7 +1392,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -4.5,
-  "kids": true
+  "kids": true,
+  "pin": 13
  },
  {
   "src": "assets/tg/f_3000_1.jpg",
@@ -1681,7 +1413,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -9.8,
-  "kids": true
+  "kids": true,
+  "pin": 8
  },
  {
   "src": "assets/tg/f_2984_1.jpg",
@@ -1731,7 +1464,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": 7.7,
-  "kids": true
+  "kids": true,
+  "pin": 1
  },
  {
   "src": "assets/tg/f_2801_1.jpg",
@@ -1741,7 +1475,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": 0.1,
-  "kids": true
+  "kids": true,
+  "pin": 16
  },
  {
   "src": "assets/tg/f_2687_0.jpg",
@@ -1791,17 +1526,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -14.7,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_2349_1.jpg",
-  "post": "https://t.me/Caramelluz/2349",
-  "date": "2025-02-23",
-  "text": "Family love collection ❤️🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": -17.3,
-  "kids": true
+  "kids": true,
+  "pin": 14
  },
  {
   "src": "assets/tg/f_2318_0.jpg",
@@ -1821,17 +1547,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -10.7,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_2315_0.jpg",
-  "post": "https://t.me/Caramelluz/2315",
-  "date": "2025-02-16",
-  "text": "Новая коллекция 😍😍😍\n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n\n📍Адрес магазина: Шайхантахурский район, улица Беруни, дом 8.\n✔️Ориентир: От перекрестка Орзу в сторону метро Тинчлик 200 метров",
-  "prices": [],
-  "kind": "frame",
-  "score": 3.4,
-  "kids": true
+  "kids": true,
+  "pin": 10
  },
  {
   "src": "assets/tg/f_2315_1.jpg",
@@ -1841,16 +1558,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -7.2,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_2287_0.jpg",
-  "post": "https://t.me/Caramelluz/2287",
-  "date": "2025-02-09",
-  "text": "Новая коллекция 😍😍😍\n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n\n📍Адрес магазина: Шайхантахурский район, улица Беруни, дом 8.\n✔️Ориентир: От перекрестка Орзу в сторону метро Тинчлик 200 метров",
-  "prices": [],
-  "kind": "frame",
-  "score": -4.0,
   "kids": true
  },
  {
@@ -1871,7 +1578,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": 6.1,
-  "kids": true
+  "kids": true,
+  "pin": 2
  },
  {
   "src": "assets/tg/f_2186_0.jpg",
@@ -1881,26 +1589,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -14.7,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_2186_1.jpg",
-  "post": "https://t.me/Caramelluz/2186",
-  "date": "2025-01-21",
-  "text": "Family love collection ❤️🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": -17.3,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_2183_0.jpg",
-  "post": "https://t.me/Caramelluz/2183",
-  "date": "2025-01-20",
-  "text": "📞 +998(77) 703 94 94\n\n❤️доставка по всему Узбекистану \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n\n📍Адрес магазина: Шайхантахурский район, улица Беруни, дом 8.\n✔️Ориентир: От перекрестка Орзу в сторону метро Тинчлик 200 метров",
-  "prices": [],
-  "kind": "frame",
-  "score": -8.7,
   "kids": true
  },
  {
@@ -1934,16 +1622,6 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
-  "src": "assets/tg/f_2173_1.jpg",
-  "post": "https://t.me/Caramelluz/2173",
-  "date": "2025-01-17",
-  "text": "Новая коллекция ❤️❤️❤️\n\n📞 +998(77) 703 94 94\n\n❤️доставка по всему Узбекистану \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n\n📍Адрес магазина: Шайхантахурский район, улица Беруни, дом 8.\n✔️Ориентир: От перекрестка Орзу в сторону метро Тинчлик 200 метров",
-  "prices": [],
-  "kind": "frame",
-  "score": -18.5,
-  "kids": true
- },
- {
   "src": "assets/tg/f_2169_0.jpg",
   "post": "https://t.me/Caramelluz/2169",
   "date": "2025-01-16",
@@ -1954,16 +1632,6 @@ window.TG_PHOTOS = [
   "kids": true
  },
  {
-  "src": "assets/tg/f_2169_1.jpg",
-  "post": "https://t.me/Caramelluz/2169",
-  "date": "2025-01-16",
-  "text": "Новая коллекция 😍😍😍\n\n📞 +998(77) 703 94 94\n\n❤️доставка по всему Узбекистану \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n\n📍Адрес магазина: Шайхантахурский район, улица Беруни, дом 8.\n✔️Ориентир: От перекрестка Орзу в сторону метро Тинчлик 200 метров",
-  "prices": [],
-  "kind": "frame",
-  "score": -17.7,
-  "kids": true
- },
- {
   "src": "assets/tg/f_2148_0.jpg",
   "post": "https://t.me/Caramelluz/2148",
   "date": "2025-01-12",
@@ -1971,7 +1639,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -11.0,
-  "kids": true
+  "kids": true,
+  "pin": 7
  },
  {
   "src": "assets/tg/f_2148_1.jpg",
@@ -1981,46 +1650,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -15.7,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_2139_0.jpg",
-  "post": "https://t.me/Caramelluz/2139",
-  "date": "2025-01-11",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": -6.5,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_2137_0.jpg",
-  "post": "https://t.me/Caramelluz/2137",
-  "date": "2025-01-10",
-  "text": "Baby Boss collection 😎\n🚚доставка по всему Узбекистану \n\n📞 +998(77) 703 94 94\n\nА по вопросам или для доставки пишите нам: @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": -8.1,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_2137_1.jpg",
-  "post": "https://t.me/Caramelluz/2137",
-  "date": "2025-01-10",
-  "text": "Baby Boss collection 😎\n🚚доставка по всему Узбекистану \n\n📞 +998(77) 703 94 94\n\nА по вопросам или для доставки пишите нам: @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": -12.8,
-  "kids": true
- },
- {
-  "src": "assets/tg/f_2101_0.jpg",
-  "post": "https://t.me/Caramelluz/2101",
-  "date": "2025-01-03",
-  "text": "Самые качественные вещи только в Caramell🤗🤗🤗\n\n🥰Режим работы: 9:00 - 21:00\n\n⠀📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n\n📍Адрес магазина: Шайхантахурский район, улица Беруни, дом 8.\n✔️Ориентир: От перекрестка Орзу в сторону метро Тинчлик 200 метров\n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": -4.0,
   "kids": true
  },
  {
@@ -2059,7 +1688,8 @@ window.TG_PHOTOS = [
   ],
   "kind": "frame",
   "score": -6.3,
-  "kids": true
+  "kids": true,
+  "pin": 5
  },
  {
   "src": "assets/tg/f_2018_0.jpg",
@@ -2073,7 +1703,8 @@ window.TG_PHOTOS = [
   ],
   "kind": "frame",
   "score": -7.5,
-  "kids": true
+  "kids": true,
+  "pin": 6
  },
  {
   "src": "assets/tg/f_2018_1.jpg",
@@ -2097,7 +1728,8 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -24.7,
-  "kids": true
+  "kids": true,
+  "pin": 12
  }
 ];
 window.TG_REELS = [
