@@ -1,6 +1,26 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_4892_0.jpg",
+  "post": "https://t.me/Caramelluz/4892",
+  "date": "2026-10-27",
+  "text": "Мягкие носочки и удобные колготки для маленьких ножек🥰\n\nДополнят любимый образ и подарят комфорт на каждый день.\n____\n\nJajji oyoqchalar uchun yumshoq paypoqchalar va qulay kolgotkalar♥️\n\nSevimli obrazni to‘ldirib, har kuni qulaylik bag‘ishlaydi.",
+  "prices": [],
+  "kind": "frame",
+  "score": -8.1,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4892_1.jpg",
+  "post": "https://t.me/Caramelluz/4892",
+  "date": "2026-10-27",
+  "text": "Мягкие носочки и удобные колготки для маленьких ножек🥰\n\nДополнят любимый образ и подарят комфорт на каждый день.\n____\n\nJajji oyoqchalar uchun yumshoq paypoqchalar va qulay kolgotkalar♥️\n\nSevimli obrazni to‘ldirib, har kuni qulaylik bag‘ishlaydi.",
+  "prices": [],
+  "kind": "frame",
+  "score": -8.2,
+  "kids": false
+ },
+ {
   "src": "assets/tg/4888_v0.jpg",
   "post": "https://t.me/Caramelluz/4888",
   "date": "2026-10-24",
@@ -1059,26 +1079,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -11.7,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4765_0.jpg",
-  "post": "https://t.me/Caramelluz/4765",
-  "date": "2026-09-16",
-  "text": "📲 Для заказов и консультаций — пишите в Direct @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": -6.1,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4765_1.jpg",
-  "post": "https://t.me/Caramelluz/4765",
-  "date": "2026-09-16",
-  "text": "📲 Для заказов и консультаций — пишите в Direct @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": -6.8,
   "kids": false
  },
  {
@@ -2648,6 +2648,20 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4892.720.mp4",
+  "post": "https://t.me/Caramelluz/4892",
+  "date": "2026-10-27",
+  "text": "Мягкие носочки и удобные колготки для маленьких ножек🥰\n\nДополнят любимый образ и подарят комфорт на каждый день.\n____\n\nJajji oyoqchalar uchun yumshoq paypoqchalar va qulay kolgotkalar♥️\n\nSevimli obrazni to‘ldirib, har ku",
+  "poster": "assets/tg/f_4892_0.jpg"
+ },
+ {
+  "src": "assets/reels/4891.720.mp4",
+  "post": "https://t.me/Caramelluz/4891",
+  "date": "2026-10-27",
+  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с ",
+  "poster": ""
+ },
+ {
   "src": "assets/reels/4883.720.mp4",
   "post": "https://t.me/Caramelluz/4883",
   "date": "2026-10-20",
@@ -2681,20 +2695,6 @@ window.TG_REELS = [
   "date": "2026-10-12",
   "text": "Для активных малышей 💙\nСтильные и удобные комплекты с начёсом подарят тепло и комфорт в прохладные дни 🍂\n\nРазмеры: 2, 3 и 4 года.",
   "poster": "assets/tg/f_4861_0.jpg"
- },
- {
-  "src": "assets/reels/4859.720.mp4",
-  "post": "https://t.me/Caramelluz/4859",
-  "date": "2026-10-12",
-  "text": "Красивые образы для девочек 🎀\nУютные комплекты с начёсом для тёплых и стильных прогулок 🤍\n\nРазмеры: 2, 3 и 4 года.",
-  "poster": "assets/tg/f_4859_0.jpg"
- },
- {
-  "src": "assets/reels/4858.720.mp4",
-  "post": "https://t.me/Caramelluz/4858",
-  "date": "2026-10-12",
-  "text": "Двойка♥️\nРазмеры: 2, 3, 4 года\nЦена: 380 000 сум",
-  "poster": "assets/tg/f_4858_0.jpg"
  }
 ];
 window.TG_COLLECTION = {
