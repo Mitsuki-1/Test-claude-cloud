@@ -86,7 +86,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ${{ vars.FTP_PROTOCOL || 'ftps' }}
           port: ${{ vars.FTP_PORT || 21 }}
-          server-dir: ${{ vars.FTP_DIR || 'public_html/' }}
+          server-dir: ${{ vars.FTP_DIR || './' }}  # FTP-аккаунт создаётся сразу с папкой public_html
           local-dir: ./
           exclude: |
             **/.git*
