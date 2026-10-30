@@ -65,8 +65,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
           git commit -m "Синхронизация каталога и фото [skip ci]"
-          git pull --rebase origin "$GITHUB_REF_NAME"
-          git push origin "HEAD:$GITHUB_REF_NAME"
+          # Если параллельный запуск уже сохранил свои данные — не падаем: сайт всё равно выкладывается,
+          # а в ветку свежие данные попадут при следующем запуске через час
+          if git pull --rebase origin "$GITHUB_REF_NAME"; then
+            git push origin "HEAD:$GITHUB_REF_NAME" || echo "::warning::Не удалось сохранить данные в ветку — сохранятся при следующем запуске"
+          else
+            git rebase --abort
+            echo "::warning::Ветка изменилась параллельно — данные сохранятся при следующем запуске"
+          fi
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
