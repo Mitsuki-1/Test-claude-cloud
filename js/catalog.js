@@ -14,34 +14,45 @@
   var RANK = { hit: 0, sale: 1, new: 2 };
 
   /* ---------- Бренды ---------- */
-  // Знак бренда — набранное название в духе логотипа (класс bm-…), crown/heart — значок над/перед названием
-  var CROWN = '<svg class="bm-crown" viewBox="0 0 24 14" aria-hidden="true"><path fill="currentColor" d="M2 13h20l1.6-9.5-6.1 4.2L12 0l-5.5 7.7L.4 3.5z"/></svg>';
+  // Логотипы с официальных сайтов брендов — assets/brands; Leo King и U.S. Polo нарисованы по коробкам и биркам,
+  // у брендов без логотипа — набранное название (класс bm-…)
+  var logo = function (file, name) { return '<img src="assets/brands/' + file + '" alt="' + name + '" loading="lazy">'; };
+  var LEO =
+    '<svg class="lk-crown" viewBox="0 0 28 22" aria-hidden="true"><path fill="currentColor" d="M14.0 0.0 L14.8 2.0 L17.0 2.2 L15.4 3.6 L15.9 5.8 L14.0 4.6 L12.1 5.8 L12.6 3.6 L11.0 2.2 L13.2 2.0Z' +
+    'M6.5 3.9 L7.1 5.2 L8.5 5.4 L7.4 6.3 L7.7 7.7 L6.5 6.9 L5.3 7.7 L5.6 6.3 L4.5 5.4 L5.9 5.2ZM21.5 3.9 L22.1 5.2 L23.5 5.4 L22.4 6.3 L22.7 7.7 L21.5 6.9 L20.3 7.7 L20.6 6.3 L19.5 5.4 L20.9 5.2Z' +
+    'M5 21h18l1.6-9.2-5.4 3.6L14 8.6l-5.2 6.8-5.4-3.6z"/></svg>' +
+    '<span class="lk-word">le<svg class="lk-o" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.6" fill="none" stroke="currentColor" stroke-width="2.2"/>' +
+    '<circle cx="7.4" cy="8.6" r="1.2" fill="currentColor"/><circle cx="12.6" cy="8.6" r="1.2" fill="currentColor"/><path d="M6.8 11.6q3.2 3.4 6.4 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>king</span>';
   var BRAND_LOOK = {
-    "Caramell": ['<svg class="bm-heart" aria-hidden="true"><use href="#i-logo"/></svg>Caramell', "caramell"],
-    "Leo King": [CROWN + "leoking", "leoking"],
-    "U.S. Polo": ["U.S. POLO ASSN.", "polo"],
-    "Sweet Me": ["Sweet Me", "sweetme"],
-    "Monna Rossa": ["Monna Rossa", "monna"],
-    "Atelier Babbi": ["<small>atelier</small>BABBI", "babbi"],
-    "Pamina": ["PAMINA", "pamina"],
-    "Nipperland": ["nipperland", "nipper"],
-    "BiStyle": ["Bi<i>Style</i>", "bistyle"],
-    "Free Sure": ["FREE SURE", "freesure"],
-    "M&Y Collection": ["M&amp;Y<small>collection</small>", "my"],
+    "Caramell": [logo("caramell.png", "Caramell"), "caramell"],
+    "Leo King": [LEO, "leoking"],
+    "U.S. Polo": ["<b>U.S. POLO ASSN.</b><small>SINCE 1890</small><i></i>", "polo"],
+    "Atelier Babbi": [logo("atelier-babbi.png", "Atelier Babbi"), "img"],
+    "BiStyle": ["BİSTYLE", "bistyle"],
+    "Sweet Me": [logo("sweet-me.png", "Sweet Me"), "img bm-tall"],
+    "Monna Rosa": [logo("monna-rossa.png", "Monna Rosa"), "img bm-tall"],
+    "Pamina": [logo("pamina.png", "Pamina"), "img"],
+    "M&Y Collection": [logo("m-y-collection.png", "M&amp;Y Collection"), "img bm-tall"],
+    "Nipperland": [logo("nipperland.svg", "Nipperland"), "img"],
+    "Free Sure": [logo("free-sure.png", "Free Sure"), "img"],
+    "Bebus": ["bebus", "bebus"],
     "Puggi": ["puggi", "puggi"],
     "Noynoy": ["noynoy", "noynoy"],
-    "Bebus": ["bebus", "bebus"],
-    "Cumino": ["Cumino", "cumino"]
+    "Cumino": [logo("cumino.svg", "Cumino"), "img bm-tall"],
+    "Anna Baba": ["Anna Baba", "annababa"],
+    "Lovemax": ["Lovemax", "lovemax"]
   };
   var slug = function (b) { return b.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); };
   var esc = function (s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); };
   var mark = function (b) { return BRAND_LOOK[b] ? BRAND_LOOK[b][0] : esc(b); };
 
-  // Все бренды каталога: Caramell первым, дальше — по числу товаров
+  // Порядок карточек брендов задан магазином; новые бренды — в конце, по числу товаров
+  var ORDER = Object.keys(BRAND_LOOK);
   var BRANDS = (function () {
     var n = {};
     window.PRODUCTS.forEach(function (p) { n[p.brand] = (n[p.brand] || 0) + 1; });
-    return Object.keys(n).sort(function (a, b) { return (b === "Caramell") - (a === "Caramell") || n[b] - n[a] || a.localeCompare(b); });
+    var pos = function (b) { var i = ORDER.indexOf(b); return i < 0 ? 999 : i; };
+    return Object.keys(n).sort(function (a, b) { return pos(a) - pos(b) || n[b] - n[a] || a.localeCompare(b); });
   })();
   var brandName = function (s) { return BRANDS.filter(function (b) { return slug(b) === s; })[0] || null; };
   if (st.brand !== "all" && !brandName(st.brand)) st.brand = "all";

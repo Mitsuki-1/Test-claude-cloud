@@ -107,10 +107,10 @@ JUNK_BRAND = {"", "/", "-", "v1", "v2", "v3", "mix"}
 # Написание бренда в BILLZ (поле, атрибут «Бренд» или само название) -> имя для сайта и фильтра по брендам
 BRANDS = [
     ("Leo King", r"leo\s*king"), ("U.S. Polo", r"u\.?\s*s\.?\s*polo|\bpolo\b"), ("Sweet Me", r"swe+t\s*me+"),
-    ("Monna Rossa", r"mon+a\s*ros+a"), ("Free Sure", r"free\s*sure"), ("BiStyle", r"\bbi\s*style"),
+    ("Monna Rosa", r"mon+a\s*ros+a"), ("Free Sure", r"free\s*sure"), ("BiStyle", r"\bbi\s*style"),
     ("Pamina", r"pamina"), ("Nipperland", r"nipperland"), ("Atelier Babbi", r"atelier|babbi"),
     ("M&Y Collection", r"m\s*&\s*y\b"), ("Puggi", r"\bpug+i\b"), ("Noynoy", r"noynoy"), ("Bebus", r"bebus"),
-    ("Cumino", r"cumino"), ("Caramell", r"caramel+"),
+    ("Cumino", r"cumino"), ("Anna Baba", r"anna\s*baba"), ("Lovemax", r"love\s*max"), ("Caramell", r"caramel+"),
 ]
 
 

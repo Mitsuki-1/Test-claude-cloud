@@ -51,7 +51,7 @@ BG = re.compile(r"background-image:url\('([^']+)'\)")
 JUNK = re.compile(r"muborak|поздравл|праздник|бренд|brend|📍|адрес|manzil|mo.?ljal|ориентир|розыгрыш|konkurs|пожелани|taklif", re.I)
 COLLECTION = re.compile(r"коллекц|collection|kolleksiy|новые комплекты|yangi komplekt|новинк", re.I)
 BRANDS = [("Atelier Babbi", r"atelier\s*bab+[iy]"), ("Leo King", r"leo\s*king"), ("U.S. Polo", r"u\.?\s*s\.?\s*polo"),
-          ("Monna Rossa", r"mon+a\s*ros+a"), ("Sweet Me", r"swee?t\s*me"), ("Baby Theatre", r"baby\s*theat"),
+          ("Monna Rosa", r"mon+a\s*ros+a"), ("Sweet Me", r"swee?t\s*me"), ("Baby Theatre", r"baby\s*theat"),
           ("Pamina", r"pamina"), ("Katamino", r"katamino"), ("BiStyle", r"bi\s*style"), ("Nipperland", r"nipperland"),
           ("Caramell", r"caramell")]
 

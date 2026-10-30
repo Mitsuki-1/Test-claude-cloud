@@ -382,26 +382,29 @@ body.bars-hidden .filters { transform: translateY(calc(-100% - var(--hdr-h, 104p
 .bm small { display: block; font-size: .5em; letter-spacing: .3em; text-transform: uppercase; margin-bottom: 4px; }
 .bm-all { font-family: var(--serif); font-size: 18px; }
 .brand-all { background: var(--cream-2); }
-.brand-own { background: linear-gradient(160deg, #fff 40%, #EAF0F8); }
-.bm-caramell .bm { flex-direction: row; gap: 7px; font-family: var(--sans); font-weight: 800; font-size: 21px; letter-spacing: -.02em; color: var(--choco); }
-.bm-heart { width: 24px; height: 24px; color: var(--caramel); }
-.bm-leoking .bm { font-family: var(--sans); font-weight: 600; font-size: 24px; letter-spacing: -.01em; color: #3E4450; }
-.bm-crown { width: 18px; height: 11px; color: #C9A45C; margin-bottom: 3px; }
-.bm-polo .bm { font-family: var(--serif); font-weight: 600; font-size: 15.5px; letter-spacing: .06em; color: #152B5A; }
-.bm-sweetme .bm { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 25px; color: #D45D86; }
-.bm-monna .bm { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 23px; color: #A11D3A; }
-.bm-babbi .bm { font-family: var(--serif); font-weight: 400; font-size: 22px; letter-spacing: .2em; color: #6E5A47; }
-.bm-pamina .bm { font-family: var(--serif); font-weight: 500; font-size: 19px; letter-spacing: .32em; color: #C24A6A; padding-left: .32em; }
-.bm-nipper .bm { font-family: var(--sans); font-weight: 800; font-size: 20px; letter-spacing: -.03em; color: #2E8B6E; }
-.bm-bistyle .bm { flex-direction: row; font-family: var(--sans); font-weight: 800; font-size: 23px; color: #2F5F9E; }
-.bm-bistyle .bm i { font-style: normal; font-weight: 500; }
-.bm-freesure .bm { font-family: var(--sans); font-weight: 800; font-size: 18px; letter-spacing: .08em; color: #D9692B; }
-.bm-my .bm { font-family: var(--serif); font-style: italic; font-weight: 600; font-size: 24px; color: #5B4A8B; }
-.bm-my .bm small { margin: 4px 0 0; font-style: normal; font-family: var(--sans); font-weight: 600; letter-spacing: .25em; }
+/* Caramell — красная карточка с белым логотипом, как на коробках магазина */
+.brand-own { background: radial-gradient(120% 140% at 30% 20%, #F0283C, #C3122A 60%, #A20F22); border-color: transparent; color: #fff; }
+.brand-own > small { color: rgba(255, 255, 255, .85); }
+.brand-own:hover { border-color: transparent; box-shadow: 0 14px 30px -14px rgba(195, 18, 42, .7); }
+.brand-own.is-on { box-shadow: 0 0 0 3px #fff, 0 0 0 4.5px #C3122A, 0 14px 30px -14px rgba(195, 18, 42, .7); }
+.brand-own.is-on::after { background-color: #fff; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='8'%3E%3Cpath d='M1 4l3 3 5-6' fill='none' stroke='%23C3122A' stroke-width='1.8'/%3E%3C/svg%3E"); }
+.bm img { display: block; max-width: 128px; max-height: 34px; width: auto; height: auto; }
+.bm-tall .bm img { max-height: 44px; max-width: 120px; }
+.bm-caramell .bm img { max-width: 124px; max-height: 40px; }
+.bm-leoking .bm { color: #2B2B2E; }
+.lk-crown { width: 26px; height: 20px; margin: 0 0 1px 18px; }
+.lk-word { display: flex; align-items: center; font-family: var(--sans); font-weight: 500; font-size: 25px; letter-spacing: -.01em; line-height: 1; }
+.lk-o { width: .7em; height: .7em; margin: .1em .03em 0; }
+.bm-polo .bm { color: #1B2A4E; gap: 3px; }
+.bm-polo .bm b { font-family: "Roboto Slab", var(--serif); font-weight: 700; font-size: 15px; letter-spacing: .02em; }
+.bm-polo .bm small { margin: 0; font-family: var(--sans); font-size: 8px; font-weight: 700; letter-spacing: .14em; color: #C8102E; }
+.bm-polo .bm i { display: block; width: 92px; height: 6px; margin-top: 3px; background: linear-gradient(#C8102E 0 40%, #fff 40% 60%, #1B2A4E 60%); }
+.bm-bistyle .bm { font-family: var(--sans); font-weight: 800; font-size: 21px; letter-spacing: .12em; color: #3F6E9A; }
 .bm-puggi .bm { font-family: var(--sans); font-weight: 800; font-size: 24px; color: #E39B2D; }
 .bm-noynoy .bm { font-family: var(--sans); font-weight: 700; font-size: 22px; color: #5F86C9; }
 .bm-bebus .bm { font-family: var(--sans); font-weight: 800; font-size: 24px; color: #E0647F; }
-.bm-cumino .bm { font-family: var(--serif); font-weight: 600; font-size: 22px; color: #8A6A3A; }
+.bm-annababa .bm { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 22px; color: #9A5B76; }
+.bm-lovemax .bm { font-family: var(--sans); font-weight: 800; font-size: 21px; color: #D9485F; }
 .bm-other .bm { font-family: var(--serif); font-weight: 500; font-size: 19px; white-space: normal; }
 @media (max-width: 560px) {
   .brands-wrap { margin: -16px 0 16px; }

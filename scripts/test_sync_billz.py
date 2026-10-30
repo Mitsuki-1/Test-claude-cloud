@@ -124,7 +124,7 @@ class TransformTest(unittest.TestCase):
         self.assertEqual(p["b25931"].get("badge"), "hit")
         self.assertIsNone(p["bUSB3257"].get("badge"))  # 2li — не хит
         self.assertEqual(p["bCRBODY3"]["badge"], "sale")  # скидка не перебивается
-        self.assertEqual(sb.load_hits()[0], ["kozmonot", "monna rossa"])
+        self.assertEqual(sb.load_hits()[0], ["kozmonot", "monna ros"])
 
     def test_new_categories(self):
         p = by_id(sb.transform(load(), set()))
@@ -138,7 +138,7 @@ class TransformTest(unittest.TestCase):
         p = by_id(sb.transform(load(), set(), default_brand="Caramell"))
         self.assertEqual(p["bTRTAKIM3"]["brand"], "Leo King")  # 'Leo king' из поля brand_name
         self.assertEqual(p["bUSB3236"]["brand"], "U.S. Polo")  # из названия '… / u.s.polo'
-        self.assertEqual(p["b25931"]["brand"], "Monna Rossa")
+        self.assertEqual(p["b25931"]["brand"], "Monna Rosa")
         self.assertEqual(p["bBTN501"]["brand"], "Sweet Me")  # 'battaniye Sweetme'
         self.assertEqual(p["bBTN501"]["name"]["ru"], "Плед Sweet Me")
         self.assertEqual(p["bTE1313GRI"]["brand"], "Caramell")  # бренд не указан — бренд магазина
