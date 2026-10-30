@@ -31,7 +31,7 @@
     { key: "7-8y",   h: [122, 128], w: [24, 27],  a: [84, 96] }
   ];
 
-  window.CATEGORIES = ["newborn", "bodysuits", "sets", "dresses", "discharge", "pajamas", "accessories"];
+  window.CATEGORIES = ["newborn", "discharge", "blankets", "bodysuits", "overalls", "sets", "dresses", "pajamas", "accessories"];
 
   var BABY = ["0-3m", "3-6m", "6-9m", "9-12m"];
   var TODDLER = ["9-12m", "12-18m", "18-24m", "2-3y"];
@@ -44,10 +44,10 @@
     { id: "c102", cat: "discharge", g: "girl", price: 460000, badge: "hit", sizes: ["0-3m"], color: "#F5DCE2", img: U("1515488042361-ee00e0ddd4e4"),
       name: { ru: "Комплект для выписки «Маленькая принцесса», 3 предмета", uz: "«Kichkina malika» chiqish to‘plami, 3 dona" },
       desc: { ru: "Вязаный комбинезон, базовое боди и шапочка. Размер 0–1 мес. Вязаный плед в тон — 395 000 сум отдельно.", uz: "To‘qilgan kombinezon, asosiy bodi va shapkacha. O‘lcham 0–1 oy. Bir xil rangdagi to‘qilgan ko‘rpacha — alohida 395 000 so‘m." } },
-    { id: "c103", cat: "discharge", g: "unisex", price: 395000, sizes: ["0-3m"], color: "#EAF0F8", img: U("1522771930-78848d9293e8"),
+    { id: "c103", cat: "blankets", g: "unisex", price: 395000, sizes: ["0-3m"], color: "#EAF0F8", img: U("1522771930-78848d9293e8"),
       name: { ru: "Вязаный плед для новорождённого", uz: "Chaqaloq uchun to‘qilgan ko‘rpacha" },
       desc: { ru: "Мягкий вязаный плед-конверт — дополняет любой комплект на выписку. Доставка по всему Узбекистану.", uz: "Yumshoq to‘qilgan konvert-ko‘rpacha — chiqish to‘plamiga mos keladi. O‘zbekiston bo‘ylab yetkazib berish." } },
-    { id: "c104", cat: "bodysuits", g: "unisex", price: 235000, badge: "new", sizes: BABY, color: "#EAF0F8", img: U("1544126592-807ade215a0b"),
+    { id: "c104", cat: "overalls", g: "unisex", price: 235000, badge: "new", sizes: BABY, color: "#EAF0F8", img: U("1544126592-807ade215a0b"),
       name: { ru: "Комбинезон Caramell", uz: "Caramell kombinezoni" },
       desc: { ru: "Мягкий и удобный комбинезон на каждый день. Размеры 56–80 (56-62, 62-68, 68-74, 74-80).", uz: "Har kungi mayin va qulay kombinezon. O‘lchamlar 56–80 (56-62, 62-68, 68-74, 74-80)." } },
 
@@ -67,13 +67,13 @@
     { id: "c301", cat: "bodysuits", g: "unisex", price: 219000, old: 259000, badge: "sale", sizes: BABY, color: "#EDE6DA", img: U("1522771739844-6a9f6d5f14af"),
       name: { ru: "Набор боди с длинным рукавом, 3 шт.", uz: "Uzun yengli bodi to‘plami, 3 dona" },
       desc: { ru: "Базовые боди на каждый день: молочный, беж и полоска. Кнопки-запах.", uz: "Har kungi asosiy bodilar: sutrang, bej va yo‘l-yo‘l. Qoplama tugmalar." } },
-    { id: "c302", cat: "bodysuits", g: "girl", price: 169000, badge: "hit", sizes: BABY, color: "#F3D9D3", img: U("1519689680058-324335c77eba"),
+    { id: "c302", cat: "overalls", g: "girl", price: 169000, badge: "hit", sizes: BABY, color: "#F3D9D3", img: U("1519689680058-324335c77eba"),
       name: { ru: "Комбинезон с рюшами «Роза»", uz: "Burmali kombinezon «Atirgul»" },
       desc: { ru: "Слип на кнопках с рюшами на плечах. Мягкий хлопок-рибана.", uz: "Yelkasida burmali tugmali slip. Yumshoq paxta-ribana." } },
-    { id: "c303", cat: "bodysuits", g: "boy", price: 169000, sizes: BABY, color: "#D9E2D4", img: U("1515488042361-ee00e0ddd4e4"),
+    { id: "c303", cat: "overalls", g: "boy", price: 169000, sizes: BABY, color: "#D9E2D4", img: U("1515488042361-ee00e0ddd4e4"),
       name: { ru: "Комбинезон «Динозаврик»", uz: "«Dinozavrcha» kombinezoni" },
       desc: { ru: "Весёлый принт, кнопки до пяточки — легко переодевать.", uz: "Quvnoq naqsh, tovongacha tugma — kiyintirish oson." } },
-    { id: "c304", cat: "bodysuits", g: "unisex", price: 149000, badge: "new", sizes: TODDLER, color: "#EFE3CF", img: U("1544126592-807ade215a0b"),
+    { id: "c304", cat: "overalls", g: "unisex", price: 149000, badge: "new", sizes: TODDLER, color: "#EFE3CF", img: U("1544126592-807ade215a0b"),
       name: { ru: "Песочник муслиновый", uz: "Muslin qumlik kiyimi" },
       desc: { ru: "Дышащий муслин для жаркого ташкентского лета.", uz: "Toshkentning issiq yozi uchun havo o‘tkazuvchi muslin." } },
 
@@ -118,19 +118,22 @@
   ];
 
   var KEEP = ["c101", "c102", "c103"];
-  var CAT_COLOR = { discharge: "#F5DCE2", pajamas: "#E4ECF8", dresses: "#F5DCE2", bodysuits: "#EAF0F8", newborn: "#F4ECE1", sets: "#EAF0F8", accessories: "#F4ECE1" };
+  var CAT_COLOR = { discharge: "#F5DCE2", blankets: "#F4ECE1", pajamas: "#E4ECF8", dresses: "#F5DCE2", bodysuits: "#EAF0F8", overalls: "#E4ECF8", newborn: "#F4ECE1", sets: "#EAF0F8", accessories: "#F4ECE1" };
   var billz = window.BILLZ && window.BILLZ.products;
   if (billz && billz.length) {
     var str = function (v) { return typeof v === "object" && v ? v : { ru: String(v || ""), uz: String(v || "") }; };
     window.PRODUCTS = window.PRODUCTS.filter(function (p) { return KEEP.indexOf(p.id) > -1; }).concat(billz.map(function (b) {
       var cat = window.CATEGORIES.indexOf(b.cat) > -1 ? b.cat : "sets";
       return {
-        id: String(b.id), cat: cat, g: b.g || "unisex", price: +b.price || 0, old: b.old ? +b.old : undefined, badge: b.badge,
+        id: String(b.id), cat: cat, brand: b.brand, g: b.g || "unisex", price: +b.price || 0, old: b.old ? +b.old : undefined, badge: b.badge,
         sizes: b.sizes && b.sizes.length ? b.sizes : ["One size"], color: b.color || CAT_COLOR[cat] || "#EAF0F8",
         img: b.img || window.artSVG(cat, b.color), name: str(b.name), desc: str(b.desc)
       };
     }));
   }
+
+  // В BILLZ бренд указан только у части товаров; без бренда — собственная марка магазина
+  window.PRODUCTS.forEach(function (p) { p.brand = p.brand || "Caramell"; });
 
   /* ---------- Фото из Telegram ---------- */
   var TG = window.TG_PHOTOS || [];
@@ -158,6 +161,8 @@
     if (t) { used[t.src] = true; usedPost[t.post] = true; }
     return t || null;
   };
+  // Снимки, уже стоящие на странице статично (плитки категорий), — не повторять в подборках
+  window.tgSkip = function (srcs) { srcs.forEach(function (s) { used[s] = true; }); };
 
   var GENDER = { girl: /девоч|принцесс|qiz|🎀|🩷/i, boy: /мальч|o.?g.?il|🩵|💙/i };
   ["c101", "c102", "c103", "c104"].forEach(function (id) {
@@ -190,6 +195,13 @@
       '<button class="card-quick" data-open="' + p.id + '" aria-label="' + window.t("p.add") + '"><svg class="i"><use href="#i-bag"/></svg></button></div>' +
       '<div class="card-body"><div class="card-sizes">' + sizes + '</div><h3 class="card-title">' + window.L(p.name) + '</h3>' +
       '<div class="card-price">' + window.formatSum(p.price) + old + "</div></div></article>";
+  };
+
+  // «1 товар», «3 товара», «12 товаров»
+  window.itemsLabel = function (n) {
+    var m10 = n % 10, m100 = n % 100;
+    var k = m10 === 1 && m100 !== 11 ? "1" : m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14) ? "2" : "5";
+    return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " ") + " " + window.t("items." + k);
   };
 
   window.formatSum = function (n) {

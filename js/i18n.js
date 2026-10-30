@@ -19,7 +19,7 @@
       "trust.del": "Доставка по Узбекистану", "trust.del.s": "Ташкент и все регионы",
 
       "cats.kicker": "Коллекции", "cats.title": "Всё для малыша — в одном месте",
-      "cat.all": "Все", "cat.newborn": "Новорождённым", "cat.bodysuits": "Боди и комбинезоны", "cat.sets": "Костюмы и комплекты",
+      "cat.all": "Все", "cat.newborn": "Новорождённым", "cat.bodysuits": "Боди", "cat.overalls": "Комбинезоны", "cat.blankets": "Конверты и пледы", "cat.sets": "Костюмы и комплекты",
       "cat.dresses": "Платья", "cat.discharge": "На выписку", "cat.pajamas": "Пижамы и сон", "cat.accessories": "Аксессуары и уход",
 
       "hits.kicker": "Выбор мам", "hits.title": "Хиты продаж", "hits.all": "Весь каталог →",
@@ -127,7 +127,7 @@
       "trust.del": "O‘zbekiston bo‘ylab yetkazish", "trust.del.s": "Toshkent va barcha viloyatlar",
 
       "cats.kicker": "Kolleksiyalar", "cats.title": "Chaqaloq uchun hammasi — bir joyda",
-      "cat.all": "Barchasi", "cat.newborn": "Chaqaloqlarga", "cat.bodysuits": "Bodi va kombinezonlar", "cat.sets": "Kostyum va to‘plamlar",
+      "cat.all": "Barchasi", "cat.newborn": "Chaqaloqlarga", "cat.bodysuits": "Bodi", "cat.overalls": "Kombinezonlar", "cat.blankets": "Konvert va ko‘rpachalar", "cat.sets": "Kostyum va to‘plamlar",
       "cat.dresses": "Ko‘ylaklar", "cat.discharge": "Tug‘ruqxonadan chiqish", "cat.pajamas": "Pijama va uyqu", "cat.accessories": "Aksessuar va parvarish",
 
       "hits.kicker": "Onalar tanlovi", "hits.title": "Eng ko‘p sotilganlar", "hits.all": "Butun katalog →",
@@ -237,7 +237,9 @@
     "soon.kicker": "Новинки Caramell", "soon.title": "Новая коллекция <em>{brand}</em>",
     "soon.sub": "Уже в наших магазинах. Все модели, цены и размеры — в нашем Telegram-канале.", "soon.cta": "Смотреть в Telegram",
     "fav.title": "Избранное", "fav.add": "Добавлено в избранное", "fav.rm": "Убрано из избранного", "fav.empty": "Нажмите ♡ на товаре, чтобы сохранить его здесь.",
-    "cat.fav": "♡ Избранное", "nav.tg": "Telegram"
+    "cat.fav": "♡ Избранное", "nav.tg": "Telegram",
+    "f.brand": "Бренд", "f.brandAll": "Все бренды", "f.filters": "Фильтры", "brands.title": "Бренды",
+    "items.1": "товар", "items.2": "товара", "items.5": "товаров", "brand.own": "Наш бренд"
   });
   Object.assign(D.uz, {
     "hero.title": "Bolalarga <em class=\"rot\">qulay</em> bo‘lgan Turkiya kiyimlari",
@@ -261,7 +263,9 @@
     "soon.kicker": "Caramell yangiliklari", "soon.title": "Yangi <em>{brand}</em> kolleksiyasi",
     "soon.sub": "Allaqachon do‘konlarimizda. Barcha modellar, narxlar va o‘lchamlar — Telegram kanalimizda.", "soon.cta": "Telegramda ko‘rish",
     "fav.title": "Sevimlilar", "fav.add": "Sevimlilarga qo‘shildi", "fav.rm": "Sevimlilardan olindi", "fav.empty": "Saqlash uchun mahsulotdagi ♡ ni bosing.",
-    "cat.fav": "♡ Sevimlilar", "nav.tg": "Telegram"
+    "cat.fav": "♡ Sevimlilar", "nav.tg": "Telegram",
+    "f.brand": "Brend", "f.brandAll": "Barcha brendlar", "f.filters": "Filtrlar", "brands.title": "Brendlar",
+    "items.1": "ta mahsulot", "items.2": "ta mahsulot", "items.5": "ta mahsulot", "brand.own": "Bizning brend"
   });
 
   // Названия размеров

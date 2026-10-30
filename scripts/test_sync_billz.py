@@ -43,18 +43,29 @@ class SizeKeyTest(unittest.TestCase):
 class DescribeTest(unittest.TestCase):
     def test_turkish_names(self):
         cases = {
-            "Tulum": ("bodysuits", "Комбинезон"),
+            "Tulum": ("overalls", "Комбинезон"),
             "2 li Takım": ("sets", "Комплект (2 шт.)"),
             "3'lü Takım": ("sets", "Комплект (3 шт.)"),
             "10 lu Set/Tulum lu": ("discharge", "Набор на выписку (10 шт.)"),
             "Şapka": ("newborn", "Шапочка"),
             "ÇORAP": ("newborn", "Носочки"),
             "Elbise": ("dresses", "Платье"),
-            "Battaniye": ("discharge", "Плед"),
+            "Battaniye": ("blankets", "Плед"),
+            "Kundak": ("blankets", "Конверт-пелёнка"),
+            "5 li Soket Çorap": ("newborn", "Носочки (5 шт.)"),
+            "7 li Bebe Waffle Mendil": ("newborn", "Платочки (7 шт.)"),
+            "5li zibin set": ("discharge", "Набор на выписку (5 шт.)"),
+            "Çoraplı Tulum": ("overalls", "Комбинезон"),
+            "Body Pantolon Şapka": ("sets", "Комплект с боди"),
+            "Bodyjile": ("bodysuits", "Боди"),
+            "kozmonot": ("overalls", "Тёплый комбинезон"),
             "Uyku Tulumu": ("pajamas", "Спальный мешок"),
             "Emzirme Sütyeni": ("accessories", "Для кормления"),
             "Body": ("bodysuits", "Боди"),
-            "Salopet": ("bodysuits", "Полукомбинезон"),
+            "Salopet": ("overalls", "Полукомбинезон"),
+            "Romper": ("overalls", "Песочник"),
+            "Плед в кроватку": ("blankets", "Плед в кроватку"),
+            "Комбинезон утеплённый": ("overalls", "Комбинезон утеплённый"),
             "Ç.Pantolon": ("sets", "Брюки"),
             "Önlük": ("newborn", "Нагрудник"),
             "Пижама для мальчика": ("pajamas", "Пижама для мальчика"),
@@ -86,7 +97,7 @@ class TransformTest(unittest.TestCase):
         p = by_id(sb.transform(load(), set()))
         t = p["bTRTULUM"]
         self.assertEqual((t["cat"], t["g"], t["sizes"], t["name"]["ru"], t["name"]["uz"]),
-                         ("bodysuits", "girl", ["6-9m", "9-12m"], "Комбинезон Caramell · розовый", "Kombinezon Caramell · pushti"))
+                         ("overalls", "girl", ["6-9m", "9-12m"], "Комбинезон Caramell · розовый", "Kombinezon Caramell · pushti"))
         self.assertIn("Tulum", t["desc"]["ru"])
         s = p["bTRTAKIM3"]
         self.assertEqual((s["cat"], s["g"], s["sizes"], s["name"]["ru"]), ("sets", "boy", ["9-12m"], "Комплект (3 шт.) Leo King · голубой"))
@@ -114,6 +125,39 @@ class TransformTest(unittest.TestCase):
         self.assertIsNone(p["bUSB3257"].get("badge"))  # 2li — не хит
         self.assertEqual(p["bCRBODY3"]["badge"], "sale")  # скидка не перебивается
         self.assertEqual(sb.load_hits()[0], ["kozmonot", "monna rossa"])
+
+    def test_new_categories(self):
+        p = by_id(sb.transform(load(), set()))
+        self.assertEqual((p["bBTN501"]["cat"], p["bKND502"]["cat"]), ("blankets", "blankets"))
+        self.assertEqual((p["bSKT503"]["cat"], p["bSKT503"]["name"]["ru"]), ("newborn", "Носочки (5 шт.)"))
+        self.assertEqual(p["bBPS504"]["cat"], "sets")
+        self.assertEqual(p["bTE1313GRI"]["cat"], "overalls")
+        self.assertEqual(p["bCRBODY3"]["cat"], "bodysuits")
+
+    def test_brands(self):
+        p = by_id(sb.transform(load(), set(), default_brand="Caramell"))
+        self.assertEqual(p["bTRTAKIM3"]["brand"], "Leo King")  # 'Leo king' из поля brand_name
+        self.assertEqual(p["bUSB3236"]["brand"], "U.S. Polo")  # из названия '… / u.s.polo'
+        self.assertEqual(p["b25931"]["brand"], "Monna Rossa")
+        self.assertEqual(p["bBTN501"]["brand"], "Sweet Me")  # 'battaniye Sweetme'
+        self.assertEqual(p["bBTN501"]["name"]["ru"], "Плед Sweet Me")
+        self.assertEqual(p["bTE1313GRI"]["brand"], "Caramell")  # бренд не указан — бренд магазина
+        self.assertEqual(p["bTE1313GRI"]["name"]["ru"], "Комбинезон · серый")  # в название не дописывается
+        self.assertEqual(by_id(sb.transform(load(), set()))["bTE1313GRI"]["brand"], "")
+
+    def test_gender(self):
+        p = by_id(sb.transform(load(), set()))
+        self.assertEqual(p["bTKK1004EKRU"]["g"], "girl")  # TKK — пара к TKE: девочки
+        self.assertEqual(p["bTKE1005EKRU"]["g"], "boy")
+        self.assertEqual(p["bTKE1003PEMBE"]["g"], "boy")  # артикул важнее цвета
+        self.assertEqual(p["bTE1313GRI"]["g"], "unisex")  # у TE нет пары TK
+        self.assertEqual(p["bELB2431MAVI"]["g"], "girl")  # платье — всегда для девочек
+        self.assertEqual(p["bCRPJ7"]["g"], "boy")  # из названия
+
+    def test_overrides(self):
+        fix = {"bELB2431MAVI": {"cat": "sets", "ru": "Комплект с платьем", "uz": "Ko‘ylakli to‘plam"}}
+        p = by_id(sb.transform(load(), set(), overrides=fix))["bELB2431MAVI"]
+        self.assertEqual((p["cat"], p["name"]["ru"], p["name"]["uz"]), ("sets", "Комплект с платьем · голубой", "Ko‘ylakli to‘plam · havorang"))
 
     def test_hide_without_photo(self):
         p = by_id(sb.transform(load(), set(), show_no_photo=False))

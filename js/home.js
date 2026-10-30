@@ -3,15 +3,15 @@
   var U = function (id, w) { return "https://images.unsplash.com/photo-" + id + "?auto=format&fit=crop&w=" + (w || 800) + "&q=70"; };
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  var CAT_IMG = {
-    newborn: [U("1555252333-9f8e92e65df9", 1200), "#EAF0F8"],
-    discharge: [U("1522771930-78848d9293e8"), "#F5DCE2"],
-    bodysuits: [U("1566004100631-35d015d6a491"), "#E4ECF8"],
-    sets: [U("1503454537195-1dcabb73ffb9"), "#EAF0F8"],
-    dresses: [U("1543342384-1f1350e27861"), "#F5DCE2"],
-    pajamas: [U("1607453998774-d533f65dac99"), "#E4ECF8"]
+  // Плитки категорий — подобранные вручную кадры из канала (assets/cats), при синхронизации не меняются.
+  // CAT_SRC — исходный снимок в assets/tg, чтобы он не повторялся в галерее и hero.
+  var CAT_ORDER = ["newborn", "discharge", "blankets", "bodysuits", "overalls", "sets", "dresses", "pajamas"];
+  var CAT_SRC = {
+    newborn: "k_3632_0", discharge: "4839_0", blankets: "f_4841_0", bodysuits: "",
+    overalls: "k_4197_0", sets: "f_4861_0", dresses: "", pajamas: "4636_0"
   };
-  var CAT_ORDER = ["newborn", "discharge", "bodysuits", "sets", "dresses", "pajamas"];
+  var CAT_COLOR = { newborn: "#F4ECE1", discharge: "#F5DCE2", blankets: "#EAF0F8", bodysuits: "#E4ECF8", overalls: "#EAF0F8", sets: "#EAF0F8", dresses: "#F5DCE2", pajamas: "#E4ECF8" };
+  window.tgSkip(CAT_ORDER.filter(function (c) { return CAT_SRC[c]; }).map(function (c) { return "assets/tg/" + CAT_SRC[c] + ".jpg"; }));
 
   var LOOK = [
     ["1503454537195-1dcabb73ffb9", "#F5DCE2"], ["1519689680058-324335c77eba", "#EAF0F8"], ["1471286174890-9c112ffca5b4", "#E4ECF8"],
@@ -25,18 +25,6 @@
   var take = function (t) { if (t) TG_POST[t.src] = t.post; return t; };
   var any = function () { return take(window.tgPick(null, { photoOnly: true, productOnly: true })); };
   var whyTG = take(window.tgPick(null, { kids: true })) || any();
-  var CAT_TG = [
-    ["discharge", /выписк|роддом|chiqish|tug.?ruqxona/i],
-    ["pajamas", /пижам|uyqu|спальн|shirin/i],
-    ["dresses", /плать|принцесс|девоч|qiz/i],
-    ["bodysuits", /комбинезон|kombinezon|боди|bodi/i],
-    ["sets", /тройк|двойк|костюм|leoking|комплект|to.?plam/i],
-    ["newborn", /новорожд|chaqaloq|малыш|kichkintoy|collection|коллекц/i]
-  ];
-  CAT_TG.forEach(function (c) {
-    var t = take(window.tgPick(c[1], { photoOnly: true })) || any();
-    if (t) CAT_IMG[c[0]][0] = t.src;
-  });
   LOOK = LOOK.map(function (l) {
     var t = take(window.tgPick(null, { kids: true })) || any();
     return t ? [t.src, l[1], true] : [U(l[0], 700), l[1], false];
@@ -281,9 +269,11 @@
   }
 
   function render() {
+    var count = {};
+    window.PRODUCTS.forEach(function (p) { count[p.cat] = (count[p.cat] || 0) + 1; });
     document.getElementById("cats").innerHTML = CAT_ORDER.map(function (c) {
-      return '<a class="cat-tile reveal" href="catalog.html?cat=' + c + '"><img loading="lazy" src="' + CAT_IMG[c][0] + '" alt="" data-art="' + c + '" data-color="' + CAT_IMG[c][1] + '">' +
-        '<span>' + window.t("cat." + c) + '<svg class="i"><use href="#i-arrow"/></svg></span></a>';
+      return '<a class="cat-tile reveal" href="catalog.html?cat=' + c + '"><img loading="lazy" src="assets/cats/' + c + '.jpg" alt="" data-art="' + c + '" data-color="' + CAT_COLOR[c] + '">' +
+        '<span><b>' + window.t("cat." + c) + (count[c] ? "<small>" + window.itemsLabel(count[c]) + "</small>" : "") + '</b><svg class="i"><use href="#i-arrow"/></svg></span></a>';
     }).join("");
 
     // Сначала настоящие хиты продаж из BILLZ (список в scripts/site_config.json), затем остальное

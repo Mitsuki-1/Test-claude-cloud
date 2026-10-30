@@ -14,6 +14,9 @@
     kid: '<circle cx="110" cy="62" r="24" fill="#fff" fill-opacity=".85" stroke="' + S + '" stroke-opacity=".25" stroke-width="2"/><path d="M70 170 Q72 100 110 96 Q148 100 150 170Z" fill="#fff" fill-opacity=".85" stroke="' + S + '" stroke-opacity=".25" stroke-width="2"/><circle cx="102" cy="60" r="2.5" fill="' + S + '" fill-opacity=".4"/><circle cx="118" cy="60" r="2.5" fill="' + S + '" fill-opacity=".4"/><path d="M102 70 q8 6 16 0" fill="none" stroke="' + S + '" stroke-opacity=".4" stroke-width="2"/>'
   };
 
+  SHAPES.overalls = SHAPES.bodysuits;
+  SHAPES.blankets = SHAPES.discharge;
+
   window.artSVG = function (kind, color) {
     var shape = SHAPES[kind] || SHAPES.kid;
     var bg = color || "#EFE3CF";

@@ -136,6 +136,54 @@
       "photos": [{"photo_url": "https://cdn.billz.ai/p5.jpg", "is_main": true}],
       "shop_prices": [{"shop_id": "s1", "retail_price": 89000}],
       "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 5}]
+    },
+    {
+      "id": "g1", "parent_id": null, "sku": "TKK1004.EKRU.86-92", "name": "2 li Takım",
+      "main_image_url": "https://cdn.billz.ai/g1.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 285000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "g2", "parent_id": null, "sku": "TKE1005.EKRU.86-92", "name": "2 li Takım",
+      "main_image_url": "https://cdn.billz.ai/g2.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 285000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "n1", "parent_id": null, "sku": "BTN501", "name": "battaniye Sweetme / pudra",
+      "main_image_url": "https://cdn.billz.ai/n1.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 320000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "n2", "parent_id": null, "sku": "KND502", "name": "kundak / tomuycuk",
+      "main_image_url": "https://cdn.billz.ai/n2.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 210000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "n3", "parent_id": null, "sku": "SKT503", "name": "5 li Soket Çorap",
+      "main_image_url": "https://cdn.billz.ai/n3.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 95000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "n4", "parent_id": null, "sku": "BPS504", "name": "Body Pantolon Şapka",
+      "main_image_url": "https://cdn.billz.ai/n4.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 175000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "n5", "parent_id": null, "sku": "ELB2431.MAVI.86", "name": "Elbise",
+      "main_image_url": "https://cdn.billz.ai/n5.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 260000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
+    },
+    {
+      "id": "n6", "parent_id": null, "sku": "TU1627.EKRU.74", "name": "Çoraplı Tulum",
+      "main_image_url": "https://cdn.billz.ai/n6.jpg",
+      "shop_prices": [{"shop_id": "s1", "retail_price": 190000}],
+      "shop_measurement_values": [{"shop_id": "s1", "active_measurement_value": 1}]
     }
   ]
 }

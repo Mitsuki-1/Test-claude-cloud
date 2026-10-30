@@ -6,6 +6,16 @@
     ["3li takim", "v1", "polo"],
     ["pijama", "v1", "polo"]
   ],
+  "default_brand": "Caramell",
+  "product_overrides": {
+    "b26529": {"cat": "sets", "ru": "Платье с кардиганом", "uz": "Kardiganli ko‘ylak"},
+    "b26531": {"cat": "sets", "ru": "Комплект: блузка и брюки", "uz": "To‘plam: bluzka va shim"},
+    "b36301": {"cat": "sets", "ru": "Платье с кардиганом", "uz": "Kardiganli ko‘ylak"},
+    "b36361": {"cat": "sets", "ru": "Платье с болеро", "uz": "Bolerli ko‘ylak"},
+    "bswetmee53": {"cat": "sets", "ru": "Платье с болеро", "uz": "Bolerli ko‘ylak"},
+    "b5706": {"cat": "sets", "ru": "Комплект с платьем", "uz": "Ko‘ylakli to‘plam"},
+    "b5375": {"cat": "sets", "ru": "Комплект с платьем", "uz": "Ko‘ylakli to‘plam"}
+  },
   "skip_frames": [
     "f_4795_0", "f_4795_1", "f_4796_0", "f_4796_1", "f_4798_1", "f_4777_1", "f_4813_0", "f_4813_1",
     "f_4793_0", "f_4807_0", "f_4807_1", "f_4783_0", "f_4781_0", "f_4781_1", "f_4792_0", "f_4776_0",

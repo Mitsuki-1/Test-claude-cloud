@@ -43,10 +43,10 @@
 
   /* ---------- Чек-лист ---------- */
   var CHECK = [
-    ["cg.baby", [["b1", "bodysuits"], ["b2", "bodysuits"], ["b3", "newborn"], ["b4", "newborn"], ["b5"], ["b6"], ["b7"], ["b8"]]],
+    ["cg.baby", [["b1", "bodysuits"], ["b2", "overalls"], ["b3", "newborn"], ["b4", "newborn"], ["b5"], ["b6"], ["b7"], ["b8"]]],
     ["cg.mom", [["m1"], ["m2"], ["m3"], ["m4"], ["m5"], ["m6"], ["m7"]]],
     ["cg.docs", [["d1"], ["d2"], ["d3"], ["d4"]]],
-    ["cg.out", [["o1", "discharge"], ["o2", "discharge"], ["o3"], ["o4"]]]
+    ["cg.out", [["o1", "discharge"], ["o2", "blankets"], ["o3"], ["o4"]]]
   ];
   var CK = "caramell_checklist";
   var done = {};

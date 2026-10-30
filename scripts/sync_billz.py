@@ -55,21 +55,23 @@ TYPES = [
     (r"ayakkabi", "accessories", "Обувь", "Poyabzal"),
     (r"biberon", "accessories", "Бутылочка", "Shishacha"),
     (r"oyuncak|cingirak|armut", "accessories", "Игрушка", "O‘yinchoq"),
+    (r"corap(?!li)", "newborn", "Носочки", "Paypoqchalar"),  # «5 li Soket Çorap» — носки, а не набор на выписку
+    (r"mendil", "newborn", "Платочки", "Ro‘molchalar"),
     (r"(?<!\d)(5|6|7|8|9|10|11|12)\s*['’`]?\s*l[iu]\b|hastane|cikis", "discharge", "Набор на выписку", "Chiqish to‘plami"),
-    (r"kundak", "discharge", "Конверт-пелёнка", "Yo‘rgak-konvert"),
-    (r"battaniye|blanket|pled", "discharge", "Плед", "Ko‘rpacha"),
+    (r"kundak", "blankets", "Конверт-пелёнка", "Yo‘rgak-konvert"),
+    (r"battaniye|blanket|pled", "blankets", "Плед", "Ko‘rpacha"),
     (r"elbise|dress", "dresses", "Платье", "Ko‘ylak"),
     (r"etek|tunik", "dresses", "Юбка", "Yubka"),
-    (r"kozmonot", "bodysuits", "Тёплый комбинезон", "Issiq kombinezon"),
-    (r"salopet|solopet", "bodysuits", "Полукомбинезон", "Kombinezon-shim"),
-    (r"romper|babygrow", "bodysuits", "Песочник", "Qumlik kiyim"),
+    (r"kozmonot", "overalls", "Тёплый комбинезон", "Issiq kombinezon"),
+    (r"salopet|solopet", "overalls", "Полукомбинезон", "Kombinezon-shim"),
+    (r"romper|babygrow", "overalls", "Песочник", "Qumlik kiyim"),
     (r"zibin", "newborn", "Распашонка", "Ko‘ylakcha"),
+    (r"body\s*pantolon", "sets", "Комплект с боди", "Bodili to‘plam"),  # боди + штанишки (+ шапочка)
     (r"body", "bodysuits", "Боди", "Bodi"),
-    (r"tulum", "bodysuits", "Комбинезон", "Kombinezon"),
+    (r"tulum", "overalls", "Комбинезон", "Kombinezon"),
     (r"patik", "newborn", "Пинетки", "Pinetkalar"),
     (r"sapka|bere\b|bone\b", "newborn", "Шапочка", "Shapkacha"),
     (r"eldiven", "newborn", "Рукавички", "Qo‘lqopchalar"),
-    (r"corap", "newborn", "Носочки", "Paypoqchalar"),
     (r"bandana", "newborn", "Бандана", "Bandana"),
     (r"onluk", "newborn", "Нагрудник", "Ko‘krakcha"),
     (r"muslin", "newborn", "Муслиновая пелёнка", "Muslin yo‘rgak"),
@@ -85,11 +87,13 @@ TYPES = [
 ]
 # Запасные правила для русских и узбекских названий
 CAT_RULES = [
-    ("discharge", r"выписк|chiqish|tug.?ruqxona|konvert|конверт|плед|ko.?rpa"),
+    ("discharge", r"выписк|chiqish|tug.?ruqxona"),
+    ("blankets", r"konvert|конверт|плед|ko.?rpa|одеял|пелён|пелен|yo.?rgak"),
     ("pajamas", r"пижам|pijama|спальн|uyqu|ночн"),
     ("dresses", r"плать|сарафан|ko.?ylak|yubka|юбк|dress"),
-    ("bodysuits", r"боди|bodi|комбинезон|kombinezon|слип|slip|песочник|ползунк|polzunk|человечек"),
-    ("newborn", r"новорожд|chaqaloq|распашон|царапк|шапоч|shapka|пинетк|носоч"),
+    ("bodysuits", r"боди|bodi"),
+    ("overalls", r"комбинезон|kombinezon|слип|slip|песочник|человечек"),
+    ("newborn", r"новорожд|chaqaloq|распашон|царапк|шапоч|shapka|пинетк|носоч|ползунк|polzunk"),
     ("sets", r"костюм|kostyum|комплект|to.?plam|набор|кофт|футболк|брюк|шорт|свитер|кардиган"),
 ]
 GIRL = r"девоч|qiz\b|\bkiz\b|girl|принцесс|malika"
@@ -100,9 +104,14 @@ SIZE_ATTR = r"размер|o.?lcham|size|рост|beden"
 COLOR_ATTR = r"цвет|rang|color|renk"
 BRAND_ATTR = r"бренд|brand|marka"
 JUNK_BRAND = {"", "/", "-", "v1", "v2", "v3", "mix"}
-BRANDS = {"leoking": "Leo King", "leo king": "Leo King", "caramell": "Caramell", "u.s.polo": "U.S. Polo",
-          "swetmee": "Sweet Me", "sweetme": "Sweet Me", "mona rosa": "Monna Rossa", "monna rossa": "Monna Rossa",
-          "freesure": "Free Sure", "free sure": "Free Sure", "bistyle": "BiStyle", "m&y collection": "M&Y Collection"}
+# Написание бренда в BILLZ (поле, атрибут «Бренд» или само название) -> имя для сайта и фильтра по брендам
+BRANDS = [
+    ("Leo King", r"leo\s*king"), ("U.S. Polo", r"u\.?\s*s\.?\s*polo|\bpolo\b"), ("Sweet Me", r"swe+t\s*me+"),
+    ("Monna Rossa", r"mon+a\s*ros+a"), ("Free Sure", r"free\s*sure"), ("BiStyle", r"\bbi\s*style"),
+    ("Pamina", r"pamina"), ("Nipperland", r"nipperland"), ("Atelier Babbi", r"atelier|babbi"),
+    ("M&Y Collection", r"m\s*&\s*y\b"), ("Puggi", r"\bpug+i\b"), ("Noynoy", r"noynoy"), ("Bebus", r"bebus"),
+    ("Cumino", r"cumino"), ("Caramell", r"caramel+"),
+]
 
 
 def request(method, path, token=None, body=None, params=None):
@@ -215,11 +224,19 @@ def attr(variants, rx):
     return ""
 
 
+def known_brand(text):
+    folded = tr_fold(text)
+    return next((name for name, rx in BRANDS if re.search(rx, folded)), "")
+
+
 def brand_of(base, variants):
+    """Бренд из поля или атрибута BILLZ, иначе — из названия ('battaniye Sweetme / pudra'); '' — не указан."""
     b = clean(base.get("brand_name")) or attr(variants, BRAND_ATTR)
     if b.lower() in JUNK_BRAND:
-        return ""
-    return BRANDS.get(b.lower(), b if b[:1].isupper() else b.title())
+        b = ""
+    if b:
+        return known_brand(b) or (b if b[:1].isupper() else b.title())
+    return known_brand(clean(base.get("name")))
 
 
 UNKNOWN = collections.Counter()
@@ -310,18 +327,37 @@ def hit_key(text):
     return re.sub(r"(\d)l[iu]", r"\1li", s)
 
 
-def load_hits():
+def load_config():
     try:
         with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "site_config.json"), encoding="utf-8") as f:
-            return json.load(f).get("hits") or []
+            return json.load(f)
     except (OSError, ValueError):
-        return []
+        return {}
 
 
-def transform(raw, shops, show_oos=False, show_no_photo=True, hits=()):
+def load_hits():
+    return load_config().get("hits") or []
+
+
+def model_of(sku_parts):
+    return re.match(r"[A-Z]+", sku_parts[0]).group(0) if sku_parts else ""
+
+
+def sku_gender(model, models):
+    """В артикулах магазина пары моделей: TKE/TKK, TE/TK, BE/BK… — E (erkek) для мальчиков, K (kız) для девочек."""
+    if len(model) >= 2 and model[-1] == "E" and model[:-1] + "K" in models:
+        return "boy"
+    if len(model) >= 2 and model[-1] == "K" and model[:-1] + "E" in models:
+        return "girl"
+    return "unisex"
+
+
+def transform(raw, shops, show_oos=False, show_no_photo=True, hits=(), default_brand="", overrides=None):
     hit_rules = [[hit_key(w) for w in rule] for rule in hits]
+    overrides = overrides or {}
     groups = collections.OrderedDict()
     parents = {str(p["parent_id"]) for p in raw if p.get("parent_id")}
+    models = {model_of(parse_sku(p.get("sku"))) for p in raw} - {""}
     for p in raw:
         groups.setdefault(group_key(p, parents), []).append(p)
 
@@ -362,8 +398,10 @@ def transform(raw, shops, show_oos=False, show_no_photo=True, hits=()):
         cat, ru, uz, known = describe(original, cats)
         color = attr(variants, COLOR_ATTR) or (sku_parts[1] if sku_parts else "")
 
+        model = model_of(sku_parts)
+        brand = brand_of(base, variants)
         hay = tr_fold(cats + " " + full).replace("ё", "е")
-        g = "girl" if re.search(GIRL, hay) else "boy" if re.search(BOY, hay) else "unisex"
+        g = "girl" if cat == "dresses" or re.search(GIRL, hay) else "boy" if re.search(BOY, hay) else sku_gender(model, models)
         if g == "unisex" and cat != "accessories":
             fc = tr_fold(color)
             g = "girl" if re.search(GIRL_COLOR, fc) else "boy" if re.search(BOY_COLOR, fc) else "unisex"
@@ -372,7 +410,7 @@ def transform(raw, shops, show_oos=False, show_no_photo=True, hits=()):
         desc = clean(base.get("description"))
         item = {
             "id": "b" + re.sub(r"[^a-zA-Z0-9]", "", sku)[:24],
-            "cat": cat, "g": g, "price": int(min(prices)), "sizes": sizes or ["One size"], "img": img,
+            "cat": cat, "brand": brand or default_brand, "g": g, "price": int(min(prices)), "sizes": sizes or ["One size"], "img": img,
             "name": {"ru": ru, "uz": uz},
             "desc": {"ru": ((desc + " ") if desc else "") + "Арт. %s · %s" % (sku, original),
                      "uz": ((desc + " ") if desc else "") + "Art. %s · %s" % (sku, original)},
@@ -381,12 +419,11 @@ def transform(raw, shops, show_oos=False, show_no_photo=True, hits=()):
             item["old"] = int(min(olds))
             item["badge"] = "sale"
         else:
-            key = hit_key(full + " " + (brand_of(base, variants) or ""))
+            key = hit_key(full + " " + brand)
             if any(all(w in key for w in rule) for rule in hit_rules):
                 item["badge"] = "hit"
-        model = re.match(r"[A-Z]+", sku_parts[0]).group(0) if sku_parts else ""
         products.append(item)
-        pending.append((item, known, model, brand_of(base, variants), color_name(color)))
+        pending.append((item, known, model, brand, color_name(color)))
 
     # Тип для товаров, у которых вместо названия артикул: по буквам модели (TE…, TKE…) у остальных товаров
     votes = collections.defaultdict(collections.Counter)
@@ -398,8 +435,13 @@ def transform(raw, shops, show_oos=False, show_no_photo=True, hits=()):
             best = votes[model].most_common(1) if model else []
             if best and best[0][1] >= 3:
                 item["cat"], item["name"]["ru"], item["name"]["uz"] = best[0][0]
+                if item["cat"] == "dresses":
+                    item["g"] = "girl"
             else:
                 UNKNOWN[(tr_fold(item["name"]["ru"]).split() or [""])[0]] += 1
+        fix = overrides.get(item["id"]) or {}  # ручные правки из site_config.json → product_overrides
+        item["cat"] = fix.get("cat", item["cat"])
+        item["name"]["ru"], item["name"]["uz"] = fix.get("ru", item["name"]["ru"]), fix.get("uz", item["name"]["uz"])
         if brand and brand.lower() not in item["name"]["ru"].lower():
             item["name"]["ru"] += " " + brand
             item["name"]["uz"] += " " + brand
@@ -420,6 +462,7 @@ def report(products):
     c = collections.Counter
     print("  по категориям:", dict(c(p["cat"] for p in products).most_common()))
     print("  по полу:", dict(c(p["g"] for p in products).most_common()))
+    print("  по брендам:", dict(c(p["brand"] for p in products).most_common()))
     print("  с размерами из сетки:", sum(1 for p in products if p["sizes"] != ["One size"]),
           "| со скидкой:", sum(1 for p in products if p.get("badge") == "sale"),
           "| хитов:", sum(1 for p in products if p.get("badge") == "hit"))
@@ -463,7 +506,9 @@ def main():
             print("BILLZ_SECRET_TOKEN не задан — синхронизация пропущена, сайт использует js/products.js")
             return 0
         raw = fetch_products(login(secret))
-    products = transform(raw, shops, show_oos, show_no_photo, load_hits())
+    cfg = load_config()
+    products = transform(raw, shops, show_oos, show_no_photo, cfg.get("hits") or [],
+                         cfg.get("default_brand") or "", cfg.get("product_overrides") or {})
     print("BILLZ: получено %d позиций, на сайте %d товаров" % (len(raw), len(products)))
     report(products)
     if not products and not fixture:
