@@ -74,6 +74,11 @@ jobs:
             echo "::warning::Ветка изменилась параллельно — данные сохранятся при следующем запуске"
           fi
 
+      # Версии к css/js в HTML (?v=<хэш>), чтобы после обновления браузеры и кэш хостинга не держали старые стили.
+      # Делается только в выкладываемой копии — в ветку не коммитится.
+      - name: Версии файлов для сброса кэша
+        run: python scripts/stamp_assets.py
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

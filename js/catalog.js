@@ -16,7 +16,8 @@
   /* ---------- Бренды ---------- */
   // Логотипы с официальных сайтов брендов — assets/brands; Leo King и U.S. Polo нарисованы по коробкам и биркам,
   // у брендов без логотипа — набранное название (класс bm-…)
-  var logo = function (file, name) { return '<img src="assets/brands/' + file + '" alt="' + name + '" loading="lazy">'; };
+  // w — ширина логотипа в px: подобрана так, чтобы все логотипы выглядели одного «веса» (широкие тонкие — шире, плотные — уже)
+  var logo = function (file, name, w) { return '<img src="assets/brands/' + file + '" alt="' + name + '" loading="lazy" style="width:' + w + 'px">'; };
   var LEO =
     '<svg class="lk-crown" viewBox="0 0 28 22" aria-hidden="true"><path fill="currentColor" d="M14.0 0.0 L14.8 2.0 L17.0 2.2 L15.4 3.6 L15.9 5.8 L14.0 4.6 L12.1 5.8 L12.6 3.6 L11.0 2.2 L13.2 2.0Z' +
     'M6.5 3.9 L7.1 5.2 L8.5 5.4 L7.4 6.3 L7.7 7.7 L6.5 6.9 L5.3 7.7 L5.6 6.3 L4.5 5.4 L5.9 5.2ZM21.5 3.9 L22.1 5.2 L23.5 5.4 L22.4 6.3 L22.7 7.7 L21.5 6.9 L20.3 7.7 L20.6 6.3 L19.5 5.4 L20.9 5.2Z' +
@@ -24,21 +25,21 @@
     '<span class="lk-word">le<svg class="lk-o" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.6" fill="none" stroke="currentColor" stroke-width="2.2"/>' +
     '<circle cx="7.4" cy="8.6" r="1.2" fill="currentColor"/><circle cx="12.6" cy="8.6" r="1.2" fill="currentColor"/><path d="M6.8 11.6q3.2 3.4 6.4 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>king</span>';
   var BRAND_LOOK = {
-    "Caramell": [logo("caramell.png", "Caramell"), "caramell"],
+    "Caramell": [logo("caramell.png", "Caramell", 116), "caramell"],
     "Leo King": [LEO, "leoking"],
     "U.S. Polo": ["<b>U.S. POLO ASSN.</b><small>SINCE 1890</small><i></i>", "polo"],
-    "Atelier Babbi": [logo("atelier-babbi.png", "Atelier Babbi"), "img"],
+    "Atelier Babbi": [logo("atelier-babbi.png", "Atelier Babbi", 124), "img"],
     "BiStyle": ["BİSTYLE", "bistyle"],
-    "Sweet Me": [logo("sweet-me.png", "Sweet Me"), "img bm-tall"],
-    "Monna Rosa": [logo("monna-rossa.png", "Monna Rosa"), "img bm-tall"],
-    "Pamina": [logo("pamina.png", "Pamina"), "img"],
-    "M&Y Collection": [logo("m-y-collection.png", "M&amp;Y Collection"), "img bm-tall"],
-    "Nipperland": [logo("nipperland.svg", "Nipperland"), "img"],
-    "Free Sure": [logo("free-sure.png", "Free Sure"), "img"],
+    "Sweet Me": [logo("sweet-me.png", "Sweet Me", 84), "img"],
+    "Monna Rosa": [logo("monna-rossa.png", "Monna Rosa", 112), "img"],
+    "Pamina": [logo("pamina.png", "Pamina", 96), "img"],
+    "M&Y Collection": [logo("m-y-collection.png", "M&amp;Y Collection", 78), "img"],
+    "Nipperland": [logo("nipperland.svg", "Nipperland", 118), "img"],
+    "Free Sure": [logo("free-sure.png", "Free Sure", 116), "img"],
     "Bebus": ["bebus", "bebus"],
     "Puggi": ["puggi", "puggi"],
     "Noynoy": ["noynoy", "noynoy"],
-    "Cumino": [logo("cumino.svg", "Cumino"), "img bm-tall"],
+    "Cumino": [logo("cumino.svg", "Cumino", 82), "img"],
     "Anna Baba": ["Anna Baba", "annababa"],
     "Lovemax": ["Lovemax", "lovemax"]
   };
