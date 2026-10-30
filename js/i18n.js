@@ -237,7 +237,8 @@
     "soon.kicker": "Новинки Caramell", "soon.title": "Новая коллекция <em>{brand}</em>",
     "soon.sub": "Уже в наших магазинах. Все модели, цены и размеры — в нашем Telegram-канале.", "soon.cta": "Смотреть в Telegram",
     "fav.title": "Избранное", "fav.add": "Добавлено в избранное", "fav.rm": "Убрано из избранного", "fav.empty": "Нажмите ♡ на товаре, чтобы сохранить его здесь.",
-    "cat.fav": "♡ Избранное", "nav.tg": "Telegram",
+    "cat.fav": "♡ Избранное", "nav.tg": "Telegram", "tab.home": "Главная",
+    "hero.moms": "Мамам: размер за 10 секунд и чек-лист в роддом",
     "f.brand": "Бренд", "f.brandAll": "Все бренды", "f.filters": "Фильтры", "brands.title": "Бренды",
     "items.1": "товар", "items.2": "товара", "items.5": "товаров", "brand.own": "Наш бренд"
   });
@@ -263,7 +264,8 @@
     "soon.kicker": "Caramell yangiliklari", "soon.title": "Yangi <em>{brand}</em> kolleksiyasi",
     "soon.sub": "Allaqachon do‘konlarimizda. Barcha modellar, narxlar va o‘lchamlar — Telegram kanalimizda.", "soon.cta": "Telegramda ko‘rish",
     "fav.title": "Sevimlilar", "fav.add": "Sevimlilarga qo‘shildi", "fav.rm": "Sevimlilardan olindi", "fav.empty": "Saqlash uchun mahsulotdagi ♡ ni bosing.",
-    "cat.fav": "♡ Sevimlilar", "nav.tg": "Telegram",
+    "cat.fav": "♡ Sevimlilar", "nav.tg": "Telegram", "tab.home": "Asosiy",
+    "hero.moms": "Onalarga: 10 soniyada o‘lcham va tug‘ruqxona ro‘yxati",
     "f.brand": "Brend", "f.brandAll": "Barcha brendlar", "f.filters": "Filtrlar", "brands.title": "Brendlar",
     "items.1": "ta mahsulot", "items.2": "ta mahsulot", "items.5": "ta mahsulot", "brand.own": "Bizning brend"
   });

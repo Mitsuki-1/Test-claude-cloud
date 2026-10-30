@@ -17,11 +17,11 @@
 </head>
 <body data-page="home">
 
-  <!-- HERO: положите видео из магазина в assets/hero.mp4 — оно заменит слайд-шоу -->
+  <!-- HERO: видео из магазина — assets/hero.mp4 (сейчас пост t.me/Caramelluz/4891). После замены файла поменяйте ?v=, иначе браузеры покажут старое видео из кэша -->
   <section class="hero" id="hero">
     <div class="hero-media">
       <video autoplay muted loop playsinline preload="auto" poster="">
-        <source src="assets/hero.mp4" type="video/mp4">
+        <source src="assets/hero.mp4?v=4891" type="video/mp4">
       </video>
       <div class="hero-slides">
         <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1800&q=70'), linear-gradient(135deg,#22345E,#101A31)"></div>
@@ -40,6 +40,7 @@
           <a class="btn btn-primary btn-xl" href="catalog.html"><span data-i18n="cta.catalog"></span><svg class="i"><use href="#i-arrow"/></svg></a>
           <a class="btn btn-glass btn-xl" href="https://t.me/Caramell_Uzbekistan" target="_blank" rel="noopener"><svg class="i"><use href="#i-tg"/></svg><span data-i18n="cta.telegram"></span></a>
         </div>
+        <a class="hero-moms" href="moms.html"><span class="hero-moms-ico" aria-hidden="true">👶</span><span data-i18n="hero.moms"></span><svg class="i"><use href="#i-arrow"/></svg></a>
         <div class="hero-stats">
           <div class="stat"><b data-count="30" data-plus="+">0</b><span data-i18n="stat.year"></span></div>
           <div class="stat"><b data-count="4">0</b><span data-i18n="stat.shops"></span></div>
@@ -73,6 +74,26 @@
         <a class="link-arrow" href="catalog.html" data-i18n="hits.all"></a>
       </div>
       <div class="cats" id="cats"></div>
+    </div>
+  </section>
+
+  <!-- Мамам -->
+  <section class="section-sm" id="moms">
+    <div class="container">
+      <div class="moms-teaser reveal">
+        <div>
+          <span class="kicker" data-i18n="momsT.kicker"></span>
+          <h2 data-i18n="momsT.title"></h2>
+          <p data-i18n="momsT.sub"></p>
+          <a class="btn btn-primary" href="moms.html"><span data-i18n="momsT.cta"></span><svg class="i"><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="tools">
+          <a class="tool" href="moms.html#size"><span>📏</span><b data-i18n="momsT.1"></b></a>
+          <a class="tool" href="moms.html#checklist"><span>👜</span><b data-i18n="momsT.2"></b></a>
+          <a class="tool" href="moms.html#gift"><span>🎁</span><b data-i18n="momsT.3"></b></a>
+          <a class="tool" href="moms.html#tips"><span>🧺</span><b data-i18n="momsT.4"></b></a>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -224,25 +245,6 @@
     </div>
   </section>
 
-  <!-- Мамам -->
-  <section class="section">
-    <div class="container">
-      <div class="moms-teaser reveal">
-        <div>
-          <span class="kicker" data-i18n="momsT.kicker"></span>
-          <h2 data-i18n="momsT.title"></h2>
-          <p data-i18n="momsT.sub"></p>
-          <a class="btn btn-primary" href="moms.html"><span data-i18n="momsT.cta"></span><svg class="i"><use href="#i-arrow"/></svg></a>
-        </div>
-        <div class="tools">
-          <a class="tool" href="moms.html#size"><span>📏</span><b data-i18n="momsT.1"></b></a>
-          <a class="tool" href="moms.html#checklist"><span>👜</span><b data-i18n="momsT.2"></b></a>
-          <a class="tool" href="moms.html#gift"><span>🎁</span><b data-i18n="momsT.3"></b></a>
-          <a class="tool" href="moms.html#tips"><span>🧺</span><b data-i18n="momsT.4"></b></a>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Контакты -->
   <section class="section-sm">

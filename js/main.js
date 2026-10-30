@@ -26,6 +26,7 @@
     S("i-pin", '<path ' + STROKE + ' d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3" ' + STROKE + '/>') +
     S("i-clock", '<circle cx="12" cy="12" r="8.5" ' + STROKE + '/><path ' + STROKE + ' d="M12 7.5V12l3 2"/>') +
     S("i-home", '<path ' + STROKE + ' d="M4 10.5 12 4l8 6.5V19a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/>') +
+    S("i-stroller", '<path ' + STROKE + ' d="M13 4.5a6.5 6.5 0 0 1 6.5 6.5H13zM2.5 6.5h2l1.3 4.5M5.8 11h13.7a5.5 5.5 0 0 1-5.5 5.5h-2.7A5.5 5.5 0 0 1 5.8 11z"/><circle cx="8.5" cy="19.5" r="1.6" ' + STROKE + '/><circle cx="16.5" cy="19.5" r="1.6" ' + STROKE + '/>') +
     S("i-grid", '<path ' + STROKE + ' d="M4.5 4.5h6v6h-6zm9 0h6v6h-6zm-9 9h6v6h-6zm9 0h6v6h-6z"/>') +
     S("i-sound", '<path ' + STROKE + ' d="M4 9.5h3.5L12 5.5v13l-4.5-4H4zM16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11"/>') +
     S("i-mute", '<path ' + STROKE + ' d="M4 9.5h3.5L12 5.5v13l-4.5-4H4zM16.5 9.5l5 5m0-5-5 5"/>') +
@@ -35,8 +36,8 @@
   var page = document.body.dataset.page || "";
   var LOGO = '<svg class="logo-mark"><use href="#i-logo"/></svg><span class="logo-text"><span class="logo-word">Caramell</span><span class="logo-sub">UZBEKISTAN</span></span>';
 
-  function navLink(href, key, id) {
-    return '<a href="' + href + '" class="' + (page === id ? "is-active" : "") + '" data-i18n="' + key + '"></a>';
+  function navLink(href, key, id, cls) {
+    return '<a href="' + href + '" class="' + (page === id ? "is-active" : "") + (cls ? " " + cls : "") + '" data-i18n="' + key + '"></a>';
   }
 
   var TOPBAR =
@@ -50,7 +51,7 @@
     '<div class="container header-in">' +
     '<a href="index.html" class="logo" aria-label="Caramell">' + LOGO + "</a>" +
     '<nav class="main-nav">' +
-    navLink("index.html", "nav.home", "home") + navLink("catalog.html", "nav.catalog", "catalog") + navLink("moms.html", "nav.moms", "moms") +
+    navLink("index.html", "nav.home", "home") + navLink("catalog.html", "nav.catalog", "catalog") + navLink("moms.html", "nav.moms", "moms", "nav-moms") +
     '<a href="index.html#wholesale" data-i18n="nav.wholesale"></a><a href="#contacts" data-i18n="nav.contacts"></a></nav>' +
     '<div class="header-act">' +
     '<div class="lang"><button data-lang="ru">RU</button><button data-lang="uz">UZ</button></div>' +
@@ -61,15 +62,16 @@
     "</div></div></header>";
 
   function tab(href, icon, key, id, extra) {
-    return '<a href="' + href + '" class="' + (page === id ? "is-active" : "") + '"' + (extra || "") + '><span class="tab-ico"><svg class="i"><use href="#' + icon + '"/></svg>' +
+    return '<a href="' + href + '" class="tab-' + id + (page === id ? " is-active" : "") + '"' + (extra || "") + '><span class="tab-ico"><svg class="i"><use href="#' + icon + '"/></svg>' +
       (icon === "i-heart" ? '<span class="fav-count" hidden></span>' : icon === "i-bag" ? '<span class="cart-count" hidden></span>' : "") +
       '</span><span data-i18n="' + key + '"></span></a>';
   }
 
   var TABBAR =
     '<nav class="tabbar" aria-label="mobile">' +
-    tab("index.html", "i-home", "nav.home", "home") +
+    tab("index.html", "i-home", "tab.home", "home") +
     tab("catalog.html", "i-grid", "nav.catalog", "catalog") +
+    tab("moms.html", "i-stroller", "nav.moms", "moms") +
     tab("catalog.html?cat=fav", "i-heart", "fav.title", "fav") +
     tab("#", "i-bag", "nav.cart", "cart", " data-cart-open") +
     tab(CONTACT.tg, "i-tg", "nav.tg", "tg", ' target="_blank" rel="noopener"') +
