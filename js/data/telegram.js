@@ -1,16 +1,6 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
-  "src": "assets/tg/f_4895_0.jpg",
-  "post": "https://t.me/Caramelluz/4895",
-  "date": "2026-10-28",
-  "text": "Tanlovingiz uchun rahmat🥰♥️",
-  "prices": [],
-  "kind": "frame",
-  "score": -32.0,
-  "kids": false
- },
- {
   "src": "assets/tg/f_4892_0.jpg",
   "post": "https://t.me/Caramelluz/4892",
   "date": "2026-10-27",
@@ -1069,6 +1059,26 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -17.7,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4767_0.jpg",
+  "post": "https://t.me/Caramelluz/4767",
+  "date": "2026-09-17",
+  "text": "Новая коллекция Leoking уже в наших магазинах🥰♥️",
+  "prices": [],
+  "kind": "frame",
+  "score": -11.3,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4767_1.jpg",
+  "post": "https://t.me/Caramelluz/4767",
+  "date": "2026-09-17",
+  "text": "Новая коллекция Leoking уже в наших магазинах🥰♥️",
+  "prices": [],
+  "kind": "frame",
+  "score": -11.7,
   "kids": false
  },
  {
@@ -2645,13 +2655,6 @@ window.TG_REELS = [
   "poster": ""
  },
  {
-  "src": "assets/reels/4895.720.mp4",
-  "post": "https://t.me/Caramelluz/4895",
-  "date": "2026-10-28",
-  "text": "Tanlovingiz uchun rahmat🥰♥️",
-  "poster": "assets/tg/f_4895_0.jpg"
- },
- {
   "src": "assets/reels/4892.720.mp4",
   "post": "https://t.me/Caramelluz/4892",
   "date": "2026-10-27",
@@ -2685,6 +2688,13 @@ window.TG_REELS = [
   "date": "2026-10-20",
   "text": "Стильные образы для мальчиков 💙\nУютные комплекты для тёплых прогулок и повседневных приключений 🍂",
   "poster": "assets/tg/f_4881_0.jpg"
+ },
+ {
+  "src": "assets/reels/4866.720.mp4",
+  "post": "https://t.me/Caramelluz/4866",
+  "date": "2026-10-15",
+  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с ",
+  "poster": ""
  }
 ];
 window.TG_COLLECTION = {
@@ -2692,6 +2702,6 @@ window.TG_COLLECTION = {
  "post": "https://t.me/Caramelluz/4880",
  "date": "2026-10-17",
  "text": "Новые комплекты от LeoKing уже в наличии! 🧶😍\n\nНежные и уютные образы для ваших малышей — с очаровательными деталями, в которые невозможно не влюбиться.",
- "img": "assets/tg/4880_0.jpg",
+ "img": "assets/tg/f_4767_0.jpg",
  "video": "assets/reels/c_4767.720.mp4"
 };
