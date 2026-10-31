@@ -502,6 +502,7 @@ body.bars-hidden .filters { transform: translateY(calc(-100% - var(--hdr-h, 104p
 .calc-res .big { font-family: var(--serif); font-size: 64px; line-height: 1; color: var(--caramel-d); }
 .calc-res p { margin: 0; color: var(--choco-2); }
 .calc-res .alt { font-weight: 800; color: var(--choco); }
+.calc-res .calc-warn { padding: 10px 14px; border-radius: 14px; background: #FFF4E5; border: 1px solid #F3C98B; color: #6B4A12; font-size: 14px; line-height: 1.45; }
 .calc-res .ph { font-size: 60px; text-align: center; opacity: .6; }
 .size-table { width: 100%; border-collapse: collapse; margin-top: 28px; font-size: 14px; }
 .size-table th, .size-table td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--line); }
