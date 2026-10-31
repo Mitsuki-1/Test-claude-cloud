@@ -139,7 +139,7 @@
     story.innerHTML =
       '<div class="story-box">' +
       '<div class="story-bars">' + REELS.map(function () { return "<span><i></i></span>"; }).join("") + "</div>" +
-      '<div class="story-top"><span class="story-brand"><svg class="logo-mark"><use href="#i-logo"/></svg>caramell_uzbekistan</span>' +
+      '<div class="story-top"><span class="story-brand"><span class="logo-img" role="img" aria-label="Caramell"></span></span>' +
       '<button class="story-btn" data-s="sound" aria-label="sound"><svg class="i"><use href="#i-mute"/></svg></button>' +
       '<button class="story-btn" data-s="close" aria-label="close">×</button></div>' +
       '<video playsinline muted></video>' +

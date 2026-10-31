@@ -34,7 +34,7 @@
     "</svg>";
 
   var page = document.body.dataset.page || "";
-  var LOGO = '<svg class="logo-mark"><use href="#i-logo"/></svg><span class="logo-text"><span class="logo-word">Caramell</span><span class="logo-sub">UZBEKISTAN</span></span>';
+  var LOGO = '<span class="logo-img" role="img" aria-label="Caramell"></span>';
 
   function navLink(href, key, id, cls) {
     return '<a href="' + href + '" class="' + (page === id ? "is-active" : "") + (cls ? " " + cls : "") + '" data-i18n="' + key + '"></a>';
