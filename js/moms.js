@@ -3,31 +3,35 @@
   var SIZES = window.SIZES;
 
   /* ---------- Калькулятор размера ---------- */
-  // Сетка — window.SIZES в js/products.js. Диапазоны читаются как (от; до]: значение на границе
-  // (ровно 74 см, 9,5 кг, 9 мес) относится к нижнему размеру, как в таблице. Ниже первого — первый размер.
-  var PARAMS = { h: "h", w: "w", a: "a" };
-  var NEAR = 0.2;  // «близко к верхней границе» — в последних 20% диапазона (рост 74–80 → от 78,8 см)
+  // Сетка — window.SIZES в js/products.js. Диапазон размера — [от; до): ровно 74 см — уже 9–12 мес.
+  // Алгоритм:
+  //  • рост заполнен → базовый размер по росту; возраст и вес его не меняют (только предупреждение, если указывают на другой);
+  //  • до верхней границы роста ≤ 2 см → рекомендуем следующий размер («Малыш близок к верхней границе…»);
+  //  • роста нет → больший из размеров по весу и возрасту (вещь не будет мала), без подъёма.
+  var NEAR_CM = 2;
   var lastCalc = null;
 
-  function idxIn(val, prop) {
-    for (var i = 0; i < SIZES.length; i++) if (val <= SIZES[i][prop][1]) return i;
+  function idxBy(val, prop) {
+    for (var i = 0; i < SIZES.length; i++) if (val < SIZES[i][prop][1]) return i;
     return SIZES.length - 1;
   }
 
-  // Подбор размера. Один параметр — по нему. Несколько — главный рост (без роста — вес, затем возраст),
-  // остальные — проверка: если они указывают на другой размер, возвращается список расхождений.
   function pickSize(v) {
-    var given = ["h", "w", "a"].filter(function (k) { return v[k] !== null && v[k] !== undefined; });
-    if (!given.length) return null;
-    var basis = given[0], idx = idxIn(v[basis], PARAMS[basis]);
-    var r = SIZES[idx][basis], rest = r[1] - v[basis];
-    var conflicts = given.slice(1).map(function (k) { return { by: k, idx: idxIn(v[k], PARAMS[k]) }; })
-      .filter(function (c) { return c.idx !== idx; });
-    return {
-      idx: idx, basis: basis, conflicts: conflicts,
-      // подсказку «на размер больше» даём, только если до верхней границы осталось мало и следующий размер есть
-      near: idx < SIZES.length - 1 && rest >= 0 && rest <= (r[1] - r[0]) * NEAR
-    };
+    var has = function (k) { return v[k] !== null && v[k] !== undefined; };
+    if (!has("h") && !has("w") && !has("a")) return null;
+    var base, basis, near = false;
+    if (has("h")) {
+      basis = "h"; base = idxBy(v.h, "h");
+      near = SIZES[base].h[1] - v.h <= NEAR_CM;
+    } else {
+      basis = has("w") ? "w" : "a";
+      base = Math.max(has("w") ? idxBy(v.w, "w") : 0, has("a") ? idxBy(v.a, "a") : 0);
+    }
+    var idx = near ? Math.min(base + 1, SIZES.length - 1) : base;
+    var conflicts = ["w", "a"].filter(function (k) { return k !== basis && has(k); })
+      .map(function (k) { return { by: k, idx: idxBy(v[k], k) }; })
+      .filter(function (c) { return c.idx !== base; });
+    return { idx: idx, base: base, basis: basis, near: near, conflicts: conflicts };
   }
   window.pickSize = pickSize;
 
@@ -45,19 +49,23 @@
       SIZES.map(function (s, i) { return '<tr class="' + (i === idx ? "hl" : "") + '"><td>' + window.sizeLabel(s.key) + "</td><td>" + s.h[0] + "–" + s.h[1] + "</td><td>" + s.w[0] + "–" + s.w[1] + "</td></tr>"; }).join("");
     if (!lastCalc) { box.innerHTML = '<div class="ph">👶</div>'; return; }
     if (lastCalc.empty) { box.innerHTML = '<div class="ph">👶</div><p style="text-align:center">' + window.t("size.need") + "</p>"; return; }
-    var s = SIZES[idx], next = SIZES[idx + 1];
+    var s = SIZES[idx], next = SIZES[idx + 1], b = SIZES[lastCalc.base];
+    var lift = idx !== lastCalc.base;
+    var range = function (z) { return window.t("size.col.h") + ": " + z.h[0] + "–" + z.h[1] + " · " + window.t("size.col.w") + ": " + z.w[0] + "–" + z.w[1]; };
+    // Размер поднят — показываем обе строки, чтобы диапазон рекомендованного размера не путал
+    var info = lift ?
+      '<p class="calc-lift">' + window.t("size.byH") + " <b>" + window.sizeLabel(b.key) + "</b> (" + b.h[0] + "–" + b.h[1] + " " + window.t("size.cm") + ") · " +
+        window.t("size.rec") + " <b>" + window.sizeLabel(s.key) + "</b></p>" :
+      "<p>" + range(s) + "</p>";
     var warn = lastCalc.conflicts.length ?
       '<p class="calc-warn" role="alert">⚠️ ' + window.t("size.warn") + " " +
-        [{ by: lastCalc.basis, idx: idx }].concat(lastCalc.conflicts).map(function (c) {
+        [{ by: lastCalc.basis, idx: lastCalc.base }].concat(lastCalc.conflicts).map(function (c) {
           return window.t("size.by." + c.by) + " — " + window.sizeLabel(SIZES[c.idx].key);
         }).join(", ") + ". " + window.t("size.pick." + lastCalc.basis) + "</p>" : "";
-    // «Идеально по сетке» не пишем, если параметры расходятся — там уже предупреждение
-    var tip = !next ? "" : lastCalc.near ?
-      "<p>" + window.t("size.tip.up") + ' <span class="alt">' + window.sizeLabel(next.key) + "</span></p>" :
-      lastCalc.conflicts.length ? "" : "<p>" + window.t("size.tip.ok") + ' <span class="alt">' + window.sizeLabel(next.key) + "</span></p>";
+    var tip = lastCalc.near ? (lift ? "<p>" + window.t("size.tip.up") + ' <span class="alt">' + window.sizeLabel(s.key) + "</span></p>" : "") :
+      next ? "<p>" + window.t("size.tip.ok") + ' <span class="alt">' + window.sizeLabel(next.key) + "</span></p>" : "";
     box.innerHTML = '<p>' + window.t("size.res") + '</p><div class="big">' + window.sizeLabel(s.key) + "</div>" +
-      "<p>" + window.t("size.col.h") + ": " + s.h[0] + "–" + s.h[1] + " · " + window.t("size.col.w") + ": " + s.w[0] + "–" + s.w[1] + "</p>" +
-      warn + tip +
+      info + warn + tip +
       '<a class="btn btn-primary" style="align-self:flex-start;margin-top:8px" href="catalog.html?size=' + s.key + '">' + window.t("size.show") + '<svg class="i"><use href="#i-arrow"/></svg></a>';
   }
 
