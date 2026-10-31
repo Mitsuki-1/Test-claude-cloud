@@ -51,7 +51,7 @@
     '<div class="container header-in">' +
     '<a href="index.html" class="logo" aria-label="Caramell">' + LOGO + "</a>" +
     '<nav class="main-nav">' +
-    navLink("index.html", "nav.home", "home") + navLink("catalog.html", "nav.catalog", "catalog") + navLink("moms.html", "nav.moms", "moms", "nav-moms") +
+    navLink("index.html", "nav.home", "home") + navLink("catalog.html", "nav.catalog", "catalog") + navLink("moms.html", "nav.moms", "moms") +
     '<a href="index.html#wholesale" data-i18n="nav.wholesale"></a><a href="#contacts" data-i18n="nav.contacts"></a></nav>' +
     '<div class="header-act">' +
     '<div class="lang"><button data-lang="ru">RU</button><button data-lang="uz">UZ</button></div>' +
