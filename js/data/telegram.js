@@ -1,6 +1,16 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/4904_0.jpg",
+  "post": "https://t.me/Caramelluz/4904",
+  "date": "2026-11-02",
+  "text": "",
+  "prices": [],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
   "src": "assets/tg/f_4901_0.jpg",
   "post": "https://t.me/Caramelluz/4901",
   "date": "2026-11-02",
@@ -1111,16 +1121,6 @@ window.TG_PHOTOS = [
   "prices": [
    450000
   ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4571_0.jpg",
-  "post": "https://t.me/Caramelluz/4571",
-  "date": "2026-08-04",
-  "text": "🥳Sizlar kutgan kolleksiya endi Caramell do’konlarida 😍",
-  "prices": [],
   "kind": "photo",
   "score": 0,
   "kids": false
