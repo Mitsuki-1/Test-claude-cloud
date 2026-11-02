@@ -1,6 +1,36 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_4901_0.jpg",
+  "post": "https://t.me/Caramelluz/4901",
+  "date": "2026-11-02",
+  "text": "👑 Для наших маленьких принцесс из Pamina — новая коллекция платьев!",
+  "prices": [],
+  "kind": "frame",
+  "score": -7.8,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4901_1.jpg",
+  "post": "https://t.me/Caramelluz/4901",
+  "date": "2026-11-02",
+  "text": "👑 Для наших маленьких принцесс из Pamina — новая коллекция платьев!",
+  "prices": [],
+  "kind": "frame",
+  "score": -19.7,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/4899_0.jpg",
+  "post": "https://t.me/Caramelluz/4899",
+  "date": "2026-11-02",
+  "text": "Aziz Onajonlar, kuningiz xayrli bo’lsin🥰",
+  "prices": [],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
   "src": "assets/tg/f_4892_0.jpg",
   "post": "https://t.me/Caramelluz/4892",
   "date": "2026-10-27",
@@ -1062,26 +1092,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4767_0.jpg",
-  "post": "https://t.me/Caramelluz/4767",
-  "date": "2026-09-17",
-  "text": "Новая коллекция Leoking уже в наших магазинах🥰♥️",
-  "prices": [],
-  "kind": "frame",
-  "score": -11.3,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4767_1.jpg",
-  "post": "https://t.me/Caramelluz/4767",
-  "date": "2026-09-17",
-  "text": "Новая коллекция Leoking уже в наших магазинах🥰♥️",
-  "prices": [],
-  "kind": "frame",
-  "score": -11.7,
-  "kids": false
- },
- {
   "src": "assets/tg/4636_0.jpg",
   "post": "https://t.me/Caramelluz/4636",
   "date": "2026-08-13",
@@ -1154,16 +1164,6 @@ window.TG_PHOTOS = [
   "kind": "frame",
   "score": -17.7,
   "kids": true
- },
- {
-  "src": "assets/tg/4457_0.jpg",
-  "post": "https://t.me/Caramelluz/4457",
-  "date": "2026-07-14",
-  "text": "",
-  "prices": [],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
  },
  {
   "src": "assets/tg/k_4343_2.jpg",
@@ -2648,6 +2648,20 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4902.720.mp4",
+  "post": "https://t.me/Caramelluz/4902",
+  "date": "2026-11-02",
+  "text": "👑Нежные, красивые и стильные платья для маленьких модниц уже ждут вас в магазинах Caramell! 🥰\n\nВыбирайте любимые образы и радуйте своих малышек!\n\n📍 Ждём вас во всех магазинах Caramell!",
+  "poster": ""
+ },
+ {
+  "src": "assets/reels/4901.720.mp4",
+  "post": "https://t.me/Caramelluz/4901",
+  "date": "2026-11-02",
+  "text": "👑 Для наших маленьких принцесс из Pamina — новая коллекция платьев!",
+  "poster": "assets/tg/f_4901_0.jpg"
+ },
+ {
   "src": "assets/reels/4896.720.mp4",
   "post": "https://t.me/Caramelluz/4896",
   "date": "2026-10-29",
@@ -2681,27 +2695,13 @@ window.TG_REELS = [
   "date": "2026-10-20",
   "text": "Нежный и уютный комплект для девочек ♥️\n\nВ комплект входят вязаный комбинезон с капюшоном и базовый комбинезон, который надевается под него ✨\n\n📏 Размеры: 0–1,1–3,3-6 \n💰 Цена комплекта: 560 000 сум\n\nДля заказа пишите в Di",
   "poster": "assets/tg/f_4882_0.jpg"
- },
- {
-  "src": "assets/reels/4881.720.mp4",
-  "post": "https://t.me/Caramelluz/4881",
-  "date": "2026-10-20",
-  "text": "Стильные образы для мальчиков 💙\nУютные комплекты для тёплых прогулок и повседневных приключений 🍂",
-  "poster": "assets/tg/f_4881_0.jpg"
- },
- {
-  "src": "assets/reels/4866.720.mp4",
-  "post": "https://t.me/Caramelluz/4866",
-  "date": "2026-10-15",
-  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с ",
-  "poster": ""
  }
 ];
 window.TG_COLLECTION = {
- "brand": "Leo King",
- "post": "https://t.me/Caramelluz/4880",
- "date": "2026-10-17",
- "text": "Новые комплекты от LeoKing уже в наличии! 🧶😍\n\nНежные и уютные образы для ваших малышей — с очаровательными деталями, в которые невозможно не влюбиться.",
- "img": "assets/tg/f_4767_0.jpg",
- "video": "assets/reels/c_4767.720.mp4"
+ "brand": "Pamina",
+ "post": "https://t.me/Caramelluz/4901",
+ "date": "2026-11-02",
+ "text": "👑 Для наших маленьких принцесс из Pamina — новая коллекция платьев!",
+ "img": "assets/tg/f_4901_0.jpg",
+ "video": "assets/reels/c_4901.720.mp4"
 };
