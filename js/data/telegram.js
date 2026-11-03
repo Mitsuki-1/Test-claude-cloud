@@ -1,6 +1,16 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/4910_0.jpg",
+  "post": "https://t.me/Caramelluz/4910",
+  "date": "2026-11-03",
+  "text": "Как думаете, боди даст усадку или нет?",
+  "prices": [],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
   "src": "assets/tg/f_4905_0.jpg",
   "post": "https://t.me/Caramelluz/4905",
   "date": "2026-11-03",
@@ -1103,18 +1113,6 @@ window.TG_PHOTOS = [
  },
  {
   "src": "assets/tg/4636_0.jpg",
-  "post": "https://t.me/Caramelluz/4636",
-  "date": "2026-08-13",
-  "text": "Shirin uyqu va kichkintoyingizning qulayligi uchun barcha kerakli narsalar — bitta zamonaviy to‘plamda 🥰\n\nTo‘plam tarkibiga kiradi:\n\n• yotoq uchun choyshablar to‘plami: choyshab, yostiq jildi va ko‘rpa jildi\n• pijama\n• bodi\nKiyim o‘lchami: 3–6 oylik\n\nQuvnoq rasmlarga boy yorqin va qiziqarli dizayn kichkintoyingizga albatta yoqadi hamda bolalar xonasiga chiroyli ko‘rinish bag‘ishlaydi ✨\n\nTo‘plam narxi: 1 450 000 so‘m",
-  "prices": [
-   450000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4636_1.jpg",
   "post": "https://t.me/Caramelluz/4636",
   "date": "2026-08-13",
   "text": "Shirin uyqu va kichkintoyingizning qulayligi uchun barcha kerakli narsalar — bitta zamonaviy to‘plamda 🥰\n\nTo‘plam tarkibiga kiradi:\n\n• yotoq uchun choyshablar to‘plami: choyshab, yostiq jildi va ko‘rpa jildi\n• pijama\n• bodi\nKiyim o‘lchami: 3–6 oylik\n\nQuvnoq rasmlarga boy yorqin va qiziqarli dizayn kichkintoyingizga albatta yoqadi hamda bolalar xonasiga chiroyli ko‘rinish bag‘ishlaydi ✨\n\nTo‘plam narxi: 1 450 000 so‘m",
