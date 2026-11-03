@@ -1,6 +1,26 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_4905_0.jpg",
+  "post": "https://t.me/Caramelluz/4905",
+  "date": "2026-11-03",
+  "text": "USPA’dan yangi kolleksiyalarni kutganmidingiz? 😍",
+  "prices": [],
+  "kind": "frame",
+  "score": 10.9,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4905_1.jpg",
+  "post": "https://t.me/Caramelluz/4905",
+  "date": "2026-11-03",
+  "text": "USPA’dan yangi kolleksiyalarni kutganmidingiz? 😍",
+  "prices": [],
+  "kind": "frame",
+  "score": 8.2,
+  "kids": false
+ },
+ {
   "src": "assets/tg/4904_0.jpg",
   "post": "https://t.me/Caramelluz/4904",
   "date": "2026-11-02",
@@ -1079,26 +1099,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -6.4,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4768_0.jpg",
-  "post": "https://t.me/Caramelluz/4768",
-  "date": "2026-09-17",
-  "text": "Нежный, продуманный и практичный набор — всё, что нужно малышу для выписки 🥰\n\nРазмер: 0-3 месяцев",
-  "prices": [],
-  "kind": "frame",
-  "score": -15.3,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4768_1.jpg",
-  "post": "https://t.me/Caramelluz/4768",
-  "date": "2026-09-17",
-  "text": "Нежный, продуманный и практичный набор — всё, что нужно малышу для выписки 🥰\n\nРазмер: 0-3 месяцев",
-  "prices": [],
-  "kind": "frame",
-  "score": -17.7,
   "kids": false
  },
  {
@@ -2648,6 +2648,13 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4905.720.mp4",
+  "post": "https://t.me/Caramelluz/4905",
+  "date": "2026-11-03",
+  "text": "USPA’dan yangi kolleksiyalarni kutganmidingiz? 😍",
+  "poster": "assets/tg/f_4905_0.jpg"
+ },
+ {
   "src": "assets/reels/4902.720.mp4",
   "post": "https://t.me/Caramelluz/4902",
   "date": "2026-11-02",
@@ -2688,20 +2695,13 @@ window.TG_REELS = [
   "date": "2026-10-20",
   "text": "Уютный образ для мальчиков 🥰\n\nВ комплект входят вязаный комбинезон с капюшоном и базовый комбинезон, который надевается под него ✨\n\n📏 Размеры: 0–1,1–3, 3-6\n💰 Цена: 560 000 сум\n\nДля заказа пишите в Direct 📩",
   "poster": "assets/tg/f_4883_0.jpg"
- },
- {
-  "src": "assets/reels/4882.720.mp4",
-  "post": "https://t.me/Caramelluz/4882",
-  "date": "2026-10-20",
-  "text": "Нежный и уютный комплект для девочек ♥️\n\nВ комплект входят вязаный комбинезон с капюшоном и базовый комбинезон, который надевается под него ✨\n\n📏 Размеры: 0–1,1–3,3-6 \n💰 Цена комплекта: 560 000 сум\n\nДля заказа пишите в Di",
-  "poster": "assets/tg/f_4882_0.jpg"
  }
 ];
 window.TG_COLLECTION = {
- "brand": "Pamina",
- "post": "https://t.me/Caramelluz/4901",
- "date": "2026-11-02",
- "text": "👑 Для наших маленьких принцесс из Pamina — новая коллекция платьев!",
- "img": "assets/tg/f_4901_0.jpg",
- "video": "assets/reels/c_4901.720.mp4"
+ "brand": "Caramell",
+ "post": "https://t.me/Caramelluz/4908",
+ "date": "2026-11-03",
+ "text": "USPA muxlislari, bu yangilik aynan siz uchun! ❤️\n\nYangi kolleksiyalarimiz bilan tanishtirish vaqti keldi! 😍\n\nEng chiroyli modellar, yangi obrazlar va siz kutgan yangiliklar — barchasi Caramell’da!\n\nShoshiling, yangiliklarni birinchilardan bo‘lib kashf eting! ✨",
+ "img": "assets/tg/f_4821_0.jpg",
+ "video": "assets/reels/c_4821.720.mp4"
 };
