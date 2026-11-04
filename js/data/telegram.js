@@ -1,6 +1,46 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_4913_0.jpg",
+  "post": "https://t.me/Caramelluz/4913",
+  "date": "2026-11-04",
+  "text": "Нежный, продуманный и практичный набор ♥️\n— всё, что нужно малышу для выписки \nРазмер: 0-3 месяцев",
+  "prices": [],
+  "kind": "frame",
+  "score": -17.8,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4913_1.jpg",
+  "post": "https://t.me/Caramelluz/4913",
+  "date": "2026-11-04",
+  "text": "Нежный, продуманный и практичный набор ♥️\n— всё, что нужно малышу для выписки \nРазмер: 0-3 месяцев",
+  "prices": [],
+  "kind": "frame",
+  "score": -18.1,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4912_0.jpg",
+  "post": "https://t.me/Caramelluz/4912",
+  "date": "2026-11-04",
+  "text": "😍Нежный, продуманный и практичный набор \n— всё, что нужно малышу для выписки \nРазмер: 0-3 месяцев",
+  "prices": [],
+  "kind": "frame",
+  "score": -22.5,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4912_1.jpg",
+  "post": "https://t.me/Caramelluz/4912",
+  "date": "2026-11-04",
+  "text": "😍Нежный, продуманный и практичный набор \n— всё, что нужно малышу для выписки \nРазмер: 0-3 месяцев",
+  "prices": [],
+  "kind": "frame",
+  "score": -22.5,
+  "kids": false
+ },
+ {
   "src": "assets/tg/4910_0.jpg",
   "post": "https://t.me/Caramelluz/4910",
   "date": "2026-11-03",
@@ -1069,46 +1109,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -3.5,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4773_0.jpg",
-  "post": "https://t.me/Caramelluz/4773",
-  "date": "2026-09-18",
-  "text": "Вязаные пледы для малышей❤️\n\n☺️доставка по всему Узбекистану \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": 2.6,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4773_1.jpg",
-  "post": "https://t.me/Caramelluz/4773",
-  "date": "2026-09-18",
-  "text": "Вязаные пледы для малышей❤️\n\n☺️доставка по всему Узбекистану \n\n🚚А по вопросам или для доставки пишите нам: @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": -4.0,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4769_0.jpg",
-  "post": "https://t.me/Caramelluz/4769",
-  "date": "2026-09-17",
-  "text": "Do‘konimizda har doim iliq va yoqimli muhit 🥰\n\nSizni ham do‘konimizda kutamiz!",
-  "prices": [],
-  "kind": "frame",
-  "score": -5.4,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4769_1.jpg",
-  "post": "https://t.me/Caramelluz/4769",
-  "date": "2026-09-17",
-  "text": "Do‘konimizda har doim iliq va yoqimli muhit 🥰\n\nSizni ham do‘konimizda kutamiz!",
-  "prices": [],
-  "kind": "frame",
-  "score": -6.4,
   "kids": false
  },
  {
@@ -2646,6 +2646,20 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4913.720.mp4",
+  "post": "https://t.me/Caramelluz/4913",
+  "date": "2026-11-04",
+  "text": "Нежный, продуманный и практичный набор ♥️\n— всё, что нужно малышу для выписки \nРазмер: 0-3 месяцев",
+  "poster": "assets/tg/f_4913_0.jpg"
+ },
+ {
+  "src": "assets/reels/4912.720.mp4",
+  "post": "https://t.me/Caramelluz/4912",
+  "date": "2026-11-04",
+  "text": "😍Нежный, продуманный и практичный набор \n— всё, что нужно малышу для выписки \nРазмер: 0-3 месяцев",
+  "poster": "assets/tg/f_4912_0.jpg"
+ },
+ {
   "src": "assets/reels/4905.720.mp4",
   "post": "https://t.me/Caramelluz/4905",
   "date": "2026-11-03",
@@ -2679,20 +2693,6 @@ window.TG_REELS = [
   "date": "2026-10-27",
   "text": "Мягкие носочки и удобные колготки для маленьких ножек🥰\n\nДополнят любимый образ и подарят комфорт на каждый день.\n____\n\nJajji oyoqchalar uchun yumshoq paypoqchalar va qulay kolgotkalar♥️\n\nSevimli obrazni to‘ldirib, har ku",
   "poster": "assets/tg/f_4892_0.jpg"
- },
- {
-  "src": "assets/reels/4891.720.mp4",
-  "post": "https://t.me/Caramelluz/4891",
-  "date": "2026-10-27",
-  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с ",
-  "poster": ""
- },
- {
-  "src": "assets/reels/4883.720.mp4",
-  "post": "https://t.me/Caramelluz/4883",
-  "date": "2026-10-20",
-  "text": "Уютный образ для мальчиков 🥰\n\nВ комплект входят вязаный комбинезон с капюшоном и базовый комбинезон, который надевается под него ✨\n\n📏 Размеры: 0–1,1–3, 3-6\n💰 Цена: 560 000 сум\n\nДля заказа пишите в Direct 📩",
-  "poster": "assets/tg/f_4883_0.jpg"
  }
 ];
 window.TG_COLLECTION = {
