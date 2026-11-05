@@ -2697,9 +2697,9 @@ window.TG_REELS = [
 ];
 window.TG_COLLECTION = {
  "brand": "Caramell",
- "post": "https://t.me/Caramelluz/4908",
- "date": "2026-11-03",
- "text": "USPA muxlislari, bu yangilik aynan siz uchun! ❤️\n\nYangi kolleksiyalarimiz bilan tanishtirish vaqti keldi! 😍\n\nEng chiroyli modellar, yangi obrazlar va siz kutgan yangiliklar — barchasi Caramell’da!\n\nShoshiling, yangiliklarni birinchilardan bo‘lib kashf eting! ✨",
+ "post": "https://t.me/Caramelluz/4915",
+ "date": "2026-11-05",
+ "text": "🤍 Kolleksiyamizdagi eng sevimli kiyimni kim tanlaydi?\n\nBu safar tanlovni Caramell jamoamiz konsultantlariga topshirdik! 🥰 Har biri o‘ziga eng yoqqan va farzandi uchun mamnuniyat bilan tanlagan bo‘lardi, degan kiyimini namoyish etdi.\n\nEndi sizning navbatingiz! 😍\nQaysi konsultantning tanlovi sizga ko‘",
  "img": "assets/tg/f_4821_0.jpg",
  "video": "assets/reels/c_4821.720.mp4"
 };
