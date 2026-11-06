@@ -1,6 +1,26 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_4916_0.jpg",
+  "post": "https://t.me/Caramelluz/4916",
+  "date": "2026-11-06",
+  "text": "😂 Onalar, sayrga chiqishdan oldin sizda ham shunaqa «kichkina jang» bo‘ladimi?\n\nRejada hammasi oson: bolajonimizga chiroyli kiyim tanlaymiz, kiyintiramiz va sayrga chiqamiz. 😍\n\nAmmo haqiqatda esa bitta paypoq yo‘qoladi, bola qochadi, ona esa kiyim bilan uning ortidan yuguradi. 😂\n\n🥰 Bu holatni boshidan o‘tkazgan onani belgilang!",
+  "prices": [],
+  "kind": "frame",
+  "score": -7.0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4916_1.jpg",
+  "post": "https://t.me/Caramelluz/4916",
+  "date": "2026-11-06",
+  "text": "😂 Onalar, sayrga chiqishdan oldin sizda ham shunaqa «kichkina jang» bo‘ladimi?\n\nRejada hammasi oson: bolajonimizga chiroyli kiyim tanlaymiz, kiyintiramiz va sayrga chiqamiz. 😍\n\nAmmo haqiqatda esa bitta paypoq yo‘qoladi, bola qochadi, ona esa kiyim bilan uning ortidan yuguradi. 😂\n\n🥰 Bu holatni boshidan o‘tkazgan onani belgilang!",
+  "prices": [],
+  "kind": "frame",
+  "score": -9.4,
+  "kids": false
+ },
+ {
   "src": "assets/tg/f_4913_0.jpg",
   "post": "https://t.me/Caramelluz/4913",
   "date": "2026-11-04",
@@ -1089,26 +1109,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -11.6,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4774_0.jpg",
-  "post": "https://t.me/Caramelluz/4774",
-  "date": "2026-09-18",
-  "text": "Пополните осенний гардероб вашего малыша новой коллекцией от Caramell 🍂🤎",
-  "prices": [],
-  "kind": "frame",
-  "score": -1.1,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4774_1.jpg",
-  "post": "https://t.me/Caramelluz/4774",
-  "date": "2026-09-18",
-  "text": "Пополните осенний гардероб вашего малыша новой коллекцией от Caramell 🍂🤎",
-  "prices": [],
-  "kind": "frame",
-  "score": -3.5,
   "kids": false
  },
  {
@@ -2646,6 +2646,13 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4916.720.mp4",
+  "post": "https://t.me/Caramelluz/4916",
+  "date": "2026-11-06",
+  "text": "😂 Onalar, sayrga chiqishdan oldin sizda ham shunaqa «kichkina jang» bo‘ladimi?\n\nRejada hammasi oson: bolajonimizga chiroyli kiyim tanlaymiz, kiyintiramiz va sayrga chiqamiz. 😍\n\nAmmo haqiqatda esa bitta paypoq yo‘qoladi, ",
+  "poster": "assets/tg/f_4916_0.jpg"
+ },
+ {
   "src": "assets/reels/4913.720.mp4",
   "post": "https://t.me/Caramelluz/4913",
   "date": "2026-11-04",
@@ -2686,13 +2693,6 @@ window.TG_REELS = [
   "date": "2026-10-29",
   "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с ",
   "poster": ""
- },
- {
-  "src": "assets/reels/4892.720.mp4",
-  "post": "https://t.me/Caramelluz/4892",
-  "date": "2026-10-27",
-  "text": "Мягкие носочки и удобные колготки для маленьких ножек🥰\n\nДополнят любимый образ и подарят комфорт на каждый день.\n____\n\nJajji oyoqchalar uchun yumshoq paypoqchalar va qulay kolgotkalar♥️\n\nSevimli obrazni to‘ldirib, har ku",
-  "poster": "assets/tg/f_4892_0.jpg"
  }
 ];
 window.TG_COLLECTION = {
