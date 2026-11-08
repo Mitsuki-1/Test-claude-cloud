@@ -1,6 +1,16 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_4919_0.jpg",
+  "post": "https://t.me/Caramelluz/4919",
+  "date": "2026-11-08",
+  "text": "ТОП-выбор покупателей филиала в Нукусе на этой неделе🤗",
+  "prices": [],
+  "kind": "frame",
+  "score": -8.2,
+  "kids": false
+ },
+ {
   "src": "assets/tg/f_4916_0.jpg",
   "post": "https://t.me/Caramelluz/4916",
   "date": "2026-11-06",
@@ -1099,16 +1109,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": 9.1,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4776_1.jpg",
-  "post": "https://t.me/Caramelluz/4776",
-  "date": "2026-09-20",
-  "text": "Стильную и комфортную одежду для осеннего сезона вы найдёте только в Caramell! 🍂\n\nЖдём вас во всех наших филиалах!🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": -11.6,
   "kids": false
  },
  {
@@ -2646,6 +2646,13 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4919.720.mp4",
+  "post": "https://t.me/Caramelluz/4919",
+  "date": "2026-11-08",
+  "text": "ТОП-выбор покупателей филиала в Нукусе на этой неделе🤗",
+  "poster": "assets/tg/f_4919_0.jpg"
+ },
+ {
   "src": "assets/reels/4916.720.mp4",
   "post": "https://t.me/Caramelluz/4916",
   "date": "2026-11-06",
@@ -2686,13 +2693,6 @@ window.TG_REELS = [
   "date": "2026-11-02",
   "text": "👑 Для наших маленьких принцесс из Pamina — новая коллекция платьев!",
   "poster": "assets/tg/f_4901_0.jpg"
- },
- {
-  "src": "assets/reels/4896.720.mp4",
-  "post": "https://t.me/Caramelluz/4896",
-  "date": "2026-10-29",
-  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с ",
-  "poster": ""
  }
 ];
 window.TG_COLLECTION = {
