@@ -1,6 +1,26 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_4921_0.jpg",
+  "post": "https://t.me/Caramelluz/4921",
+  "date": "2026-11-09",
+  "text": "⛅️Bugungi ob-havoga qarab bolaga qanday kiyim kiydirgan ma’qul?",
+  "prices": [],
+  "kind": "frame",
+  "score": 22.8,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4921_1.jpg",
+  "post": "https://t.me/Caramelluz/4921",
+  "date": "2026-11-09",
+  "text": "⛅️Bugungi ob-havoga qarab bolaga qanday kiyim kiydirgan ma’qul?",
+  "prices": [],
+  "kind": "frame",
+  "score": 22.8,
+  "kids": false
+ },
+ {
   "src": "assets/tg/f_4916_0.jpg",
   "post": "https://t.me/Caramelluz/4916",
   "date": "2026-11-06",
@@ -2636,6 +2656,13 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4921.720.mp4",
+  "post": "https://t.me/Caramelluz/4921",
+  "date": "2026-11-09",
+  "text": "⛅️Bugungi ob-havoga qarab bolaga qanday kiyim kiydirgan ma’qul?",
+  "poster": "assets/tg/f_4921_0.jpg"
+ },
+ {
   "src": "assets/reels/4919.720.mp4",
   "post": "https://t.me/Caramelluz/4919",
   "date": "2026-11-08",
@@ -2676,13 +2703,6 @@ window.TG_REELS = [
   "date": "2026-11-02",
   "text": "👑Нежные, красивые и стильные платья для маленьких модниц уже ждут вас в магазинах Caramell! 🥰\n\nВыбирайте любимые образы и радуйте своих малышек!\n\n📍 Ждём вас во всех магазинах Caramell!",
   "poster": ""
- },
- {
-  "src": "assets/reels/4901.720.mp4",
-  "post": "https://t.me/Caramelluz/4901",
-  "date": "2026-11-02",
-  "text": "👑 Для наших маленьких принцесс из Pamina — новая коллекция платьев!",
-  "poster": "assets/tg/f_4901_0.jpg"
  }
 ];
 window.TG_COLLECTION = {
