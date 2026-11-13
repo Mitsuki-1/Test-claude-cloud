@@ -58,7 +58,7 @@
     var body = document.getElementById("cart-body");
     if (!body) return;
     if (!items.length) {
-      body.innerHTML = '<div class="cart-empty"><div class="cart-empty-ico">🧸</div><p>' + window.t("cart.empty") + '</p><a class="btn btn-primary" href="catalog.html">' + window.t("cta.catalog") + "</a></div>";
+      body.innerHTML = '<div class="cart-empty"><p>' + window.t("cart.empty") + '</p><a class="btn btn-primary" href="catalog.html">' + window.t("cta.catalog") + "</a></div>";
       document.getElementById("cart-foot").hidden = true;
       return;
     }

@@ -9,8 +9,8 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23101A31'/%3E%3Cpath fill='white' transform='translate(8,8)' d='M24 15.5c-1-4-4.4-6.6-8.3-6.3-4.6.3-8 4.2-7.6 8.8.5 6.4 8.8 12.9 15.9 17.6 7.1-4.7 15.4-11.2 15.9-17.6.4-4.6-3-8.5-7.6-8.8-3.9-.3-7.3 2.3-8.3 6.3z'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500;1,9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800&family=Montserrat+Alternates:ital,wght@0,500;0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=fonts1">
   <script src="js/art.js"></script>
 </head>
 <body data-page="moms">
@@ -21,10 +21,10 @@
       <h1 data-i18n="moms.title"></h1>
       <p data-i18n="moms.sub"></p>
       <nav class="moms-nav">
-        <a href="#size"><span>📏</span><b data-i18n="momsT.1"></b></a>
-        <a href="#checklist"><span>👜</span><b data-i18n="momsT.2"></b></a>
-        <a href="#gift"><span>🎁</span><b data-i18n="momsT.3"></b></a>
-        <a href="#tips"><span>🧺</span><b data-i18n="momsT.4"></b></a>
+        <a href="#size"><img src="assets/moms/size.jpg" alt="" loading="lazy" width="600" height="600"><b data-i18n="momsT.1"></b></a>
+        <a href="#checklist"><img src="assets/moms/checklist.jpg" alt="" loading="lazy" width="600" height="600"><b data-i18n="momsT.2"></b></a>
+        <a href="#gift"><img src="assets/moms/gift.jpg" alt="" loading="lazy" width="600" height="600"><b data-i18n="momsT.3"></b></a>
+        <a href="#tips"><img src="assets/moms/tips.jpg" alt="" loading="lazy" width="600" height="600"><b data-i18n="momsT.4"></b></a>
       </nav>
     </div>
   </section>
@@ -33,7 +33,7 @@
 
     <!-- Калькулятор размера -->
     <section class="panel reveal" id="size">
-      <div class="panel-head"><div class="panel-ico">📏</div><div><h2 data-i18n="size.title"></h2><p data-i18n="size.sub"></p></div></div>
+      <div class="panel-head"><div class="panel-ico"><img src="assets/moms/size.jpg" alt="" loading="lazy" width="600" height="600"></div><div><h2 data-i18n="size.title"></h2><p data-i18n="size.sub"></p></div></div>
       <div class="calc">
         <form id="size-form" novalidate>
           <div class="fields">
@@ -44,27 +44,27 @@
           <button class="btn btn-primary" type="submit" data-i18n="size.go"></button>
           <details class="sizes-d"><summary data-i18n="size.table"></summary><div class="table-wrap"><table class="size-table" id="size-table"></table></div></details>
         </form>
-        <div class="calc-res" id="size-res"><div class="ph">👶</div></div>
+        <div class="calc-res" id="size-res"><div class="ph"><img src="assets/moms/size.jpg" alt="" width="600" height="600"></div></div>
       </div>
     </section>
 
     <!-- Чек-лист в роддом -->
     <section class="panel reveal" id="checklist">
-      <div class="panel-head"><div class="panel-ico">👜</div><div><h2 data-i18n="check.title"></h2><p data-i18n="check.sub"></p></div></div>
+      <div class="panel-head"><div class="panel-ico"><img src="assets/moms/checklist.jpg" alt="" loading="lazy" width="600" height="600"></div><div><h2 data-i18n="check.title"></h2><p data-i18n="check.sub"></p></div></div>
       <div class="progress"><div class="bar"><i id="check-bar" style="width:0"></i></div><b id="check-count"></b><button class="btn btn-ghost" id="check-reset" style="padding:10px 16px" data-i18n="check.reset"></button></div>
       <div class="check-groups" id="check-groups"></div>
     </section>
 
     <!-- Подбор подарка -->
     <section class="panel reveal" id="gift">
-      <div class="panel-head"><div class="panel-ico">🎁</div><div><h2 data-i18n="gift.title"></h2><p data-i18n="gift.sub"></p></div></div>
+      <div class="panel-head"><div class="panel-ico"><img src="assets/moms/gift.jpg" alt="" loading="lazy" width="600" height="600"></div><div><h2 data-i18n="gift.title"></h2><p data-i18n="gift.sub"></p></div></div>
       <div id="gift-quiz"></div>
       <div id="gift-res"></div>
     </section>
 
     <!-- Советы -->
     <section class="panel reveal" id="tips">
-      <div class="panel-head"><div class="panel-ico">🧺</div><div><h2 data-i18n="tips.title"></h2></div></div>
+      <div class="panel-head"><div class="panel-ico"><img src="assets/moms/tips.jpg" alt="" loading="lazy" width="600" height="600"></div><div><h2 data-i18n="tips.title"></h2></div></div>
       <div class="acc" id="tips-acc"></div>
     </section>
   </main>

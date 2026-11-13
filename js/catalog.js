@@ -142,7 +142,7 @@
     document.getElementById("found").textContent = window.t("f.found") + ": " + current.length;
     var g = document.getElementById("grid");
     g.innerHTML = current.length ? "" :
-      '<div class="empty" style="grid-column:1/-1"><div style="font-size:48px">' + (st.cat === "fav" ? "♡" : "🧸") + '</div><p>' + window.t(st.cat === "fav" ? "fav.empty" : "f.none") + '</p><button class="btn btn-ghost" id="f-reset">' + window.t("f.reset") + "</button></div>";
+      '<div class="empty" style="grid-column:1/-1"><div style="font-size:48px">' + (st.cat === "fav" ? "♡" : "") + '</div><p>' + window.t(st.cat === "fav" ? "fav.empty" : "f.none") + '</p><button class="btn btn-ghost" id="f-reset">' + window.t("f.reset") + "</button></div>";
     if (current.length) more();
   }
 

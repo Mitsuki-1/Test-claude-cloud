@@ -47,8 +47,8 @@
     var idx = lastCalc && !lastCalc.empty ? lastCalc.idx : -1;
     table.innerHTML = "<tr><th>" + window.t("size.col.size") + "</th><th>" + window.t("size.col.h") + "</th><th>" + window.t("size.col.w") + "</th></tr>" +
       SIZES.map(function (s, i) { return '<tr class="' + (i === idx ? "hl" : "") + '"><td>' + window.sizeLabel(s.key) + "</td><td>" + s.h[0] + "–" + s.h[1] + "</td><td>" + s.w[0] + "–" + s.w[1] + "</td></tr>"; }).join("");
-    if (!lastCalc) { box.innerHTML = '<div class="ph">👶</div>'; return; }
-    if (lastCalc.empty) { box.innerHTML = '<div class="ph">👶</div><p style="text-align:center">' + window.t("size.need") + "</p>"; return; }
+    if (!lastCalc) { box.innerHTML = '<div class="ph"><img src="assets/moms/size.jpg" alt="" width="600" height="600"></div>'; return; }
+    if (lastCalc.empty) { box.innerHTML = '<div class="ph"><img src="assets/moms/size.jpg" alt="" width="600" height="600"></div><p style="text-align:center">' + window.t("size.need") + "</p>"; return; }
     var s = SIZES[idx], next = SIZES[idx + 1], b = SIZES[lastCalc.base];
     var lift = idx !== lastCalc.base;
     var range = function (z) { return window.t("size.col.h") + ": " + z.h[0] + "–" + z.h[1] + " · " + window.t("size.col.w") + ": " + z.w[0] + "–" + z.w[1]; };
@@ -130,10 +130,10 @@
         options.map(function (o) { return '<button data-gq="' + name + '" data-v="' + o[0] + '" class="' + (quiz[name] === o[0] ? "is-on" : "") + '">' + o[1] + "</button>"; }).join("") + "</div></div>";
     };
     document.getElementById("gift-quiz").innerHTML =
-      q(1, "gift.q1", "g", [["girl", "👧 " + window.t("g.girl")], ["boy", "👦 " + window.t("g.boy")], ["unisex", "🤍 " + window.t("g.unisex")]]) +
+      q(1, "gift.q1", "g", [["girl", window.t("g.girl")], ["boy", window.t("g.boy")], ["unisex", window.t("g.unisex")]]) +
       q(2, "gift.q2", "a", [["new", window.t("gift.a.new")], ["baby", window.t("gift.a.baby")], ["tod", window.t("gift.a.tod")], ["kid", window.t("gift.a.kid")]]) +
       q(3, "gift.q3", "b", [["b1", window.t("gift.b1") + " " + window.t("sum")], ["b2", window.t("gift.b2") + " " + window.t("sum")], ["b3", window.t("gift.b3") + " " + window.t("sum")]]) +
-      '<button class="btn btn-primary" id="gift-go"' + (quiz.g && quiz.a && quiz.b ? "" : " disabled style=\"opacity:.45;pointer-events:none\"") + ">🎁 " + window.t("gift.go") + "</button>";
+      '<button class="btn btn-primary" id="gift-go"' + (quiz.g && quiz.a && quiz.b ? "" : " disabled style=\"opacity:.45;pointer-events:none\"") + ">" + window.t("gift.go") + "</button>";
   }
 
   function build() {
