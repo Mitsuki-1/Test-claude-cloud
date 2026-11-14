@@ -1,0 +1,62 @@
+name: BILLZ catalog (every 15 min)
+
+# Лёгкая частая синхронизация только каталога: без видео, кадров и GitHub Pages.
+# Полная сборка (pages.yml) по-прежнему раз в час. GitHub может пропускать плановые запуски,
+# поэтому расписание частое: даже с пропусками каталог обновляется намного чаще.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  billz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      FTP_SERVER: ${{ secrets.FTP_SERVER }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Каталог из BILLZ
+        run: python scripts/sync_billz.py
+        env:
+          BILLZ_SECRET_TOKEN: ${{ secrets.BILLZ_SECRET_TOKEN }}
+          BILLZ_SHOP_IDS: ${{ vars.BILLZ_SHOP_IDS }}
+
+      - name: Изменился ли каталог
+        id: diff
+        run: |
+          if git diff --quiet -- js/data/billz.js; then echo "changed=0" >> "$GITHUB_OUTPUT"; echo "Каталог не изменился"; else echo "changed=1" >> "$GITHUB_OUTPUT"; fi
+
+      # Только один файл по FTPS — остальное (ролики, фото) выкладывает полная сборка
+      - name: Выложить каталог на хостинг AIRNET
+        if: steps.diff.outputs.changed == '1' && env.FTP_SERVER != ''
+        run: |
+          curl -sS --ssl-reqd --retry 3 --ftp-create-dirs -T js/data/billz.js \
+            -u "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" \
+            "ftp://${{ secrets.FTP_SERVER }}/${{ vars.FTP_DIR }}js/data/billz.js"
+          echo "Каталог выложен"
+
+      - name: Сохранить каталог в ветку
+        if: steps.diff.outputs.changed == '1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add js/data/billz.js
+          git commit -m "Каталог BILLZ [skip ci]"
+          for i in 1 2 3; do
+            if git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then exit 0; fi
+            git rebase --abort 2>/dev/null || true; sleep 5
+          done
+          echo "::warning::Не удалось сохранить каталог в ветку — сохранится при следующем запуске"
