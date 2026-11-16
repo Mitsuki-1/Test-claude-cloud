@@ -2656,6 +2656,13 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4929.720.mp4",
+  "post": "https://t.me/Caramelluz/4929",
+  "date": "2026-11-16",
+  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с ",
+  "poster": ""
+ },
+ {
   "src": "assets/reels/4921.720.mp4",
   "post": "https://t.me/Caramelluz/4921",
   "date": "2026-11-09",
@@ -2696,13 +2703,6 @@ window.TG_REELS = [
   "date": "2026-11-03",
   "text": "USPA’dan yangi kolleksiyalarni kutganmidingiz? 😍",
   "poster": "assets/tg/f_4905_0.jpg"
- },
- {
-  "src": "assets/reels/4902.720.mp4",
-  "post": "https://t.me/Caramelluz/4902",
-  "date": "2026-11-02",
-  "text": "👑Нежные, красивые и стильные платья для маленьких модниц уже ждут вас в магазинах Caramell! 🥰\n\nВыбирайте любимые образы и радуйте своих малышек!\n\n📍 Ждём вас во всех магазинах Caramell!",
-  "poster": ""
  }
 ];
 window.TG_COLLECTION = {
