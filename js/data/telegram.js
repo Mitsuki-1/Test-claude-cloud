@@ -1,6 +1,26 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_4932_0.jpg",
+  "post": "https://t.me/Caramelluz/4932",
+  "date": "2026-11-18",
+  "text": "Скоро🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": 4.5,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4932_1.jpg",
+  "post": "https://t.me/Caramelluz/4932",
+  "date": "2026-11-18",
+  "text": "Скоро🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": -56.5,
+  "kids": false
+ },
+ {
   "src": "assets/tg/f_4921_0.jpg",
   "post": "https://t.me/Caramelluz/4921",
   "date": "2026-11-09",
@@ -1109,16 +1129,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -8.9,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4777_0.jpg",
-  "post": "https://t.me/Caramelluz/4777",
-  "date": "2026-09-20",
-  "text": "Мягкость, нежность и забота в каждой детали. ❤️",
-  "prices": [],
-  "kind": "frame",
-  "score": 9.1,
   "kids": false
  },
  {
@@ -2656,6 +2666,13 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4932.720.mp4",
+  "post": "https://t.me/Caramelluz/4932",
+  "date": "2026-11-18",
+  "text": "Скоро🥰",
+  "poster": "assets/tg/f_4932_0.jpg"
+ },
+ {
   "src": "assets/reels/4929.720.mp4",
   "post": "https://t.me/Caramelluz/4929",
   "date": "2026-11-16",
@@ -2696,13 +2713,6 @@ window.TG_REELS = [
   "date": "2026-11-04",
   "text": "😍Нежный, продуманный и практичный набор \n— всё, что нужно малышу для выписки \nРазмер: 0-3 месяцев",
   "poster": "assets/tg/f_4912_0.jpg"
- },
- {
-  "src": "assets/reels/4905.720.mp4",
-  "post": "https://t.me/Caramelluz/4905",
-  "date": "2026-11-03",
-  "text": "USPA’dan yangi kolleksiyalarni kutganmidingiz? 😍",
-  "poster": "assets/tg/f_4905_0.jpg"
  }
 ];
 window.TG_COLLECTION = {
