@@ -1,6 +1,46 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_4935_0.jpg",
+  "post": "https://t.me/Caramelluz/4935",
+  "date": "2026-11-19",
+  "text": "Siz kutgan issiq kombinezonlar🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": -5.1,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4935_1.jpg",
+  "post": "https://t.me/Caramelluz/4935",
+  "date": "2026-11-19",
+  "text": "Siz kutgan issiq kombinezonlar🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": -10.8,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4934_0.jpg",
+  "post": "https://t.me/Caramelluz/4934",
+  "date": "2026-11-19",
+  "text": "Aziz onajonlar! 😍\n\nDo‘konlarimizga sizlar uchun ko‘plab yangiliklar yetib keldi! \n\nSizlarni barcha Caramell do‘konlarimizda kutib qolamiz! 🛍️\n_____\n\nДорогие мамочки!♥️\n\nВ наши магазины поступило много новинок! \n\nС нетерпением ждём вас во всех магазинах Caramell! 🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": 13.2,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_4934_1.jpg",
+  "post": "https://t.me/Caramelluz/4934",
+  "date": "2026-11-19",
+  "text": "Aziz onajonlar! 😍\n\nDo‘konlarimizga sizlar uchun ko‘plab yangiliklar yetib keldi! \n\nSizlarni barcha Caramell do‘konlarimizda kutib qolamiz! 🛍️\n_____\n\nДорогие мамочки!♥️\n\nВ наши магазины поступило много новинок! \n\nС нетерпением ждём вас во всех магазинах Caramell! 🥰",
+  "prices": [],
+  "kind": "frame",
+  "score": -9.7,
+  "kids": false
+ },
+ {
   "src": "assets/tg/f_4932_0.jpg",
   "post": "https://t.me/Caramelluz/4932",
   "date": "2026-11-18",
@@ -1082,26 +1122,6 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/f_4789_0.jpg",
-  "post": "https://t.me/Caramelluz/4789",
-  "date": "2026-09-23",
-  "text": "Tez kunda🤩\nSweet Me’dan bir-biridan chiroyli kolleksiyalar🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": 10.7,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4789_1.jpg",
-  "post": "https://t.me/Caramelluz/4789",
-  "date": "2026-09-23",
-  "text": "Tez kunda🤩\nSweet Me’dan bir-biridan chiroyli kolleksiyalar🥰",
-  "prices": [],
-  "kind": "frame",
-  "score": -8.4,
-  "kids": false
- },
- {
   "src": "assets/tg/4788_0.jpg",
   "post": "https://t.me/Caramelluz/4788",
   "date": "2026-09-23",
@@ -1119,16 +1139,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "photo",
   "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4783_1.jpg",
-  "post": "https://t.me/Caramelluz/4783",
-  "date": "2026-09-22",
-  "text": "В нашем магазине всегда царит тёплая и уютная атмосфера 🥰\nКаждый день мы с любовью помогаем нашим покупателям выбирать самое красивое и комфортное для детей 😊\n\nСпасибо, что выбираете нас и доверяете нам самое ценное ♥️\nМы всегда рады видеть вас в нашем магазине!",
-  "prices": [],
-  "kind": "frame",
-  "score": -8.9,
   "kids": false
  },
  {
@@ -2666,6 +2676,20 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/4935.720.mp4",
+  "post": "https://t.me/Caramelluz/4935",
+  "date": "2026-11-19",
+  "text": "Siz kutgan issiq kombinezonlar🥰",
+  "poster": "assets/tg/f_4935_0.jpg"
+ },
+ {
+  "src": "assets/reels/4934.720.mp4",
+  "post": "https://t.me/Caramelluz/4934",
+  "date": "2026-11-19",
+  "text": "Aziz onajonlar! 😍\n\nDo‘konlarimizga sizlar uchun ko‘plab yangiliklar yetib keldi! \n\nSizlarni barcha Caramell do‘konlarimizda kutib qolamiz! 🛍️\n_____\n\nДорогие мамочки!♥️\n\nВ наши магазины поступило много новинок! \n\nС нетерп",
+  "poster": "assets/tg/f_4934_0.jpg"
+ },
+ {
   "src": "assets/reels/4932.720.mp4",
   "post": "https://t.me/Caramelluz/4932",
   "date": "2026-11-18",
@@ -2699,20 +2723,6 @@ window.TG_REELS = [
   "date": "2026-11-06",
   "text": "😂 Onalar, sayrga chiqishdan oldin sizda ham shunaqa «kichkina jang» bo‘ladimi?\n\nRejada hammasi oson: bolajonimizga chiroyli kiyim tanlaymiz, kiyintiramiz va sayrga chiqamiz. 😍\n\nAmmo haqiqatda esa bitta paypoq yo‘qoladi, ",
   "poster": "assets/tg/f_4916_0.jpg"
- },
- {
-  "src": "assets/reels/4913.720.mp4",
-  "post": "https://t.me/Caramelluz/4913",
-  "date": "2026-11-04",
-  "text": "Нежный, продуманный и практичный набор ♥️\n— всё, что нужно малышу для выписки \nРазмер: 0-3 месяцев",
-  "poster": "assets/tg/f_4913_0.jpg"
- },
- {
-  "src": "assets/reels/4912.720.mp4",
-  "post": "https://t.me/Caramelluz/4912",
-  "date": "2026-11-04",
-  "text": "😍Нежный, продуманный и практичный набор \n— всё, что нужно малышу для выписки \nРазмер: 0-3 месяцев",
-  "poster": "assets/tg/f_4912_0.jpg"
  }
 ];
 window.TG_COLLECTION = {
