@@ -613,12 +613,13 @@ details.sizes-d summary { cursor: pointer; font-weight: 700; margin-top: 24px; c
 .reels::-webkit-scrollbar { display: none; }
 .reel { position: relative; flex: none; width: clamp(190px, 21vw, 250px); aspect-ratio: 9 / 16; border-radius: 26px; overflow: hidden; scroll-snap-align: start; background: var(--choco); color: #fff; text-align: left; isolation: isolate; box-shadow: 0 24px 40px -26px rgba(16, 26, 49, .6); transition: transform .5s var(--ease), box-shadow .5s; }
 .reel::before { content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 2.5px; background: linear-gradient(135deg, #F6C6CE, #8FB0E6, var(--caramel)); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask-composite: exclude; z-index: 3; pointer-events: none; }
-.reel video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform .8s var(--ease); }
+.reel video, .reel img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; transition: transform .8s var(--ease); }
+.story-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #000; }
 .reel-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg, rgba(8, 13, 28, .1) 40%, rgba(8, 13, 28, .82)); }
 .reel-play { position: absolute; top: 14px; right: 14px; width: 38px; height: 38px; border-radius: 50%; background: rgba(255, 255, 255, .2); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); display: grid; place-items: center; }
 .reel-play .i { width: 16px; height: 16px; margin-left: 2px; }
 .reel-cap { position: absolute; left: 16px; right: 16px; bottom: 16px; font-weight: 700; font-size: 14px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-@media (hover: hover) { .reel:hover { transform: translateY(-8px) scale(1.02); box-shadow: 0 34px 50px -26px rgba(16, 26, 49, .7); } .reel:hover video { transform: scale(1.06); } }
+@media (hover: hover) { .reel:hover { transform: translateY(-8px) scale(1.02); box-shadow: 0 34px 50px -26px rgba(16, 26, 49, .7); } .reel:hover video, .reel:hover img { transform: scale(1.06); } }
 .reel:focus-visible { outline: 3px solid var(--caramel); outline-offset: 4px; }
 .reels-foot { display: flex; justify-content: flex-end; }
 @media (max-width: 720px) { .reel { width: 58vw; } .reels-sec { padding: 56px 0 28px; } }

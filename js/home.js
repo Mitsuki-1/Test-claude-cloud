@@ -37,7 +37,15 @@
   if (whyImg && whyTG) whyImg.src = whyTG.src;
 
   // Ролики «Смотрите вживую»: последние видео канала (scripts/sync_telegram.py обновляет их каждый час)
-  var REELS = (window.TG_REELS || []).filter(function (r) { return r && r.src; });
+  // Между роликами — свежие фото из постов канала (по одному на пост), всё по очереди: ролик, фото, ролик…
+  var VIDS = (window.TG_REELS || []).filter(function (r) { return r && r.src; });
+  var PICS = [], seenPost = {};
+  VIDS.forEach(function (r) { seenPost[r.post] = 1; });
+  (window.TG_PHOTOS || []).forEach(function (p) {
+    if (p.kind === "photo" && !p.kids && !seenPost[p.post] && PICS.length < 7) { seenPost[p.post] = 1; PICS.push({ src: p.src, post: p.post, text: p.text, photo: true }); }
+  });
+  var REELS = [];
+  for (var ri = 0; ri < Math.max(VIDS.length, PICS.length); ri++) { if (VIDS[ri]) REELS.push(VIDS[ri]); if (PICS[ri]) REELS.push(PICS[ri]); }
   var esc = function (s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;"); };
   var cap = function (r) { return (r.text || "").split(/\n\s*\n/)[0].replace(/\s+/g, " ").trim().slice(0, 140) || "Caramell"; };
 
@@ -118,9 +126,11 @@
     var list = document.getElementById("reels-list");
     document.getElementById("reels").hidden = !REELS.length;
     list.innerHTML = REELS.map(function (r, i) {
-      return '<button class="reel reveal" data-reel="' + i + '" aria-label="' + esc(cap(r)) + '">' +
-        '<video muted loop playsinline preload="metadata"' + (r.poster ? ' poster="' + esc(r.poster) + '"' : "") + ' src="' + esc(r.src) + '#t=0.1"></video>' +
-        '<span class="reel-shade"></span><span class="reel-play"><svg class="i"><use href="#i-play"/></svg></span>' +
+      return '<button class="reel reveal' + (r.photo ? " reel-photo" : "") + '" data-reel="' + i + '" aria-label="' + esc(cap(r)) + '">' +
+        (r.photo ? '<img src="' + esc(r.src) + '" alt="" loading="lazy">' :
+          '<video muted loop playsinline preload="metadata"' + (r.poster ? ' poster="' + esc(r.poster) + '"' : "") + ' src="' + esc(r.src) + '#t=0.1"></video>' +
+          '<span class="reel-play"><svg class="i"><use href="#i-play"/></svg></span>') +
+        '<span class="reel-shade"></span>' +
         '<span class="reel-cap">' + esc(cap(r)) + "</span></button>";
     }).join("");
     list.querySelectorAll("video").forEach(function (v) {
@@ -142,7 +152,7 @@
       '<div class="story-top"><span class="story-brand"><span class="logo-img" role="img" aria-label="Caramell"></span></span>' +
       '<button class="story-btn" data-s="sound" aria-label="sound"><svg class="i"><use href="#i-mute"/></svg></button>' +
       '<button class="story-btn" data-s="close" aria-label="close">×</button></div>' +
-      '<video playsinline muted></video>' +
+      '<video playsinline muted></video><img class="story-img" alt="" hidden>' +
       '<button class="story-nav prev" data-s="prev" aria-label="prev"></button><button class="story-nav next" data-s="next" aria-label="next"></button>' +
       '<div class="story-foot"><p class="story-cap"></p><a class="btn btn-tg btn-block" target="_blank" rel="noopener" href="' + window.CONTACT.tg + '"><svg class="i"><use href="#i-tg"/></svg><span class="story-cta"></span></a></div>' +
       "</div>";
@@ -173,12 +183,27 @@
     });
   }
 
+  // Фото в сторис держится 5 секунд, полоска сверху заполняется так же, как у ролика
+  var photoTimer = null;
   function show(i) {
     sIdx = i;
-    var v = story.querySelector("video");
+    var v = story.querySelector("video"), img = story.querySelector(".story-img"), r = REELS[i];
+    clearInterval(photoTimer);
     story.querySelectorAll(".story-bars i").forEach(function (b, n) { b.style.transform = "scaleX(" + (n < i ? 1 : 0) + ")"; });
-    v.src = REELS[i].src;
-    var pr = v.play(); if (pr && pr.catch) pr.catch(function () {});
+    v.hidden = !!r.photo; img.hidden = !r.photo;
+    if (r.photo) {
+      v.pause(); v.removeAttribute("src");
+      img.src = r.src;
+      var t0 = Date.now(), bar = story.querySelectorAll(".story-bars i")[i];
+      photoTimer = setInterval(function () {
+        var p = Math.min(1, (Date.now() - t0) / 5000);
+        bar.style.transform = "scaleX(" + p + ")";
+        if (p >= 1) { clearInterval(photoTimer); go(1); }
+      }, 50);
+    } else {
+      v.src = r.src;
+      var pr = v.play(); if (pr && pr.catch) pr.catch(function () {});
+    }
     story.querySelector(".story-cap").textContent = cap(REELS[i]);
     story.querySelector(".story-cta").textContent = window.t("reels.order");
   }
@@ -199,6 +224,7 @@
   function closeStory() {
     if (!story) return;
     var v = story.querySelector("video");
+    clearInterval(photoTimer);
     v.pause(); v.removeAttribute("src"); v.load();
     document.body.classList.remove("story-open");
     document.body.style.overflow = "";
@@ -272,7 +298,7 @@
     var count = {};
     window.PRODUCTS.forEach(function (p) { count[p.cat] = (count[p.cat] || 0) + 1; });
     document.getElementById("cats").innerHTML = CAT_ORDER.map(function (c) {
-      return '<a class="cat-tile reveal" href="catalog.html?cat=' + c + '"><img loading="lazy" src="assets/cats/' + c + '.jpg" alt="" data-art="' + c + '" data-color="' + CAT_COLOR[c] + '">' +
+      return '<a class="cat-tile reveal" href="catalog.html?cat=' + c + '"><img loading="lazy" src="assets/cats/' + c + '.jpg?v=2" alt="" data-art="' + c + '" data-color="' + CAT_COLOR[c] + '">' +
         '<span><b>' + window.t("cat." + c) + (count[c] ? "<small>" + window.itemsLabel(count[c]) + "</small>" : "") + '</b><svg class="i"><use href="#i-arrow"/></svg></span></a>';
     }).join("");
 
