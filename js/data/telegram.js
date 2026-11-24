@@ -1,226 +1,34 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
-  "src": "assets/tg/5000_0.jpg",
-  "post": "https://t.me/Caramelluz/5000",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  320.000 сум\nАртикль: USB3164\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "src": "assets/tg/5042_0.jpg",
+  "post": "https://t.me/Caramelluz/5042",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  620.000 сум\nАртикль: USB3209\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
   "prices": [
-   320000
+   620000
   ],
   "kind": "photo",
   "score": 0,
   "kids": false
  },
  {
-  "src": "assets/tg/4999_0.jpg",
-  "post": "https://t.me/Caramelluz/4999",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  315.000 сум\nАртикль: USB3174\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "src": "assets/tg/5041_0.jpg",
+  "post": "https://t.me/Caramelluz/5041",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  565.000 сум\nАртикль: USB3214\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
   "prices": [
-   315000
+   565000
   ],
   "kind": "photo",
   "score": 0,
   "kids": false
  },
  {
-  "src": "assets/tg/4998_0.jpg",
-  "post": "https://t.me/Caramelluz/4998",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  320.000 сум\nАртикль: USB2556\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   320000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4997_0.jpg",
-  "post": "https://t.me/Caramelluz/4997",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  580.000 сум\nАртикль: USB2584\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   580000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4996_0.jpg",
-  "post": "https://t.me/Caramelluz/4996",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  570.000 сум\nАртикль: USB3166\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   570000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4995_0.jpg",
-  "post": "https://t.me/Caramelluz/4995",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  570.000 сум\nАртикль: USB3189\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   570000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4994_0.jpg",
-  "post": "https://t.me/Caramelluz/4994",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  660.000 сум\nАртикль: USB2549\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   660000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4993_0.jpg",
-  "post": "https://t.me/Caramelluz/4993",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  560.000 сум\nАртикль: USB3186\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   560000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4992_0.jpg",
-  "post": "https://t.me/Caramelluz/4992",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  340.000 сум\nАртикль: USB3178\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   340000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4991_0.jpg",
-  "post": "https://t.me/Caramelluz/4991",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  340.000 сум\nАртикль: USB3178\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   340000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4990_0.jpg",
-  "post": "https://t.me/Caramelluz/4990",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  570.000 сум\nАртикль: USB3171\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   570000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4989_0.jpg",
-  "post": "https://t.me/Caramelluz/4989",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  570.000 сум\nАртикль: USB3189\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   570000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4988_0.jpg",
-  "post": "https://t.me/Caramelluz/4988",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  350.000 сум\nАртикль: USB2535\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   350000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4987_0.jpg",
-  "post": "https://t.me/Caramelluz/4987",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  550.000 сум\nАртикль: USB3161\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   550000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4986_0.jpg",
-  "post": "https://t.me/Caramelluz/4986",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  340.000 сум\nАртикль: USB3190\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   340000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4985_0.jpg",
-  "post": "https://t.me/Caramelluz/4985",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  340.000 сум\nАртикль: USB3169\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   340000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4984_0.jpg",
-  "post": "https://t.me/Caramelluz/4984",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  440.000 сум\nАртикль: USB2538\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   440000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4983_0.jpg",
-  "post": "https://t.me/Caramelluz/4983",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  665.000 сум\nАртикль: USB3133\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
-  "prices": [
-   665000
-  ],
-  "kind": "photo",
-  "score": 0,
-  "kids": false
- },
- {
-  "src": "assets/tg/4982_0.jpg",
-  "post": "https://t.me/Caramelluz/4982",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 0 до 9 месяцев \n💰 Цена:  450.000 сум\nАртикль: USB3236\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "src": "assets/tg/5040_0.jpg",
+  "post": "https://t.me/Caramelluz/5040",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  450.000 сум\nАртикль: USB3228\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
   "prices": [
    450000
   ],
@@ -229,46 +37,202 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/4981_0.jpg",
-  "post": "https://t.me/Caramelluz/4981",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  440.000 сум\nАртикль: USB2538\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "src": "assets/tg/5039_0.jpg",
+  "post": "https://t.me/Caramelluz/5039",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  470.000 сум\nАртикль: USB3215\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
   "prices": [
-   440000
+   470000
   ],
   "kind": "photo",
   "score": 0,
   "kids": false
  },
  {
-  "src": "assets/tg/4980_0.jpg",
-  "post": "https://t.me/Caramelluz/4980",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 3 до 18 месяцев \n💰 Цена:  445.000 сум\nАртикль: USB2539\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "src": "assets/tg/5038_0.jpg",
+  "post": "https://t.me/Caramelluz/5038",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  420.000 сум\nАртикль: USB3232\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
   "prices": [
-   445000
+   420000
   ],
   "kind": "photo",
   "score": 0,
   "kids": false
  },
  {
-  "src": "assets/tg/4979_0.jpg",
-  "post": "https://t.me/Caramelluz/4979",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 3 до 18 месяцев \n💰 Цена:  390.000 сум\nАртикль: USB3177\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "src": "assets/tg/5037_0.jpg",
+  "post": "https://t.me/Caramelluz/5037",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  260.000 сум\nАртикль: USB3253\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
   "prices": [
-   390000
+   260000
   ],
   "kind": "photo",
   "score": 0,
   "kids": false
  },
  {
-  "src": "assets/tg/4978_0.jpg",
-  "post": "https://t.me/Caramelluz/4978",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 0 до 9 месяцев\n💰 Цена:  290.000 сум\nАртикль: USB3141\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "src": "assets/tg/5036_0.jpg",
+  "post": "https://t.me/Caramelluz/5036",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  450.000 сум\nАртикль: USB3212\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   450000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5035_0.jpg",
+  "post": "https://t.me/Caramelluz/5035",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  450.000 сум\nАртикль: USB3213\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   450000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5034_0.jpg",
+  "post": "https://t.me/Caramelluz/5034",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  410.000 сум\nАртикль: USB3218\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   410000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5033_0.jpg",
+  "post": "https://t.me/Caramelluz/5033",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  450.000 сум\nАртикль: USB3227\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   450000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5032_0.jpg",
+  "post": "https://t.me/Caramelluz/5032",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  450.000 сум\nАртикль: USB3210\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   450000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5031_0.jpg",
+  "post": "https://t.me/Caramelluz/5031",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  450.000 сум\nАртикль: USB3242\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   450000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5030_0.jpg",
+  "post": "https://t.me/Caramelluz/5030",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  330.000 сум\nАртикль: USB3223\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   330000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5029_0.jpg",
+  "post": "https://t.me/Caramelluz/5029",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  345.000 сум\nАртикль: USB3224\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   345000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5028_0.jpg",
+  "post": "https://t.me/Caramelluz/5028",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  310.000 сум\nАртикль: USB3261\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   310000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5027_0.jpg",
+  "post": "https://t.me/Caramelluz/5027",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  340.000 сум\nАртикль: USB3244\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   340000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5026_0.jpg",
+  "post": "https://t.me/Caramelluz/5026",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  340.000 сум\nАртикль: USB3244\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   340000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5025_0.jpg",
+  "post": "https://t.me/Caramelluz/5025",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  320.000 сум\nАртикль: USB2722\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   320000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5024_0.jpg",
+  "post": "https://t.me/Caramelluz/5024",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  340.000 сум\nАртикль: USB2749\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   340000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5023_0.jpg",
+  "post": "https://t.me/Caramelluz/5023",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  290.000 сум\nАртикль: USB2760\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
   "prices": [
    290000
   ],
@@ -277,12 +241,48 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
-  "src": "assets/tg/4977_0.jpg",
-  "post": "https://t.me/Caramelluz/4977",
-  "date": "2026-11-22",
-  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 0 до 9 месяцев \n💰 Цена:  250.000 сум\nАртикль: USB3110\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "src": "assets/tg/5022_0.jpg",
+  "post": "https://t.me/Caramelluz/5022",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  300.000 сум\nАртикль: USB2765\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
   "prices": [
-   250000
+   300000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5021_0.jpg",
+  "post": "https://t.me/Caramelluz/5021",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  300.000 сум\nАртикль: USB3247\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   300000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5020_0.jpg",
+  "post": "https://t.me/Caramelluz/5020",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  310.000 сум\nАртикль: USB3257\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   310000
+  ],
+  "kind": "photo",
+  "score": 0,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/5019_0.jpg",
+  "post": "https://t.me/Caramelluz/5019",
+  "date": "2026-11-23",
+  "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  340.000 сум\nАртикль: USB3259\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+  "prices": [
+   340000
   ],
   "kind": "photo",
   "score": 0,
@@ -1198,6 +1198,16 @@ window.TG_PHOTOS = [
   "kids": false
  },
  {
+  "src": "assets/tg/k_4484_2.jpg",
+  "post": "https://t.me/Caramelluz/4484",
+  "date": "2026-07-21",
+  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с 9:00 до 21:00\n\n📍Адрес: ТРЦ Chimgan,\nМирзо-Улугбекский район, улица Темура Малика, дом 3А, г. Ташкент\n🕘 Режим работы: с 10:00 до 22:00\n\n📍 Адрес: торговый центр Riviera\n🕘 Режим работы: с 10:00 до 22:00\n\n📲 Для заказов и консультаций — пишите в Direct @Caramell_Uzbekistan",
+  "prices": [],
+  "kind": "frame",
+  "score": -17.6,
+  "kids": true
+ },
+ {
   "src": "assets/tg/k_4484_0.jpg",
   "post": "https://t.me/Caramelluz/4484",
   "date": "2026-07-21",
@@ -1209,16 +1219,6 @@ window.TG_PHOTOS = [
  },
  {
   "src": "assets/tg/k_4484_1.jpg",
-  "post": "https://t.me/Caramelluz/4484",
-  "date": "2026-07-21",
-  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с 9:00 до 21:00\n\n📍Адрес: ТРЦ Chimgan,\nМирзо-Улугбекский район, улица Темура Малика, дом 3А, г. Ташкент\n🕘 Режим работы: с 10:00 до 22:00\n\n📍 Адрес: торговый центр Riviera\n🕘 Режим работы: с 10:00 до 22:00\n\n📲 Для заказов и консультаций — пишите в Direct @Caramell_Uzbekistan",
-  "prices": [],
-  "kind": "frame",
-  "score": -17.6,
-  "kids": true
- },
- {
-  "src": "assets/tg/k_4484_2.jpg",
   "post": "https://t.me/Caramelluz/4484",
   "date": "2026-07-21",
   "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с 9:00 до 21:00\n\n📍Адрес: ТРЦ Chimgan,\nМирзо-Улугбекский район, улица Темура Малика, дом 3А, г. Ташкент\n🕘 Режим работы: с 10:00 до 22:00\n\n📍 Адрес: торговый центр Riviera\n🕘 Режим работы: с 10:00 до 22:00\n\n📲 Для заказов и консультаций — пишите в Direct @Caramell_Uzbekistan",
@@ -2771,9 +2771,9 @@ window.TG_REELS = [
 ];
 window.TG_COLLECTION = {
  "brand": "U.S. Polo",
- "post": "https://t.me/Caramelluz/5000",
- "date": "2026-11-22",
- "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  320.000 сум\nАртикль: USB3164\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
- "img": "assets/tg/5000_0.jpg",
+ "post": "https://t.me/Caramelluz/5042",
+ "date": "2026-11-23",
+ "text": "✨ НОВИНКИ ОТ U.S. POLO ASSN. \n\nСтиль, комфорт и безупречное качество для ваших малышей! 💙\n\n👶 Размеры: от 6 месяцев до 3 лет\n💰 Цена:  620.000 сум\nАртикль: USB3209\n\n🤍 Новая коллекция уже в Caramell Uzbekistan!",
+ "img": "assets/tg/5042_0.jpg",
  "video": ""
 };
