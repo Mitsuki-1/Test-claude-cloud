@@ -2718,6 +2718,13 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/5045.720.mp4",
+  "post": "https://t.me/Caramelluz/5045",
+  "date": "2026-11-25",
+  "text": "🥳БОЛЬШАЯ РАСПРОДАЖА В СВЯЗИ С ПЕРЕЕЗДОМ ФИЛИАЛА CARМELL SEBZAR!\n\nВ связи с переездом филиала Caramell Sebzar мы подготовили для вас особенное предложение — СКИДКА 30% НА ВСЕ ТОВАРЫ! 🛍️\n\n📅 С 25 ноября по 1 декабря включит",
+  "poster": ""
+ },
+ {
   "src": "assets/reels/5001.720.mp4",
   "post": "https://t.me/Caramelluz/5001",
   "date": "2026-11-22",
@@ -2758,13 +2765,6 @@ window.TG_REELS = [
   "date": "2026-11-09",
   "text": "⛅️Bugungi ob-havoga qarab bolaga qanday kiyim kiydirgan ma’qul?",
   "poster": "assets/tg/f_4921_0.jpg"
- },
- {
-  "src": "assets/reels/4919.720.mp4",
-  "post": "https://t.me/Caramelluz/4919",
-  "date": "2026-11-08",
-  "text": "ТОП-выбор покупателей филиала в Нукусе на этой неделе🤗\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00",
-  "poster": ""
  }
 ];
 window.TG_COLLECTION = {
