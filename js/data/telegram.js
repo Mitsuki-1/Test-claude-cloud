@@ -1,6 +1,26 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_5047_0.jpg",
+  "post": "https://t.me/Caramelluz/5047",
+  "date": "2026-11-26",
+  "text": "Акция действует только в филиале Caramell Sebzar.",
+  "prices": [],
+  "kind": "frame",
+  "score": -2.2,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_5047_1.jpg",
+  "post": "https://t.me/Caramelluz/5047",
+  "date": "2026-11-26",
+  "text": "Акция действует только в филиале Caramell Sebzar.",
+  "prices": [],
+  "kind": "frame",
+  "score": -5.8,
+  "kids": false
+ },
+ {
   "src": "assets/tg/5044_0.jpg",
   "post": "https://t.me/Caramelluz/5044",
   "date": "2026-11-24",
@@ -1173,26 +1193,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -5.3,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4790_0.jpg",
-  "post": "https://t.me/Caramelluz/4790",
-  "date": "2026-09-23",
-  "text": "Скоро 😍😍😍",
-  "prices": [],
-  "kind": "frame",
-  "score": 17.3,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4790_1.jpg",
-  "post": "https://t.me/Caramelluz/4790",
-  "date": "2026-09-23",
-  "text": "Скоро 😍😍😍",
-  "prices": [],
-  "kind": "frame",
-  "score": -3.3,
   "kids": false
  },
  {
@@ -2718,6 +2718,20 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/5047.720.mp4",
+  "post": "https://t.me/Caramelluz/5047",
+  "date": "2026-11-26",
+  "text": "Акция действует только в филиале Caramell Sebzar.",
+  "poster": "assets/tg/f_5047_0.jpg"
+ },
+ {
+  "src": "assets/reels/5046.720.mp4",
+  "post": "https://t.me/Caramelluz/5046",
+  "date": "2026-11-26",
+  "text": "Bugun chegirmaning 2-kuni🥳\nCARAMELL SEBZOR FILIALI KO‘CHIB O‘TAYOTGANI MUNOSABATI BILAN KATTA CHEGIRMA!\n\nCaramell Sebzor filiali yangi manzilga ko‘chib o‘tayotgani sababli sizlar uchun ajoyib taklif tayyorladik — BARCHA ",
+  "poster": ""
+ },
+ {
   "src": "assets/reels/5045.720.mp4",
   "post": "https://t.me/Caramelluz/5045",
   "date": "2026-11-25",
@@ -2751,20 +2765,6 @@ window.TG_REELS = [
   "date": "2026-11-18",
   "text": "Скоро🥰",
   "poster": "assets/tg/f_4932_0.jpg"
- },
- {
-  "src": "assets/reels/4929.720.mp4",
-  "post": "https://t.me/Caramelluz/4929",
-  "date": "2026-11-16",
-  "text": "Заходите в наш магазин и выбирайте любимые образы уже сегодня! 🛍\n\n📍 Адрес: Яккасарайский район, улица Нукус, дом 15Б\n🕐 с 10:00 до 20:00\n\n📍Адрес магазина: Алмазарский район, массив Себзар \n✔️Ориентир: Себзар корзинка\n🕐 с ",
-  "poster": ""
- },
- {
-  "src": "assets/reels/4921.720.mp4",
-  "post": "https://t.me/Caramelluz/4921",
-  "date": "2026-11-09",
-  "text": "⛅️Bugungi ob-havoga qarab bolaga qanday kiyim kiydirgan ma’qul?",
-  "poster": "assets/tg/f_4921_0.jpg"
  }
 ];
 window.TG_COLLECTION = {
