@@ -1,6 +1,26 @@
 /* Сгенерировано scripts/sync_telegram.py из t.me/Caramelluz — не редактируйте вручную. */
 window.TG_PHOTOS = [
  {
+  "src": "assets/tg/f_5048_0.jpg",
+  "post": "https://t.me/Caramelluz/5048",
+  "date": "2026-11-28",
+  "text": "Комбинезоны для холодных дней, созданные с любовью и заботой о вашем малыше🤗",
+  "prices": [],
+  "kind": "frame",
+  "score": 4.2,
+  "kids": false
+ },
+ {
+  "src": "assets/tg/f_5048_1.jpg",
+  "post": "https://t.me/Caramelluz/5048",
+  "date": "2026-11-28",
+  "text": "Комбинезоны для холодных дней, созданные с любовью и заботой о вашем малыше🤗",
+  "prices": [],
+  "kind": "frame",
+  "score": -6.2,
+  "kids": false
+ },
+ {
   "src": "assets/tg/f_5047_0.jpg",
   "post": "https://t.me/Caramelluz/5047",
   "date": "2026-11-26",
@@ -1183,16 +1203,6 @@ window.TG_PHOTOS = [
   "prices": [],
   "kind": "frame",
   "score": -7.3,
-  "kids": false
- },
- {
-  "src": "assets/tg/f_4792_1.jpg",
-  "post": "https://t.me/Caramelluz/4792",
-  "date": "2026-09-24",
-  "text": "",
-  "prices": [],
-  "kind": "frame",
-  "score": -5.3,
   "kids": false
  },
  {
@@ -2718,6 +2728,13 @@ window.TG_PHOTOS = [
 ];
 window.TG_REELS = [
  {
+  "src": "assets/reels/5048.720.mp4",
+  "post": "https://t.me/Caramelluz/5048",
+  "date": "2026-11-28",
+  "text": "Комбинезоны для холодных дней, созданные с любовью и заботой о вашем малыше🤗",
+  "poster": "assets/tg/f_5048_0.jpg"
+ },
+ {
   "src": "assets/reels/5047.720.mp4",
   "post": "https://t.me/Caramelluz/5047",
   "date": "2026-11-26",
@@ -2758,13 +2775,6 @@ window.TG_REELS = [
   "date": "2026-11-19",
   "text": "Aziz onajonlar! 😍\n\nDo‘konlarimizga sizlar uchun ko‘plab yangiliklar yetib keldi! \n\nSizlarni barcha Caramell do‘konlarimizda kutib qolamiz! 🛍️\n_____\n\nДорогие мамочки!♥️\n\nВ наши магазины поступило много новинок! \n\nС нетерп",
   "poster": "assets/tg/f_4934_0.jpg"
- },
- {
-  "src": "assets/reels/4932.720.mp4",
-  "post": "https://t.me/Caramelluz/4932",
-  "date": "2026-11-18",
-  "text": "Скоро🥰",
-  "poster": "assets/tg/f_4932_0.jpg"
  }
 ];
 window.TG_COLLECTION = {
